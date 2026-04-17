@@ -1,0 +1,3873 @@
+{
+  "R-01": {
+    "tipo": "reforma",
+    "titulo_corto": "Derecho humano al acceso a energía asequible, limpia y fiable",
+    "url": "/sintesis/reformas/R-01",
+    "debilidades": [
+      "1A.2"
+    ],
+    "proyectos": [],
+    "conflictos": []
+  },
+  "R-02": {
+    "tipo": "reforma",
+    "titulo_corto": "Anclaje constitucional de transición energética y planeación energética estatal",
+    "url": "/sintesis/reformas/R-02",
+    "debilidades": [
+      "1A.1",
+      "1A.3"
+    ],
+    "proyectos": [],
+    "conflictos": []
+  },
+  "R-03": {
+    "tipo": "reforma",
+    "titulo_corto": "Facultad expresa del Ejecutivo para convenios federales energéticos",
+    "url": "/sintesis/reformas/R-03",
+    "debilidades": [
+      "1A.47"
+    ],
+    "proyectos": [],
+    "conflictos": []
+  },
+  "R-04": {
+    "tipo": "reforma",
+    "titulo_corto": "Obligación constitucional del Congreso local de fijar porcentaje municipal del impuesto sobre energía eléctrica",
+    "url": "/sintesis/reformas/R-04",
+    "debilidades": [
+      "1A.45"
+    ],
+    "proyectos": [],
+    "conflictos": []
+  },
+  "R-05": {
+    "tipo": "reforma",
+    "titulo_corto": "Eficiencia energética como criterio del servicio municipal de alumbrado público",
+    "url": "/sintesis/reformas/R-05",
+    "debilidades": [],
+    "proyectos": [],
+    "conflictos": []
+  },
+  "R-06": {
+    "tipo": "reforma",
+    "titulo_corto": "Actualización integral de referencias federales obsoletas (LIE 2014/LTE 2015 → paquete federal 2025)",
+    "url": "/sintesis/reformas/R-06",
+    "debilidades": [
+      "1A.4"
+    ],
+    "proyectos": [],
+    "conflictos": []
+  },
+  "R-07": {
+    "tipo": "reforma",
+    "titulo_corto": "Acotar competencia de la Comisión sobre \"mercado de emisiones\"",
+    "url": "/sintesis/reformas/R-07",
+    "debilidades": [],
+    "proyectos": [],
+    "conflictos": [
+      "4A.1"
+    ]
+  },
+  "R-08": {
+    "tipo": "reforma",
+    "titulo_corto": "Mecanismo expreso de convenios estatales con SENER, CONUEE y CNE en LACCEJ",
+    "url": "/sintesis/reformas/R-08",
+    "debilidades": [
+      "1A.5"
+    ],
+    "proyectos": [
+      "3B.2"
+    ],
+    "conflictos": []
+  },
+  "R-09": {
+    "tipo": "reforma",
+    "titulo_corto": "Referencia expresa a Contribuciones Determinadas a Nivel Nacional (NDC) en LACCEJ",
+    "url": "/sintesis/reformas/R-09",
+    "debilidades": [],
+    "proyectos": [],
+    "conflictos": []
+  },
+  "R-10": {
+    "tipo": "reforma",
+    "titulo_corto": "Definir Pobreza Energética, Justicia Energética, GLD y Almacenamiento; crear política específica",
+    "url": "/sintesis/reformas/R-10",
+    "debilidades": [
+      "1A.8"
+    ],
+    "proyectos": [
+      "3B.1"
+    ],
+    "conflictos": []
+  },
+  "R-11": {
+    "tipo": "reforma",
+    "titulo_corto": "Alineación del Atlas Estatal con el Atlas Nacional de Vulnerabilidad",
+    "url": "/sintesis/reformas/R-11",
+    "debilidades": [
+      "1A.48"
+    ],
+    "proyectos": [],
+    "conflictos": []
+  },
+  "R-12": {
+    "tipo": "reforma",
+    "titulo_corto": "Crear Fondo Estatal de Cambio Climático autónomo",
+    "url": "/sintesis/reformas/R-12",
+    "debilidades": [
+      "1A.6"
+    ],
+    "proyectos": [
+      "3B.3"
+    ],
+    "conflictos": []
+  },
+  "R-13": {
+    "tipo": "reforma",
+    "titulo_corto": "Metas estatales cuantitativas de largo plazo en ley",
+    "url": "/sintesis/reformas/R-13",
+    "debilidades": [
+      "1A.7"
+    ],
+    "proyectos": [
+      "3B.4"
+    ],
+    "conflictos": []
+  },
+  "R-14": {
+    "tipo": "reforma",
+    "titulo_corto": "Actualizar integración de la Comisión Interinstitucional (SADER, post-2024-2025)",
+    "url": "/sintesis/reformas/R-14",
+    "debilidades": [
+      "1A.49"
+    ],
+    "proyectos": [],
+    "conflictos": []
+  },
+  "R-15": {
+    "tipo": "reforma",
+    "titulo_corto": "Capítulo de contratación pública climáticamente responsable",
+    "url": "/sintesis/reformas/R-15",
+    "debilidades": [
+      "1A.9"
+    ],
+    "proyectos": [
+      "3B.5"
+    ],
+    "conflictos": []
+  },
+  "R-16": {
+    "tipo": "reforma",
+    "titulo_corto": "Facultades sancionatorias diferenciadas a la Procuraduría Estatal de Protección al Ambiente",
+    "url": "/sintesis/reformas/R-16",
+    "debilidades": [],
+    "proyectos": [],
+    "conflictos": []
+  },
+  "R-17": {
+    "tipo": "reforma",
+    "titulo_corto": "Condicionar facultad de la Agencia como generador/comercializador eléctrico a permisos federales",
+    "url": "/sintesis/reformas/R-17",
+    "debilidades": [],
+    "proyectos": [],
+    "conflictos": [
+      "4A.4"
+    ]
+  },
+  "R-18": {
+    "tipo": "reforma",
+    "titulo_corto": "Reformular \"modernización de redes de transmisión\" como gestión y promoción",
+    "url": "/sintesis/reformas/R-18",
+    "debilidades": [],
+    "proyectos": [],
+    "conflictos": [
+      "4A.5"
+    ]
+  },
+  "R-19": {
+    "tipo": "reforma",
+    "titulo_corto": "Eliminar/reformular \"actividades regulativas y certificación\" de la Agencia",
+    "url": "/sintesis/reformas/R-19",
+    "debilidades": [],
+    "proyectos": [],
+    "conflictos": [
+      "4A.6"
+    ]
+  },
+  "R-20": {
+    "tipo": "reforma",
+    "titulo_corto": "Subordinar Plan Estatal de Energía a planeación vinculante federal y al Programa Estatal de Cambio Climático",
+    "url": "/sintesis/reformas/R-20",
+    "debilidades": [
+      "1A.10"
+    ],
+    "proyectos": [],
+    "conflictos": []
+  },
+  "R-21": {
+    "tipo": "reforma",
+    "titulo_corto": "Régimen expreso de convenios federales en LOAEEJ (SENER, CNE, CONUEE, CFE, CONAGUA)",
+    "url": "/sintesis/reformas/R-21",
+    "debilidades": [
+      "1A.11"
+    ],
+    "proyectos": [],
+    "conflictos": []
+  },
+  "R-22": {
+    "tipo": "reforma",
+    "titulo_corto": "Designar a la Agencia como ventanilla única estatal para proyectos federales energéticos",
+    "url": "/sintesis/reformas/R-22",
+    "debilidades": [
+      "1A.12"
+    ],
+    "proyectos": [
+      "3B.6"
+    ],
+    "conflictos": []
+  },
+  "R-23": {
+    "tipo": "reforma",
+    "titulo_corto": "Facultad de proponer y operar reglamentación técnica local de eficiencia energética",
+    "url": "/sintesis/reformas/R-23",
+    "debilidades": [],
+    "proyectos": [
+      "3B.41"
+    ],
+    "conflictos": []
+  },
+  "R-24": {
+    "tipo": "reforma",
+    "titulo_corto": "Delimitar áreas del Consejo Consultivo de la Agencia a competencia real estatal",
+    "url": "/sintesis/reformas/R-24",
+    "debilidades": [],
+    "proyectos": [],
+    "conflictos": [
+      "4A.7"
+    ]
+  },
+  "R-25": {
+    "tipo": "reforma",
+    "titulo_corto": "Procedimiento formal de postulación a Fondo de Transición Energética y Fondo de Servicio Universal Energético",
+    "url": "/sintesis/reformas/R-25",
+    "debilidades": [
+      "1A.13"
+    ],
+    "proyectos": [
+      "3B.7"
+    ],
+    "conflictos": []
+  },
+  "R-26": {
+    "tipo": "reforma",
+    "titulo_corto": "Consulta previa estatal complementaria a pueblos indígenas y afromexicanas en proyectos de la Agencia",
+    "url": "/sintesis/reformas/R-26",
+    "debilidades": [
+      "1A.50"
+    ],
+    "proyectos": [],
+    "conflictos": []
+  },
+  "R-27": {
+    "tipo": "reforma",
+    "titulo_corto": "Actualizar Junta de Gobierno de la Agencia y modular vocalato del CENACE",
+    "url": "/sintesis/reformas/R-27",
+    "debilidades": [
+      "1A.49"
+    ],
+    "proyectos": [],
+    "conflictos": []
+  },
+  "R-28": {
+    "tipo": "reforma",
+    "titulo_corto": "Metas estatales cuantitativas en el Plan Estatal de Energía con MRV",
+    "url": "/sintesis/reformas/R-28",
+    "debilidades": [
+      "1A.51"
+    ],
+    "proyectos": [],
+    "conflictos": []
+  },
+  "R-29": {
+    "tipo": "reforma",
+    "titulo_corto": "Régimen de incentivos económicos estatales para mitigación, eficiencia y energías limpias en LOAEEJ",
+    "url": "/sintesis/reformas/R-29",
+    "debilidades": [],
+    "proyectos": [
+      "3B.42"
+    ],
+    "conflictos": []
+  },
+  "R-30": {
+    "tipo": "reforma",
+    "titulo_corto": "Agencia como autoridad estatal postulante de Zonas de Salvaguarda y promotora de convenios geotérmicos",
+    "url": "/sintesis/reformas/R-30",
+    "debilidades": [
+      "1A.75"
+    ],
+    "proyectos": [],
+    "conflictos": []
+  },
+  "R-31": {
+    "tipo": "reforma",
+    "titulo_corto": "Capítulo sobre valorización energética de insumos, subproductos y residuos agroalimentarios en LAEJ",
+    "url": "/sintesis/reformas/R-31",
+    "debilidades": [
+      "1A.14"
+    ],
+    "proyectos": [
+      "3B.8",
+      "3B.9"
+    ],
+    "conflictos": []
+  },
+  "R-32": {
+    "tipo": "reforma",
+    "titulo_corto": "Definiciones de biomasa agroalimentaria, residuo orgánico valorizable y subproducto agroindustrial energético en LAEJ",
+    "url": "/sintesis/reformas/R-32",
+    "debilidades": [],
+    "proyectos": [],
+    "conflictos": []
+  },
+  "R-33": {
+    "tipo": "reforma",
+    "titulo_corto": "Atribución expresa de la Agencia agroalimentaria para suscribir convenios SENER/SADER/SEMARNAT",
+    "url": "/sintesis/reformas/R-33",
+    "debilidades": [
+      "1A.15"
+    ],
+    "proyectos": [
+      "3B.8"
+    ],
+    "conflictos": []
+  },
+  "R-34": {
+    "tipo": "reforma",
+    "titulo_corto": "Habilitación municipal para canalizar residuos orgánicos urbanos a valorización energética",
+    "url": "/sintesis/reformas/R-34",
+    "debilidades": [],
+    "proyectos": [],
+    "conflictos": []
+  },
+  "R-35": {
+    "tipo": "reforma",
+    "titulo_corto": "Criterios energéticos en proyectos de infraestructura agroalimentaria",
+    "url": "/sintesis/reformas/R-35",
+    "debilidades": [
+      "1A.53"
+    ],
+    "proyectos": [],
+    "conflictos": []
+  },
+  "R-36": {
+    "tipo": "reforma",
+    "titulo_corto": "Interoperabilidad del Sistema Estatal de Información Agroalimentaria con el Subsistema federal de Biocombustibles",
+    "url": "/sintesis/reformas/R-36",
+    "debilidades": [],
+    "proyectos": [],
+    "conflictos": []
+  },
+  "R-37": {
+    "tipo": "reforma",
+    "titulo_corto": "Modalidad APP específica para proyectos energéticos",
+    "url": "/sintesis/reformas/R-37",
+    "debilidades": [
+      "1A.16"
+    ],
+    "proyectos": [
+      "3B.10"
+    ],
+    "conflictos": []
+  },
+  "R-38": {
+    "tipo": "reforma",
+    "titulo_corto": "Integrar al órgano estatal de energía al Comité de Adjudicación APP",
+    "url": "/sintesis/reformas/R-38",
+    "debilidades": [
+      "1A.19"
+    ],
+    "proyectos": [
+      "3B.10"
+    ],
+    "conflictos": []
+  },
+  "R-39": {
+    "tipo": "reforma",
+    "titulo_corto": "Tipificar el riesgo regulatorio federal en el catálogo de riesgos APP",
+    "url": "/sintesis/reformas/R-39",
+    "debilidades": [
+      "1A.17"
+    ],
+    "proyectos": [
+      "3B.10"
+    ],
+    "conflictos": []
+  },
+  "R-40": {
+    "tipo": "reforma",
+    "titulo_corto": "Definir titularidad de atributos energéticos (CELs, reducciones verificadas) en contratos APP",
+    "url": "/sintesis/reformas/R-40",
+    "debilidades": [
+      "1A.54"
+    ],
+    "proyectos": [
+      "3B.11"
+    ],
+    "conflictos": []
+  },
+  "R-41": {
+    "tipo": "reforma",
+    "titulo_corto": "Coordinación con Consulta Previa federal en APPs energéticos en territorio indígena",
+    "url": "/sintesis/reformas/R-41",
+    "debilidades": [
+      "1A.20"
+    ],
+    "proyectos": [
+      "3B.13"
+    ],
+    "conflictos": []
+  },
+  "R-42": {
+    "tipo": "reforma",
+    "titulo_corto": "Excluir expresamente del objeto APP las actividades reservadas constitucionalmente a la Nación",
+    "url": "/sintesis/reformas/R-42",
+    "debilidades": [],
+    "proyectos": [
+      "3B.12"
+    ],
+    "conflictos": [
+      "4A.10"
+    ]
+  },
+  "R-43": {
+    "tipo": "reforma",
+    "titulo_corto": "Actualizar marco supletorio LPIPSEJM con paquete federal energético 2025",
+    "url": "/sintesis/reformas/R-43",
+    "debilidades": [
+      "1A.18"
+    ],
+    "proyectos": [],
+    "conflictos": []
+  },
+  "R-44": {
+    "tipo": "reforma",
+    "titulo_corto": "Esquemas de coinversión APP con CFE y filiales",
+    "url": "/sintesis/reformas/R-44",
+    "debilidades": [],
+    "proyectos": [
+      "3B.14"
+    ],
+    "conflictos": []
+  },
+  "R-45": {
+    "tipo": "reforma",
+    "titulo_corto": "Fuente de pago APP con participaciones federales por contribuciones especiales sobre energía eléctrica",
+    "url": "/sintesis/reformas/R-45",
+    "debilidades": [
+      "1A.80"
+    ],
+    "proyectos": [],
+    "conflictos": []
+  },
+  "R-46": {
+    "tipo": "reforma",
+    "titulo_corto": "Mandato municipal de eficiencia energética y bases generales para reglamentos de alumbrado público",
+    "url": "/sintesis/reformas/R-46",
+    "debilidades": [
+      "1A.21"
+    ],
+    "proyectos": [
+      "3B.15"
+    ],
+    "conflictos": []
+  },
+  "R-47": {
+    "tipo": "reforma",
+    "titulo_corto": "Criterios de eficiencia energética y GLD en Programa Municipal de Desarrollo Urbano y licencias de construcción",
+    "url": "/sintesis/reformas/R-47",
+    "debilidades": [
+      "1A.22"
+    ],
+    "proyectos": [
+      "3B.16"
+    ],
+    "conflictos": []
+  },
+  "R-48": {
+    "tipo": "reforma",
+    "titulo_corto": "Cambio climático, mitigación y transición energética en facultad ambiental municipal",
+    "url": "/sintesis/reformas/R-48",
+    "debilidades": [
+      "1A.23"
+    ],
+    "proyectos": [
+      "3B.17"
+    ],
+    "conflictos": []
+  },
+  "R-49": {
+    "tipo": "reforma",
+    "titulo_corto": "Coordinación energética Estado–Municipio y reconocimiento operativo de la AEEJ como interlocutora municipal",
+    "url": "/sintesis/reformas/R-49",
+    "debilidades": [
+      "1A.24"
+    ],
+    "proyectos": [
+      "3B.18"
+    ],
+    "conflictos": []
+  },
+  "R-50": {
+    "tipo": "reforma",
+    "titulo_corto": "Delimitar concesiones municipales sobre alumbrado público respecto a exclusividad federal en T&D",
+    "url": "/sintesis/reformas/R-50",
+    "debilidades": [],
+    "proyectos": [
+      "3B.19"
+    ],
+    "conflictos": [
+      "4A.13"
+    ]
+  },
+  "R-51": {
+    "tipo": "reforma",
+    "titulo_corto": "Salvedad jurisdiccional federal cuando CFE sea parte de convenio municipal",
+    "url": "/sintesis/reformas/R-51",
+    "debilidades": [],
+    "proyectos": [],
+    "conflictos": [
+      "4A.14"
+    ]
+  },
+  "R-52": {
+    "tipo": "reforma",
+    "titulo_corto": "Anclaje hacendario municipal a contribuciones especiales sobre energía eléctrica",
+    "url": "/sintesis/reformas/R-52",
+    "debilidades": [
+      "1A.56"
+    ],
+    "proyectos": [],
+    "conflictos": []
+  },
+  "R-53": {
+    "tipo": "reforma",
+    "titulo_corto": "Habilitación expresa para convenios municipio-CFE",
+    "url": "/sintesis/reformas/R-53",
+    "debilidades": [
+      "1A.57"
+    ],
+    "proyectos": [],
+    "conflictos": []
+  },
+  "R-54": {
+    "tipo": "reforma",
+    "titulo_corto": "Excepción expresa a afirmativa ficta para solicitudes que requieran permiso federal energético en LPAEJ",
+    "url": "/sintesis/reformas/R-54",
+    "debilidades": [],
+    "proyectos": [],
+    "conflictos": [
+      "4A.15"
+    ]
+  },
+  "R-55": {
+    "tipo": "reforma",
+    "titulo_corto": "Catálogo de principios LPAEJ con Justicia Energética, consulta previa, pro persona, máxima publicidad, precaución ambiental, perspectiva de género e intergeneracional",
+    "url": "/sintesis/reformas/R-55",
+    "debilidades": [
+      "1A.25"
+    ],
+    "proyectos": [],
+    "conflictos": []
+  },
+  "R-56": {
+    "tipo": "reforma",
+    "titulo_corto": "Procedimiento administrativo digital con expediente electrónico interoperable y notificación electrónica vinculante",
+    "url": "/sintesis/reformas/R-56",
+    "debilidades": [
+      "1A.27"
+    ],
+    "proyectos": [
+      "3B.20"
+    ],
+    "conflictos": []
+  },
+  "R-57": {
+    "tipo": "reforma",
+    "titulo_corto": "Etapa procesal obligatoria de consulta previa, libre e informada en LPAEJ",
+    "url": "/sintesis/reformas/R-57",
+    "debilidades": [
+      "1A.26"
+    ],
+    "proyectos": [],
+    "conflictos": []
+  },
+  "R-58": {
+    "tipo": "reforma",
+    "titulo_corto": "Procedimiento administrativo expedito para trámites estatales complementarios a generación distribuida y autoconsumo",
+    "url": "/sintesis/reformas/R-58",
+    "debilidades": [
+      "1A.59"
+    ],
+    "proyectos": [
+      "3B.21"
+    ],
+    "conflictos": []
+  },
+  "R-59": {
+    "tipo": "reforma",
+    "titulo_corto": "Procesalización de audiencias públicas y consultas para actos de impacto colectivo en LPAEJ",
+    "url": "/sintesis/reformas/R-59",
+    "debilidades": [
+      "1A.61"
+    ],
+    "proyectos": [
+      "3B.22"
+    ],
+    "conflictos": []
+  },
+  "R-60": {
+    "tipo": "reforma",
+    "titulo_corto": "Marco procesal de coordinación interinstitucional federal-estatal en LPAEJ",
+    "url": "/sintesis/reformas/R-60",
+    "debilidades": [
+      "1A.58"
+    ],
+    "proyectos": [
+      "3B.23",
+      "3B.40"
+    ],
+    "conflictos": []
+  },
+  "R-61": {
+    "tipo": "reforma",
+    "titulo_corto": "Diferenciar concepto de \"concesiones\" en LPAEJ con salvedad de materias reservadas a la Nación",
+    "url": "/sintesis/reformas/R-61",
+    "debilidades": [
+      "1A.77"
+    ],
+    "proyectos": [],
+    "conflictos": []
+  },
+  "R-62": {
+    "tipo": "reforma",
+    "titulo_corto": "Eliminar duplicidad de definición de \"cambio climático\" en LEEEPA-Jal",
+    "url": "/sintesis/reformas/R-62",
+    "debilidades": [],
+    "proyectos": [],
+    "conflictos": []
+  },
+  "R-63": {
+    "tipo": "reforma",
+    "titulo_corto": "Redefinir \"rescate energético\" y habilitar aprovechamiento energético de residuos en LEEEPA-Jal",
+    "url": "/sintesis/reformas/R-63",
+    "debilidades": [
+      "1A.28"
+    ],
+    "proyectos": [
+      "3B.24",
+      "3B.29"
+    ],
+    "conflictos": []
+  },
+  "R-64": {
+    "tipo": "reforma",
+    "titulo_corto": "Capítulo de eficiencia energética y construcción sustentable en LEEEPA-Jal",
+    "url": "/sintesis/reformas/R-64",
+    "debilidades": [
+      "1A.29"
+    ],
+    "proyectos": [
+      "3B.25"
+    ],
+    "conflictos": []
+  },
+  "R-65": {
+    "tipo": "reforma",
+    "titulo_corto": "Actualizar Art. 14 LEEEPA-Jal con terminología \"Energías Limpias\" y \"Energías Renovables\" (LPTE)",
+    "url": "/sintesis/reformas/R-65",
+    "debilidades": [
+      "1A.31"
+    ],
+    "proyectos": [],
+    "conflictos": []
+  },
+  "R-66": {
+    "tipo": "reforma",
+    "titulo_corto": "Resolver duplicidad LEEEPA-LACCEJ sobre Programa Estatal Contra el Cambio Climático",
+    "url": "/sintesis/reformas/R-66",
+    "debilidades": [],
+    "proyectos": [],
+    "conflictos": []
+  },
+  "R-67": {
+    "tipo": "reforma",
+    "titulo_corto": "Inventario LEEEPA-Jal con categoría \"generación y uso de energía\" y GEI",
+    "url": "/sintesis/reformas/R-67",
+    "debilidades": [
+      "1A.63"
+    ],
+    "proyectos": [],
+    "conflictos": []
+  },
+  "R-68": {
+    "tipo": "reforma",
+    "titulo_corto": "Habilitar electromovilidad como política ambiental estatal",
+    "url": "/sintesis/reformas/R-68",
+    "debilidades": [
+      "1A.30"
+    ],
+    "proyectos": [
+      "3B.26"
+    ],
+    "conflictos": []
+  },
+  "R-69": {
+    "tipo": "reforma",
+    "titulo_corto": "Vehículo fiscal específico para transición energética articulado con Ley de Hacienda",
+    "url": "/sintesis/reformas/R-69",
+    "debilidades": [
+      "1A.31"
+    ],
+    "proyectos": [
+      "3B.27"
+    ],
+    "conflictos": []
+  },
+  "R-70": {
+    "tipo": "reforma",
+    "titulo_corto": "Convenios marco con SENER y CONUEE como atribución expresa de la Secretaría",
+    "url": "/sintesis/reformas/R-70",
+    "debilidades": [
+      "1A.66"
+    ],
+    "proyectos": [
+      "3B.28"
+    ],
+    "conflictos": []
+  },
+  "R-71": {
+    "tipo": "reforma",
+    "titulo_corto": "Reconocer calor residual, cogeneración y redes de calor urbano como instrumentos ambientales",
+    "url": "/sintesis/reformas/R-71",
+    "debilidades": [
+      "1A.64"
+    ],
+    "proyectos": [],
+    "conflictos": []
+  },
+  "R-72": {
+    "tipo": "reforma",
+    "titulo_corto": "Participación formal estatal en consulta ambiental de proyectos federales de energía",
+    "url": "/sintesis/reformas/R-72",
+    "debilidades": [],
+    "proyectos": [],
+    "conflictos": []
+  },
+  "R-73": {
+    "tipo": "reforma",
+    "titulo_corto": "Cláusula de deferencia federal expresa en REEEPA-IA-BMG-FF",
+    "url": "/sintesis/reformas/R-73",
+    "debilidades": [
+      "1A.32"
+    ],
+    "proyectos": [
+      "3B.30"
+    ],
+    "conflictos": []
+  },
+  "R-74": {
+    "tipo": "reforma",
+    "titulo_corto": "Modalidad expedita de EIA estatal para proyectos de transición energética",
+    "url": "/sintesis/reformas/R-74",
+    "debilidades": [
+      "1A.33"
+    ],
+    "proyectos": [
+      "3B.30"
+    ],
+    "conflictos": []
+  },
+  "R-75": {
+    "tipo": "reforma",
+    "titulo_corto": "Rediseño del Art. 53 REEEPA para combustión con fines de aprovechamiento energético de biogás y WTE",
+    "url": "/sintesis/reformas/R-75",
+    "debilidades": [
+      "1A.35"
+    ],
+    "proyectos": [
+      "3B.29",
+      "3B.31"
+    ],
+    "conflictos": []
+  },
+  "R-76": {
+    "tipo": "reforma",
+    "titulo_corto": "Cédula de Operación Anual con campos energéticos y GEI; interoperabilidad RENE",
+    "url": "/sintesis/reformas/R-76",
+    "debilidades": [
+      "1A.34"
+    ],
+    "proyectos": [
+      "3B.32"
+    ],
+    "conflictos": []
+  },
+  "R-77": {
+    "tipo": "reforma",
+    "titulo_corto": "Convenios específicos con SENER, CNE, CONUEE, CENACE e INECC en REEEPA",
+    "url": "/sintesis/reformas/R-77",
+    "debilidades": [
+      "1A.36"
+    ],
+    "proyectos": [
+      "3B.33"
+    ],
+    "conflictos": []
+  },
+  "R-78": {
+    "tipo": "reforma",
+    "titulo_corto": "Zonas Críticas como instrumento de transición energética",
+    "url": "/sintesis/reformas/R-78",
+    "debilidades": [],
+    "proyectos": [],
+    "conflictos": []
+  },
+  "R-79": {
+    "tipo": "reforma",
+    "titulo_corto": "Saneamiento técnico de numeración Art. 3 Fracc. XVII duplicada",
+    "url": "/sintesis/reformas/R-79",
+    "debilidades": [
+      "1A.78"
+    ],
+    "proyectos": [],
+    "conflictos": []
+  },
+  "R-80": {
+    "tipo": "reforma",
+    "titulo_corto": "Articulación REEEPA con MIS federal y consulta previa indígena",
+    "url": "/sintesis/reformas/R-80",
+    "debilidades": [
+      "1A.69"
+    ],
+    "proyectos": [],
+    "conflictos": []
+  },
+  "R-81": {
+    "tipo": "reforma",
+    "titulo_corto": "Actualizar nomenclatura de \"Comisión Estatal de Ecología\" en REEEPA",
+    "url": "/sintesis/reformas/R-81",
+    "debilidades": [],
+    "proyectos": [],
+    "conflictos": []
+  },
+  "R-82": {
+    "tipo": "reforma",
+    "titulo_corto": "Causal expresa de improcedencia LJAEJ por competencia federal exclusiva energética",
+    "url": "/sintesis/reformas/R-82",
+    "debilidades": [
+      "1A.37"
+    ],
+    "proyectos": [
+      "3B.34"
+    ],
+    "conflictos": []
+  },
+  "R-83": {
+    "tipo": "reforma",
+    "titulo_corto": "Excepción a la afirmativa ficta del TJA cuando el acto requiera permiso federal energético",
+    "url": "/sintesis/reformas/R-83",
+    "debilidades": [],
+    "proyectos": [
+      "3B.35"
+    ],
+    "conflictos": [
+      "4A.18"
+    ]
+  },
+  "R-84": {
+    "tipo": "reforma",
+    "titulo_corto": "Modulación de suspensión y medidas cautelares cuando el acto incida sobre continuidad del SEN",
+    "url": "/sintesis/reformas/R-84",
+    "debilidades": [],
+    "proyectos": [
+      "3B.36"
+    ],
+    "conflictos": [
+      "4A.19"
+    ]
+  },
+  "R-85": {
+    "tipo": "reforma",
+    "titulo_corto": "Procedimiento expedito en materia energética en LJAEJ",
+    "url": "/sintesis/reformas/R-85",
+    "debilidades": [
+      "1A.71"
+    ],
+    "proyectos": [
+      "3B.37"
+    ],
+    "conflictos": []
+  },
+  "R-86": {
+    "tipo": "reforma",
+    "titulo_corto": "Etapa procesal de consulta previa a pueblos indígenas en juicios contenciosos sobre proyectos energéticos",
+    "url": "/sintesis/reformas/R-86",
+    "debilidades": [
+      "1A.38"
+    ],
+    "proyectos": [
+      "3B.38"
+    ],
+    "conflictos": []
+  },
+  "R-87": {
+    "tipo": "reforma",
+    "titulo_corto": "Acción colectiva administrativa energética en LJAEJ",
+    "url": "/sintesis/reformas/R-87",
+    "debilidades": [
+      "1A.70"
+    ],
+    "proyectos": [
+      "3B.39"
+    ],
+    "conflictos": []
+  },
+  "R-88": {
+    "tipo": "reforma",
+    "titulo_corto": "Interoperabilidad del juicio en línea LJAEJ con plataformas federales energéticas",
+    "url": "/sintesis/reformas/R-88",
+    "debilidades": [
+      "1A.72"
+    ],
+    "proyectos": [],
+    "conflictos": []
+  },
+  "R-89": {
+    "tipo": "reforma",
+    "titulo_corto": "Suspensión de créditos fiscales con participaciones estatales en contribuciones especiales federales energéticas",
+    "url": "/sintesis/reformas/R-89",
+    "debilidades": [
+      "1A.79"
+    ],
+    "proyectos": [],
+    "conflictos": []
+  },
+  "R-90": {
+    "tipo": "reforma",
+    "titulo_corto": "Articulación procesal LJAEJ-LOTJAEJ para especialización en juicios energético-ambientales",
+    "url": "/sintesis/reformas/R-90",
+    "debilidades": [
+      "1A.39"
+    ],
+    "proyectos": [],
+    "conflictos": []
+  },
+  "R-91": {
+    "tipo": "reforma",
+    "titulo_corto": "Propósitos sustantivos del AIR (Justicia Energética, precaución ambiental, perspectiva intergeneracional, pro persona, género, GEI)",
+    "url": "/sintesis/reformas/R-91",
+    "debilidades": [
+      "1A.40"
+    ],
+    "proyectos": [],
+    "conflictos": []
+  },
+  "R-92": {
+    "tipo": "reforma",
+    "titulo_corto": "Consulta previa, libre e informada como etapa procesal obligatoria del AIR",
+    "url": "/sintesis/reformas/R-92",
+    "debilidades": [
+      "1A.41"
+    ],
+    "proyectos": [],
+    "conflictos": []
+  },
+  "R-93": {
+    "tipo": "reforma",
+    "titulo_corto": "Manual sectorial obligatorio de AIR en materia energética, ambiental y climática",
+    "url": "/sintesis/reformas/R-93",
+    "debilidades": [
+      "1A.43"
+    ],
+    "proyectos": [
+      "3B.43"
+    ],
+    "conflictos": []
+  },
+  "R-94": {
+    "tipo": "reforma",
+    "titulo_corto": "Integrar AEEJ y autoridad ambiental estatal al Consejo Estatal de Mejora Regulatoria con voz y voto",
+    "url": "/sintesis/reformas/R-94",
+    "debilidades": [
+      "1A.42"
+    ],
+    "proyectos": [
+      "3B.44"
+    ],
+    "conflictos": []
+  },
+  "R-95": {
+    "tipo": "reforma",
+    "titulo_corto": "Opinión consultiva obligatoria de la CNE y CONAMER para regulaciones estatales con dimensión federal energética",
+    "url": "/sintesis/reformas/R-95",
+    "debilidades": [
+      "1A.44"
+    ],
+    "proyectos": [
+      "3B.45"
+    ],
+    "conflictos": []
+  },
+  "R-96": {
+    "tipo": "reforma",
+    "titulo_corto": "Excepción a la regla \"one-in, one-out\" para regulaciones de política energética, climática y de transición",
+    "url": "/sintesis/reformas/R-96",
+    "debilidades": [],
+    "proyectos": [
+      "3B.46"
+    ],
+    "conflictos": [
+      "4A.20"
+    ]
+  },
+  "R-97": {
+    "tipo": "reforma",
+    "titulo_corto": "Filtro de no exención de AIR cuando la regulación tenga incidencia federal aunque no imponga costos",
+    "url": "/sintesis/reformas/R-97",
+    "debilidades": [],
+    "proyectos": [
+      "3B.47"
+    ],
+    "conflictos": [
+      "4A.21"
+    ]
+  },
+  "R-98": {
+    "tipo": "reforma",
+    "titulo_corto": "AIR ex post calendarizado y obligatorio para regulaciones con incidencia energética",
+    "url": "/sintesis/reformas/R-98",
+    "debilidades": [
+      "1A.73"
+    ],
+    "proyectos": [
+      "3B.48"
+    ],
+    "conflictos": []
+  },
+  "R-99": {
+    "tipo": "reforma",
+    "titulo_corto": "Ventanilla única estatal de proyectos energéticos en LMR-Jal",
+    "url": "/sintesis/reformas/R-99",
+    "debilidades": [
+      "1A.74"
+    ],
+    "proyectos": [
+      "3B.49"
+    ],
+    "conflictos": []
+  },
+  "R-100": {
+    "tipo": "reforma",
+    "titulo_corto": "AIR específico para regulación operativa derivada de convenios Art. 116, Fracc. VII CPEUM",
+    "url": "/sintesis/reformas/R-100",
+    "debilidades": [],
+    "proyectos": [
+      "3B.50"
+    ],
+    "conflictos": []
+  },
+  "R-101": {
+    "tipo": "reforma",
+    "titulo_corto": "Reforma federal previa para participación estatal vinculante en el SEN [no controlable desde Jalisco]",
+    "url": "/sintesis/reformas/R-101",
+    "debilidades": [],
+    "proyectos": [],
+    "conflictos": []
+  },
+  "1A.1": {
+    "tipo": "debilidad",
+    "titulo_corto": "Ausencia total de referencia constitucional a energía, transición energética, eficiencia o cambio climático como eje del",
+    "url": "/sintesis/mapa/debilidades#1A.1",
+    "reformas": [
+      "R-02"
+    ],
+    "proyectos": []
+  },
+  "1A.2": {
+    "tipo": "debilidad",
+    "titulo_corto": "No se reconoce derecho humano al acceso a energía asequible, limpia y fiable",
+    "url": "/sintesis/mapa/debilidades#1A.2",
+    "reformas": [
+      "R-01"
+    ],
+    "proyectos": []
+  },
+  "1A.3": {
+    "tipo": "debilidad",
+    "titulo_corto": "Ausencia de anclaje constitucional para planeación energética estatal y para coordinación con la dependencia federal y C",
+    "url": "/sintesis/mapa/debilidades#1A.3",
+    "reformas": [
+      "R-02"
+    ],
+    "proyectos": []
+  },
+  "1A.4": {
+    "tipo": "debilidad",
+    "titulo_corto": "Marco energético desactualizado: referencias implícitas a LIE 2014/LTE 2015 abrogadas por el paquete federal DOF 18-03-2",
+    "url": "/sintesis/mapa/debilidades#1A.4",
+    "reformas": [
+      "R-06"
+    ],
+    "proyectos": []
+  },
+  "1A.5": {
+    "tipo": "debilidad",
+    "titulo_corto": "Ausencia de mecanismo de convenio con SENER/CONUEE/CNE para eficiencia energética, energías limpias, almacenamiento y re",
+    "url": "/sintesis/mapa/debilidades#1A.5",
+    "reformas": [
+      "R-08"
+    ],
+    "proyectos": []
+  },
+  "1A.6": {
+    "tipo": "debilidad",
+    "titulo_corto": "No hay Fondo Estatal de Cambio Climático con autonomía; Transitorio Cuarto condicionado a \"suficiencia presupuestaria\" d",
+    "url": "/sintesis/mapa/debilidades#1A.6",
+    "reformas": [
+      "R-12"
+    ],
+    "proyectos": []
+  },
+  "1A.7": {
+    "tipo": "debilidad",
+    "titulo_corto": "Sin metas estatales cuantitativas de largo plazo en ley (reducción de emisiones, generación limpia en patrimonio público",
+    "url": "/sintesis/mapa/debilidades#1A.7",
+    "reformas": [
+      "R-13"
+    ],
+    "proyectos": []
+  },
+  "1A.8": {
+    "tipo": "debilidad",
+    "titulo_corto": "Ausencia de Pobreza Energética, Justicia Energética, Generación Limpia Distribuida y Almacenamiento como figuras y polít",
+    "url": "/sintesis/mapa/debilidades#1A.8",
+    "reformas": [
+      "R-10"
+    ],
+    "proyectos": []
+  },
+  "1A.9": {
+    "tipo": "debilidad",
+    "titulo_corto": "No hay política de contratación pública climáticamente responsable con estándares obligatorios (compras, flotillas, GLD ",
+    "url": "/sintesis/mapa/debilidades#1A.9",
+    "reformas": [
+      "R-15"
+    ],
+    "proyectos": []
+  },
+  "1A.10": {
+    "tipo": "debilidad",
+    "titulo_corto": "Plan Estatal de Energía sin subordinación expresa a planeación vinculante federal (PLADESE/PLATEASE) ni articulación con",
+    "url": "/sintesis/mapa/debilidades#1A.10",
+    "reformas": [
+      "R-20"
+    ],
+    "proyectos": []
+  },
+  "1A.11": {
+    "tipo": "debilidad",
+    "titulo_corto": "Ausencia de régimen de convenios federales específicos (SENER, CNE, CONUEE, CFE, SENER-geotermia) como vía principal de ",
+    "url": "/sintesis/mapa/debilidades#1A.11",
+    "reformas": [
+      "R-21"
+    ],
+    "proyectos": []
+  },
+  "1A.12": {
+    "tipo": "debilidad",
+    "titulo_corto": "Ausencia de designación de ventanilla única estatal para proyectos federales de electricidad e hidrocarburos",
+    "url": "/sintesis/mapa/debilidades#1A.12",
+    "reformas": [
+      "R-22"
+    ],
+    "proyectos": []
+  },
+  "1A.13": {
+    "tipo": "debilidad",
+    "titulo_corto": "Ausencia de procedimiento formal de postulación al Fondo para la Transición Energética y al Fondo de Servicio Universal ",
+    "url": "/sintesis/mapa/debilidades#1A.13",
+    "reformas": [
+      "R-25"
+    ],
+    "proyectos": []
+  },
+  "1A.14": {
+    "tipo": "debilidad",
+    "titulo_corto": "Ausencia total de régimen sobre biomasa agroalimentaria y valorización energética de residuos orgánicos con destino a bi",
+    "url": "/sintesis/mapa/debilidades#1A.14",
+    "reformas": [
+      "R-31"
+    ],
+    "proyectos": []
+  },
+  "1A.15": {
+    "tipo": "debilidad",
+    "titulo_corto": "Agencia agroalimentaria sin atribución expresa para suscribir convenios con SENER/SADER/SEMARNAT en materia LBio",
+    "url": "/sintesis/mapa/debilidades#1A.15",
+    "reformas": [
+      "R-33"
+    ],
+    "proyectos": []
+  },
+  "1A.16": {
+    "tipo": "debilidad",
+    "titulo_corto": "Ley no tipifica \"proyecto energético\" ni articula con permisos CNE, operación CENACE y servidumbres LSE; el vehículo APP",
+    "url": "/sintesis/mapa/debilidades#1A.16",
+    "reformas": [
+      "R-37"
+    ],
+    "proyectos": []
+  },
+  "1A.17": {
+    "tipo": "debilidad",
+    "titulo_corto": "Catálogo de riesgos contractuales no incluye riesgo regulatorio federal (intervención, requisa, modificación de permiso)",
+    "url": "/sintesis/mapa/debilidades#1A.17",
+    "reformas": [
+      "R-39"
+    ],
+    "proyectos": []
+  },
+  "1A.18": {
+    "tipo": "debilidad",
+    "titulo_corto": "Marco supletorio omite LSE, LPTE, LCNE, LEPECFE, LSH, LGeo, LBio (DOF 18-03-2025) y reforma CPEUM 20-12-2024",
+    "url": "/sintesis/mapa/debilidades#1A.18",
+    "reformas": [
+      "R-43"
+    ],
+    "proyectos": []
+  },
+  "1A.19": {
+    "tipo": "debilidad",
+    "titulo_corto": "Comité de Adjudicación sin representación del órgano estatal especializado en energía",
+    "url": "/sintesis/mapa/debilidades#1A.19",
+    "reformas": [
+      "R-38"
+    ],
+    "proyectos": []
+  },
+  "1A.20": {
+    "tipo": "debilidad",
+    "titulo_corto": "Ausencia de coordinación con Consulta Previa federal para proyectos en territorio indígena y afromexicano",
+    "url": "/sintesis/mapa/debilidades#1A.20",
+    "reformas": [
+      "R-41"
+    ],
+    "proyectos": []
+  },
+  "1A.21": {
+    "tipo": "debilidad",
+    "titulo_corto": "Ausencia de mandato de eficiencia energética y bases generales para reglamentos municipales de alumbrado público",
+    "url": "/sintesis/mapa/debilidades#1A.21",
+    "reformas": [
+      "R-46"
+    ],
+    "proyectos": []
+  },
+  "1A.22": {
+    "tipo": "debilidad",
+    "titulo_corto": "Omisión de criterios energéticos, generación distribuida y edificación sustentable en el Programa Municipal de Desarroll",
+    "url": "/sintesis/mapa/debilidades#1A.22",
+    "reformas": [
+      "R-47"
+    ],
+    "proyectos": []
+  },
+  "1A.23": {
+    "tipo": "debilidad",
+    "titulo_corto": "Ausencia de cambio climático, mitigación de emisiones y transición energética en la facultad ambiental municipal coordin",
+    "url": "/sintesis/mapa/debilidades#1A.23",
+    "reformas": [
+      "R-48"
+    ],
+    "proyectos": []
+  },
+  "1A.24": {
+    "tipo": "debilidad",
+    "titulo_corto": "Falta de figura específica de coordinación Estado–Municipio en materia energética y de reconocimiento operativo de la AE",
+    "url": "/sintesis/mapa/debilidades#1A.24",
+    "reformas": [
+      "R-49"
+    ],
+    "proyectos": []
+  },
+  "1A.25": {
+    "tipo": "debilidad",
+    "titulo_corto": "Catálogo de principios desactualizado: omite Justicia Energética, consulta previa, pro persona, máxima publicidad, preca",
+    "url": "/sintesis/mapa/debilidades#1A.25",
+    "reformas": [
+      "R-55"
+    ],
+    "proyectos": []
+  },
+  "1A.26": {
+    "tipo": "debilidad",
+    "titulo_corto": "Ausencia de etapa procesal obligatoria de consulta previa, libre e informada a pueblos y comunidades indígenas",
+    "url": "/sintesis/mapa/debilidades#1A.26",
+    "reformas": [
+      "R-57"
+    ],
+    "proyectos": []
+  },
+  "1A.27": {
+    "tipo": "debilidad",
+    "titulo_corto": "Procedimiento administrativo digital incompleto (sin expediente electrónico unificado, notificación electrónica vinculan",
+    "url": "/sintesis/mapa/debilidades#1A.27",
+    "reformas": [
+      "R-56"
+    ],
+    "proyectos": []
+  },
+  "1A.28": {
+    "tipo": "debilidad",
+    "titulo_corto": "\"Rescate energético\" definido pero sin régimen operativo de aprovechamiento energético de residuos (biogás, WTE, biomasa",
+    "url": "/sintesis/mapa/debilidades#1A.28",
+    "reformas": [
+      "R-63"
+    ],
+    "proyectos": []
+  },
+  "1A.29": {
+    "tipo": "debilidad",
+    "titulo_corto": "Ausencia de reglamentación técnica local de eficiencia energética y construcción sustentable, pese a ventana federal exp",
+    "url": "/sintesis/mapa/debilidades#1A.29",
+    "reformas": [
+      "R-64"
+    ],
+    "proyectos": []
+  },
+  "1A.30": {
+    "tipo": "debilidad",
+    "titulo_corto": "Electromovilidad no regulada como política ambiental estatal; sólo verificación vehicular de emisiones convencionales",
+    "url": "/sintesis/mapa/debilidades#1A.30",
+    "reformas": [
+      "R-68"
+    ],
+    "proyectos": []
+  },
+  "1A.31": {
+    "tipo": "debilidad",
+    "titulo_corto": "Estímulos fiscales con lenguaje genérico (\"fuentes menos contaminantes\") sin criterios, vehículo fiscal específico ni te",
+    "url": "/sintesis/mapa/debilidades#1A.31",
+    "reformas": [
+      "R-65",
+      "R-69"
+    ],
+    "proyectos": []
+  },
+  "1A.32": {
+    "tipo": "debilidad",
+    "titulo_corto": "Ausencia de cláusula de deferencia expresa al marco federal energético vigente post 18-03-2025 (LSH Art. 127; LSE Art. 7",
+    "url": "/sintesis/mapa/debilidades#1A.32",
+    "reformas": [
+      "R-73"
+    ],
+    "proyectos": []
+  },
+  "1A.33": {
+    "tipo": "debilidad",
+    "titulo_corto": "Lista del Art. 5 no distingue proyectos energéticos federales ni crea modalidad expedita para generación distribuida, bi",
+    "url": "/sintesis/mapa/debilidades#1A.33",
+    "reformas": [
+      "R-74"
+    ],
+    "proyectos": []
+  },
+  "1A.34": {
+    "tipo": "debilidad",
+    "titulo_corto": "Cédula de Operación Anual sin campos de consumo energético, mix de combustibles ni GEI; desconexión del RENE (LGCC Art. ",
+    "url": "/sintesis/mapa/debilidades#1A.34",
+    "reformas": [
+      "R-76"
+    ],
+    "proyectos": []
+  },
+  "1A.35": {
+    "tipo": "debilidad",
+    "titulo_corto": "Régimen del Art. 53 (combustión a cielo abierto) incompatible con aprovechamiento energético de biogás y quemadores de s",
+    "url": "/sintesis/mapa/debilidades#1A.35",
+    "reformas": [
+      "R-75"
+    ],
+    "proyectos": []
+  },
+  "1A.36": {
+    "tipo": "debilidad",
+    "titulo_corto": "Ausencia de convenios específicos expresos con SENER, CNE, CONUEE, CENACE e INECC como vía de coordinación",
+    "url": "/sintesis/mapa/debilidades#1A.36",
+    "reformas": [
+      "R-77"
+    ],
+    "proyectos": []
+  },
+  "1A.37": {
+    "tipo": "debilidad",
+    "titulo_corto": "Ausencia de carve-out expreso por competencia federal exclusiva energética en causales de improcedencia",
+    "url": "/sintesis/mapa/debilidades#1A.37",
+    "reformas": [
+      "R-82"
+    ],
+    "proyectos": []
+  },
+  "1A.38": {
+    "tipo": "debilidad",
+    "titulo_corto": "Vacío de consulta previa, libre e informada a comunidades indígenas en juicios con afectación por proyectos energéticos",
+    "url": "/sintesis/mapa/debilidades#1A.38",
+    "reformas": [
+      "R-86"
+    ],
+    "proyectos": []
+  },
+  "1A.39": {
+    "tipo": "debilidad",
+    "titulo_corto": "Falta de articulación procesal con jurisdicción federal (TFJA, Juzgados de Distrito) en litigios con materia mixta",
+    "url": "/sintesis/mapa/debilidades#1A.39",
+    "reformas": [
+      "R-90"
+    ],
+    "proyectos": []
+  },
+  "1A.40": {
+    "tipo": "debilidad",
+    "titulo_corto": "Propósitos del AIR omiten Justicia Energética, precaución ambiental, pro persona, perspectiva intergeneracional y de gén",
+    "url": "/sintesis/mapa/debilidades#1A.40",
+    "reformas": [
+      "R-91"
+    ],
+    "proyectos": []
+  },
+  "1A.41": {
+    "tipo": "debilidad",
+    "titulo_corto": "Ausencia de consulta previa, libre e informada a pueblos y comunidades indígenas como etapa procesal obligatoria del AIR",
+    "url": "/sintesis/mapa/debilidades#1A.41",
+    "reformas": [
+      "R-92"
+    ],
+    "proyectos": []
+  },
+  "1A.42": {
+    "tipo": "debilidad",
+    "titulo_corto": "Agencia de Energía del Estado de Jalisco no integra el Consejo Estatal de Mejora Regulatoria con voz y voto permanentes",
+    "url": "/sintesis/mapa/debilidades#1A.42",
+    "reformas": [
+      "R-94"
+    ],
+    "proyectos": []
+  },
+  "1A.43": {
+    "tipo": "debilidad",
+    "titulo_corto": "Ausencia de manual sectorial energético-climático de AIR (sólo habilitado por lineamientos generales potestativos)",
+    "url": "/sintesis/mapa/debilidades#1A.43",
+    "reformas": [
+      "R-93"
+    ],
+    "proyectos": []
+  },
+  "1A.44": {
+    "tipo": "debilidad",
+    "titulo_corto": "Sin procedimiento de opinión consultiva obligatoria de CNE y CONAMER para regulaciones estatales con dimensión federal e",
+    "url": "/sintesis/mapa/debilidades#1A.44",
+    "reformas": [
+      "R-95"
+    ],
+    "proyectos": []
+  },
+  "1A.45": {
+    "tipo": "debilidad",
+    "titulo_corto": "No se consagra la obligación del Congreso local de fijar por ley el porcentaje municipal en el impuesto sobre energía el",
+    "url": "/sintesis/mapa/debilidades#1A.45",
+    "reformas": [
+      "R-04"
+    ],
+    "proyectos": []
+  },
+  "1A.46": {
+    "tipo": "debilidad",
+    "titulo_corto": "Reserva competencial genérica al Congreso estatal sin enumeración de márgenes energéticos concurrentes",
+    "url": "/sintesis/mapa/debilidades#1A.46",
+    "reformas": [],
+    "proyectos": []
+  },
+  "1A.47": {
+    "tipo": "debilidad",
+    "titulo_corto": "Ausencia de mandato constitucional para facultar al Ejecutivo a celebrar convenios específicos en materia energética",
+    "url": "/sintesis/mapa/debilidades#1A.47",
+    "reformas": [
+      "R-03"
+    ],
+    "proyectos": []
+  },
+  "1A.48": {
+    "tipo": "debilidad",
+    "titulo_corto": "Atlas de Riesgo estatal no articulado con el Atlas Nacional de Vulnerabilidad al Cambio Climático (reforma LGCC 15-11-20",
+    "url": "/sintesis/mapa/debilidades#1A.48",
+    "reformas": [
+      "R-11"
+    ],
+    "proyectos": []
+  },
+  "1A.49": {
+    "tipo": "debilidad",
+    "titulo_corto": "CENACE integrado como vocal de la Junta de Gobierno sin base federal exigible; operatividad depende de voluntad federal",
+    "url": "/sintesis/mapa/debilidades#1A.49",
+    "reformas": [
+      "R-14",
+      "R-27"
+    ],
+    "proyectos": []
+  },
+  "1A.50": {
+    "tipo": "debilidad",
+    "titulo_corto": "Ausencia de régimen de consulta previa a pueblos y comunidades indígenas para proyectos de la Agencia en territorio wixá",
+    "url": "/sintesis/mapa/debilidades#1A.50",
+    "reformas": [
+      "R-26"
+    ],
+    "proyectos": []
+  },
+  "1A.51": {
+    "tipo": "debilidad",
+    "titulo_corto": "Ausencia de metas cuantitativas estatales (energías limpias, eficiencia, almacenamiento) con MRV en el Plan Estatal de E",
+    "url": "/sintesis/mapa/debilidades#1A.51",
+    "reformas": [
+      "R-28"
+    ],
+    "proyectos": []
+  },
+  "1A.52": {
+    "tipo": "debilidad",
+    "titulo_corto": "Ausencia de figuras de pobreza energética y electrificación rural como objeto de la Agencia (zonas serranas e indígenas ",
+    "url": "/sintesis/mapa/debilidades#1A.52",
+    "reformas": [],
+    "proyectos": []
+  },
+  "1A.53": {
+    "tipo": "debilidad",
+    "titulo_corto": "Proyectos de infraestructura agroalimentaria sin incorporación de criterios energéticos (eficiencia, autoabastecimiento,",
+    "url": "/sintesis/mapa/debilidades#1A.53",
+    "reformas": [
+      "R-35"
+    ],
+    "proyectos": []
+  },
+  "1A.54": {
+    "tipo": "debilidad",
+    "titulo_corto": "Titularidad de Certificados de Energías Limpias y atributos ambientales no regulada",
+    "url": "/sintesis/mapa/debilidades#1A.54",
+    "reformas": [
+      "R-40"
+    ],
+    "proyectos": []
+  },
+  "1A.55": {
+    "tipo": "debilidad",
+    "titulo_corto": "Vigencia de autorizaciones del contrato (5-40 años) desarticulada de vigencia de permisos federales energéticos",
+    "url": "/sintesis/mapa/debilidades#1A.55",
+    "reformas": [],
+    "proyectos": []
+  },
+  "1A.56": {
+    "tipo": "debilidad",
+    "titulo_corto": "Ausencia de remisión o anclaje a la participación municipal en contribuciones especiales sobre energía eléctrica",
+    "url": "/sintesis/mapa/debilidades#1A.56",
+    "reformas": [
+      "R-52"
+    ],
+    "proyectos": []
+  },
+  "1A.57": {
+    "tipo": "debilidad",
+    "titulo_corto": "Falta de habilitación expresa para convenios municipio-CFE (coordinación, vinculación comunitaria, DAP)",
+    "url": "/sintesis/mapa/debilidades#1A.57",
+    "reformas": [
+      "R-53"
+    ],
+    "proyectos": []
+  },
+  "1A.58": {
+    "tipo": "debilidad",
+    "titulo_corto": "Verificación e inspección estatal limitada a \"carácter local\" sin protocolo de coordinación con autoridades energéticas ",
+    "url": "/sintesis/mapa/debilidades#1A.58",
+    "reformas": [
+      "R-60"
+    ],
+    "proyectos": []
+  },
+  "1A.59": {
+    "tipo": "debilidad",
+    "titulo_corto": "Plazos generales (30 días hábiles actos regulativos, 2 meses actos constitutivos) incompatibles con celeridad requerida ",
+    "url": "/sintesis/mapa/debilidades#1A.59",
+    "reformas": [
+      "R-58"
+    ],
+    "proyectos": []
+  },
+  "1A.60": {
+    "tipo": "debilidad",
+    "titulo_corto": "Título Sexto (Mejora Regulatoria) derogado: Arts. 154–158 sin contenido en esta ley",
+    "url": "/sintesis/mapa/debilidades#1A.60",
+    "reformas": [],
+    "proyectos": []
+  },
+  "1A.61": {
+    "tipo": "debilidad",
+    "titulo_corto": "Principio de participación enunciado sin cauce procesal (audiencias públicas, comentarios públicos) para actos de impact",
+    "url": "/sintesis/mapa/debilidades#1A.61",
+    "reformas": [
+      "R-59"
+    ],
+    "proyectos": []
+  },
+  "1A.62": {
+    "tipo": "debilidad",
+    "titulo_corto": "Ausencia de excepción material de energía en Art. 2 que permita modular aplicación de reglas procesales generales a trám",
+    "url": "/sintesis/mapa/debilidades#1A.62",
+    "reformas": [],
+    "proyectos": []
+  },
+  "1A.63": {
+    "tipo": "debilidad",
+    "titulo_corto": "Inventario estatal de fuentes fijas no incluye explícitamente categoría \"generación y uso de energía\" ni GEI (LGCC Art. ",
+    "url": "/sintesis/mapa/debilidades#1A.63",
+    "reformas": [
+      "R-67"
+    ],
+    "proyectos": []
+  },
+  "1A.64": {
+    "tipo": "debilidad",
+    "titulo_corto": "Energía térmica tratada solo como contaminante a limitar; ausencia de régimen para cogeneración, calor residual y redes ",
+    "url": "/sintesis/mapa/debilidades#1A.64",
+    "reformas": [
+      "R-71"
+    ],
+    "proyectos": []
+  },
+  "1A.65": {
+    "tipo": "debilidad",
+    "titulo_corto": "Art. 76 (\"energéticos no contaminantes\") promocional sin instrumento, padrón, criterio ni sanción",
+    "url": "/sintesis/mapa/debilidades#1A.65",
+    "reformas": [],
+    "proyectos": []
+  },
+  "1A.66": {
+    "tipo": "debilidad",
+    "titulo_corto": "Ausencia de atribución expresa para convenios con SENER/CONUEE en materia de transición energética",
+    "url": "/sintesis/mapa/debilidades#1A.66",
+    "reformas": [
+      "R-70"
+    ],
+    "proyectos": []
+  },
+  "1A.67": {
+    "tipo": "debilidad",
+    "titulo_corto": "Sistema de monitoreo atmosférico estatal condicionado a \"aprobación previa\" federal, restricción más gravosa que la conc",
+    "url": "/sintesis/mapa/debilidades#1A.67",
+    "reformas": [],
+    "proyectos": []
+  },
+  "1A.68": {
+    "tipo": "debilidad",
+    "titulo_corto": "Inventario estatal de fuentes fijas sin categoría energía ni GEI (LGCC Art. 7 XIV-a)",
+    "url": "/sintesis/mapa/debilidades#1A.68",
+    "reformas": [],
+    "proyectos": []
+  },
+  "1A.69": {
+    "tipo": "debilidad",
+    "titulo_corto": "Ausencia de articulación procedimental entre EIA estatal y Manifestación de Impacto Social federal (LSH Art. 152) y cons",
+    "url": "/sintesis/mapa/debilidades#1A.69",
+    "reformas": [
+      "R-80"
+    ],
+    "proyectos": []
+  },
+  "1A.70": {
+    "tipo": "debilidad",
+    "titulo_corto": "Ausencia de acción colectiva para controversias energéticas con afectación difusa",
+    "url": "/sintesis/mapa/debilidades#1A.70",
+    "reformas": [
+      "R-87"
+    ],
+    "proyectos": []
+  },
+  "1A.71": {
+    "tipo": "debilidad",
+    "titulo_corto": "Inexistencia de procedimiento expedito para actos estatales con componente energético urgente",
+    "url": "/sintesis/mapa/debilidades#1A.71",
+    "reformas": [
+      "R-85"
+    ],
+    "proyectos": []
+  },
+  "1A.72": {
+    "tipo": "debilidad",
+    "titulo_corto": "Ausencia de interoperabilidad del juicio en línea con plataformas federales energéticas (DOF, CNE, CENACE, SENER)",
+    "url": "/sintesis/mapa/debilidades#1A.72",
+    "reformas": [
+      "R-88"
+    ],
+    "proyectos": []
+  },
+  "1A.73": {
+    "tipo": "debilidad",
+    "titulo_corto": "AIR ex post es potestativo y sin calendarización obligatoria",
+    "url": "/sintesis/mapa/debilidades#1A.73",
+    "reformas": [
+      "R-98"
+    ],
+    "proyectos": []
+  },
+  "1A.74": {
+    "tipo": "debilidad",
+    "titulo_corto": "Ausencia de ventanilla única estatal sectorial para proyectos energéticos integrando trámites federales",
+    "url": "/sintesis/mapa/debilidades#1A.74",
+    "reformas": [
+      "R-99"
+    ],
+    "proyectos": []
+  },
+  "1A.75": {
+    "tipo": "debilidad",
+    "titulo_corto": "Ausencia de geotermia como materia diferenciada pese al potencial del Cinturón Volcánico Transmexicano en territorio est",
+    "url": "/sintesis/mapa/debilidades#1A.75",
+    "reformas": [
+      "R-30"
+    ],
+    "proyectos": []
+  },
+  "1A.76": {
+    "tipo": "debilidad",
+    "titulo_corto": "Prohibición absoluta de proyectos en ANP, sin mecanismo de compatibilidad con permisos federales en categorías donde la ",
+    "url": "/sintesis/mapa/debilidades#1A.76",
+    "reformas": [],
+    "proyectos": []
+  },
+  "1A.77": {
+    "tipo": "debilidad",
+    "titulo_corto": "Concepto genérico de \"concesiones\" como acto constitutivo estatal sin salvedad constitucional sobre materias reservadas ",
+    "url": "/sintesis/mapa/debilidades#1A.77",
+    "reformas": [
+      "R-61"
+    ],
+    "proyectos": []
+  },
+  "1A.78": {
+    "tipo": "debilidad",
+    "titulo_corto": "Vicio técnico de numeración del Art. 3 (Zona Crítica como \"XVII\" duplicada, debería ser XXII conforme Acuerdo DIGELAG/AC",
+    "url": "/sintesis/mapa/debilidades#1A.78",
+    "reformas": [
+      "R-79"
+    ],
+    "proyectos": []
+  },
+  "1A.79": {
+    "tipo": "debilidad",
+    "titulo_corto": "Suspensión de créditos fiscales sin contemplar participaciones estatales en contribuciones especiales federales energéti",
+    "url": "/sintesis/mapa/debilidades#1A.79",
+    "reformas": [
+      "R-89"
+    ],
+    "proyectos": []
+  },
+  "1A.80": {
+    "tipo": "debilidad",
+    "titulo_corto": "Fuente de pago APP con participaciones federales por contribuciones especiales sobre energía eléctrica no regulada",
+    "url": "/sintesis/mapa/debilidades#1A.80",
+    "reformas": [
+      "R-45"
+    ],
+    "proyectos": []
+  },
+  "1B.1": {
+    "tipo": "condicionamiento",
+    "titulo_corto": "Jalisco no puede crear entidad estatal de transmisión/distribución eléctrica ni otorgar concesiones; toda infraestructur",
+    "url": "/sintesis/mapa/condicionamientos#1B.1"
+  },
+  "1B.2": {
+    "tipo": "condicionamiento",
+    "titulo_corto": "La cláusula de \"no prevalencia sobre la empresa pública del Estado\" (reforma 20-12-2024) introduce riesgo regulatorio so",
+    "url": "/sintesis/mapa/condicionamientos#1B.2"
+  },
+  "1B.3": {
+    "tipo": "condicionamiento",
+    "titulo_corto": "La concentración de la regulación técnica, económica y sancionadora energética en una dependencia del Ejecutivo Federal ",
+    "url": "/sintesis/mapa/condicionamientos#1B.3"
+  },
+  "1B.4": {
+    "tipo": "condicionamiento",
+    "titulo_corto": "Litio y minerales radiactivos presentes en territorio de Jalisco son íntegramente de dominio federal y no concesionables",
+    "url": "/sintesis/mapa/condicionamientos#1B.4"
+  },
+  "1B.5": {
+    "tipo": "condicionamiento",
+    "titulo_corto": "Toda la cadena regulada de biocombustibles (producción, almacenamiento, transporte, comercialización, distribución, expe",
+    "url": "/sintesis/mapa/condicionamientos#1B.5"
+  },
+  "1B.6": {
+    "tipo": "condicionamiento",
+    "titulo_corto": "La única vía de intervención estatal en biocombustibles es el convenio de coordinación potestativo que la Federación \"pu",
+    "url": "/sintesis/mapa/condicionamientos#1B.6"
+  },
+  "1B.7": {
+    "tipo": "condicionamiento",
+    "titulo_corto": "Producción de biomasa de caña de azúcar y sorgo —cultivos relevantes en Jalisco— sujeta a permiso SADER condicionado a i",
+    "url": "/sintesis/mapa/condicionamientos#1B.7"
+  },
+  "1B.8": {
+    "tipo": "condicionamiento",
+    "titulo_corto": "Centralización total del otorgamiento y supervisión de permisos de generación y comercialización eléctrica en la CNE",
+    "url": "/sintesis/mapa/condicionamientos#1B.8"
+  },
+  "1B.9": {
+    "tipo": "condicionamiento",
+    "titulo_corto": "Regulación tarifaria (suministro básico, transmisión, distribución, CENACE, servicios conexos) queda fuera del alcance e",
+    "url": "/sintesis/mapa/condicionamientos#1B.9"
+  },
+  "1B.10": {
+    "tipo": "condicionamiento",
+    "titulo_corto": "Mecanismo de coordinación de la CNE limitado textualmente al ámbito federal, sin ruta para convenios federal-estatales e",
+    "url": "/sintesis/mapa/condicionamientos#1B.10"
+  },
+  "1B.11": {
+    "tipo": "condicionamiento",
+    "titulo_corto": "Registro y regulación de Certificados de Energías Limpias centralizado en CNE; proyectos estatales de energías limpias d",
+    "url": "/sintesis/mapa/condicionamientos#1B.11"
+  },
+  "1B.12": {
+    "tipo": "condicionamiento",
+    "titulo_corto": "Cláusula que impide alegar daño económico contra decisiones de la CNE, aplicable a entes estatales que realicen Activida",
+    "url": "/sintesis/mapa/condicionamientos#1B.12"
+  },
+  "1B.13": {
+    "tipo": "condicionamiento",
+    "titulo_corto": "Régimen de permisos de gas natural, petrolíferos y petroquímicos centralizado; Jalisco sin facultad sobre cadena de sumi",
+    "url": "/sintesis/mapa/condicionamientos#1B.13"
+  },
+  "1B.14": {
+    "tipo": "condicionamiento",
+    "titulo_corto": "Prestación directa y exclusiva de transmisión y distribución por CFE cierra cualquier ruta estatal de operación de infra",
+    "url": "/sintesis/mapa/condicionamientos#1B.14"
+  },
+  "1B.15": {
+    "tipo": "condicionamiento",
+    "titulo_corto": "SENER concentra la interpretación de la Ley y la rectoría de políticas; las normas estatales quedan subordinadas al régi",
+    "url": "/sintesis/mapa/condicionamientos#1B.15"
+  },
+  "1B.16": {
+    "tipo": "condicionamiento",
+    "titulo_corto": "Toda controversia con CFE se ventila en tribunales federales, incluso en materias de competencia estatal conexa",
+    "url": "/sintesis/mapa/condicionamientos#1B.16"
+  },
+  "1B.17": {
+    "tipo": "condicionamiento",
+    "titulo_corto": "La materia \"Energía\" no aparece entre los incisos del Art. 8o-II LGCC, impidiendo a Jalisco regular generación, distribu",
+    "url": "/sintesis/mapa/condicionamientos#1B.17"
+  },
+  "1B.18": {
+    "tipo": "condicionamiento",
+    "titulo_corto": "El comercio de emisiones y sus instrumentos son facultad federal exclusiva; Jalisco no puede operar mercado subnacional ",
+    "url": "/sintesis/mapa/condicionamientos#1B.18"
+  },
+  "1B.19": {
+    "tipo": "condicionamiento",
+    "titulo_corto": "Recursos federales transferidos sujetos a transparencia y evaluación federal; limita autonomía en ejercicio de recursos ",
+    "url": "/sintesis/mapa/condicionamientos#1B.19"
+  },
+  "1B.20": {
+    "tipo": "condicionamiento",
+    "titulo_corto": "Monopolio federal sobre otorgamiento, verificación y sanción de Permisos de Exploración y Concesiones geotérmicas; Jalis",
+    "url": "/sintesis/mapa/condicionamientos#1B.20"
+  },
+  "1B.21": {
+    "tipo": "condicionamiento",
+    "titulo_corto": "Utilidad pública preferente del subsuelo para geotermia desplaza facultades estatales de ordenamiento territorial sin pr",
+    "url": "/sintesis/mapa/condicionamientos#1B.21"
+  },
+  "1B.22": {
+    "tipo": "condicionamiento",
+    "titulo_corto": "Nulidad de gestiones estatales ante Conagua sobre aguas asociadas a Yacimientos Geotérmicos; canaliza la tramitación exc",
+    "url": "/sintesis/mapa/condicionamientos#1B.22"
+  },
+  "1B.23": {
+    "tipo": "condicionamiento",
+    "titulo_corto": "La planeación vinculante federal (PLADESE/PLATEASE/Estrategia) se impone sobre el territorio de Jalisco sin mecanismo de",
+    "url": "/sintesis/mapa/condicionamientos#1B.23"
+  },
+  "1B.24": {
+    "tipo": "condicionamiento",
+    "titulo_corto": "CONUEE puede emitir opiniones vinculatorias sobre programas estatales que usen fondos federales, sin procedimiento ni re",
+    "url": "/sintesis/mapa/condicionamientos#1B.24"
+  },
+  "1B.25": {
+    "tipo": "condicionamiento",
+    "titulo_corto": "Generación Limpia Distribuida queda fuera del alcance regulatorio estatal (contratos y reglas federales)",
+    "url": "/sintesis/mapa/condicionamientos#1B.25"
+  },
+  "1B.26": {
+    "tipo": "condicionamiento",
+    "titulo_corto": "La abrogación de la Ley de Transición Energética 2015 obliga a Jalisco a revisar programas estatales anclados a ese marc",
+    "url": "/sintesis/mapa/condicionamientos#1B.26"
+  },
+  "1B.27": {
+    "tipo": "condicionamiento",
+    "titulo_corto": "Prevalencia federal absoluta en casos de concurrencia desactiva regulación estatal paralela del sector eléctrico",
+    "url": "/sintesis/mapa/condicionamientos#1B.27"
+  },
+  "1B.28": {
+    "tipo": "condicionamiento",
+    "titulo_corto": "Ejecución de obras de T&D en vía pública sin requerir coordinación municipal explícita",
+    "url": "/sintesis/mapa/condicionamientos#1B.28"
+  },
+  "1B.29": {
+    "tipo": "condicionamiento",
+    "titulo_corto": "Planeación vinculante centralizada sin anclaje para planes estatales de energía",
+    "url": "/sintesis/mapa/condicionamientos#1B.29"
+  },
+  "1B.30": {
+    "tipo": "condicionamiento",
+    "titulo_corto": "Pequeños sistemas eléctricos bajo Control Operativo federal; sin figura de operador estatal",
+    "url": "/sintesis/mapa/condicionamientos#1B.30"
+  },
+  "1B.31": {
+    "tipo": "condicionamiento",
+    "titulo_corto": "Servidumbres legales y requisa como atribuciones federales exclusivas sobre territorio estatal",
+    "url": "/sintesis/mapa/condicionamientos#1B.31"
+  },
+  "1B.32": {
+    "tipo": "condicionamiento",
+    "titulo_corto": "Exclusividad federal absoluta sobre regulación técnica, ambiental y de emisiones GEI en hidrocarburos desplaza regulació",
+    "url": "/sintesis/mapa/condicionamientos#1B.32"
+  },
+  "1B.33": {
+    "tipo": "condicionamiento",
+    "titulo_corto": "Deber estatal y municipal de \"agilizar\" permisos locales a proyectos federales, sin definir límites a la autonomía local",
+    "url": "/sintesis/mapa/condicionamientos#1B.33"
+  },
+  "1B.34": {
+    "tipo": "condicionamiento",
+    "titulo_corto": "Convenio federal-estatal de supervisión es la única vía para que Jalisco ejerza verificación sobre el mercado de petrolí",
+    "url": "/sintesis/mapa/condicionamientos#1B.34"
+  },
+  "3A.1": {
+    "tipo": "proyecto_3a",
+    "titulo_corto": "Programa estatal de eficiencia energética y descarbonización de edificios públicos, alumbrado público estatal y flota ve",
+    "url": "/sintesis/proyectos/viables-hoy#3A.1"
+  },
+  "3A.2": {
+    "tipo": "proyecto_3a",
+    "titulo_corto": "Generación distribuida, autoconsumo y cogeneración en inmuebles de propiedad estatal (oficinas, hospitales, escuelas, ce",
+    "url": "/sintesis/proyectos/viables-hoy#3A.2"
+  },
+  "3A.3": {
+    "tipo": "proyecto_3a",
+    "titulo_corto": "Convenios de coordinación con la Federación para gestión territorial de infraestructura eléctrica e hidrocarburos (ducto",
+    "url": "/sintesis/proyectos/viables-hoy#3A.3"
+  },
+  "3A.4": {
+    "tipo": "proyecto_3a",
+    "titulo_corto": "Integración del componente energético-climático al Plan Estatal de Desarrollo y a programas sectoriales de medio ambient",
+    "url": "/sintesis/proyectos/viables-hoy#3A.4"
+  },
+  "3A.5": {
+    "tipo": "proyecto_3a",
+    "titulo_corto": "Legislación y reglamentación estatal de cambio climático con componente energético (metas, registro estatal, incentivos)",
+    "url": "/sintesis/proyectos/viables-hoy#3A.5"
+  },
+  "3A.6": {
+    "tipo": "proyecto_3a",
+    "titulo_corto": "Creación por decreto/ley de un órgano estatal de planeación y coordinación energética (consejo, agencia o comisión)",
+    "url": "/sintesis/proyectos/viables-hoy#3A.6"
+  },
+  "3A.7": {
+    "tipo": "proyecto_3a",
+    "titulo_corto": "Publicación y actualización del Programa Estatal de Cambio Climático con contenidos del Art. 59 LACCEJ",
+    "url": "/sintesis/proyectos/viables-hoy#3A.7"
+  },
+  "3A.8": {
+    "tipo": "proyecto_3a",
+    "titulo_corto": "Elaboración, publicación y actualización del Inventario Estatal de Emisiones",
+    "url": "/sintesis/proyectos/viables-hoy#3A.8"
+  },
+  "3A.9": {
+    "tipo": "proyecto_3a",
+    "titulo_corto": "Operación del Registro Estatal de Emisiones y Transferencia de Contaminantes (fuentes fijas no federales, residuos espec",
+    "url": "/sintesis/proyectos/viables-hoy#3A.9"
+  },
+  "3A.10": {
+    "tipo": "proyecto_3a",
+    "titulo_corto": "Programa estatal de eficiencia energética y energías renovables en inmuebles y flotillas del Gobierno y municipios",
+    "url": "/sintesis/proyectos/viables-hoy#3A.10"
+  },
+  "3A.11": {
+    "tipo": "proyecto_3a",
+    "titulo_corto": "Planes y programas de transporte público sustentable, movilidad no motorizada, electromovilidad en flotas públicas y pri",
+    "url": "/sintesis/proyectos/viables-hoy#3A.11"
+  },
+  "3A.12": {
+    "tipo": "proyecto_3a",
+    "titulo_corto": "Atlas de Riesgo Estatal ante el cambio climático",
+    "url": "/sintesis/proyectos/viables-hoy#3A.12"
+  },
+  "3A.13": {
+    "tipo": "proyecto_3a",
+    "titulo_corto": "Convenios de coordinación con SENER, CONUEE y CNE para asistencia técnica y proyectos locales (eficiencia, energías limp",
+    "url": "/sintesis/proyectos/viables-hoy#3A.13"
+  },
+  "3A.14": {
+    "tipo": "proyecto_3a",
+    "titulo_corto": "Presentación de proyectos al Fondo para la Transición Energética y el Aprovechamiento Sustentable de la Energía (LPTE)",
+    "url": "/sintesis/proyectos/viables-hoy#3A.14"
+  },
+  "3A.15": {
+    "tipo": "proyecto_3a",
+    "titulo_corto": "Programa estatal de construcción sustentable en obra pública y vivienda asistida por el Estado",
+    "url": "/sintesis/proyectos/viables-hoy#3A.15"
+  },
+  "3A.16": {
+    "tipo": "proyecto_3a",
+    "titulo_corto": "Instrumentos económicos locales (estímulos fiscales, subsidios basados en desempeño, pagos por servicios ambientales)",
+    "url": "/sintesis/proyectos/viables-hoy#3A.16"
+  },
+  "3A.17": {
+    "tipo": "proyecto_3a",
+    "titulo_corto": "Programa estatal de eficiencia energética y energías limpias en inmuebles y flotillas del gobierno estatal y municipal (",
+    "url": "/sintesis/proyectos/viables-hoy#3A.17"
+  },
+  "3A.18": {
+    "tipo": "proyecto_3a",
+    "titulo_corto": "Convenio con CONUEE para asesoría técnica y reglamentaciones locales de Eficiencia Energética y Aprovechamiento Sustenta",
+    "url": "/sintesis/proyectos/viables-hoy#3A.18"
+  },
+  "3A.19": {
+    "tipo": "proyecto_3a",
+    "titulo_corto": "Convenio de coordinación con SENER para diseño e implementación de proyectos estatales de Energías Limpias, almacenamien",
+    "url": "/sintesis/proyectos/viables-hoy#3A.19"
+  },
+  "3A.20": {
+    "tipo": "proyecto_3a",
+    "titulo_corto": "Postulación de proyectos al Fondo para la Transición Energética aprovechando preferencia de entidades públicas",
+    "url": "/sintesis/proyectos/viables-hoy#3A.20"
+  },
+  "3A.21": {
+    "tipo": "proyecto_3a",
+    "titulo_corto": "Ventanilla única estatal para permisos estatales y municipales vinculados a proyectos federales de generación, transmisi",
+    "url": "/sintesis/proyectos/viables-hoy#3A.21"
+  },
+  "3A.22": {
+    "tipo": "proyecto_3a",
+    "titulo_corto": "Convenio con CFE bajo régimen de responsabilidad social y vinculación territorial (electrificación rural, movilidad eléc",
+    "url": "/sintesis/proyectos/viables-hoy#3A.22"
+  },
+  "3A.23": {
+    "tipo": "proyecto_3a",
+    "titulo_corto": "Contratación directa con CFE mediante excepción al concurso abierto",
+    "url": "/sintesis/proyectos/viables-hoy#3A.23"
+  },
+  "3A.24": {
+    "tipo": "proyecto_3a",
+    "titulo_corto": "Inventario estatal de emisiones del sector energético, vinculado al Atlas Nacional del INECC",
+    "url": "/sintesis/proyectos/viables-hoy#3A.24"
+  },
+  "3A.25": {
+    "tipo": "proyecto_3a",
+    "titulo_corto": "Convenio con SENER para identificación del potencial geotérmico (Cinturón Volcánico Transmexicano: Los Azufres, La Prima",
+    "url": "/sintesis/proyectos/viables-hoy#3A.25"
+  },
+  "3A.26": {
+    "tipo": "proyecto_3a",
+    "titulo_corto": "Programa estatal de apoyo a Manifestación de Impacto Social en proyectos federales (asesoría a promoventes e interlocuci",
+    "url": "/sintesis/proyectos/viables-hoy#3A.26"
+  },
+  "3A.27": {
+    "tipo": "proyecto_3a",
+    "titulo_corto": "Observatorio estatal de tarifas, calidad y confiabilidad del servicio eléctrico, con defensoría del usuario",
+    "url": "/sintesis/proyectos/viables-hoy#3A.27"
+  },
+  "3A.28": {
+    "tipo": "proyecto_3a",
+    "titulo_corto": "Participación como invitado en el Consejo de Planeación Energética (LPTE) y en el Comité Técnico de la CNE (LCNE)",
+    "url": "/sintesis/proyectos/viables-hoy#3A.28"
+  },
+  "3A.29": {
+    "tipo": "proyecto_3a",
+    "titulo_corto": "Convenio LAEJ–SENER/SADER/SEMARNAT para asumir facultades operativas en la dimensión agroalimentaria de la cadena de bio",
+    "url": "/sintesis/proyectos/viables-hoy#3A.29"
+  },
+  "3A.30": {
+    "tipo": "proyecto_3a",
+    "titulo_corto": "Programa estatal de capacitación y asesoría a productores de caña y sorgo sobre requisitos del permiso federal de produc",
+    "url": "/sintesis/proyectos/viables-hoy#3A.30"
+  },
+  "3A.31": {
+    "tipo": "proyecto_3a",
+    "titulo_corto": "Coordinación Agencia–SEMADET para prevenir cambio de uso de suelo forestal a agrícola con destino a biomasa energética",
+    "url": "/sintesis/proyectos/viables-hoy#3A.31"
+  },
+  "3A.32": {
+    "tipo": "proyecto_3a",
+    "titulo_corto": "APP para generación distribuida solar fotovoltaica en inmuebles del Estado y municipios (≤0.7 MW por sitio)",
+    "url": "/sintesis/proyectos/viables-hoy#3A.32"
+  },
+  "3A.33": {
+    "tipo": "proyecto_3a",
+    "titulo_corto": "APP para eficiencia energética en alumbrado público municipal y edificios estatales (modelo ESCO con pago por ahorros)",
+    "url": "/sintesis/proyectos/viables-hoy#3A.33"
+  },
+  "3A.34": {
+    "tipo": "proyecto_3a",
+    "titulo_corto": "APP para infraestructura de electromovilidad pública estatal (cargadores, flotas eléctricas, BRT eléctricos)",
+    "url": "/sintesis/proyectos/viables-hoy#3A.34"
+  },
+  "3A.35": {
+    "tipo": "proyecto_3a",
+    "titulo_corto": "APP de coinversión con instituciones públicas de educación superior y centros de investigación para innovación energétic",
+    "url": "/sintesis/proyectos/viables-hoy#3A.35"
+  },
+  "3A.36": {
+    "tipo": "proyecto_3a",
+    "titulo_corto": "APP de coinversión Estado-CFE para electrificación rural y zonas marginadas (comunidades serranas, wixáricas)",
+    "url": "/sintesis/proyectos/viables-hoy#3A.36"
+  },
+  "3A.37": {
+    "tipo": "proyecto_3a",
+    "titulo_corto": "APP de mantenimiento y rehabilitación de micro y mini-hidroeléctricas públicas estatales o municipales",
+    "url": "/sintesis/proyectos/viables-hoy#3A.37"
+  },
+  "3A.38": {
+    "tipo": "proyecto_3a",
+    "titulo_corto": "APP para aprovechamiento geotérmico de baja entalpía en inmuebles estatales (climatización, agua caliente)",
+    "url": "/sintesis/proyectos/viables-hoy#3A.38"
+  },
+  "3A.39": {
+    "tipo": "proyecto_3a",
+    "titulo_corto": "APP para almacenamiento energético detrás del medidor (BESS) en hospitales y edificios públicos críticos",
+    "url": "/sintesis/proyectos/viables-hoy#3A.39"
+  },
+  "3A.40": {
+    "tipo": "proyecto_3a",
+    "titulo_corto": "APP-fideicomiso con ingresos por eficiencia o atributos energéticos (CELs) como fuente de pago alterna",
+    "url": "/sintesis/proyectos/viables-hoy#3A.40"
+  },
+  "3A.41": {
+    "tipo": "proyecto_3a",
+    "titulo_corto": "Programa estatal de sustitución de alumbrado público por LED en municipios, coordinado por el Ejecutivo estatal",
+    "url": "/sintesis/proyectos/viables-hoy#3A.41"
+  },
+  "3A.42": {
+    "tipo": "proyecto_3a",
+    "titulo_corto": "Generación distribuida fotovoltaica en inmuebles municipales (palacios, mercados, unidades deportivas) bajo APP",
+    "url": "/sintesis/proyectos/viables-hoy#3A.42"
+  },
+  "3A.43": {
+    "tipo": "proyecto_3a",
+    "titulo_corto": "Criterios de eficiencia energética como requisito en reglamentos municipales de construcción",
+    "url": "/sintesis/proyectos/viables-hoy#3A.43"
+  },
+  "3A.44": {
+    "tipo": "proyecto_3a",
+    "titulo_corto": "Convenios municipio-AEEJ para asesoría técnica en tarifas CFE, DAP, auditorías energéticas",
+    "url": "/sintesis/proyectos/viables-hoy#3A.44"
+  },
+  "3A.45": {
+    "tipo": "proyecto_3a",
+    "titulo_corto": "Asociación intermunicipal para compra consolidada de energía eléctrica (Suministro Calificado para edificios municipales",
+    "url": "/sintesis/proyectos/viables-hoy#3A.45"
+  },
+  "3A.46": {
+    "tipo": "proyecto_3a",
+    "titulo_corto": "Reglamentación municipal del DAP alineada con criterios estatales de eficiencia",
+    "url": "/sintesis/proyectos/viables-hoy#3A.46"
+  },
+  "3A.47": {
+    "tipo": "proyecto_3a",
+    "titulo_corto": "Estaciones de recarga para vehículos eléctricos en espacios públicos municipales",
+    "url": "/sintesis/proyectos/viables-hoy#3A.47"
+  },
+  "3A.48": {
+    "tipo": "proyecto_3a",
+    "titulo_corto": "Reglamento del Ejecutivo estatal con protocolos internos de consulta previa para actos de la Agencia de Energía y depend",
+    "url": "/sintesis/proyectos/viables-hoy#3A.48"
+  },
+  "3A.49": {
+    "tipo": "proyecto_3a",
+    "titulo_corto": "Manual de Ventanilla Única Estatal de Energía con plazos internos máximos menores a los legales",
+    "url": "/sintesis/proyectos/viables-hoy#3A.49"
+  },
+  "3A.50": {
+    "tipo": "proyecto_3a",
+    "titulo_corto": "Programa de digitalización de trámites energéticos estatales bajo régimen vigente de firma electrónica",
+    "url": "/sintesis/proyectos/viables-hoy#3A.50"
+  },
+  "3A.51": {
+    "tipo": "proyecto_3a",
+    "titulo_corto": "Programa ejecutivo de reducción interna de plazos por tipo de trámite energético estatal",
+    "url": "/sintesis/proyectos/viables-hoy#3A.51"
+  },
+  "3A.52": {
+    "tipo": "proyecto_3a",
+    "titulo_corto": "Registro Estatal de Actores del Sector Energético (auditores, instaladores fotovoltaicos, etc.) vía acto declarativo est",
+    "url": "/sintesis/proyectos/viables-hoy#3A.52"
+  },
+  "3A.53": {
+    "tipo": "proyecto_3a",
+    "titulo_corto": "Programa estatal de medidas de seguridad para infraestructura energética crítica estatal (hospitales, transporte, bombeo",
+    "url": "/sintesis/proyectos/viables-hoy#3A.53"
+  },
+  "3A.54": {
+    "tipo": "proyecto_3a",
+    "titulo_corto": "Programa estatal de eficiencia energética y energías renovables en inmuebles y flotillas del Gobierno y municipios (edif",
+    "url": "/sintesis/proyectos/viables-hoy#3A.54"
+  },
+  "3A.55": {
+    "tipo": "proyecto_3a",
+    "titulo_corto": "Programa Estatal Contra el Cambio Climático — actualización y ejecución",
+    "url": "/sintesis/proyectos/viables-hoy#3A.55"
+  },
+  "3A.56": {
+    "tipo": "proyecto_3a",
+    "titulo_corto": "Sistema estatal de verificación vehicular — continuación y ampliación a flotillas comerciales y transporte público",
+    "url": "/sintesis/proyectos/viables-hoy#3A.56"
+  },
+  "3A.57": {
+    "tipo": "proyecto_3a",
+    "titulo_corto": "Convenios de coordinación con SENER, CONUEE y CNE para acceso a fondos federales (Fondo Transición Energética, Fondo Ser",
+    "url": "/sintesis/proyectos/viables-hoy#3A.57"
+  },
+  "3A.58": {
+    "tipo": "proyecto_3a",
+    "titulo_corto": "Inventario estatal de emisiones GEI con categoría energía",
+    "url": "/sintesis/proyectos/viables-hoy#3A.58"
+  },
+  "3A.59": {
+    "tipo": "proyecto_3a",
+    "titulo_corto": "Ordenamiento ecológico regional con criterios de transición energética (zonificación para solar, eólico, biomasa)",
+    "url": "/sintesis/proyectos/viables-hoy#3A.59"
+  },
+  "3A.60": {
+    "tipo": "proyecto_3a",
+    "titulo_corto": "Sustitución tecnológica en industrias locales mediante auditoría ambiental voluntaria con componente energético",
+    "url": "/sintesis/proyectos/viables-hoy#3A.60"
+  },
+  "3A.61": {
+    "tipo": "proyecto_3a",
+    "titulo_corto": "Emisión de Licencia Ambiental Única a fuentes fijas industriales locales no reservadas a la Federación (tequila, muebler",
+    "url": "/sintesis/proyectos/viables-hoy#3A.61"
+  },
+  "3A.62": {
+    "tipo": "proyecto_3a",
+    "titulo_corto": "Operación y actualización del Sistema Estatal de Información de la Calidad del Aire en AMG, Puerto Vallarta, Ocotlán y C",
+    "url": "/sintesis/proyectos/viables-hoy#3A.62"
+  },
+  "3A.63": {
+    "tipo": "proyecto_3a",
+    "titulo_corto": "EIA estatal a parques industriales nuevos con criterios de eficiencia energética y transición en diseño del polígono",
+    "url": "/sintesis/proyectos/viables-hoy#3A.63"
+  },
+  "3A.64": {
+    "tipo": "proyecto_3a",
+    "titulo_corto": "Inspección y vigilancia conjunta con municipios sobre fuentes fijas locales y bancos de material (convenio operativo)",
+    "url": "/sintesis/proyectos/viables-hoy#3A.64"
+  },
+  "3A.65": {
+    "tipo": "proyecto_3a",
+    "titulo_corto": "Convenio con SEMARNAT/INECC para interoperabilidad del inventario estatal de fuentes fijas con RENE",
+    "url": "/sintesis/proyectos/viables-hoy#3A.65"
+  },
+  "3A.66": {
+    "tipo": "proyecto_3a",
+    "titulo_corto": "Modificación de niveles máximos específicos de emisión por declaratoria de Zona Crítica con plan de sustitución tecnológ",
+    "url": "/sintesis/proyectos/viables-hoy#3A.66"
+  },
+  "3A.67": {
+    "tipo": "proyecto_3a",
+    "titulo_corto": "Criterios orientadores de la Sala Superior del TJA sobre causales de improcedencia en materias federales energéticas exc",
+    "url": "/sintesis/proyectos/viables-hoy#3A.67"
+  },
+  "3A.68": {
+    "tipo": "proyecto_3a",
+    "titulo_corto": "Convenio TJA-TFJA para intercambio procesal y coordinación en juicios federal-estatal",
+    "url": "/sintesis/proyectos/viables-hoy#3A.68"
+  },
+  "3A.69": {
+    "tipo": "proyecto_3a",
+    "titulo_corto": "Registro electrónico de autoridades estatales y municipales con actos susceptibles de impugnación energética",
+    "url": "/sintesis/proyectos/viables-hoy#3A.69"
+  },
+  "3A.70": {
+    "tipo": "proyecto_3a",
+    "titulo_corto": "Tablero estadístico público sobre juicios administrativos con componente energético",
+    "url": "/sintesis/proyectos/viables-hoy#3A.70"
+  },
+  "3A.71": {
+    "tipo": "proyecto_3a",
+    "titulo_corto": "Tramitación prioritaria vía facultad de atracción de casos que fijen precedente sobre afirmativa ficta con componente fe",
+    "url": "/sintesis/proyectos/viables-hoy#3A.71"
+  },
+  "3A.72": {
+    "tipo": "proyecto_3a",
+    "titulo_corto": "Acuerdo general de la Sala Superior sobre estándares probatorios en juicios con evidencia técnica energética",
+    "url": "/sintesis/proyectos/viables-hoy#3A.72"
+  },
+  "3A.73": {
+    "tipo": "proyecto_3a",
+    "titulo_corto": "Atracción por Sala Superior de juicios con afectación colectiva a usuarios energéticos municipales (tarifas alumbrado, d",
+    "url": "/sintesis/proyectos/viables-hoy#3A.73"
+  },
+  "3A.74": {
+    "tipo": "proyecto_3a",
+    "titulo_corto": "Lineamientos y manual sectorial de AIR en materia energética, climática y ambiental por el Consejo Estatal",
+    "url": "/sintesis/proyectos/viables-hoy#3A.74"
+  },
+  "3A.75": {
+    "tipo": "proyecto_3a",
+    "titulo_corto": "Inscripción obligatoria en el Registro Estatal de Trámites de todos los trámites estatales y municipales con incidencia ",
+    "url": "/sintesis/proyectos/viables-hoy#3A.75"
+  },
+  "3A.76": {
+    "tipo": "proyecto_3a",
+    "titulo_corto": "Homologación municipal de trámites para generación distribuida residencial y comercial (licencias de obra para sistemas ",
+    "url": "/sintesis/proyectos/viables-hoy#3A.76"
+  },
+  "3A.77": {
+    "tipo": "proyecto_3a",
+    "titulo_corto": "AIR ex post piloto de regulaciones estatales vigentes con incidencia energética",
+    "url": "/sintesis/proyectos/viables-hoy#3A.77"
+  },
+  "3A.78": {
+    "tipo": "proyecto_3a",
+    "titulo_corto": "Inclusión de la AEEJ como invitada permanente del Consejo Estatal cuando se discutan regulaciones con dimensión energéti",
+    "url": "/sintesis/proyectos/viables-hoy#3A.78"
+  },
+  "3A.79": {
+    "tipo": "proyecto_3a",
+    "titulo_corto": "Agenda regulatoria semestral sectorial energética integrada ante el Consejo Estatal",
+    "url": "/sintesis/proyectos/viables-hoy#3A.79"
+  },
+  "3A.80": {
+    "tipo": "proyecto_3a",
+    "titulo_corto": "Convenios con la Secretaría (Art. 78) para que los municipios dictaminen AIR de regulaciones municipales energéticas",
+    "url": "/sintesis/proyectos/viables-hoy#3A.80"
+  },
+  "3A.81": {
+    "tipo": "proyecto_3a",
+    "titulo_corto": "Uso del AIR de emergencia (Art. 68) para regulaciones que respondan a emergencias energéticas con componente ambiental o",
+    "url": "/sintesis/proyectos/viables-hoy#3A.81"
+  },
+  "3A.82": {
+    "tipo": "proyecto_3a",
+    "titulo_corto": "Integrar en la Agenda Regulatoria la digitalización prioritaria de trámites con incidencia energética",
+    "url": "/sintesis/proyectos/viables-hoy#3A.82"
+  },
+  "3A.83": {
+    "tipo": "proyecto_3a",
+    "titulo_corto": "Campaña estatal de protesta ciudadana calificada para trámites energéticos municipales (denuncia de requisitos no regist",
+    "url": "/sintesis/proyectos/viables-hoy#3A.83"
+  },
+  "3A.84": {
+    "tipo": "proyecto_3a",
+    "titulo_corto": "Fijación por ley estatal del porcentaje municipal en el impuesto sobre energía eléctrica",
+    "url": "/sintesis/proyectos/viables-hoy#3A.84"
+  },
+  "3B.1": {
+    "tipo": "proyecto_3b",
+    "titulo_corto": "Política estatal vinculante para abatir Pobreza Energética en comunidades rurales y marginadas",
+    "url": "/sintesis/proyectos/reforma-estatal#3B.1",
+    "reformas": [
+      "R-10"
+    ]
+  },
+  "3B.2": {
+    "tipo": "proyecto_3b",
+    "titulo_corto": "Régimen estatal expreso de convenios con SENER, CONUEE y CNE en LACCEJ (eficiencia, energías limpias, almacenamiento)",
+    "url": "/sintesis/proyectos/reforma-estatal#3B.2",
+    "reformas": [
+      "R-08"
+    ]
+  },
+  "3B.3": {
+    "tipo": "proyecto_3b",
+    "titulo_corto": "Operación de Fondo Estatal de Cambio Climático con autonomía y patrimonio propio",
+    "url": "/sintesis/proyectos/reforma-estatal#3B.3",
+    "reformas": [
+      "R-12"
+    ]
+  },
+  "3B.4": {
+    "tipo": "proyecto_3b",
+    "titulo_corto": "Instrumentación de metas estatales cuantitativas de largo plazo (emisiones, generación limpia en patrimonio público, NDC",
+    "url": "/sintesis/proyectos/reforma-estatal#3B.4",
+    "reformas": [
+      "R-13"
+    ]
+  },
+  "3B.5": {
+    "tipo": "proyecto_3b",
+    "titulo_corto": "Operación de un mandato de contratación pública climáticamente responsable (compras, flotillas, GLD obligatoria en inmue",
+    "url": "/sintesis/proyectos/reforma-estatal#3B.5",
+    "reformas": [
+      "R-15"
+    ]
+  },
+  "3B.6": {
+    "tipo": "proyecto_3b",
+    "titulo_corto": "Operación de la Agencia de Energía como ventanilla única estatal exigible para proyectos federales energéticos",
+    "url": "/sintesis/proyectos/reforma-estatal#3B.6",
+    "reformas": [
+      "R-22"
+    ]
+  },
+  "3B.7": {
+    "tipo": "proyecto_3b",
+    "titulo_corto": "Acceso reglado de la Agencia al Fondo de Transición Energética y Fondo de Servicio Universal Energético como postulante ",
+    "url": "/sintesis/proyectos/reforma-estatal#3B.7",
+    "reformas": [
+      "R-25"
+    ]
+  },
+  "3B.8": {
+    "tipo": "proyecto_3b",
+    "titulo_corto": "Creación de una empresa pública o mixta estatal para aprovechamiento energético de residuos orgánicos del sector agroali",
+    "url": "/sintesis/proyectos/reforma-estatal#3B.8",
+    "reformas": [
+      "R-31",
+      "R-33"
+    ]
+  },
+  "3B.9": {
+    "tipo": "proyecto_3b",
+    "titulo_corto": "Régimen de valorización energética de residuos orgánicos agroalimentarios al Programa Estratégico Estatal y operación ma",
+    "url": "/sintesis/proyectos/reforma-estatal#3B.9",
+    "reformas": [
+      "R-31"
+    ]
+  },
+  "3B.10": {
+    "tipo": "proyecto_3b",
+    "titulo_corto": "APP energético con régimen específico de articulación con permisos CNE, CENACE y CFE (modalidad sectorial con catálogo d",
+    "url": "/sintesis/proyectos/reforma-estatal#3B.10",
+    "reformas": [
+      "R-37",
+      "R-38",
+      "R-39"
+    ]
+  },
+  "3B.11": {
+    "tipo": "proyecto_3b",
+    "titulo_corto": "Régimen contractual APP con titularidad expresa de atributos energéticos (CELs, reducciones verificadas)",
+    "url": "/sintesis/proyectos/reforma-estatal#3B.11",
+    "reformas": [
+      "R-40"
+    ]
+  },
+  "3B.12": {
+    "tipo": "proyecto_3b",
+    "titulo_corto": "Catálogo positivo y negativo de objeto APP con exclusión de actividades reservadas constitucionalmente a la Nación",
+    "url": "/sintesis/proyectos/reforma-estatal#3B.12",
+    "reformas": [
+      "R-42"
+    ]
+  },
+  "3B.13": {
+    "tipo": "proyecto_3b",
+    "titulo_corto": "Coordinación obligatoria con Consulta Previa federal en APPs energéticos en territorio indígena",
+    "url": "/sintesis/proyectos/reforma-estatal#3B.13",
+    "reformas": [
+      "R-41"
+    ]
+  },
+  "3B.14": {
+    "tipo": "proyecto_3b",
+    "titulo_corto": "Esquemas de coinversión APP estandarizados con CFE y filiales",
+    "url": "/sintesis/proyectos/reforma-estatal#3B.14",
+    "reformas": [
+      "R-44"
+    ]
+  },
+  "3B.15": {
+    "tipo": "proyecto_3b",
+    "titulo_corto": "Bases generales municipales de eficiencia energética y reglamentos modelo para alumbrado público",
+    "url": "/sintesis/proyectos/reforma-estatal#3B.15",
+    "reformas": [
+      "R-46"
+    ]
+  },
+  "3B.16": {
+    "tipo": "proyecto_3b",
+    "titulo_corto": "Programa Municipal de Desarrollo Urbano con criterios obligatorios de eficiencia energética, GLD y edificación sustentab",
+    "url": "/sintesis/proyectos/reforma-estatal#3B.16",
+    "reformas": [
+      "R-47"
+    ]
+  },
+  "3B.17": {
+    "tipo": "proyecto_3b",
+    "titulo_corto": "Política ambiental municipal con cambio climático, mitigación y transición energética como materias coordinadas con el E",
+    "url": "/sintesis/proyectos/reforma-estatal#3B.17",
+    "reformas": [
+      "R-48"
+    ]
+  },
+  "3B.18": {
+    "tipo": "proyecto_3b",
+    "titulo_corto": "Coordinación energética Estado-Municipio operada por la AEEJ como interlocutora reconocida",
+    "url": "/sintesis/proyectos/reforma-estatal#3B.18",
+    "reformas": [
+      "R-49"
+    ]
+  },
+  "3B.19": {
+    "tipo": "proyecto_3b",
+    "titulo_corto": "Régimen claro de concesiones municipales sobre alumbrado público con exclusión expresa de T&D federal",
+    "url": "/sintesis/proyectos/reforma-estatal#3B.19",
+    "reformas": [
+      "R-50"
+    ]
+  },
+  "3B.20": {
+    "tipo": "proyecto_3b",
+    "titulo_corto": "Procedimiento administrativo digital pleno con expediente electrónico unificado, notificación electrónica vinculante e i",
+    "url": "/sintesis/proyectos/reforma-estatal#3B.20",
+    "reformas": [
+      "R-56"
+    ]
+  },
+  "3B.21": {
+    "tipo": "proyecto_3b",
+    "titulo_corto": "Procedimiento administrativo expedito para trámites estatales de generación distribuida y autoconsumo menor",
+    "url": "/sintesis/proyectos/reforma-estatal#3B.21",
+    "reformas": [
+      "R-58"
+    ]
+  },
+  "3B.22": {
+    "tipo": "proyecto_3b",
+    "titulo_corto": "Audiencias públicas y consultas públicas procesalizadas para actos estatales de impacto colectivo",
+    "url": "/sintesis/proyectos/reforma-estatal#3B.22",
+    "reformas": [
+      "R-59"
+    ]
+  },
+  "3B.23": {
+    "tipo": "proyecto_3b",
+    "titulo_corto": "Marco procesal de coordinación interinstitucional federal-estatal en LPAEJ",
+    "url": "/sintesis/proyectos/reforma-estatal#3B.23",
+    "reformas": [
+      "R-60"
+    ]
+  },
+  "3B.24": {
+    "tipo": "proyecto_3b",
+    "titulo_corto": "Régimen integral de aprovechamiento energético de residuos (biogás, WTE, biomasa) en LEEEPA-Jal",
+    "url": "/sintesis/proyectos/reforma-estatal#3B.24",
+    "reformas": [
+      "R-63"
+    ]
+  },
+  "3B.25": {
+    "tipo": "proyecto_3b",
+    "titulo_corto": "Capítulo de eficiencia energética y construcción sustentable en LEEEPA-Jal",
+    "url": "/sintesis/proyectos/reforma-estatal#3B.25",
+    "reformas": [
+      "R-64"
+    ]
+  },
+  "3B.26": {
+    "tipo": "proyecto_3b",
+    "titulo_corto": "Política estatal de electromovilidad como política ambiental con infraestructura urbana, flotillas públicas e incentivos",
+    "url": "/sintesis/proyectos/reforma-estatal#3B.26",
+    "reformas": [
+      "R-68"
+    ]
+  },
+  "3B.27": {
+    "tipo": "proyecto_3b",
+    "titulo_corto": "Estímulos fiscales estatales a eficiencia energética y fuentes limpias articulados con Ley de Hacienda",
+    "url": "/sintesis/proyectos/reforma-estatal#3B.27",
+    "reformas": [
+      "R-69"
+    ]
+  },
+  "3B.28": {
+    "tipo": "proyecto_3b",
+    "titulo_corto": "Atribución expresa de la Secretaría para convenios marco con SENER y CONUEE",
+    "url": "/sintesis/proyectos/reforma-estatal#3B.28",
+    "reformas": [
+      "R-70"
+    ]
+  },
+  "3B.29": {
+    "tipo": "proyecto_3b",
+    "titulo_corto": "Programa estatal de aprovechamiento de biogás en rellenos sanitarios (Los Laureles, Picachos, rellenos regionales) a esc",
+    "url": "/sintesis/proyectos/reforma-estatal#3B.29",
+    "reformas": [
+      "R-63",
+      "R-75"
+    ]
+  },
+  "3B.30": {
+    "tipo": "proyecto_3b",
+    "titulo_corto": "Cláusula de deferencia federal en REEEPA y modalidad expedita de EIA para proyectos de transición energética",
+    "url": "/sintesis/proyectos/reforma-estatal#3B.30",
+    "reformas": [
+      "R-73",
+      "R-74"
+    ]
+  },
+  "3B.31": {
+    "tipo": "proyecto_3b",
+    "titulo_corto": "Habilitación operativa de combustión a cielo abierto para antorchado de biogás y quemadores en WTE",
+    "url": "/sintesis/proyectos/reforma-estatal#3B.31",
+    "reformas": [
+      "R-75"
+    ]
+  },
+  "3B.32": {
+    "tipo": "proyecto_3b",
+    "titulo_corto": "COA con campos energéticos, mix de combustibles y GEI; interoperabilidad RENE",
+    "url": "/sintesis/proyectos/reforma-estatal#3B.32",
+    "reformas": [
+      "R-76"
+    ]
+  },
+  "3B.33": {
+    "tipo": "proyecto_3b",
+    "titulo_corto": "Catálogo expreso de convenios sectoriales con SENER, CNE, CONUEE, CENACE e INECC",
+    "url": "/sintesis/proyectos/reforma-estatal#3B.33",
+    "reformas": [
+      "R-77"
+    ]
+  },
+  "3B.34": {
+    "tipo": "proyecto_3b",
+    "titulo_corto": "Causal expresa de improcedencia LJAEJ por competencia federal exclusiva energética",
+    "url": "/sintesis/proyectos/reforma-estatal#3B.34",
+    "reformas": [
+      "R-82"
+    ]
+  },
+  "3B.35": {
+    "tipo": "proyecto_3b",
+    "titulo_corto": "Excepción expresa a la afirmativa ficta del TJA cuando el acto requiera permiso federal energético",
+    "url": "/sintesis/proyectos/reforma-estatal#3B.35",
+    "reformas": [
+      "R-83"
+    ]
+  },
+  "3B.36": {
+    "tipo": "proyecto_3b",
+    "titulo_corto": "Modulación de la suspensión y medidas cautelares para no comprometer continuidad del SEN",
+    "url": "/sintesis/proyectos/reforma-estatal#3B.36",
+    "reformas": [
+      "R-84"
+    ]
+  },
+  "3B.37": {
+    "tipo": "proyecto_3b",
+    "titulo_corto": "Procedimiento expedito en materia energética en el contencioso administrativo estatal",
+    "url": "/sintesis/proyectos/reforma-estatal#3B.37",
+    "reformas": [
+      "R-85"
+    ]
+  },
+  "3B.38": {
+    "tipo": "proyecto_3b",
+    "titulo_corto": "Etapa procesal de consulta previa a pueblos indígenas en juicios contenciosos sobre proyectos energéticos",
+    "url": "/sintesis/proyectos/reforma-estatal#3B.38",
+    "reformas": [
+      "R-86"
+    ]
+  },
+  "3B.39": {
+    "tipo": "proyecto_3b",
+    "titulo_corto": "Acción colectiva administrativa energética",
+    "url": "/sintesis/proyectos/reforma-estatal#3B.39",
+    "reformas": [
+      "R-87"
+    ]
+  },
+  "3B.40": {
+    "tipo": "proyecto_3b",
+    "titulo_corto": "Inspección conjunta federal-estatal sobre infraestructura energética dual con figura procesal explícita",
+    "url": "/sintesis/proyectos/reforma-estatal#3B.40",
+    "reformas": [
+      "R-60"
+    ]
+  },
+  "3B.41": {
+    "tipo": "proyecto_3b",
+    "titulo_corto": "Reglamentación técnica local de edificaciones sustentables y criterios energéticos en desarrollo urbano (con coadyuvanci",
+    "url": "/sintesis/proyectos/reforma-estatal#3B.41",
+    "reformas": [
+      "R-23"
+    ]
+  },
+  "3B.42": {
+    "tipo": "proyecto_3b",
+    "titulo_corto": "Instrumento estatal de incentivos económicos pleno (fondo estatal, estímulos fiscales, fideicomiso) para GD y proyectos ",
+    "url": "/sintesis/proyectos/reforma-estatal#3B.42",
+    "reformas": [
+      "R-29"
+    ]
+  },
+  "3B.43": {
+    "tipo": "proyecto_3b",
+    "titulo_corto": "Manual sectorial energético-climático obligatorio de AIR",
+    "url": "/sintesis/proyectos/reforma-estatal#3B.43",
+    "reformas": [
+      "R-93"
+    ]
+  },
+  "3B.44": {
+    "tipo": "proyecto_3b",
+    "titulo_corto": "Integración voto permanente AEEJ + SEMADET al Consejo Estatal de Mejora Regulatoria",
+    "url": "/sintesis/proyectos/reforma-estatal#3B.44",
+    "reformas": [
+      "R-94"
+    ]
+  },
+  "3B.45": {
+    "tipo": "proyecto_3b",
+    "titulo_corto": "Procedimiento de opinión consultiva obligatoria de la CNE y CONAMER para regulaciones estatales con dimensión federal en",
+    "url": "/sintesis/proyectos/reforma-estatal#3B.45",
+    "reformas": [
+      "R-95"
+    ]
+  },
+  "3B.46": {
+    "tipo": "proyecto_3b",
+    "titulo_corto": "Excepción a \"one-in, one-out\" para política energética, climática y de transición",
+    "url": "/sintesis/proyectos/reforma-estatal#3B.46",
+    "reformas": [
+      "R-96"
+    ]
+  },
+  "3B.47": {
+    "tipo": "proyecto_3b",
+    "titulo_corto": "Filtro de no exención de AIR con incidencia federal sin costos",
+    "url": "/sintesis/proyectos/reforma-estatal#3B.47",
+    "reformas": [
+      "R-97"
+    ]
+  },
+  "3B.48": {
+    "tipo": "proyecto_3b",
+    "titulo_corto": "AIR ex post calendarizado y obligatorio para regulaciones con incidencia energética",
+    "url": "/sintesis/proyectos/reforma-estatal#3B.48",
+    "reformas": [
+      "R-98"
+    ]
+  },
+  "3B.49": {
+    "tipo": "proyecto_3b",
+    "titulo_corto": "Ventanilla única estatal sectorial de proyectos energéticos en LMR-Jal con interoperabilidad federal",
+    "url": "/sintesis/proyectos/reforma-estatal#3B.49",
+    "reformas": [
+      "R-99"
+    ]
+  },
+  "3B.50": {
+    "tipo": "proyecto_3b",
+    "titulo_corto": "AIR específico para regulación operativa derivada de convenios Art. 116 Fracc. VII CPEUM",
+    "url": "/sintesis/proyectos/reforma-estatal#3B.50",
+    "reformas": [
+      "R-100"
+    ]
+  },
+  "3C.1": {
+    "tipo": "proyecto_3c",
+    "titulo_corto": "Operación de un mercado estatal de carbono con validez para compensación obligatoria",
+    "url": "/sintesis/proyectos/reforma-federal#3C.1"
+  },
+  "3C.2": {
+    "tipo": "proyecto_3c",
+    "titulo_corto": "Emisión de estándares estatales obligatorios de eficiencia energética para equipos, inmuebles o industria privada",
+    "url": "/sintesis/proyectos/reforma-federal#3C.2"
+  },
+  "3C.3": {
+    "tipo": "proyecto_3c",
+    "titulo_corto": "Acceso de Jalisco como ejecutor directo del Fondo de Servicio Universal Energético (LPTE)",
+    "url": "/sintesis/proyectos/reforma-federal#3C.3"
+  },
+  "3C.4": {
+    "tipo": "proyecto_3c",
+    "titulo_corto": "Establecimiento de metas estatales de Energías Limpias diferenciadas y vinculantes en planeación federal",
+    "url": "/sintesis/proyectos/reforma-federal#3C.4"
+  },
+  "3C.5": {
+    "tipo": "proyecto_3c",
+    "titulo_corto": "Permisos para Usos Diversos geotérmicos vía convenio Estado-SENER (Los Azufres, La Primavera)",
+    "url": "/sintesis/proyectos/reforma-federal#3C.5"
+  },
+  "3C.6": {
+    "tipo": "proyecto_3c",
+    "titulo_corto": "Permiso estatal para producción de biomasa de caña de azúcar y sorgo con destino a biocombustibles",
+    "url": "/sintesis/proyectos/reforma-federal#3C.6"
+  },
+  "3C.7": {
+    "tipo": "proyecto_3c",
+    "titulo_corto": "Operación a escala del programa estatal APP de biocombustibles para flotas estatales",
+    "url": "/sintesis/proyectos/reforma-federal#3C.7"
+  },
+  "3C.8": {
+    "tipo": "proyecto_3c",
+    "titulo_corto": "Participación estatal vinculante en el Sistema Eléctrico Nacional (decisiones de infraestructura, expansión, tarifas)",
+    "url": "/sintesis/proyectos/reforma-federal#3C.8"
+  },
+  "3C.9": {
+    "tipo": "proyecto_3c",
+    "titulo_corto": "Operación estatal plena de pequeños sistemas eléctricos aislados (≤100 MW) en zonas serranas e indígenas",
+    "url": "/sintesis/proyectos/reforma-federal#3C.9"
+  },
+  "3C.10": {
+    "tipo": "proyecto_3c",
+    "titulo_corto": "Mercado subnacional de créditos de carbono interoperable con el sistema nacional",
+    "url": "/sintesis/proyectos/reforma-federal#3C.10"
+  },
+  "3C.11": {
+    "tipo": "proyecto_3c",
+    "titulo_corto": "Operación territorial estatal directa del Fondo de Servicio Universal Energético",
+    "url": "/sintesis/proyectos/reforma-federal#3C.11"
+  },
+  "3C.12": {
+    "tipo": "proyecto_3c",
+    "titulo_corto": "Coordinación obligatoria de SENER con instituciones estatales en consulta previa indígena de proyectos energéticos",
+    "url": "/sintesis/proyectos/reforma-federal#3C.12"
+  },
+  "3C.13": {
+    "tipo": "proyecto_3c",
+    "titulo_corto": "Canal formal estatal de propuesta de Zonas de Salvaguarda en hidrocarburos",
+    "url": "/sintesis/proyectos/reforma-federal#3C.13"
+  },
+  "3C.14": {
+    "tipo": "proyecto_3c",
+    "titulo_corto": "Aportación formal estatal de \"demanda local y regional\" como criterio de otorgamiento de permisos hidrocarburos",
+    "url": "/sintesis/proyectos/reforma-federal#3C.14"
+  },
+  "3C.15": {
+    "tipo": "proyecto_3c",
+    "titulo_corto": "Articulación procedimental obligatoria entre EIA estatal y MIS federal y consulta previa indígena",
+    "url": "/sintesis/proyectos/reforma-federal#3C.15"
+  },
+  "3D.1": {
+    "tipo": "habilitacion",
+    "titulo_corto": "Legislar y operar programas estatales de eficiencia energética y uso racional de energía en edificios públicos, alumbrad",
+    "url": "/sintesis/proyectos/habilitaciones#3D.1",
+    "proyectos": [
+      "3A.1",
+      "3A.10",
+      "3A.17",
+      "3A.54"
+    ]
+  },
+  "3D.2": {
+    "tipo": "habilitacion",
+    "titulo_corto": "Impulsar generación distribuida, autoconsumo y cogeneración en inmuebles de propiedad estatal y municipal",
+    "url": "/sintesis/proyectos/habilitaciones#3D.2",
+    "proyectos": [
+      "3A.2",
+      "3A.32",
+      "3A.42"
+    ]
+  },
+  "3D.3": {
+    "tipo": "habilitacion",
+    "titulo_corto": "Integrar criterios energéticos y de eficiencia en zonificación, planes de desarrollo urbano y reglamentos de construcció",
+    "url": "/sintesis/proyectos/habilitaciones#3D.3",
+    "proyectos": [
+      "3A.43",
+      "3A.59"
+    ]
+  },
+  "3D.4": {
+    "tipo": "habilitacion",
+    "titulo_corto": "Convenios con la Federación para asunción de funciones en infraestructura eléctrica o coordinación en hidrocarburos (ges",
+    "url": "/sintesis/proyectos/habilitaciones#3D.4",
+    "proyectos": [
+      "3A.3"
+    ]
+  },
+  "3D.5": {
+    "tipo": "habilitacion",
+    "titulo_corto": "Expedir legislación estatal de cambio climático y transición energética anclada en derecho al medio ambiente sano",
+    "url": "/sintesis/proyectos/habilitaciones#3D.5",
+    "proyectos": [
+      "3A.5",
+      "3A.7",
+      "3A.55"
+    ]
+  },
+  "3D.6": {
+    "tipo": "habilitacion",
+    "titulo_corto": "Crear organismo estatal coordinador de política energética con planeación indicativa, asesoría técnica y gestión de conv",
+    "url": "/sintesis/proyectos/habilitaciones#3D.6",
+    "proyectos": [
+      "3A.6"
+    ]
+  },
+  "3D.7": {
+    "tipo": "habilitacion",
+    "titulo_corto": "Fijar por ley estatal el porcentaje de la participación del impuesto federal sobre energía eléctrica hacia municipios",
+    "url": "/sintesis/proyectos/habilitaciones#3D.7",
+    "proyectos": [
+      "3A.84"
+    ]
+  },
+  "3D.8": {
+    "tipo": "habilitacion",
+    "titulo_corto": "Suscripción de convenios LBio con SENER, SEMARNAT, SADER para asumir facultades operativas en biocombustibles",
+    "url": "/sintesis/proyectos/habilitaciones#3D.8",
+    "proyectos": [
+      "3A.29"
+    ]
+  },
+  "3D.9": {
+    "tipo": "habilitacion",
+    "titulo_corto": "Crear empresa pública o mixta estatal para aprovechamiento de residuos orgánicos para biocombustibles",
+    "url": "/sintesis/proyectos/habilitaciones#3D.9",
+    "proyectos": [
+      "3B.8"
+    ]
+  },
+  "3D.10": {
+    "tipo": "habilitacion",
+    "titulo_corto": "Programa estatal de monitoreo de emisiones por sustitución de fósiles por biocombustibles",
+    "url": "/sintesis/proyectos/habilitaciones#3D.10",
+    "proyectos": []
+  },
+  "3D.11": {
+    "tipo": "habilitacion",
+    "titulo_corto": "Fomento de biomasa en Suelos Marginales a partir de residuos agropecuarios (caña, sorgo)",
+    "url": "/sintesis/proyectos/habilitaciones#3D.11",
+    "proyectos": [
+      "3A.30"
+    ]
+  },
+  "3D.12": {
+    "tipo": "habilitacion",
+    "titulo_corto": "Integrar valorización energética de residuos orgánicos municipales al Plan Estatal de Desarrollo",
+    "url": "/sintesis/proyectos/habilitaciones#3D.12",
+    "proyectos": []
+  },
+  "3D.13": {
+    "tipo": "habilitacion",
+    "titulo_corto": "Iniciativa legislativa estatal para coordinación municipal sobre residuos orgánicos urbanos con destino energético",
+    "url": "/sintesis/proyectos/habilitaciones#3D.13",
+    "proyectos": []
+  },
+  "3D.14": {
+    "tipo": "habilitacion",
+    "titulo_corto": "Convenios con universidades y centros de investigación estatales para I+D en biocombustibles",
+    "url": "/sintesis/proyectos/habilitaciones#3D.14",
+    "proyectos": [
+      "3A.35"
+    ]
+  },
+  "3D.15": {
+    "tipo": "habilitacion",
+    "titulo_corto": "Solicitar/convenir instalación de oficinas regionales de la CNE en el estado",
+    "url": "/sintesis/proyectos/habilitaciones#3D.15",
+    "proyectos": []
+  },
+  "3D.16": {
+    "tipo": "habilitacion",
+    "titulo_corto": "Participar como invitado con voz en sesiones del Comité Técnico de la CNE",
+    "url": "/sintesis/proyectos/habilitaciones#3D.16",
+    "proyectos": [
+      "3A.28"
+    ]
+  },
+  "3D.17": {
+    "tipo": "habilitacion",
+    "titulo_corto": "Aportar elementos técnicos para el Programa Sectorial de Energía vía SENER",
+    "url": "/sintesis/proyectos/habilitaciones#3D.17",
+    "proyectos": []
+  },
+  "3D.18": {
+    "tipo": "habilitacion",
+    "titulo_corto": "Estado como Sujeto Regulado vía empresa pública estatal para participar en actividades del sector eléctrico",
+    "url": "/sintesis/proyectos/habilitaciones#3D.18",
+    "proyectos": [
+      "3A.2"
+    ]
+  },
+  "3D.19": {
+    "tipo": "habilitacion",
+    "titulo_corto": "Impugnar actos u omisiones de la CNE que afecten al estado o a sus entes",
+    "url": "/sintesis/proyectos/habilitaciones#3D.19",
+    "proyectos": []
+  },
+  "3D.20": {
+    "tipo": "habilitacion",
+    "titulo_corto": "Suscribir con CFE convenios de coordinación, coinversión, electrificación rural, movilidad eléctrica, infraestructura as",
+    "url": "/sintesis/proyectos/habilitaciones#3D.20",
+    "proyectos": [
+      "3A.22",
+      "3A.36"
+    ]
+  },
+  "3D.21": {
+    "tipo": "habilitacion",
+    "titulo_corto": "Posicionar entidades estatales como contrapartes de CFE mediante contratación directa por excepción al concurso",
+    "url": "/sintesis/proyectos/habilitaciones#3D.21",
+    "proyectos": [
+      "3A.23"
+    ]
+  },
+  "3D.22": {
+    "tipo": "habilitacion",
+    "titulo_corto": "Construir institucionalidad estatal de interlocución con CFE para responsabilidad social y compensación territorial",
+    "url": "/sintesis/proyectos/habilitaciones#3D.22",
+    "proyectos": []
+  },
+  "3D.23": {
+    "tipo": "habilitacion",
+    "titulo_corto": "Participación estatal en esquemas de desarrollo mixto con CFE y filiales (compartir costos, inversiones, riesgos)",
+    "url": "/sintesis/proyectos/habilitaciones#3D.23",
+    "proyectos": []
+  },
+  "3D.24": {
+    "tipo": "habilitacion",
+    "titulo_corto": "Expedir ley estatal de cambio climático y reglamentos en materias del Art. 8o LGCC",
+    "url": "/sintesis/proyectos/habilitaciones#3D.24",
+    "proyectos": []
+  },
+  "3D.25": {
+    "tipo": "habilitacion",
+    "titulo_corto": "Ejecutar programas de eficiencia energética y uso de renovables en inmuebles y flotillas del gobierno estatal y municipa",
+    "url": "/sintesis/proyectos/habilitaciones#3D.25",
+    "proyectos": [
+      "3A.10",
+      "3A.17",
+      "3A.54"
+    ]
+  },
+  "3D.26": {
+    "tipo": "habilitacion",
+    "titulo_corto": "Diseñar e implementar sistemas de transporte público sustentable, movilidad no motorizada, planes de movilidad urbana",
+    "url": "/sintesis/proyectos/habilitaciones#3D.26",
+    "proyectos": [
+      "3A.11"
+    ]
+  },
+  "3D.27": {
+    "tipo": "habilitacion",
+    "titulo_corto": "Diseñar instrumentos económicos estatales (estímulos fiscales, fondos, fideicomisos) para mitigación y adaptación",
+    "url": "/sintesis/proyectos/habilitaciones#3D.27",
+    "proyectos": [
+      "3A.16"
+    ]
+  },
+  "3D.28": {
+    "tipo": "habilitacion",
+    "titulo_corto": "Celebrar convenios de coordinación con la Federación para asistencia técnica, acciones regionales, transferencia de recu",
+    "url": "/sintesis/proyectos/habilitaciones#3D.28",
+    "proyectos": [
+      "3A.13",
+      "3A.57"
+    ]
+  },
+  "3D.29": {
+    "tipo": "habilitacion",
+    "titulo_corto": "Integrar inventario estatal de emisiones (incluido sector energía en jurisdicción estatal)",
+    "url": "/sintesis/proyectos/habilitaciones#3D.29",
+    "proyectos": [
+      "3A.8",
+      "3A.24",
+      "3A.58"
+    ]
+  },
+  "3D.30": {
+    "tipo": "habilitacion",
+    "titulo_corto": "Reglamentos de construcción y ordenamiento territorial con criterios de eficiencia energética y sustentabilidad (edifica",
+    "url": "/sintesis/proyectos/habilitaciones#3D.30",
+    "proyectos": []
+  },
+  "3D.31": {
+    "tipo": "habilitacion",
+    "titulo_corto": "Convenio con SENER para Permisos para Usos Diversos geotérmicos",
+    "url": "/sintesis/proyectos/habilitaciones#3D.31",
+    "proyectos": [
+      "3C.5"
+    ]
+  },
+  "3D.32": {
+    "tipo": "habilitacion",
+    "titulo_corto": "Convenio con SENER para verificación e inspección de Permisos, Concesiones y Aprovechamientos Exentos geotérmicos",
+    "url": "/sintesis/proyectos/habilitaciones#3D.32",
+    "proyectos": []
+  },
+  "3D.33": {
+    "tipo": "habilitacion",
+    "titulo_corto": "Coordinación con SENER, Conagua y dependencias federales para identificación del potencial geotérmico",
+    "url": "/sintesis/proyectos/habilitaciones#3D.33",
+    "proyectos": [
+      "3A.25"
+    ]
+  },
+  "3D.34": {
+    "tipo": "habilitacion",
+    "titulo_corto": "Convenios con CFE para reconversión de pozos inactivos o resguardo de Áreas Geotérmicas",
+    "url": "/sintesis/proyectos/habilitaciones#3D.34",
+    "proyectos": []
+  },
+  "3D.35": {
+    "tipo": "habilitacion",
+    "titulo_corto": "Promoción ejecutiva de proyectos de Usos Diversos en invernaderos, secado agrícola, acuacultura y balneología",
+    "url": "/sintesis/proyectos/habilitaciones#3D.35",
+    "proyectos": []
+  },
+  "3D.36": {
+    "tipo": "habilitacion",
+    "titulo_corto": "Suscribir convenio con SENER para diseño e implementación de proyectos locales de Eficiencia Energética, Energías Limpia",
+    "url": "/sintesis/proyectos/habilitaciones#3D.36",
+    "proyectos": [
+      "3A.13",
+      "3A.19",
+      "3A.57"
+    ]
+  },
+  "3D.37": {
+    "tipo": "habilitacion",
+    "titulo_corto": "Solicitar a CONUEE asesoría técnica y convenio para reglamentaciones locales de Eficiencia Energética",
+    "url": "/sintesis/proyectos/habilitaciones#3D.37",
+    "proyectos": [
+      "3A.18"
+    ]
+  },
+  "3D.38": {
+    "tipo": "habilitacion",
+    "titulo_corto": "Proponer proyectos al Fondo para la Transición Energética y el Aprovechamiento Sustentable",
+    "url": "/sintesis/proyectos/habilitaciones#3D.38",
+    "proyectos": [
+      "3A.14",
+      "3A.20"
+    ]
+  },
+  "3D.39": {
+    "tipo": "habilitacion",
+    "titulo_corto": "Legislar reglamentación técnica local en Eficiencia Energética y Aprovechamiento Sustentable",
+    "url": "/sintesis/proyectos/habilitaciones#3D.39",
+    "proyectos": []
+  },
+  "3D.40": {
+    "tipo": "habilitacion",
+    "titulo_corto": "Crear instancia estatal de planeación energética territorial complementaria a la federal",
+    "url": "/sintesis/proyectos/habilitaciones#3D.40",
+    "proyectos": []
+  },
+  "3D.41": {
+    "tipo": "habilitacion",
+    "titulo_corto": "Receptor y operador territorial del Fondo de Servicio Universal Energético para Pobreza Energética",
+    "url": "/sintesis/proyectos/habilitaciones#3D.41",
+    "proyectos": [
+      "3C.3",
+      "3C.11"
+    ]
+  },
+  "3D.42": {
+    "tipo": "habilitacion",
+    "titulo_corto": "Establecer metas estatales de Energías Limpias superiores a la federal",
+    "url": "/sintesis/proyectos/habilitaciones#3D.42",
+    "proyectos": []
+  },
+  "3D.43": {
+    "tipo": "habilitacion",
+    "titulo_corto": "Emitir estándares estatales de eficiencia energética en edificaciones públicas locales",
+    "url": "/sintesis/proyectos/habilitaciones#3D.43",
+    "proyectos": []
+  },
+  "3D.44": {
+    "tipo": "habilitacion",
+    "titulo_corto": "Participar en Consejo de Planeación Energética como invitado",
+    "url": "/sintesis/proyectos/habilitaciones#3D.44",
+    "proyectos": [
+      "3A.28"
+    ]
+  },
+  "3D.45": {
+    "tipo": "habilitacion",
+    "titulo_corto": "Diseñar Ventanilla Única Estatal para permisos estatales/municipales vinculados a proyectos eléctricos",
+    "url": "/sintesis/proyectos/habilitaciones#3D.45",
+    "proyectos": [
+      "3A.21"
+    ]
+  },
+  "3D.46": {
+    "tipo": "habilitacion",
+    "titulo_corto": "Suscribir convenios con la Secretaría federal para electrificación de comunidades rurales y zonas marginadas",
+    "url": "/sintesis/proyectos/habilitaciones#3D.46",
+    "proyectos": [
+      "3A.22",
+      "3A.36"
+    ]
+  },
+  "3D.47": {
+    "tipo": "habilitacion",
+    "titulo_corto": "Programas estatales de fomento y financiamiento a Generación Distribuida con Energía Limpia (≤0.7 MW)",
+    "url": "/sintesis/proyectos/habilitaciones#3D.47",
+    "proyectos": []
+  },
+  "3D.48": {
+    "tipo": "habilitacion",
+    "titulo_corto": "Normatividad estatal de uso de suelo y movilidad aplicable a infraestructura de electromovilidad",
+    "url": "/sintesis/proyectos/habilitaciones#3D.48",
+    "proyectos": []
+  },
+  "3D.49": {
+    "tipo": "habilitacion",
+    "titulo_corto": "Participación del estado como promovente o cofinanciador en esquemas de Inversión Mixta o Producción de Largo Plazo",
+    "url": "/sintesis/proyectos/habilitaciones#3D.49",
+    "proyectos": []
+  },
+  "3D.50": {
+    "tipo": "habilitacion",
+    "titulo_corto": "Observatorio estatal de confiabilidad, calidad y tarifas y defensoría del usuario eléctrico",
+    "url": "/sintesis/proyectos/habilitaciones#3D.50",
+    "proyectos": [
+      "3A.27"
+    ]
+  },
+  "3D.51": {
+    "tipo": "habilitacion",
+    "titulo_corto": "Régimen estatal de consulta previa complementaria a comunidades indígenas y afromexicanas en proyectos eléctricos",
+    "url": "/sintesis/proyectos/habilitaciones#3D.51",
+    "proyectos": []
+  },
+  "3D.52": {
+    "tipo": "habilitacion",
+    "titulo_corto": "Gestión estatal de pequeños sistemas eléctricos aislados en zonas serranas o indígenas",
+    "url": "/sintesis/proyectos/habilitaciones#3D.52",
+    "proyectos": [
+      "3A.37",
+      "3C.9"
+    ]
+  },
+  "3D.53": {
+    "tipo": "habilitacion",
+    "titulo_corto": "Suscribir convenio con SENER/CNE para supervisar, vigilar y verificar actividades de transporte, almacenamiento, distrib",
+    "url": "/sintesis/proyectos/habilitaciones#3D.53",
+    "proyectos": []
+  },
+  "3D.54": {
+    "tipo": "habilitacion",
+    "titulo_corto": "Establecer procedimientos estatales/municipales expeditos de coordinación para permisos complementarios a infraestructur",
+    "url": "/sintesis/proyectos/habilitaciones#3D.54",
+    "proyectos": []
+  },
+  "3D.55": {
+    "tipo": "habilitacion",
+    "titulo_corto": "Prestar apoyo operativo (policía estatal, fiscalía, protección civil) en ejecución de suspensiones federales contra merc",
+    "url": "/sintesis/proyectos/habilitaciones#3D.55",
+    "proyectos": []
+  },
+  "3D.56": {
+    "tipo": "habilitacion",
+    "titulo_corto": "Aportar formalmente diagnóstico de \"demanda local y regional\" de energéticos para influir en evaluación de permisos por ",
+    "url": "/sintesis/proyectos/habilitaciones#3D.56",
+    "proyectos": [
+      "3C.14"
+    ]
+  },
+  "3D.57": {
+    "tipo": "habilitacion",
+    "titulo_corto": "Coordinarse con SENER en consulta previa a comunidades indígenas en territorio jaliscience (wixárika, náayeri, o'dam, me",
+    "url": "/sintesis/proyectos/habilitaciones#3D.57",
+    "proyectos": [
+      "3C.12"
+    ]
+  },
+  "3D.58": {
+    "tipo": "habilitacion",
+    "titulo_corto": "Solicitar a SENER la creación de Zona de Salvaguarda en áreas prioritarias de conservación estatal",
+    "url": "/sintesis/proyectos/habilitaciones#3D.58",
+    "proyectos": [
+      "3C.13"
+    ]
+  },
+  "4A.1": {
+    "tipo": "conflicto",
+    "titulo_corto": "Atribución a la Comisión Interinstitucional para \"operar el mercado de emisiones\" estatal",
+    "url": "/sintesis/conflictos#4A.1",
+    "reformas": [
+      "R-07"
+    ]
+  },
+  "4A.2": {
+    "tipo": "conflicto",
+    "titulo_corto": "Creación de mecanismos de mercado estatales \"cuando los existentes no generen incentivos suficientes\"",
+    "url": "/sintesis/conflictos#4A.2",
+    "reformas": []
+  },
+  "4A.3": {
+    "tipo": "conflicto",
+    "titulo_corto": "Promoción estatal de transición energética en sentido amplio sobre generadores/consumidores privados",
+    "url": "/sintesis/conflictos#4A.3",
+    "reformas": []
+  },
+  "4A.4": {
+    "tipo": "conflicto",
+    "titulo_corto": "Inclusión del sector \"Energético\" entre materias de adaptación y mitigación estatal sin salvaguarda competencial",
+    "url": "/sintesis/conflictos#4A.4",
+    "reformas": [
+      "R-17"
+    ]
+  },
+  "4A.5": {
+    "tipo": "conflicto",
+    "titulo_corto": "Registro Estatal de Emisiones que incluye sustancias agotadoras de la capa de ozono y precursores",
+    "url": "/sintesis/conflictos#4A.5",
+    "reformas": [
+      "R-18"
+    ]
+  },
+  "4A.6": {
+    "tipo": "conflicto",
+    "titulo_corto": "Atribución autónoma de la Agencia para actuar como generador y comercializador de energía eléctrica sin remisión al régi",
+    "url": "/sintesis/conflictos#4A.6",
+    "reformas": [
+      "R-19"
+    ]
+  },
+  "4A.7": {
+    "tipo": "conflicto",
+    "titulo_corto": "Impulso a la \"modernización de las redes de transmisión\" por la Agencia estatal",
+    "url": "/sintesis/conflictos#4A.7",
+    "reformas": [
+      "R-24"
+    ]
+  },
+  "4A.8": {
+    "tipo": "conflicto",
+    "titulo_corto": "Atribución de \"actividades regulativas y certificación\" como acciones permanentes de la Agencia",
+    "url": "/sintesis/conflictos#4A.8",
+    "reformas": []
+  },
+  "4A.9": {
+    "tipo": "conflicto",
+    "titulo_corto": "Inclusión del CENACE como vocal permanente de la Junta de Gobierno sin habilitación federal",
+    "url": "/sintesis/conflictos#4A.9",
+    "reformas": []
+  },
+  "4A.10": {
+    "tipo": "conflicto",
+    "titulo_corto": "Atribución de coadyuvancia en normatividad energética sin delimitación de materias concurrentes",
+    "url": "/sintesis/conflictos#4A.10",
+    "reformas": [
+      "R-42"
+    ]
+  },
+  "4A.11": {
+    "tipo": "conflicto",
+    "titulo_corto": "Facultad para \"ejecutar\" política energética estatal sin anclaje a planeación vinculante federal",
+    "url": "/sintesis/conflictos#4A.11",
+    "reformas": []
+  },
+  "4A.12": {
+    "tipo": "conflicto",
+    "titulo_corto": "Existencia de área de \"hidrocarburos\" en el Consejo Consultivo sin acotamiento a materias concurrentes",
+    "url": "/sintesis/conflictos#4A.12",
+    "reformas": []
+  },
+  "4A.13": {
+    "tipo": "conflicto",
+    "titulo_corto": "Potencial invasión de la facultad federal exclusiva sobre permisos de producción de biomasa de caña y sorgo",
+    "url": "/sintesis/conflictos#4A.13",
+    "reformas": [
+      "R-50"
+    ]
+  },
+  "4A.14": {
+    "tipo": "conflicto",
+    "titulo_corto": "Frontera ambigua entre gestión sanitaria de residuos orgánicos agroalimentarios y su valorización energética como insumo",
+    "url": "/sintesis/conflictos#4A.14",
+    "reformas": [
+      "R-51"
+    ]
+  },
+  "4A.15": {
+    "tipo": "conflicto",
+    "titulo_corto": "Proyectos de infraestructura agroalimentaria sin previsión de intervención de autoridades energéticas federales cuando h",
+    "url": "/sintesis/conflictos#4A.15",
+    "reformas": [
+      "R-54"
+    ]
+  },
+  "4A.16": {
+    "tipo": "conflicto",
+    "titulo_corto": "Posible aportación al fideicomiso APP de \"bienes federales asignados\" sin sujeción a régimen federal actualizado",
+    "url": "/sintesis/conflictos#4A.16",
+    "reformas": []
+  },
+  "4A.17": {
+    "tipo": "conflicto",
+    "titulo_corto": "Modalidad de \"concesión de servicios públicos\" como objeto del contrato APP sin exclusión de materias reservadas",
+    "url": "/sintesis/conflictos#4A.17",
+    "reformas": []
+  },
+  "4A.18": {
+    "tipo": "conflicto",
+    "titulo_corto": "Tribunal de Justicia Administrativa estatal como foro para controversias APP cuando CFE sea parte",
+    "url": "/sintesis/conflictos#4A.18",
+    "reformas": [
+      "R-83"
+    ]
+  },
+  "4A.19": {
+    "tipo": "conflicto",
+    "titulo_corto": "Interpretación estatal de \"autorizaciones\" sin referencia a permisos CNE",
+    "url": "/sintesis/conflictos#4A.19",
+    "reformas": [
+      "R-84"
+    ]
+  },
+  "4A.20": {
+    "tipo": "conflicto",
+    "titulo_corto": "Amplitud del régimen de concesión municipal frente a exclusividad federal en servicio público de electricidad (alumbrado",
+    "url": "/sintesis/conflictos#4A.20",
+    "reformas": [
+      "R-96"
+    ]
+  },
+  "4A.21": {
+    "tipo": "conflicto",
+    "titulo_corto": "Arbitraje del TJA estatal frente a jurisdicción federal en controversias con CFE",
+    "url": "/sintesis/conflictos#4A.21",
+    "reformas": [
+      "R-97"
+    ]
+  },
+  "4A.22": {
+    "tipo": "conflicto",
+    "titulo_corto": "Contenido regulable del reglamento municipal sobre alumbrado público frente a régimen tarifario federal",
+    "url": "/sintesis/conflictos#4A.22",
+    "reformas": []
+  },
+  "4A.23": {
+    "tipo": "conflicto",
+    "titulo_corto": "Inclusión genérica de \"concesiones\" como acto constitutivo estatal sin salvedad de materias reservadas a la Nación",
+    "url": "/sintesis/conflictos#4A.23",
+    "reformas": []
+  },
+  "4A.24": {
+    "tipo": "conflicto",
+    "titulo_corto": "Afirmativa ficta en actos regulativos sin distinción competencial",
+    "url": "/sintesis/conflictos#4A.24",
+    "reformas": []
+  },
+  "4A.25": {
+    "tipo": "conflicto",
+    "titulo_corto": "Verificación estatal limitada a \"disposiciones legales y reglamentarias de carácter local\" sin protocolo de coordinación",
+    "url": "/sintesis/conflictos#4A.25",
+    "reformas": []
+  },
+  "4A.26": {
+    "tipo": "conflicto",
+    "titulo_corto": "Autorización estatal a fuentes fijas locales vs. jurisdicción federal exclusiva sobre hidrocarburos",
+    "url": "/sintesis/conflictos#4A.26",
+    "reformas": []
+  },
+  "4A.27": {
+    "tipo": "conflicto",
+    "titulo_corto": "Emisiones de fuentes fijas del sector eléctrico vs. prevalencia federal en concurrencia",
+    "url": "/sintesis/conflictos#4A.27",
+    "reformas": []
+  },
+  "4A.28": {
+    "tipo": "conflicto",
+    "titulo_corto": "Programa Estatal Contra el Cambio Climático LEEEPA vs. Programa Estatal de Cambio Climático LACCEJ",
+    "url": "/sintesis/conflictos#4A.28",
+    "reformas": []
+  },
+  "4A.29": {
+    "tipo": "conflicto",
+    "titulo_corto": "Integración del registro estatal de descargas con el nacional (descargas térmicas vinculadas a generación eléctrica)",
+    "url": "/sintesis/conflictos#4A.29",
+    "reformas": []
+  },
+  "4A.30": {
+    "tipo": "conflicto",
+    "titulo_corto": "Autorización estatal genérica de fuentes fijas (LAU) vs. exclusividad federal ampliada sobre hidrocarburos (18-03-2025)",
+    "url": "/sintesis/conflictos#4A.30",
+    "reformas": []
+  },
+  "4A.31": {
+    "tipo": "conflicto",
+    "titulo_corto": "Autorización estatal de EIA a centrales eléctricas del SEN vs. prevalencia federal",
+    "url": "/sintesis/conflictos#4A.31",
+    "reformas": []
+  },
+  "4A.32": {
+    "tipo": "conflicto",
+    "titulo_corto": "EIA estatal vs. EIA federal en proyectos de biocombustibles",
+    "url": "/sintesis/conflictos#4A.32",
+    "reformas": []
+  },
+  "4A.33": {
+    "tipo": "conflicto",
+    "titulo_corto": "Prohibición estatal de explosivos dentro de 1000 m de zonas urbanas vs. facultad federal exclusiva sobre explosivos",
+    "url": "/sintesis/conflictos#4A.33",
+    "reformas": []
+  },
+  "4A.34": {
+    "tipo": "conflicto",
+    "titulo_corto": "Juicio contencioso estatal sobre actos cuyo contenido sustantivo invade competencia federal exclusiva energética",
+    "url": "/sintesis/conflictos#4A.34",
+    "reformas": []
+  },
+  "4A.35": {
+    "tipo": "conflicto",
+    "titulo_corto": "Afirmativa ficta declarada por el TJA sobre solicitudes de actos regulativos cuya materia exige permiso federal concurre",
+    "url": "/sintesis/conflictos#4A.35",
+    "reformas": []
+  },
+  "4A.36": {
+    "tipo": "conflicto",
+    "titulo_corto": "Suspensión de actos estatales con efecto derivado sobre infraestructura o servicios del SEN",
+    "url": "/sintesis/conflictos#4A.36",
+    "reformas": []
+  },
+  "4A.37": {
+    "tipo": "conflicto",
+    "titulo_corto": "Causal de improcedencia abierta sin carve-out energético",
+    "url": "/sintesis/conflictos#4A.37",
+    "reformas": []
+  },
+  "4A.38": {
+    "tipo": "conflicto",
+    "titulo_corto": "Regla \"one-in, one-out\" aplicada universalmente sin salvedad para política energético-climática federal concurrente",
+    "url": "/sintesis/conflictos#4A.38",
+    "reformas": []
+  },
+  "4A.39": {
+    "tipo": "conflicto",
+    "titulo_corto": "Evaluación estatal de impacto en competencia sobre mercados de regulación federal exclusiva",
+    "url": "/sintesis/conflictos#4A.39",
+    "reformas": []
+  },
+  "4A.40": {
+    "tipo": "conflicto",
+    "titulo_corto": "Exención automática de AIR por ausencia de costos en regulaciones con potencial impacto federal energético",
+    "url": "/sintesis/conflictos#4A.40",
+    "reformas": []
+  },
+  "4B.1": {
+    "tipo": "vacio",
+    "titulo_corto": "Régimen de generación eléctrica no exclusivo del servicio público (autoconsumo, GD, cogeneración): la frase \"en ningún c",
+    "url": "/sintesis/vacios#4B.1"
+  },
+  "4B.2": {
+    "tipo": "vacio",
+    "titulo_corto": "Ausencia de referencia constitucional explícita a transición energética, energías renovables o cambio climático como mat",
+    "url": "/sintesis/vacios#4B.2"
+  },
+  "4B.3": {
+    "tipo": "vacio",
+    "titulo_corto": "Indeterminación sobre la figura regulatoria energética tras la reforma DOF 20-12-2024",
+    "url": "/sintesis/vacios#4B.3"
+  },
+  "4B.4": {
+    "tipo": "vacio",
+    "titulo_corto": "Ausencia de procedimiento constitucional para concertación federal-estatal en infraestructura eléctrica sobre territorio",
+    "url": "/sintesis/vacios#4B.4"
+  },
+  "4B.5": {
+    "tipo": "vacio",
+    "titulo_corto": "Fórmula fiscal del impuesto especial sobre energía eléctrica no definida constitucionalmente",
+    "url": "/sintesis/vacios#4B.5"
+  },
+  "4B.6": {
+    "tipo": "vacio",
+    "titulo_corto": "Litio: ausencia de régimen transicional para concesiones mineras preexistentes",
+    "url": "/sintesis/vacios#4B.6"
+  },
+  "4B.7": {
+    "tipo": "vacio",
+    "titulo_corto": "Ausencia de facultad originaria estatal en LBio; toda intervención estatal depende de acto potestativo federal",
+    "url": "/sintesis/vacios#4B.7"
+  },
+  "4B.8": {
+    "tipo": "vacio",
+    "titulo_corto": "Sin plazos, criterios objetivos ni obligatoriedad para que la Federación suscriba convenios con los estados que lo solic",
+    "url": "/sintesis/vacios#4B.8"
+  },
+  "4B.9": {
+    "tipo": "vacio",
+    "titulo_corto": "Frontera ambigua entre \"aprovechamiento y valorización de residuos orgánicos\" (federal SEMARNAT) y gestión integral esta",
+    "url": "/sintesis/vacios#4B.9"
+  },
+  "4B.10": {
+    "tipo": "vacio",
+    "titulo_corto": "Tránsito regulatorio indefinido: permisos vigentes y reglas previas continúan en vigor sin plazo cierto",
+    "url": "/sintesis/vacios#4B.10"
+  },
+  "4B.11": {
+    "tipo": "vacio",
+    "titulo_corto": "Sin regulación de relación entre metas federales de sustitución de combustibles fósiles y planeación energética/transpor",
+    "url": "/sintesis/vacios#4B.11"
+  },
+  "4B.12": {
+    "tipo": "vacio",
+    "titulo_corto": "Aeronaves/aeródromos: Art. 26 LBio no distingue competencias territoriales cuando el aeródromo es estatal o municipal",
+    "url": "/sintesis/vacios#4B.12"
+  },
+  "4B.13": {
+    "tipo": "vacio",
+    "titulo_corto": "Omisión total del orden estatal en el diseño del órgano regulador (CNE)",
+    "url": "/sintesis/vacios#4B.13"
+  },
+  "4B.14": {
+    "tipo": "vacio",
+    "titulo_corto": "Ambigüedad sobre la naturaleza jurídica de las \"oficinas estatales o regionales\" de la Comisión",
+    "url": "/sintesis/vacios#4B.14"
+  },
+  "4B.15": {
+    "tipo": "vacio",
+    "titulo_corto": "Cláusula de inimpugnabilidad por daño económico aplicable a actos de la CNE",
+    "url": "/sintesis/vacios#4B.15"
+  },
+  "4B.16": {
+    "tipo": "vacio",
+    "titulo_corto": "Cláusula residual de delegación intra-federal sin correlato estatal",
+    "url": "/sintesis/vacios#4B.16"
+  },
+  "4B.17": {
+    "tipo": "vacio",
+    "titulo_corto": "Integración del Comité Técnico de la CNE sin representación territorial",
+    "url": "/sintesis/vacios#4B.17"
+  },
+  "4B.18": {
+    "tipo": "vacio",
+    "titulo_corto": "Régimen transitorio de continuidad regulatoria sin revisión",
+    "url": "/sintesis/vacios#4B.18"
+  },
+  "4B.19": {
+    "tipo": "vacio",
+    "titulo_corto": "Asimetría estructural en facultad de convenios CFE-Estado",
+    "url": "/sintesis/vacios#4B.19"
+  },
+  "4B.20": {
+    "tipo": "vacio",
+    "titulo_corto": "\"Estrategia de vinculación\" de CFE con autoridades estatales sin contenido mínimo, plazos ni mecanismos",
+    "url": "/sintesis/vacios#4B.20"
+  },
+  "4B.21": {
+    "tipo": "vacio",
+    "titulo_corto": "Indefinición sobre destino y aplicación territorial de los ingresos de CFE",
+    "url": "/sintesis/vacios#4B.21"
+  },
+  "4B.22": {
+    "tipo": "vacio",
+    "titulo_corto": "Flujo de información de CFE solo obliga frente a SENER y CNE, sin contemplar entidades federativas",
+    "url": "/sintesis/vacios#4B.22"
+  },
+  "4B.23": {
+    "tipo": "vacio",
+    "titulo_corto": "Reserva interpretativa en favor de SENER y supletoriedad \"siempre que no se opongan al régimen especial\"",
+    "url": "/sintesis/vacios#4B.23"
+  },
+  "4B.24": {
+    "tipo": "vacio",
+    "titulo_corto": "Jurisdicción federal exclusiva del Art. 128 sin excepción aplicable a conflictos competenciales con entidades federativa",
+    "url": "/sintesis/vacios#4B.24"
+  },
+  "4B.25": {
+    "tipo": "vacio",
+    "titulo_corto": "\"Energía\" no incluida en Art. 8o LGCC mientras Art. 7o-VI-d la atribuye a Federación; perímetro estatal indefinido",
+    "url": "/sintesis/vacios#4B.25"
+  },
+  "4B.26": {
+    "tipo": "vacio",
+    "titulo_corto": "Mitigación energética (Arts. 34, 35) asigna acciones a SENER, SHCP, CRE y CFE sin cláusula espejo para entidades federat",
+    "url": "/sintesis/vacios#4B.26"
+  },
+  "4B.27": {
+    "tipo": "vacio",
+    "titulo_corto": "Sistema de comercio de emisiones lo crea la Secretaría federal sin mencionar a entidades federativas",
+    "url": "/sintesis/vacios#4B.27"
+  },
+  "4B.28": {
+    "tipo": "vacio",
+    "titulo_corto": "Naturaleza ambigua de \"incentivos\" estatales (fiscal, regulatoria, financiera) y su relación con instrumentos de mercado",
+    "url": "/sintesis/vacios#4B.28"
+  },
+  "4B.29": {
+    "tipo": "vacio",
+    "titulo_corto": "Obligación de entrega de datos al INECC condicionada a normatividad secundaria federal sin plazo",
+    "url": "/sintesis/vacios#4B.29"
+  },
+  "4B.30": {
+    "tipo": "vacio",
+    "titulo_corto": "Obligación federal de \"colaborar\" con entidades vía asistencia técnica sin definir exigibilidad ni mecanismo",
+    "url": "/sintesis/vacios#4B.30"
+  },
+  "4B.31": {
+    "tipo": "vacio",
+    "titulo_corto": "Ausencia de definición y procedimiento de los convenios de coordinación estatal en materia geotérmica; remisión a Reglam",
+    "url": "/sintesis/vacios#4B.31"
+  },
+  "4B.32": {
+    "tipo": "vacio",
+    "titulo_corto": "Sin criterios de reparto competencial entre autoridades estatales/municipales y la Federación respecto de Aprovechamient",
+    "url": "/sintesis/vacios#4B.32"
+  },
+  "4B.33": {
+    "tipo": "vacio",
+    "titulo_corto": "Autorizaciones estatales/municipales obligatorias pero sin plazos ni mecanismo resolutorio si la autoridad local niega, ",
+    "url": "/sintesis/vacios#4B.33"
+  },
+  "4B.34": {
+    "tipo": "vacio",
+    "titulo_corto": "Prelación sobre el subsuelo no resuelta frente a otros aprovechamientos regulados por competencias estatales/municipales",
+    "url": "/sintesis/vacios#4B.34"
+  },
+  "4B.35": {
+    "tipo": "vacio",
+    "titulo_corto": "Consulta indígena previa, libre e informada se menciona sin asignación competencial ni procedimental",
+    "url": "/sintesis/vacios#4B.35"
+  },
+  "4B.36": {
+    "tipo": "vacio",
+    "titulo_corto": "Régimen de subproductos (distintos a litio e hidrocarburos) no articula competencia entre Federación, Estados y Conagua",
+    "url": "/sintesis/vacios#4B.36"
+  },
+  "4B.37": {
+    "tipo": "vacio",
+    "titulo_corto": "Interconexión eléctrica obligatoria sin coordinación con autoridades estatales en planeación de infraestructura de trans",
+    "url": "/sintesis/vacios#4B.37"
+  },
+  "4B.38": {
+    "tipo": "vacio",
+    "titulo_corto": "Aplicación supletoria limitada a LPTE y LSE sin resolver concurrencia con legislación ambiental estatal",
+    "url": "/sintesis/vacios#4B.38"
+  },
+  "4B.39": {
+    "tipo": "vacio",
+    "titulo_corto": "Sin procedimiento, requisitos ni estándares mínimos para suscripción de convenios de coordinación estatal en LPTE",
+    "url": "/sintesis/vacios#4B.39"
+  },
+  "4B.40": {
+    "tipo": "vacio",
+    "titulo_corto": "Sin criterios o pisos mínimos para representación estatal en el Consejo de Planeación Energética; invitación discreciona",
+    "url": "/sintesis/vacios#4B.40"
+  },
+  "4B.41": {
+    "tipo": "vacio",
+    "titulo_corto": "PLADESE y PLATEASE vinculantes para permisos federales sin mecanismo alguno de consulta, conciliación o participación es",
+    "url": "/sintesis/vacios#4B.41"
+  },
+  "4B.42": {
+    "tipo": "vacio",
+    "titulo_corto": "Indefinición del alcance del concepto \"reglamentaciones técnicas locales\" estatales",
+    "url": "/sintesis/vacios#4B.42"
+  },
+  "4B.43": {
+    "tipo": "vacio",
+    "titulo_corto": "\"Opinión vinculatoria\" de CONUEE sobre programas estatales con fondos federales sin procedimiento, plazos ni recurso de ",
+    "url": "/sintesis/vacios#4B.43"
+  },
+  "4B.44": {
+    "tipo": "vacio",
+    "titulo_corto": "Fondo de Servicio Universal Energético sin reconocer a los estados como co-administradores, co-ejecutores ni receptores ",
+    "url": "/sintesis/vacios#4B.44"
+  },
+  "4B.45": {
+    "tipo": "vacio",
+    "titulo_corto": "Generación Limpia Distribuida regulada exclusivamente vía LSE y CNE, sin margen estatal",
+    "url": "/sintesis/vacios#4B.45"
+  },
+  "4B.46": {
+    "tipo": "vacio",
+    "titulo_corto": "Ausencia de metas estatales diferenciadas; metas de Energías Limpias son nacionales como porcentaje del total",
+    "url": "/sintesis/vacios#4B.46"
+  },
+  "4B.47": {
+    "tipo": "vacio",
+    "titulo_corto": "Abrogación de la LTE 2015 sin reconocer instrumentos estatales de transición energética vigentes ni mecánica de transici",
+    "url": "/sintesis/vacios#4B.47"
+  },
+  "4B.48": {
+    "tipo": "vacio",
+    "titulo_corto": "Ejecución de obras de T&D en vía pública sin condicionar a permisos ni coordinación con autoridad municipal/estatal titu",
+    "url": "/sintesis/vacios#4B.48"
+  },
+  "4B.49": {
+    "tipo": "vacio",
+    "titulo_corto": "Indefinición del mecanismo de coordinación federal-estatal-municipal para proyectos eléctricos",
+    "url": "/sintesis/vacios#4B.49"
+  },
+  "4B.50": {
+    "tipo": "vacio",
+    "titulo_corto": "Regla de prevalencia federal sin delimitar casos de concurrencia",
+    "url": "/sintesis/vacios#4B.50"
+  },
+  "4B.51": {
+    "tipo": "vacio",
+    "titulo_corto": "Ausencia de reconocimiento a políticas energéticas estatales en la LSE",
+    "url": "/sintesis/vacios#4B.51"
+  },
+  "4B.52": {
+    "tipo": "vacio",
+    "titulo_corto": "Generación Distribuida y electromovilidad regulación centralizada sin participación estatal",
+    "url": "/sintesis/vacios#4B.52"
+  },
+  "4B.53": {
+    "tipo": "vacio",
+    "titulo_corto": "Pequeños sistemas eléctricos y sistemas aislados sin previsión de operación estatal/municipal",
+    "url": "/sintesis/vacios#4B.53"
+  },
+  "4B.54": {
+    "tipo": "vacio",
+    "titulo_corto": "Fondo de Servicio Universal Energético sin reglas de asignación territorial",
+    "url": "/sintesis/vacios#4B.54"
+  },
+  "4B.55": {
+    "tipo": "vacio",
+    "titulo_corto": "Migración de permisos de autoabastecimiento y cogeneración sin papel estatal en acompañamiento",
+    "url": "/sintesis/vacios#4B.55"
+  },
+  "4B.56": {
+    "tipo": "vacio",
+    "titulo_corto": "Art. 127 LSH amplía exclusividad federal a emisiones GEI, equilibrio ecológico y protección al ambiente, colisionando co",
+    "url": "/sintesis/vacios#4B.56"
+  },
+  "4B.57": {
+    "tipo": "vacio",
+    "titulo_corto": "Obligación de \"contribuir\" y \"agilizar\" del Art. 128 párr. 3 sin estándares, plazos ni consecuencias del incumplimiento ",
+    "url": "/sintesis/vacios#4B.57"
+  },
+  "4B.58": {
+    "tipo": "vacio",
+    "titulo_corto": "Convenios del Art. 78 LSH sin criterios, contenidos mínimos ni mecanismo para que los estados inicien o soliciten su sus",
+    "url": "/sintesis/vacios#4B.58"
+  },
+  "4B.59": {
+    "tipo": "vacio",
+    "titulo_corto": "\"Demanda local y regional\" se evalúa unilateralmente por SENER/CNE sin canal obligatorio de entrada de diagnóstico estat",
+    "url": "/sintesis/vacios#4B.59"
+  },
+  "4B.60": {
+    "tipo": "vacio",
+    "titulo_corto": "Consulta previa LSH sin coordinación con órganos estatales en materia indígena ni Comisiones Estatales de Derechos Human",
+    "url": "/sintesis/vacios#4B.60"
+  },
+  "4B.61": {
+    "tipo": "vacio",
+    "titulo_corto": "Servidumbres legales de hidrocarburos rigen por derecho común federal y controversias por jurisdicción federal exclusiva",
+    "url": "/sintesis/vacios#4B.61"
+  },
+  "4B.62": {
+    "tipo": "vacio",
+    "titulo_corto": "Sin previsión de participación fiscal de estados y municipios en ingresos derivados de hidrocarburos",
+    "url": "/sintesis/vacios#4B.62"
+  }
+}

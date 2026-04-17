@@ -1,0 +1,137 @@
+[
+  {
+    "id": "3C.1",
+    "seccion": "3C",
+    "n": 1,
+    "titulo": "Operación de un mercado estatal de carbono con validez para compensación obligatoria",
+    "reforma_federal_requerida": "Reforma a LGCC para reconocer/integrar sistemas subnacionales al sistema nacional (Art. 7 Fracc. IX; Art. 94)",
+    "impacto": "Habilitaría a Jalisco a operar un instrumento de mitigación con efectos vinculantes y a captar valor de la transición",
+    "prioridad": "Alta"
+  },
+  {
+    "id": "3C.2",
+    "seccion": "3C",
+    "n": 2,
+    "titulo": "Emisión de estándares estatales obligatorios de eficiencia energética para equipos, inmuebles o industria privada",
+    "reforma_federal_requerida": "Delegación federal expresa o convenio CONUEE habilitante (LPTE Art. 11 Fracc. X) o reforma a LPTE Art. 8 Fracc. XX (NOM federales)",
+    "impacto": "Permitiría regular eficiencia energética en sector privado más allá del patrimonio público",
+    "prioridad": "Alta"
+  },
+  {
+    "id": "3C.3",
+    "seccion": "3C",
+    "n": 3,
+    "titulo": "Acceso de Jalisco como ejecutor directo del Fondo de Servicio Universal Energético (LPTE)",
+    "reforma_federal_requerida": "Reforma a LPTE Arts. 49–50, 53 para reconocer al estado como co-ejecutor u órgano de gobierno",
+    "impacto": "Habilitaría a Jalisco a priorizar territorios propios en electrificación rural y reducción de pobreza energética",
+    "prioridad": "Alta"
+  },
+  {
+    "id": "3C.4",
+    "seccion": "3C",
+    "n": 4,
+    "titulo": "Establecimiento de metas estatales de Energías Limpias diferenciadas y vinculantes en planeación federal",
+    "reforma_federal_requerida": "Reforma a LPTE Art. 26 para crear vehículo de metas estatales superiores a la federal",
+    "impacto": "Reconocería el potencial diferencial de Jalisco en transición energética",
+    "prioridad": "Media"
+  },
+  {
+    "id": "3C.5",
+    "seccion": "3C",
+    "n": 5,
+    "titulo": "Permisos para Usos Diversos geotérmicos vía convenio Estado-SENER (Los Azufres, La Primavera)",
+    "reforma_federal_requerida": "Emisión del Reglamento de la LGeo (Transitorio Quinto, 180 días hábiles desde 19-03-2025)",
+    "impacto": "Permitiría a Jalisco otorgar y supervisar permisos de balneología, invernaderos, secado agrícola",
+    "prioridad": "Alta"
+  },
+  {
+    "id": "3C.6",
+    "seccion": "3C",
+    "n": 6,
+    "titulo": "Permiso estatal para producción de biomasa de caña de azúcar y sorgo con destino a biocombustibles",
+    "reforma_federal_requerida": "Reforma a LBio Art. 7 Fracc. V; Art. 9 Fracc. V para descentralizar permiso SADER",
+    "impacto": "Permitiría a Jalisco emitir permiso de producción de biomasa en cultivos económicamente relevantes",
+    "prioridad": "Media"
+  },
+  {
+    "id": "3C.7",
+    "seccion": "3C",
+    "n": 7,
+    "titulo": "Operación a escala del programa estatal APP de biocombustibles para flotas estatales",
+    "reforma_federal_requerida": "Emisión del Reglamento LBio (180 días) y de Programas SENER/SEMARNAT/SADER (360 días) desde 19-03-2025",
+    "impacto": "Cierra ventana de incertidumbre regulatoria que bloquea proyectos ejecutivos con certeza jurídica",
+    "prioridad": "Alta"
+  },
+  {
+    "id": "3C.8",
+    "seccion": "3C",
+    "n": 8,
+    "titulo": "Participación estatal vinculante en el Sistema Eléctrico Nacional (decisiones de infraestructura, expansión, tarifas)",
+    "reforma_federal_requerida": "Reforma a CPEUM Art. 27 párr. 6; Art. 28 párr. 4 (no controlable desde Jalisco)",
+    "impacto": "Habilitaría incidencia estatal sobre planeación territorial del SEN",
+    "prioridad": "Baja (por inviabilidad política y técnica)"
+  },
+  {
+    "id": "3C.9",
+    "seccion": "3C",
+    "n": 9,
+    "titulo": "Operación estatal plena de pequeños sistemas eléctricos aislados (≤100 MW) en zonas serranas e indígenas",
+    "reforma_federal_requerida": "Reforma a LSE Arts. 79, 80, 81 para crear figura de operador estatal (hoy Control Operativo CENACE federal)",
+    "impacto": "Habilitaría electrificación rural autónoma y micro-redes comunitarias en regiones de Jalisco",
+    "prioridad": "Media"
+  },
+  {
+    "id": "3C.10",
+    "seccion": "3C",
+    "n": 10,
+    "titulo": "Mercado subnacional de créditos de carbono interoperable con el sistema nacional",
+    "reforma_federal_requerida": "Reforma a LGCC Art. 7 Fracc. IX, Art. 94 para permitir interoperabilidad",
+    "impacto": "Permitiría a Jalisco capitalizar mitigación con instrumento de mercado",
+    "prioridad": "Media"
+  },
+  {
+    "id": "3C.11",
+    "seccion": "3C",
+    "n": 11,
+    "titulo": "Operación territorial estatal directa del Fondo de Servicio Universal Energético",
+    "reforma_federal_requerida": "Reforma al Reglamento federal y al contrato de fideicomiso del Fondo",
+    "impacto": "Reconocimiento estatal como ejecutor territorial; complementario a 3C.3",
+    "prioridad": "Alta"
+  },
+  {
+    "id": "3C.12",
+    "seccion": "3C",
+    "n": 12,
+    "titulo": "Coordinación obligatoria de SENER con instituciones estatales en consulta previa indígena de proyectos energéticos",
+    "reforma_federal_requerida": "Reforma a LSH Art. 151 y a LSE Arts. 133-135 para incluir expresamente entidades federativas como coordinantes",
+    "impacto": "Otorgaría a Jalisco rol formal en consultas que afectan a comunidades wixárika, náayeri, o'dam",
+    "prioridad": "Media"
+  },
+  {
+    "id": "3C.13",
+    "seccion": "3C",
+    "n": 13,
+    "titulo": "Canal formal estatal de propuesta de Zonas de Salvaguarda en hidrocarburos",
+    "reforma_federal_requerida": "Reforma a LSH Art. 69 para crear vía exigible de iniciativa estatal",
+    "impacto": "Permitiría a Jalisco proteger ANP estatales y zonas de recarga frente a hidrocarburos",
+    "prioridad": "Baja"
+  },
+  {
+    "id": "3C.14",
+    "seccion": "3C",
+    "n": 14,
+    "titulo": "Aportación formal estatal de \"demanda local y regional\" como criterio de otorgamiento de permisos hidrocarburos",
+    "reforma_federal_requerida": "Reforma al Reglamento de la LSH o lineamientos SENER/CNE",
+    "impacto": "Otorgaría incidencia estatal en decisiones federales sobre infraestructura en territorio",
+    "prioridad": "Media"
+  },
+  {
+    "id": "3C.15",
+    "seccion": "3C",
+    "n": 15,
+    "titulo": "Articulación procedimental obligatoria entre EIA estatal y MIS federal y consulta previa indígena",
+    "reforma_federal_requerida": "Reforma a LSH Arts. 151, 152 y a LSE Arts. 133–135",
+    "impacto": "Cerraría brechas en proyectos de competencia federal con huella ambiental local",
+    "prioridad": "Media"
+  }
+]

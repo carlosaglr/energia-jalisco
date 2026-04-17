@@ -1,0 +1,162 @@
+[
+  {
+    "tag": "CPEUM",
+    "slug": "cpeum",
+    "ambito": "federal",
+    "nombre_completo": "Constitución Política de los Estados Unidos Mexicanos",
+    "header_raw": "Constitución Política de los Estados Unidos Mexicanos — CPEUM — DOF 05-02-1917 — Última reforma: 03-03-2026",
+    "vigencia_raw": "DOF 05-02-1917 — Última reforma: 03-03-2026"
+  },
+  {
+    "tag": "LBio",
+    "slug": "lbio",
+    "ambito": "federal",
+    "nombre_completo": "Ley de Biocombustibles",
+    "header_raw": "Ley de Biocombustibles — LBio — DOF 18 de marzo de 2025 — Última reforma: Sin reforma",
+    "vigencia_raw": "DOF 18 de marzo de 2025 — Última reforma: Sin reforma"
+  },
+  {
+    "tag": "LCNE",
+    "slug": "lcne",
+    "ambito": "federal",
+    "nombre_completo": "Ley de la Comisión Nacional de Energía",
+    "header_raw": "Ley de la Comisión Nacional de Energía — LCNE — DOF 18 de marzo de 2025 — Última reforma: Sentencia SCJN Acción de Inconstitucionalidad 51/2025, DOF 26-12-2025 (invalidez del Art. 22, Fracc. III)",
+    "vigencia_raw": "DOF 18 de marzo de 2025 — Última reforma: Sentencia SCJN Acción de Inconstitucionalidad 51/2025, DOF 26-12-2025 (invalidez del Art. 22, Fracc. III)"
+  },
+  {
+    "tag": "LEPECFE",
+    "slug": "lepecfe",
+    "ambito": "federal",
+    "nombre_completo": "Ley de la Empresa Pública del Estado, Comisión Federal de Electricidad",
+    "header_raw": "Ley de la Empresa Pública del Estado, Comisión Federal de Electricidad — LEPECFE — DOF 18 de marzo de 2025 — Última reforma: Sin reforma (Nueva Ley)",
+    "vigencia_raw": "DOF 18 de marzo de 2025 — Última reforma: Sin reforma (Nueva Ley)"
+  },
+  {
+    "tag": "LGCC",
+    "slug": "lgcc",
+    "ambito": "federal",
+    "nombre_completo": "Ley General de Cambio Climático",
+    "header_raw": "Ley General de Cambio Climático — LGCC — DOF 06-06-2012 — Última reforma: 01-04-2024",
+    "vigencia_raw": "DOF 06-06-2012 — Última reforma: 01-04-2024"
+  },
+  {
+    "tag": "LGeo",
+    "slug": "lgeo",
+    "ambito": "federal",
+    "nombre_completo": "Ley de Geotermia",
+    "header_raw": "Ley de Geotermia — LGeo — DOF 18 de marzo de 2025 — Última reforma: Sin reforma",
+    "vigencia_raw": "DOF 18 de marzo de 2025 — Última reforma: Sin reforma"
+  },
+  {
+    "tag": "LPTE",
+    "slug": "lpte",
+    "ambito": "federal",
+    "nombre_completo": "Ley de Planeación y Transición Energética",
+    "header_raw": "Ley de Planeación y Transición Energética — LPTE — DOF 18 de marzo de 2025 — Última reforma: Sin reforma",
+    "vigencia_raw": "DOF 18 de marzo de 2025 — Última reforma: Sin reforma"
+  },
+  {
+    "tag": "LSE",
+    "slug": "lse",
+    "ambito": "federal",
+    "nombre_completo": "Ley del Sector Eléctrico",
+    "header_raw": "Ley del Sector Eléctrico — LSE — DOF 18 de marzo de 2025 — Última reforma: Sin reforma",
+    "vigencia_raw": "DOF 18 de marzo de 2025 — Última reforma: Sin reforma"
+  },
+  {
+    "tag": "LSH",
+    "slug": "lsh",
+    "ambito": "federal",
+    "nombre_completo": "Ley del Sector Hidrocarburos",
+    "header_raw": "Ley del Sector Hidrocarburos — LSH — DOF 18 de marzo de 2025 — Última reforma: Sin reforma",
+    "vigencia_raw": "DOF 18 de marzo de 2025 — Última reforma: Sin reforma"
+  },
+  {
+    "tag": "CPEJ",
+    "slug": "cpej",
+    "ambito": "estatal",
+    "nombre_completo": "Constitución Política del Estado de Jalisco",
+    "header_raw": "Constitución Política del Estado de Jalisco — CPEJ — POE 21, 25 y 28 de julio y 1 de agosto de 1917 — Última reforma: 16 de octubre de 2025 (Decreto 29842/LXIV/25)",
+    "vigencia_raw": "POE 21, 25 y 28 de julio y 1 de agosto de 1917 — Última reforma: 16 de octubre de 2025 (Decreto 29842/LXIV/25)"
+  },
+  {
+    "tag": "LACCEJ",
+    "slug": "laccej",
+    "ambito": "estatal",
+    "nombre_completo": "Ley para la Acción ante el Cambio Climático del Estado de Jalisco",
+    "header_raw": "Ley para la Acción ante el Cambio Climático del Estado de Jalisco — LACCEJ — POE 27-08-2015 — Última reforma: 04-09-2021 (Decreto 28432/LXII/21, adición Art. 45 Bis)",
+    "vigencia_raw": "POE 27-08-2015 — Última reforma: 04-09-2021 (Decreto 28432/LXII/21, adición Art. 45 Bis)"
+  },
+  {
+    "tag": "LOAEEJ",
+    "slug": "loaeej",
+    "ambito": "estatal",
+    "nombre_completo": "Ley Orgánica de la Agencia de Energía del Estado de Jalisco",
+    "header_raw": "Ley Orgánica de la Agencia de Energía del Estado de Jalisco — LOAEEJ — POE 26 de noviembre de 2016, sec. LIII (Decreto 25922/LXI/16) — Última reforma: Decreto 28480/LXII/21, POE 30 de octubre de 2021, sec. V",
+    "vigencia_raw": "POE 26 de noviembre de 2016, sec. LIII (Decreto 25922/LXI/16) — Última reforma: Decreto 28480/LXII/21, POE 30 de octubre de 2021, sec. V"
+  },
+  {
+    "tag": "LAEJ",
+    "slug": "laej",
+    "ambito": "estatal",
+    "nombre_completo": "Ley Agroalimentaria del Estado de Jalisco",
+    "header_raw": "Ley Agroalimentaria del Estado de Jalisco — LAEJ — POE 28 de diciembre de 2019, Secc. IV — Última reforma: 8 de noviembre de 2022 (Decreto 28819/LXIII/22)",
+    "vigencia_raw": "POE 28 de diciembre de 2019, Secc. IV — Última reforma: 8 de noviembre de 2022 (Decreto 28819/LXIII/22)"
+  },
+  {
+    "tag": "LPIPSEJM",
+    "slug": "lpipsejm",
+    "ambito": "estatal",
+    "nombre_completo": "Ley de Proyectos de Inversión y de Prestación de Servicios del Estado de Jalisco y sus Municipios",
+    "header_raw": "Ley de Proyectos de Inversión y de Prestación de Servicios del Estado de Jalisco y sus Municipios — LPIPSEJM — POE 10 de abril de 2008, Sección IV — Última reforma: Decreto 28784/LXIII/22, POE 13 de mayo de 2022, Sección BIS",
+    "vigencia_raw": "POE 10 de abril de 2008, Sección IV — Última reforma: Decreto 28784/LXIII/22, POE 13 de mayo de 2022, Sección BIS"
+  },
+  {
+    "tag": "LGAPM",
+    "slug": "lgapm",
+    "ambito": "estatal",
+    "nombre_completo": "Ley del Gobierno y la Administración Pública Municipal del Estado de Jalisco",
+    "header_raw": "Ley del Gobierno y la Administración Pública Municipal del Estado de Jalisco — LGAPM — POE 5 de octubre de 2000, Sec. III — Última reforma: Decretos 30131/LXIV/26 y 30139/LXIV/26, POE 7 de marzo de 2026, Sec. IV",
+    "vigencia_raw": "POE 5 de octubre de 2000, Sec. III — Última reforma: Decretos 30131/LXIV/26 y 30139/LXIV/26, POE 7 de marzo de 2026, Sec. IV"
+  },
+  {
+    "tag": "LPAEJ",
+    "slug": "lpaej",
+    "ambito": "estatal",
+    "nombre_completo": "Ley del Procedimiento Administrativo del Estado de Jalisco",
+    "header_raw": "Ley del Procedimiento Administrativo del Estado de Jalisco — LPAEJ — POE 15 de julio de 2000, Sección II — Última reforma: 1 de junio de 2023 (Decreto 29199/LXIII/23; última reforma sustantiva: Decreto 29129/LXIII/23, POE 14 de enero de 2023, Art. 77)",
+    "vigencia_raw": "POE 15 de julio de 2000, Sección II — Última reforma: 1 de junio de 2023 (Decreto 29199/LXIII/23; última reforma sustantiva: Decreto 29129/LXIII/23, POE 14 de enero de 2023, Art. 77)"
+  },
+  {
+    "tag": "LEEEPA-Jal",
+    "slug": "leeepa-jal",
+    "ambito": "estatal",
+    "nombre_completo": "Ley Estatal del Equilibrio Ecológico y la Protección al Ambiente",
+    "header_raw": "Ley Estatal del Equilibrio Ecológico y la Protección al Ambiente — LEEEPA Jalisco — POE 6 de junio de 1989, Sección II (vigencia 7 de junio de 1989) — Última reforma: Decreto 29868/LXIV/25, POE 25 de noviembre de 2025, Sec. IX",
+    "vigencia_raw": "POE 6 de junio de 1989, Sección II (vigencia 7 de junio de 1989) — Última reforma: Decreto 29868/LXIV/25, POE 25 de noviembre de 2025, Sec. IX"
+  },
+  {
+    "tag": "REEEPA",
+    "slug": "reeepa",
+    "ambito": "estatal",
+    "nombre_completo": "Reglamento de la Ley Estatal del Equilibrio Ecológico y la Protección al Ambiente en Materia de Impacto Ambiental, Explotación de Bancos de Material Geológico, Yacimientos Pétreos y de Prevención y Control de la Contaminación a la Atmósfera Generada por Fuentes Fijas en el Estado de Jalisco",
+    "header_raw": "Reglamento de la Ley Estatal del Equilibrio Ecológico y la Protección al Ambiente en Materia de Impacto Ambiental, Explotación de Bancos de Material Geológico, Yacimientos Pétreos y de Prevención y Control de la Contaminación a la Atmósfera Generada por Fuentes Fijas en el Estado de Jalisco — REEEPA-IA-BMG-FF [INFERENCIA: el ordenamiento no fija sigla oficial; se propone por convención analítica] — POE 13 de febrero de 1992, Sección II (vigencia 14 de febrero de 1992) — Última reforma: Acuerdo DIGELAG/ACU-26/2007, POE 14 de junio de 2007, Sección II",
+    "vigencia_raw": "POE 13 de febrero de 1992, Sección II (vigencia 14 de febrero de 1992) — Última reforma: Acuerdo DIGELAG/ACU-26/2007, POE 14 de junio de 2007, Sección II"
+  },
+  {
+    "tag": "LJAEJ",
+    "slug": "ljaej",
+    "ambito": "estatal",
+    "nombre_completo": "Ley de Justicia Administrativa del Estado de Jalisco",
+    "header_raw": "Ley de Justicia Administrativa del Estado de Jalisco — LJAEJ — POE 18 de enero de 2000, Sección II — Última reforma: 1 de junio de 2023 (Decreto 29199/LXIII/23; última reforma sustantiva: Decreto 28438/LXII/21, POE 9 de septiembre de 2021)",
+    "vigencia_raw": "POE 18 de enero de 2000, Sección II — Última reforma: 1 de junio de 2023 (Decreto 29199/LXIII/23; última reforma sustantiva: Decreto 28438/LXII/21, POE 9 de septiembre de 2021)"
+  },
+  {
+    "tag": "LMR-Jal",
+    "slug": "lmr-jal",
+    "ambito": "estatal",
+    "nombre_completo": "Ley de Mejora Regulatoria para el Estado de Jalisco y sus Municipios",
+    "header_raw": "Ley de Mejora Regulatoria para el Estado de Jalisco y sus Municipios — LMR-Jal — POE 20 de julio de 2019, Sec. III (Decreto 27307/LXII/19) — Última reforma: Decreto 28427/LXII/21, POE 29 de julio de 2021, Sec. VIII (adición al Art. 19)",
+    "vigencia_raw": "POE 20 de julio de 2019, Sec. III (Decreto 27307/LXII/19) — Última reforma: Decreto 28427/LXII/21, POE 29 de julio de 2021, Sec. VIII (adición al Art. 19)"
+  }
+]

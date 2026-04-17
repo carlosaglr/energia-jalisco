@@ -1,0 +1,20 @@
+---
+// PriorityTag — tag sans 10px tracked para Alta/Media/Baja
+// Uso: <PriorityTag priority="Alta" />
+interface Props {
+  priority: 'Alta' | 'Media' | 'Baja' | string;
+  class?: string;
+}
+const { priority, class: className = '' } = Astro.props;
+
+// Normalizar: toma la primera palabra conocida; fallback sin clase semántica.
+const normalized = priority.trim().split(/[\s(]/)[0].toLowerCase();
+const variantClass =
+  normalized === 'alta' ? 'tag-alta' :
+  normalized === 'media' ? 'tag-media' :
+  normalized === 'baja' ? 'tag-baja' :
+  'tag-baja';
+---
+<span class={`tag ${variantClass} ${className}`}>
+  {priority}
+</span>

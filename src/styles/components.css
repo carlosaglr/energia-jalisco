@@ -1,0 +1,654 @@
+/* ============================================================================
+   components.css — Componentes base del Observatorio
+   Observatorio del Sistema de Energía de Jalisco
+
+   Catálogo:
+     - Eyebrow
+     - Section header (eyebrow + display centrado)
+     - Hairline divider
+     - Metrics row
+     - Priority tag (Alta/Media/Baja)
+     - Ordenamiento name (prefix / core / suffix)
+     - Tab (filtros)
+     - Distribution bar row
+     - Cross-reference link + tooltip
+     - Drawer navigation
+     - Nav card (estilo "Our Solutions" Julius Bär)
+     - Footer links
+     - Watermark
+   ============================================================================ */
+
+/* ----------------------------------------------------------------------------
+   Eyebrow + Section header
+   ---------------------------------------------------------------------------- */
+
+.eyebrow-section {
+  font-family: var(--font-sans);
+  font-size: 11px;
+  font-weight: 400;
+  letter-spacing: 0.28em;
+  text-transform: uppercase;
+  color: var(--navy);
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+.section-header {
+  text-align: center;
+  margin: 0 auto 3rem;
+}
+
+.section-header .eyebrow,
+.section-header .eyebrow-section {
+  margin-bottom: 1rem;
+}
+
+.section-header .display {
+  margin-bottom: 0.75rem;
+}
+
+.section-header .subtitle {
+  margin-top: 0.75rem;
+}
+
+/* ----------------------------------------------------------------------------
+   Hairline divider
+   ---------------------------------------------------------------------------- */
+
+.hairline {
+  height: 1px;
+  background: var(--hair);
+  border: none;
+  margin: 3rem 0;
+  width: 100%;
+}
+
+.hairline-light {
+  height: 1px;
+  background: var(--hair-light);
+  border: none;
+  margin: 2rem 0;
+  width: 100%;
+}
+
+/* ----------------------------------------------------------------------------
+   Metrics row — fila de métricas con hairlines verticales
+   Columnas se definen por modificador .metrics-row--N (4, 6) o inline style.
+   ---------------------------------------------------------------------------- */
+
+.metrics-row {
+  display: grid;
+  gap: 0;
+  width: 100%;
+}
+
+.metrics-row--3 { grid-template-columns: repeat(3, 1fr); }
+.metrics-row--4 { grid-template-columns: repeat(4, 1fr); }
+.metrics-row--5 { grid-template-columns: repeat(5, 1fr); }
+.metrics-row--6 { grid-template-columns: repeat(6, 1fr); }
+
+.metric {
+  text-align: center;
+  padding: 1rem 1.5rem;
+  position: relative;
+}
+
+.metric:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 20%;
+  bottom: 20%;
+  width: 1px;
+  background: var(--hair);
+}
+
+.metric-number {
+  font-family: var(--font-serif);
+  font-size: 56px;
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: var(--text-primary);
+}
+
+.metric-label {
+  font-family: var(--font-sans);
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--navy-soft);
+  margin-top: 0.75rem;
+}
+
+/* Responsive: a 2x3 en pantallas angostas */
+@media (max-width: 720px) {
+  .metrics-row--6 { grid-template-columns: repeat(3, 1fr); }
+  .metrics-row--4 { grid-template-columns: repeat(2, 1fr); }
+  .metrics-row--5 { grid-template-columns: repeat(2, 1fr); }
+  .metric-number { font-size: 40px; }
+  .metric { padding: 0.75rem 0.5rem; }
+  /* Oculta las hairlines verticales en móvil para evitar artefactos en wrap */
+  .metric::after { display: none; }
+}
+
+/* ----------------------------------------------------------------------------
+   Priority tag
+   ---------------------------------------------------------------------------- */
+
+.tag {
+  font-family: var(--font-sans);
+  font-size: 10px;
+  font-weight: 400;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  padding: 6px 0;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  width: 80px;
+  text-align: center;
+  display: inline-block;
+  line-height: 1;
+}
+
+.tag-alta {
+  color: var(--tag-alta-text);
+  background: var(--tag-alta-bg);
+  border-color: var(--tag-alta-bg);
+}
+
+.tag-media {
+  color: var(--tag-media-text);
+  border-color: var(--tag-media-border);
+  background: transparent;
+}
+
+.tag-baja {
+  color: var(--tag-baja-text);
+  border-color: var(--tag-baja-border);
+  background: transparent;
+}
+
+/* ----------------------------------------------------------------------------
+   Ordenamiento name — patrón prefix / core / suffix
+   Uso:
+   <span class="ord-name">
+     <i>Ley para la Acción ante el </i><b>Cambio Climático</b><small> del Estado de Jalisco</small>
+   </span>
+   ---------------------------------------------------------------------------- */
+
+.ord-name {
+  font-family: var(--font-serif);
+  font-size: inherit;
+  line-height: 1.35;
+}
+
+.ord-name b {
+  font-weight: 500;
+  font-style: italic;
+  color: var(--navy);
+}
+
+.ord-name i {
+  font-style: italic;
+  color: var(--navy-soft);
+  font-weight: 400;
+}
+
+.ord-name small {
+  font-size: 0.85em;
+  color: var(--text-muted);
+  font-style: italic;
+}
+
+/* ----------------------------------------------------------------------------
+   Tab (filtros)
+   ---------------------------------------------------------------------------- */
+
+.tab {
+  font-family: var(--font-sans);
+  font-size: 12px;
+  font-weight: 400;
+  padding: 7px 18px;
+  border: 1px solid var(--hair);
+  background: transparent;
+  color: var(--text-primary);
+  cursor: pointer;
+  border-radius: 0;
+  letter-spacing: 0.04em;
+  transition: all var(--transition-base);
+  line-height: 1.4;
+}
+
+.tab:hover {
+  border-color: var(--navy);
+  color: var(--navy);
+}
+
+.tab.active {
+  background: var(--navy);
+  color: #FFFFFF;
+  border-color: var(--navy);
+}
+
+.tab-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+/* ----------------------------------------------------------------------------
+   Select — estilizado al mismo lenguaje
+   ---------------------------------------------------------------------------- */
+
+.select {
+  font-family: var(--font-sans);
+  font-size: 12px;
+  font-weight: 400;
+  padding: 7px 28px 7px 14px;
+  border: 1px solid var(--hair);
+  background: transparent;
+  color: var(--text-primary);
+  letter-spacing: 0.04em;
+  border-radius: 0;
+  appearance: none;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='10' height='6' viewBox='0 0 10 6'><path d='M1 1l4 4 4-4' stroke='%231B2C5E' stroke-width='1' fill='none'/></svg>");
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  cursor: pointer;
+  line-height: 1.4;
+}
+
+.select:hover {
+  border-color: var(--navy);
+}
+
+/* ----------------------------------------------------------------------------
+   Distribution bar row
+   Fila con un label a la izquierda, un número a la derecha, y una barra debajo.
+   ---------------------------------------------------------------------------- */
+
+.bar-row {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 10px 24px;
+  align-items: baseline;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--hair);
+  margin-bottom: 12px;
+}
+
+.bar-row:last-child {
+  margin-bottom: 0;
+}
+
+.bar-label {
+  font-family: var(--font-serif);
+  font-size: 15.5px;
+  font-weight: 400;
+  color: var(--text-primary);
+  line-height: 1.3;
+}
+
+.bar-count {
+  font-family: var(--font-serif);
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -0.01em;
+  color: var(--text-primary);
+}
+
+.bar-track {
+  height: 3px;
+  background: var(--hair);
+  display: flex;
+  grid-column: 1 / -1;
+}
+
+.bar-segment {
+  height: 100%;
+  transition: width 0.3s ease;
+}
+
+.bar-segment-alta { background: var(--bar-alta); }
+.bar-segment-media { background: var(--bar-media); }
+.bar-segment-baja { background: var(--bar-baja); }
+
+/* ----------------------------------------------------------------------------
+   Cross-reference link + tooltip
+   ---------------------------------------------------------------------------- */
+
+.xref {
+  color: var(--navy);
+  border-bottom: 1px solid var(--navy);
+  cursor: pointer;
+  font-weight: 500;
+  padding: 0 1px;
+  transition: background var(--transition-fast);
+  white-space: nowrap;
+  text-decoration: none;
+  font-family: inherit;
+  font-size: inherit;
+}
+
+.xref:hover {
+  background: var(--link-hover-bg);
+}
+
+/* Variante mono para referencias a artículos de ley */
+.xref-mono {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0.02em;
+}
+
+.xref-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip {
+  position: absolute;
+  top: calc(100% + 8px);
+  left: 50%;
+  transform: translateX(-50%);
+  width: 320px;
+  background: var(--bg-page);
+  border: 1px solid var(--hair);
+  padding: 1rem 1.1rem 0.9rem;
+  z-index: var(--z-tooltip);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity var(--transition-fast);
+  box-shadow: var(--shadow-tooltip);
+}
+
+.tooltip.visible,
+.xref-wrapper:hover .tooltip {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.tooltip-eyebrow {
+  font-family: var(--font-sans);
+  font-size: 10px;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--navy);
+  margin-bottom: 0.5rem;
+}
+
+.tooltip-title {
+  font-family: var(--font-serif);
+  font-size: 14.5px;
+  font-weight: 400;
+  line-height: 1.4;
+  color: var(--text-primary);
+  margin-bottom: 0.5rem;
+}
+
+.tooltip-meta {
+  font-family: var(--font-sans);
+  font-size: 11px;
+  letter-spacing: 0.04em;
+  color: var(--navy-soft);
+}
+
+/* ----------------------------------------------------------------------------
+   Nav card — "Our Solutions" Julius Bär
+   ---------------------------------------------------------------------------- */
+
+.nav-card {
+  display: flex;
+  flex-direction: column;
+  padding: 2.5rem 2rem;
+  border: 1px solid var(--hair);
+  background: var(--bg-page);
+  transition: all var(--transition-base);
+  text-decoration: none;
+  color: inherit;
+  position: relative;
+  min-height: 220px;
+}
+
+.nav-card:hover {
+  border-color: var(--navy);
+  background: var(--bg-hover);
+}
+
+.nav-card .eyebrow {
+  text-align: left;
+  margin-bottom: 1rem;
+}
+
+.nav-card .card-heading {
+  margin-bottom: 0.75rem;
+}
+
+.nav-card-description {
+  font-family: var(--font-serif);
+  font-size: 15.5px;
+  line-height: 1.55;
+  color: var(--text-secondary);
+  margin-bottom: 1.5rem;
+  flex: 1;
+}
+
+.nav-card-arrow {
+  align-self: flex-start;
+  font-family: var(--font-sans);
+  font-size: 14px;
+  color: var(--navy);
+  letter-spacing: 0.04em;
+  transition: transform var(--transition-base);
+}
+
+.nav-card:hover .nav-card-arrow {
+  transform: translateX(4px);
+}
+
+/* ----------------------------------------------------------------------------
+   Drawer — navegación lateral hamburguesa
+   ---------------------------------------------------------------------------- */
+
+.drawer {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 380px;
+  max-width: 85vw;
+  height: 100vh;
+  background: var(--bg-page);
+  border-left: 1px solid var(--hair);
+  z-index: var(--z-drawer);
+  transform: translateX(100%);
+  transition: transform var(--transition-slow);
+  overflow-y: auto;
+  padding: 2rem;
+}
+
+.drawer.open {
+  transform: translateX(0);
+}
+
+.drawer-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: var(--z-drawer-overlay);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity var(--transition-slow);
+}
+
+.drawer-overlay.visible {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.drawer-close {
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  color: var(--text-primary);
+  line-height: 1;
+  font-size: 20px;
+  background: none;
+  border: none;
+  padding: 0;
+}
+
+.drawer-close:hover {
+  color: var(--navy);
+}
+
+.drawer-header {
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid var(--hair);
+  margin-bottom: 1.5rem;
+}
+
+.drawer-eyebrow {
+  font-family: var(--font-sans);
+  font-size: 10px;
+  letter-spacing: 0.28em;
+  text-transform: uppercase;
+  color: var(--navy);
+  margin-bottom: 0.5rem;
+}
+
+.drawer-title {
+  font-family: var(--font-serif);
+  font-size: 20px;
+  font-weight: 400;
+  color: var(--text-primary);
+  line-height: 1.3;
+}
+
+.drawer-section {
+  margin-bottom: 2rem;
+}
+
+.drawer-section-title {
+  font-family: var(--font-sans);
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--navy-soft);
+  margin-bottom: 0.75rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--hair-light);
+}
+
+.drawer-nav {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.drawer-nav li {
+  margin: 0;
+}
+
+.drawer-link {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 0.5rem 0;
+  font-family: var(--font-sans);
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  color: var(--text-primary);
+  text-decoration: none;
+  transition: color var(--transition-fast);
+}
+
+.drawer-link:hover {
+  color: var(--navy);
+}
+
+.drawer-link-count {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: var(--text-muted);
+  letter-spacing: 0;
+}
+
+.drawer-sublink {
+  display: block;
+  padding: 0.4rem 0 0.4rem 1rem;
+  font-family: var(--font-sans);
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+  color: var(--text-secondary);
+  text-decoration: none;
+  border-left: 1px solid var(--hair-light);
+  margin-left: 0.25rem;
+  transition: all var(--transition-fast);
+}
+
+.drawer-sublink:hover {
+  color: var(--navy);
+  border-left-color: var(--navy);
+}
+
+/* ----------------------------------------------------------------------------
+   Watermark — pie de visualizaciones
+   ---------------------------------------------------------------------------- */
+
+.watermark {
+  font-family: var(--font-sans);
+  font-size: 10px;
+  font-weight: 400;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  text-align: center;
+  padding: 1.5rem 0 0;
+  border-top: 1px solid var(--hair-light);
+  margin-top: 2rem;
+}
+
+/* ----------------------------------------------------------------------------
+   Button primary / secondary (rara vez; sitio es editorial, no transaccional)
+   ---------------------------------------------------------------------------- */
+
+.btn {
+  font-family: var(--font-sans);
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  padding: 12px 28px;
+  border: 1px solid var(--navy);
+  background: transparent;
+  color: var(--navy);
+  cursor: pointer;
+  transition: all var(--transition-base);
+  text-decoration: none;
+  display: inline-block;
+  line-height: 1;
+}
+
+.btn:hover {
+  background: var(--navy);
+  color: #FFFFFF;
+}
+
+.btn-primary {
+  background: var(--navy);
+  color: #FFFFFF;
+}
+
+.btn-primary:hover {
+  background: transparent;
+  color: var(--navy);
+}

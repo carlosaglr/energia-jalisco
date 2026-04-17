@@ -1,0 +1,23 @@
+---
+// SectionHeader — agrupa eyebrow + display heading + subtitle opcional, centrado.
+// Uso:
+//   <SectionHeader eyebrow="SÍNTESIS · 1A" title="Debilidades del marco estatal">
+//     <Fragment slot="subtitle">Ochenta hallazgos derivados del análisis de los once ordenamientos estatales.</Fragment>
+//   </SectionHeader>
+interface Props {
+  eyebrow?: string;
+  title: string;
+  class?: string;
+  as?: 'h1' | 'h2';
+}
+const { eyebrow, title, class: className = '', as: Tag = 'h1' } = Astro.props;
+---
+<header class={`section-header ${className}`}>
+  {eyebrow && <div class="eyebrow-section">{eyebrow}</div>}
+  <Tag class="display">{title}</Tag>
+  {Astro.slots.has('subtitle') && (
+    <p class="subtitle">
+      <slot name="subtitle" />
+    </p>
+  )}
+</header>

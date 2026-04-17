@@ -1,0 +1,36 @@
+[
+  {
+    "id": "4C.1",
+    "n": 1,
+    "titulo": "Colisión constitucional latente: facultad estatal de \"generador y comercializador\" frente a la cláusula de no prevalencia y el régimen permisionario federal",
+    "texto": "La Ley Orgánica de la Agencia de Energía del Estado de Jalisco atribuye a la Agencia, por mandato del Art. 3 Fracc. IV LOAEEJ, *\"facultades para participar como generador y comercializador de energía eléctrica\"*, sin remisión al régimen de permisos federales. Esta atribución colisiona simultáneamente con dos planos del marco federal: (i) la cláusula de no prevalencia introducida en el Art. 27 párr. 6 CPEUM por la reforma DOF 20-12-2024 — *\"que en ningún caso tendrán prevalencia sobre la empresa pública del Estado\"* —, cuya delimitación operativa se traslada a la ley secundaria sin definición; y (ii) el régimen permisionario centralizado de la LSE Art. 151, que reserva a la Comisión Nacional de Energía (LCNE Arts. 6 Fracc. IV y 8 Fracc. IV) el otorgamiento de permisos de generación y comercialización. El conflicto 4A.6 reconoce la inoperancia práctica de la atribución estatal sin permiso federal, pero el riesgo se acentúa porque la cláusula constitucional reformada permite restringir por vía reglamentaria iniciativas estatales de generación distribuida, cogeneración o abasto aislado (vacío 4B.1). Mientras no se emita la reforma R-17, cualquier acto de la Agencia que invoque la facultad como generador-comercializador es vulnerable a controversia constitucional federal y a nulidad por usurpación competencial. La Reforma R-17 (condicionar expresamente la facultad a permisos federales) es la respuesta documentada en la fuente, sin condicionante federal previo.",
+    "reformas_vinculadas": [
+      "R-17"
+    ],
+    "conflictos_vinculados": [
+      "4A.6"
+    ],
+    "vacios_vinculados": [
+      "4B.1"
+    ]
+  },
+  {
+    "id": "4C.2",
+    "n": 2,
+    "titulo": "Riesgo sistémico de nulidad de títulos estatales por afirmativa ficta: el binomio LPAEJ Art. 33 párr. 3 + LJAEJ Arts. 108/113 frente a las leyes federales sectoriales",
+    "texto": "La afirmativa ficta del procedimiento administrativo estatal (LPAEJ Art. 33 párr. 3) y la declaratoria correspondiente por el Tribunal de Justicia Administrativa (LJAEJ Arts. 108 párr. 1 y 113, con publicación obligatoria en el Diario Oficial del Estado) operan sin carve-out energético explícito. En conjunto, generan títulos estatales — licencias, autorizaciones, permisos por silencio — que pueden recaer sobre actividades cuya regulación es exclusivamente federal: industria eléctrica (LSE Art. 2 párr. 2), hidrocarburos (LSH Art. 1 párr. 2 y Art. 127), geotermia (LGeo Art. 1, ley reglamentaria del Art. 27 CPEUM), y biocombustibles (LBio Arts. 4 y 5, interpretación y aplicación exclusiva del Ejecutivo Federal). Los conflictos 4A.24 y 4A.35 documentan que estos títulos son inoponibles ante la autoridad federal y vulnerables a nulidad por invasión competencial. La materialización del riesgo es previsible en biocombustibles (donde el Reglamento federal sigue pendiente desde marzo 2025 — vacío 4B.10), en geotermia (donde el Reglamento de Usos Diversos también está pendiente — vacío 4B.31), y en proyectos de generación distribuida que requieran interconexión bajo reglas LSE no actualizadas. La Reforma R-54 (excepción a la afirmativa ficta administrativa) y la Reforma R-83 (excepción a la afirmativa ficta contenciosa), junto con R-82 (causal de improcedencia LJAEJ), constituyen la respuesta documentada en la fuente; las tres son reformas estatales suficientes y no requieren acción federal previa, lo que las convierte en intervención de máxima prioridad y baja fricción institucional.\n\n---",
+    "reformas_vinculadas": [
+      "R-54",
+      "R-83",
+      "R-82"
+    ],
+    "conflictos_vinculados": [
+      "4A.24",
+      "4A.35"
+    ],
+    "vacios_vinculados": [
+      "4B.10",
+      "4B.31"
+    ]
+  }
+]

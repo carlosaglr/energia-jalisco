@@ -1,0 +1,308 @@
+[
+  {
+    "id": "1B.1",
+    "n": 1,
+    "ord_federal": "CPEUM",
+    "art": "Art. 27, párr. 6; Art. 28, párr. 4",
+    "tipo": "Restricción",
+    "urgencia": "Alta",
+    "texto": "Jalisco no puede crear entidad estatal de transmisión/distribución eléctrica ni otorgar concesiones; toda infraestructura de red pasa por la empresa pública federal"
+  },
+  {
+    "id": "1B.2",
+    "n": 2,
+    "ord_federal": "CPEUM",
+    "art": "Art. 27, párr. 6",
+    "tipo": "Restricción",
+    "urgencia": "Alta",
+    "texto": "La cláusula de \"no prevalencia sobre la empresa pública del Estado\" (reforma 20-12-2024) introduce riesgo regulatorio sobre proyectos estatales de generación distribuida y autoconsumo que dependan de interconexión"
+  },
+  {
+    "id": "1B.3",
+    "n": 3,
+    "ord_federal": "CPEUM",
+    "art": "Art. 28, párr. sobre dependencia encargada de política energética",
+    "tipo": "Restricción",
+    "urgencia": "Alta",
+    "texto": "La concentración de la regulación técnica, económica y sancionadora energética en una dependencia del Ejecutivo Federal elimina la ventanilla autónoma de interlocución"
+  },
+  {
+    "id": "1B.4",
+    "n": 4,
+    "ord_federal": "CPEUM",
+    "art": "Art. 27, párr. 6; Art. 28, párr. 4",
+    "tipo": "Restricción",
+    "urgencia": "Baja",
+    "texto": "Litio y minerales radiactivos presentes en territorio de Jalisco son íntegramente de dominio federal y no concesionables"
+  },
+  {
+    "id": "1B.5",
+    "n": 5,
+    "ord_federal": "LBio",
+    "art": "Arts. 4, 5 Fracc. IX, 25",
+    "tipo": "Restricción",
+    "urgencia": "Alta",
+    "texto": "Toda la cadena regulada de biocombustibles (producción, almacenamiento, transporte, comercialización, distribución, expendio) es competencia federal exclusiva de SENER; Jalisco no puede emitir regulación propia"
+  },
+  {
+    "id": "1B.6",
+    "n": 6,
+    "ord_federal": "LBio",
+    "art": "Arts. 8, 9, 10 Fracc. I",
+    "tipo": "Habilitación condicionada (estructuralmente restrictiva)",
+    "urgencia": "Alta",
+    "texto": "La única vía de intervención estatal en biocombustibles es el convenio de coordinación potestativo que la Federación \"puede\" suscribir si evalúa capacidades suficientes"
+  },
+  {
+    "id": "1B.7",
+    "n": 7,
+    "ord_federal": "LBio",
+    "art": "Arts. 7 Fracc. V, 25 Fracc. I",
+    "tipo": "Restricción",
+    "urgencia": "Media",
+    "texto": "Producción de biomasa de caña de azúcar y sorgo —cultivos relevantes en Jalisco— sujeta a permiso SADER condicionado a inventarios excedentes sobre consumo nacional, sin priorización regional"
+  },
+  {
+    "id": "1B.8",
+    "n": 8,
+    "ord_federal": "LCNE",
+    "art": "Art. 7, Fracc. V; Art. 8, Fracc. IV",
+    "tipo": "Restricción",
+    "urgencia": "Alta",
+    "texto": "Centralización total del otorgamiento y supervisión de permisos de generación y comercialización eléctrica en la CNE"
+  },
+  {
+    "id": "1B.9",
+    "n": 9,
+    "ord_federal": "LCNE",
+    "art": "Art. 8, Fracc. VI",
+    "tipo": "Restricción",
+    "urgencia": "Alta",
+    "texto": "Regulación tarifaria (suministro básico, transmisión, distribución, CENACE, servicios conexos) queda fuera del alcance estatal"
+  },
+  {
+    "id": "1B.10",
+    "n": 10,
+    "ord_federal": "LCNE",
+    "art": "Art. 10, Párr. 1",
+    "tipo": "Restricción",
+    "urgencia": "Alta",
+    "texto": "Mecanismo de coordinación de la CNE limitado textualmente al ámbito federal, sin ruta para convenios federal-estatales en regulación"
+  },
+  {
+    "id": "1B.11",
+    "n": 11,
+    "ord_federal": "LCNE",
+    "art": "Art. 8, Fracc. V",
+    "tipo": "Restricción",
+    "urgencia": "Media",
+    "texto": "Registro y regulación de Certificados de Energías Limpias centralizado en CNE; proyectos estatales de energías limpias dependen del régimen federal"
+  },
+  {
+    "id": "1B.12",
+    "n": 12,
+    "ord_federal": "LCNE",
+    "art": "Art. 28, Párr. 3",
+    "tipo": "Restricción",
+    "urgencia": "Media",
+    "texto": "Cláusula que impide alegar daño económico contra decisiones de la CNE, aplicable a entes estatales que realicen Actividades reguladas"
+  },
+  {
+    "id": "1B.13",
+    "n": 13,
+    "ord_federal": "LCNE",
+    "art": "Art. 9, Fraccs. II, III y IV",
+    "tipo": "Restricción",
+    "urgencia": "Media",
+    "texto": "Régimen de permisos de gas natural, petrolíferos y petroquímicos centralizado; Jalisco sin facultad sobre cadena de suministro"
+  },
+  {
+    "id": "1B.14",
+    "n": 14,
+    "ord_federal": "LEPECFE",
+    "art": "Art. 8, Párr. 1",
+    "tipo": "Restricción",
+    "urgencia": "Alta",
+    "texto": "Prestación directa y exclusiva de transmisión y distribución por CFE cierra cualquier ruta estatal de operación de infraestructura troncal"
+  },
+  {
+    "id": "1B.15",
+    "n": 15,
+    "ord_federal": "LEPECFE",
+    "art": "Art. 6, Párr. 3 y 5",
+    "tipo": "Restricción",
+    "urgencia": "Alta",
+    "texto": "SENER concentra la interpretación de la Ley y la rectoría de políticas; las normas estatales quedan subordinadas al régimen especial federal"
+  },
+  {
+    "id": "1B.16",
+    "n": 16,
+    "ord_federal": "LEPECFE",
+    "art": "Art. 128, Párr. 1",
+    "tipo": "Restricción",
+    "urgencia": "Media",
+    "texto": "Toda controversia con CFE se ventila en tribunales federales, incluso en materias de competencia estatal conexa"
+  },
+  {
+    "id": "1B.17",
+    "n": 17,
+    "ord_federal": "LGCC",
+    "art": "Art. 7o-VI-d vs. Art. 8o-II",
+    "tipo": "Restricción",
+    "urgencia": "Alta",
+    "texto": "La materia \"Energía\" no aparece entre los incisos del Art. 8o-II LGCC, impidiendo a Jalisco regular generación, distribución o eficiencia energética sobre terceros privados"
+  },
+  {
+    "id": "1B.18",
+    "n": 18,
+    "ord_federal": "LGCC",
+    "art": "Art. 7o-IX; Art. 94",
+    "tipo": "Restricción",
+    "urgencia": "Media",
+    "texto": "El comercio de emisiones y sus instrumentos son facultad federal exclusiva; Jalisco no puede operar mercado subnacional de carbono bajo esta ley"
+  },
+  {
+    "id": "1B.19",
+    "n": 19,
+    "ord_federal": "LGCC",
+    "art": "Art. 108",
+    "tipo": "Restricción",
+    "urgencia": "Baja",
+    "texto": "Recursos federales transferidos sujetos a transparencia y evaluación federal; limita autonomía en ejercicio de recursos etiquetados"
+  },
+  {
+    "id": "1B.20",
+    "n": 20,
+    "ord_federal": "LGeo",
+    "art": "Art. 7, Fraccs. VIII, XV, XXII",
+    "tipo": "Restricción",
+    "urgencia": "Alta",
+    "texto": "Monopolio federal sobre otorgamiento, verificación y sanción de Permisos de Exploración y Concesiones geotérmicas; Jalisco carece de competencia directa sobre la concesión del recurso"
+  },
+  {
+    "id": "1B.21",
+    "n": 21,
+    "ord_federal": "LGeo",
+    "art": "Art. 4, Párr. 1",
+    "tipo": "Restricción",
+    "urgencia": "Alta",
+    "texto": "Utilidad pública preferente del subsuelo para geotermia desplaza facultades estatales de ordenamiento territorial sin procedimiento de coordinación"
+  },
+  {
+    "id": "1B.22",
+    "n": 22,
+    "ord_federal": "LGeo",
+    "art": "Art. 53, Párr. 1",
+    "tipo": "Restricción",
+    "urgencia": "Media",
+    "texto": "Nulidad de gestiones estatales ante Conagua sobre aguas asociadas a Yacimientos Geotérmicos; canaliza la tramitación exclusivamente vía Sener"
+  },
+  {
+    "id": "1B.23",
+    "n": 23,
+    "ord_federal": "LPTE",
+    "art": "Art. 2; Art. 8, Fracc. I; Art. 32, párr. 3",
+    "tipo": "Restricción",
+    "urgencia": "Alta",
+    "texto": "La planeación vinculante federal (PLADESE/PLATEASE/Estrategia) se impone sobre el territorio de Jalisco sin mecanismo de consulta, audiencia o conciliación estatal"
+  },
+  {
+    "id": "1B.24",
+    "n": 24,
+    "ord_federal": "LPTE",
+    "art": "Art. 11, Fracc. XI",
+    "tipo": "Restricción",
+    "urgencia": "Media",
+    "texto": "CONUEE puede emitir opiniones vinculatorias sobre programas estatales que usen fondos federales, sin procedimiento ni recurso de impugnación reglados"
+  },
+  {
+    "id": "1B.25",
+    "n": 25,
+    "ord_federal": "LPTE",
+    "art": "Art. 14, Fracc. II",
+    "tipo": "Restricción",
+    "urgencia": "Media",
+    "texto": "Generación Limpia Distribuida queda fuera del alcance regulatorio estatal (contratos y reglas federales)"
+  },
+  {
+    "id": "1B.26",
+    "n": 26,
+    "ord_federal": "LPTE",
+    "art": "Transitorio Segundo",
+    "tipo": "Restricción",
+    "urgencia": "Media",
+    "texto": "La abrogación de la Ley de Transición Energética 2015 obliga a Jalisco a revisar programas estatales anclados a ese marco"
+  },
+  {
+    "id": "1B.27",
+    "n": 27,
+    "ord_federal": "LSE",
+    "art": "Art. 7",
+    "tipo": "Restricción",
+    "urgencia": "Alta",
+    "texto": "Prevalencia federal absoluta en casos de concurrencia desactiva regulación estatal paralela del sector eléctrico"
+  },
+  {
+    "id": "1B.28",
+    "n": 28,
+    "ord_federal": "LSE",
+    "art": "Art. 54",
+    "tipo": "Restricción",
+    "urgencia": "Alta",
+    "texto": "Ejecución de obras de T&D en vía pública sin requerir coordinación municipal explícita"
+  },
+  {
+    "id": "1B.29",
+    "n": 29,
+    "ord_federal": "LSE",
+    "art": "Art. 12",
+    "tipo": "Restricción",
+    "urgencia": "Alta",
+    "texto": "Planeación vinculante centralizada sin anclaje para planes estatales de energía"
+  },
+  {
+    "id": "1B.30",
+    "n": 30,
+    "ord_federal": "LSE",
+    "art": "Arts. 79, 80, 81",
+    "tipo": "Restricción",
+    "urgencia": "Media",
+    "texto": "Pequeños sistemas eléctricos bajo Control Operativo federal; sin figura de operador estatal"
+  },
+  {
+    "id": "1B.31",
+    "n": 31,
+    "ord_federal": "LSE",
+    "art": "Arts. 99, 174",
+    "tipo": "Restricción",
+    "urgencia": "Baja",
+    "texto": "Servidumbres legales y requisa como atribuciones federales exclusivas sobre territorio estatal"
+  },
+  {
+    "id": "1B.32",
+    "n": 32,
+    "ord_federal": "LSH",
+    "art": "Art. 127, Párr. 1",
+    "tipo": "Restricción",
+    "urgencia": "Alta",
+    "texto": "Exclusividad federal absoluta sobre regulación técnica, ambiental y de emisiones GEI en hidrocarburos desplaza regulación estatal sobre ductos, almacenes, estaciones de servicio y emisiones locales"
+  },
+  {
+    "id": "1B.33",
+    "n": 33,
+    "ord_federal": "LSH",
+    "art": "Art. 128, Párr. 3",
+    "tipo": "Restricción / Vacío",
+    "urgencia": "Alta",
+    "texto": "Deber estatal y municipal de \"agilizar\" permisos locales a proyectos federales, sin definir límites a la autonomía local en uso de suelo, construcción y protección civil"
+  },
+  {
+    "id": "1B.34",
+    "n": 34,
+    "ord_federal": "LSH",
+    "art": "Art. 78",
+    "tipo": "Habilitación condicionada (estructuralmente restrictiva)",
+    "urgencia": "Alta",
+    "texto": "Convenio federal-estatal de supervisión es la única vía para que Jalisco ejerza verificación sobre el mercado de petrolíferos y gas natural en su territorio"
+  }
+]

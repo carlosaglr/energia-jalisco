@@ -1,0 +1,35 @@
+---
+// OrdenamientoName — render de un ordenamiento en formato prefix/core/suffix
+// Uso: <OrdenamientoName tag="LACCEJ" />
+// Lee src/data/ordenamiento-meta.json para resolver el formato.
+import meta from '../data/ordenamiento-meta.json';
+
+interface Props {
+  tag: string;
+  class?: string;
+  /**
+   * Si true, muestra solo el tag (útil en tablas muy densas donde el nombre
+   * completo sería ruidoso). Default false.
+   */
+  short?: boolean;
+}
+const { tag, class: className = '', short = false } = Astro.props;
+
+// Resolver metadata. Si el tag no existe, hacer fallback al literal.
+const entry = (meta as Record<string, any>)[tag];
+const display = entry?.nombre_display ?? null;
+
+// Fallback robusto: si falta nombre_display pero hay nombre_completo, renderizar plano.
+const nombreCompleto = entry?.nombre_completo ?? tag;
+---
+{short ? (
+  <span class={`ord-name ${className}`}><b>{tag}</b></span>
+) : display ? (
+  <span class={`ord-name ${className}`}>
+    {display.prefix_italic && <i>{display.prefix_italic}</i>}
+    <b>{display.core_bold_italic}</b>
+    {display.suffix_italic_small && <small>{display.suffix_italic_small}</small>}
+  </span>
+) : (
+  <span class={`ord-name ${className}`}>{nombreCompleto}</span>
+)}

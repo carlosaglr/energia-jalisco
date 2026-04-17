@@ -1,0 +1,144 @@
+---
+// src/pages/sintesis/mapa/debilidades.astro
+import Editorial from '../../../layouts/Editorial.astro';
+import Eyebrow from '../../../components/Eyebrow.astro';
+import DisplayHeadline from '../../../components/DisplayHeadline.astro';
+import Subtitle from '../../../components/Subtitle.astro';
+import HairlineDivider from '../../../components/HairlineDivider.astro';
+import Explorer from '../../../components/Explorer.tsx';
+
+import debilidadesJson from '../../../data/debilidades.json';
+import ordenamientoMetaJson from '../../../data/ordenamiento-meta.json';
+import crossRefsJson from '../../../data/cross-references.json';
+
+interface Debilidad {
+  id: string;
+  n: number;
+  ord: string;
+  art: string;
+  tipo: string;
+  prioridad: 'Alta' | 'Media' | 'Baja';
+  texto: string;
+  reformas: string[];
+  proyectos: string[];
+}
+
+const debilidades = debilidadesJson as Debilidad[];
+const ordenamientoMeta = ordenamientoMetaJson as Record<
+  string,
+  {
+    tag: string;
+    slug: string;
+    ambito: 'federal' | 'estatal';
+    nombre: { prefix: string; core: string; suffix: string };
+    nombre_display: {
+      prefix_italic: string;
+      core_bold_italic: string;
+      suffix_italic_small: string;
+    };
+  }
+>;
+const crossRefs = crossRefsJson as Record<string, any>;
+
+// --- Metricas (computadas en build) ---
+const total = debilidades.length;
+const alta = debilidades.filter((d) => d.prioridad === 'Alta').length;
+
+const ordsEstatales = new Set(
+  debilidades
+    .filter((d) => ordenamientoMeta[d.ord]?.ambito === 'estatal')
+    .map((d) => d.ord)
+).size;
+
+const tipos = new Set(debilidades.map((d) => d.tipo)).size;
+
+const metrics = [
+  { number: total, label: 'Total debilidades documentadas' },
+  { number: alta, label: 'Prioridad alta' },
+  { number: ordsEstatales, label: 'Ordenamientos estatales analizados' },
+  { number: tipos, label: 'Categorías de debilidad' },
+];
+
+// --- Configuracion del Explorer ---
+const config = {
+  sectionCode: '1A',
+  metrics,
+  distribution: {
+    groupBy: 'ord',
+    stackBy: 'prioridad',
+    stackOrder: ['Alta', 'Media', 'Baja'],
+    colorMap: {
+      Alta: 'var(--bar-alta)',
+      Media: 'var(--bar-media)',
+      Baja: 'var(--bar-baja)',
+    },
+    sortBy: 'count' as const,
+    heading: 'Distribución por ordenamiento',
+  },
+  tabFilter: {
+    field: 'prioridad',
+    allLabel: 'Todas',
+    options: ['Alta', 'Media', 'Baja'],
+  },
+  selectFilters: [
+    { field: 'ord', label: 'Ordenamiento' },
+    { field: 'tipo', label: 'Tipo' },
+  ],
+  itemFields: {
+    numero: 'n',
+    ordTag: 'ord',
+    tipo: 'tipo',
+    texto: 'texto',
+    articulo: 'art',
+    prioridad: 'prioridad',
+  },
+};
+
+const pageTitle = 'Debilidades del marco estatal de energía — Sección 1A';
+const pageDescription =
+  'Ochenta hallazgos documentados a lo largo de once ordenamientos estatales, en la intersección del marco federal energético vigente desde marzo de 2025.';
+---
+
+<Editorial title={pageTitle} description={pageDescription}>
+  <article class="debilidades-page">
+    <header class="debilidades-header">
+      <Eyebrow>SÍNTESIS · SECCIÓN 1A</Eyebrow>
+      <DisplayHeadline>
+        Debilidades del marco estatal de energía
+      </DisplayHeadline>
+      <Subtitle>
+        Ochenta hallazgos documentados a lo largo de once ordenamientos estatales,
+        en la intersección del marco federal energético vigente desde marzo de 2025.
+      </Subtitle>
+    </header>
+
+    <HairlineDivider />
+
+    <Explorer
+      client:load
+      data={debilidades}
+      config={config}
+      ordenamientoMeta={ordenamientoMeta}
+      crossRefs={crossRefs}
+    />
+  </article>
+</Editorial>
+
+<style>
+  .debilidades-page {
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 3rem 1.5rem 4rem;
+  }
+  .debilidades-header {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    margin-bottom: 2rem;
+  }
+  @media (max-width: 720px) {
+    .debilidades-page {
+      padding: 2rem 1rem 3rem;
+    }
+  }
+</style>

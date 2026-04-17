@@ -1,0 +1,401 @@
+---
+import Editorial from '../layouts/Editorial.astro';
+import Eyebrow from '../components/Eyebrow.astro';
+import DisplayHeadline from '../components/DisplayHeadline.astro';
+import Subtitle from '../components/Subtitle.astro';
+import HairlineDivider from '../components/HairlineDivider.astro';
+import MetricsRow from '../components/MetricsRow.astro';
+import PriorityTag from '../components/PriorityTag.astro';
+import OrdenamientoName from '../components/OrdenamientoName.astro';
+import SectionHeader from '../components/SectionHeader.astro';
+import NavCard from '../components/NavCard.astro';
+
+import ordenamientosData from '../data/ordenamientos.json';
+
+// Los 11 ordenamientos estatales (ambito === 'estatal'), en el orden canónico.
+const estatales = (ordenamientosData as Array<any>).filter((o) => o.ambito === 'estatal');
+
+const metrics6 = [
+  { number: 80, label: 'Debilidades' },
+  { number: 34, label: 'Condicionamientos' },
+  { number: 101, label: 'Reformas' },
+  { number: 207, label: 'Proyectos' },
+  { number: 40, label: 'Conflictos' },
+  { number: 62, label: 'Vacíos' },
+];
+
+const metrics4 = [
+  { number: 84, label: 'Viables hoy' },
+  { number: 50, label: 'Reforma estatal' },
+  { number: 15, label: 'Reforma federal' },
+  { number: 58, label: 'Habilitaciones' },
+];
+
+// Distribution bars — distribución real de prioridad de las 80 debilidades (1A).
+// 44 Alta · 30 Media · 6 Baja = 80.
+const distribution = [
+  { label: 'Alta', count: 44, total: 80, variant: 'alta' },
+  { label: 'Media', count: 30, total: 80, variant: 'media' },
+  { label: 'Baja', count: 6, total: 80, variant: 'baja' },
+];
+---
+<Editorial title="Design system" description="Spec visual viva del design system Julius Bär — Observatorio del Sistema de Energía de Jalisco.">
+
+  <div class="container">
+
+    {/* ================================================================
+         Hero — Section header con eyebrow + display + subtitle
+         ================================================================ */}
+    <section class="hero">
+      <Eyebrow>Design system · Demo</Eyebrow>
+      <DisplayHeadline>Spec visual del Observatorio</DisplayHeadline>
+      <Subtitle>
+        Esta página renderiza todos los componentes base del design system Julius Bär. Si se ve bien aquí, se ve bien en todo el sitio.
+      </Subtitle>
+    </section>
+
+    <HairlineDivider />
+
+    {/* ================================================================
+         Tipografía — escala completa
+         ================================================================ */}
+    <section class="page-section">
+      <SectionHeader
+        eyebrow="01 · Tipografía"
+        title="Escala tipográfica"
+        as="h2"
+      >
+        <Fragment slot="subtitle">
+          Serif ligero (Source Serif 4) para display y cuerpo editorial. Sans (Inter) solo para chrome. Mono (JetBrains Mono) para referencias a artículos.
+        </Fragment>
+      </SectionHeader>
+
+      <div class="container-narrow">
+        <div class="body-editorial" style="display:grid; gap:2rem;">
+          <div>
+            <div class="label-uppercase">Display · 52px · serif 300</div>
+            <div class="display" style="text-align:left; margin:0;">Sistema estatal de energía de Jalisco</div>
+          </div>
+
+          <div>
+            <div class="label-uppercase">Section heading · 32px · serif 300</div>
+            <h2 class="section-heading">Condicionamientos del marco federal</h2>
+          </div>
+
+          <div>
+            <div class="label-uppercase">Card heading · 22px · serif 400</div>
+            <h3 class="card-heading">Colisión constitucional latente</h3>
+          </div>
+
+          <div>
+            <div class="label-uppercase">Body editorial · 17px · serif 400 · line-height 1.75</div>
+            <p>
+              La cláusula de no prevalencia introducida en el artículo 27, párrafo sexto de la Constitución Política de los Estados Unidos Mexicanos por la reforma DOF 20-12-2024 —que establece que las iniciativas privadas o subnacionales de generación eléctrica <em>"en ningún caso tendrán prevalencia sobre la empresa pública del Estado"</em>— genera un riesgo regulatorio estructural para los proyectos estatales de generación distribuida, cogeneración y abasto aislado en territorio jalisciense.
+            </p>
+          </div>
+
+          <div>
+            <div class="label-uppercase">Body compact · 15.5px · serif 400 · line-height 1.6</div>
+            <p class="body-compact">
+              Formato usado en explorers y fichas individuales. Más denso que el body editorial, suficiente para lectura ligera pero compacto para tablas y listas largas.
+            </p>
+          </div>
+
+          <div>
+            <div class="label-uppercase">Eyebrow · 11px · sans 400 · tracking 0.28em</div>
+            <div class="eyebrow" style="text-align:left;">SÍNTESIS · 1A</div>
+          </div>
+
+          <div>
+            <div class="label-uppercase">Mono reference · 11px · mono 400</div>
+            <div class="mono-ref">Art. 15, Fracc. VI; Art. 50, Fracc. X</div>
+          </div>
+
+          <div>
+            <div class="label-uppercase">Label uppercase · 10px · sans 400 · tracking 0.22em</div>
+            <div class="label-uppercase">Desactualización</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <HairlineDivider />
+
+    {/* ================================================================
+         Métricas — fila de 6 y fila de 4
+         ================================================================ */}
+    <section class="page-section">
+      <SectionHeader
+        eyebrow="02 · Métricas"
+        title="MetricsRow"
+        as="h2"
+      >
+        <Fragment slot="subtitle">
+          Fila de métricas con hairlines verticales entre columnas. Soporta 3, 4, 5 y 6 columnas. En móvil se reorganizan automáticamente.
+        </Fragment>
+      </SectionHeader>
+
+      <div class="mb-6">
+        <div class="label-uppercase mb-2" style="text-align:center;">Fila de 6 — métricas globales del sitio</div>
+        <MetricsRow metrics={metrics6} />
+      </div>
+
+      <div>
+        <div class="label-uppercase mb-2" style="text-align:center;">Fila de 4 — proyectos por vía</div>
+        <MetricsRow metrics={metrics4} />
+      </div>
+    </section>
+
+    <HairlineDivider />
+
+    {/* ================================================================
+         Tags de prioridad
+         ================================================================ */}
+    <section class="page-section">
+      <SectionHeader
+        eyebrow="03 · Tags"
+        title="PriorityTag"
+        as="h2"
+      >
+        <Fragment slot="subtitle">
+          Tres variantes: Alta (fondo navy sólido), Media (borde navy), Baja (borde gris).
+        </Fragment>
+      </SectionHeader>
+
+      <div style="display:flex; gap:1.5rem; justify-content:center; align-items:center;">
+        <PriorityTag priority="Alta" />
+        <PriorityTag priority="Media" />
+        <PriorityTag priority="Baja" />
+      </div>
+    </section>
+
+    <HairlineDivider />
+
+    {/* ================================================================
+         OrdenamientoName — los 11 ordenamientos estatales
+         ================================================================ */}
+    <section class="page-section">
+      <SectionHeader
+        eyebrow="04 · Ordenamientos"
+        title="OrdenamientoName"
+        as="h2"
+      >
+        <Fragment slot="subtitle">
+          Formato prefix / core / suffix aplicado a los once ordenamientos del marco estatal de Jalisco. Prefix en italic gris; core en bold italic navy; suffix en italic pequeño muted.
+        </Fragment>
+      </SectionHeader>
+
+      <div class="container-narrow">
+        <ol style="list-style:none; padding:0; margin:0; display:grid; gap:1rem;">
+          {estatales.map((o: any, i: number) => (
+            <li style="display:grid; grid-template-columns: 2rem 5rem 1fr; gap:1rem; align-items:baseline;">
+              <span class="mono-ref">{String(i + 1).padStart(2, '0')}</span>
+              <span class="mono-ref">{o.tag}</span>
+              <span class="body-compact">
+                <OrdenamientoName tag={o.tag} />
+              </span>
+            </li>
+          ))}
+        </ol>
+      </div>
+    </section>
+
+    <HairlineDivider />
+
+    {/* ================================================================
+         Tabs (filtros) — activo / inactivo
+         ================================================================ */}
+    <section class="page-section">
+      <SectionHeader
+        eyebrow="05 · Filtros"
+        title="Tab buttons"
+        as="h2"
+      >
+        <Fragment slot="subtitle">
+          Filtros usados en explorers. Variante activa en navy sólido; inactivas con borde hairline.
+        </Fragment>
+      </SectionHeader>
+
+      <div class="mb-4">
+        <div class="label-uppercase mb-2">Grupo de prioridad — Alta activa</div>
+        <div class="tab-group">
+          <button class="tab" type="button">Todas</button>
+          <button class="tab active" type="button">Alta</button>
+          <button class="tab" type="button">Media</button>
+          <button class="tab" type="button">Baja</button>
+        </div>
+      </div>
+
+      <div class="mb-4">
+        <div class="label-uppercase mb-2">Grupo de tipo — Todas activa</div>
+        <div class="tab-group">
+          <button class="tab active" type="button">Todas</button>
+          <button class="tab" type="button">Vacío</button>
+          <button class="tab" type="button">Omisión</button>
+          <button class="tab" type="button">Desactualización</button>
+          <button class="tab" type="button">Conflicto potencial</button>
+        </div>
+      </div>
+
+      <div>
+        <div class="label-uppercase mb-2">Select estilizado</div>
+        <select class="select">
+          <option>Todos los ordenamientos</option>
+          {estatales.map((o: any) => (
+            <option>{o.tag} — {o.nombre_completo}</option>
+          ))}
+        </select>
+      </div>
+    </section>
+
+    <HairlineDivider />
+
+    {/* ================================================================
+         Distribution bars
+         ================================================================ */}
+    <section class="page-section">
+      <SectionHeader
+        eyebrow="06 · Distribución"
+        title="Bar rows"
+        as="h2"
+      >
+        <Fragment slot="subtitle">
+          Distribución real de las 80 debilidades del marco estatal por prioridad. Cada fila: label a la izquierda, conteo a la derecha, barra segmentada abajo.
+        </Fragment>
+      </SectionHeader>
+
+      <div class="container-narrow">
+        {distribution.map((d) => (
+          <div class="bar-row">
+            <div class="bar-label">Prioridad {d.label}</div>
+            <div class="bar-count">{d.count}</div>
+            <div class="bar-track">
+              <div
+                class={`bar-segment bar-segment-${d.variant}`}
+                style={`width: ${(d.count / d.total) * 100}%`}
+              ></div>
+            </div>
+          </div>
+        ))}
+      </div>
+    </section>
+
+    <HairlineDivider />
+
+    {/* ================================================================
+         Cross-reference link + tooltip
+         ================================================================ */}
+    <section class="page-section">
+      <SectionHeader
+        eyebrow="07 · Cross-refs"
+        title="Referencias cruzadas"
+        as="h2"
+      >
+        <Fragment slot="subtitle">
+          Las referencias cruzadas se renderizan como links navy con subrayado hairline. Hover abre un tooltip con metadata del ítem referenciado.
+        </Fragment>
+      </SectionHeader>
+
+      <div class="container-narrow">
+        <p class="body-editorial">
+          La reforma
+          <span class="xref-wrapper">
+            <a href="/sintesis/reformas/R-47" class="xref">R-47</a>
+            <span class="tooltip">
+              <div class="tooltip-eyebrow">Reforma · R-47</div>
+              <div class="tooltip-title">Criterios de eficiencia energética y GLD en Programa Municipal de Desarrollo Urbano y licencias de construcción</div>
+              <div class="tooltip-meta">LGAPM · Prioridad Alta · Tramo 6</div>
+            </span>
+          </span>
+          responde a la debilidad
+          <span class="xref-wrapper">
+            <a href="/sintesis/mapa/debilidades#1A.22" class="xref">1A.22</a>
+            <span class="tooltip">
+              <div class="tooltip-eyebrow">Debilidad · 1A.22</div>
+              <div class="tooltip-title">Ausencia de criterios energéticos en planeación municipal de desarrollo urbano</div>
+              <div class="tooltip-meta">LGAPM · Art. 37, Fracc. XIV · Prioridad Alta</div>
+            </span>
+          </span>
+          y habilita el proyecto
+          <span class="xref-wrapper">
+            <a href="/sintesis/proyectos/reforma-estatal#3B.16" class="xref">3B.16</a>
+            <span class="tooltip">
+              <div class="tooltip-eyebrow">Proyecto · 3B.16</div>
+              <div class="tooltip-title">Reglamento municipal de eficiencia energética y GLD en licencias de construcción</div>
+              <div class="tooltip-meta">LGAPM · Requiere reforma estatal previa</div>
+            </span>
+          </span>
+          sobre el ordenamiento <OrdenamientoName tag="LGAPM" short /> modificando su
+          <span class="mono-ref xref-mono" style="color:var(--navy); border-bottom:1px solid var(--navy);">Art. 37, Fracc. XIV</span>.
+        </p>
+        <p class="label-uppercase text-center mt-3" style="color:var(--text-muted);">
+          — Pasa el cursor sobre cualquier código para ver el tooltip —
+        </p>
+      </div>
+    </section>
+
+    <HairlineDivider />
+
+    {/* ================================================================
+         NavCard — tarjetas estilo "Our Solutions" Julius Bär
+         ================================================================ */}
+    <section class="page-section">
+      <SectionHeader
+        eyebrow="08 · Nav cards"
+        title="NavCard"
+        as="h2"
+      >
+        <Fragment slot="subtitle">
+          Dos tarjetas de navegación principales usadas en la home. Borde hairline; hover navy.
+        </Fragment>
+      </SectionHeader>
+
+      <div class="grid grid-2">
+        <NavCard
+          href="/sintesis"
+          eyebrow="Navegación · 01"
+          title="Síntesis ejecutiva"
+          description="Ochenta debilidades, ciento una reformas y doscientos siete proyectos ejecutivos organizados por tipo de intervención requerida."
+        />
+        <NavCard
+          href="/marco"
+          eyebrow="Navegación · 02"
+          title="Marco normativo"
+          description="Los veinte ordenamientos analizados: nueve federales y once estatales. Cada bloque con sus seis secciones estandarizadas."
+        />
+      </div>
+    </section>
+
+    <HairlineDivider />
+
+    {/* ================================================================
+         Botones — uso moderado
+         ================================================================ */}
+    <section class="page-section">
+      <SectionHeader
+        eyebrow="09 · Acciones"
+        title="Buttons"
+        as="h2"
+      >
+        <Fragment slot="subtitle">
+          Uso moderado — el sitio es editorial, no transaccional. Disponibles para formularios de contacto y descargas.
+        </Fragment>
+      </SectionHeader>
+
+      <div style="display:flex; gap:1.5rem; justify-content:center; align-items:center;">
+        <button class="btn" type="button">Descargar PDF</button>
+        <button class="btn btn-primary" type="button">Enviar mensaje</button>
+      </div>
+    </section>
+
+    <HairlineDivider />
+
+    {/* ================================================================
+         Watermark
+         ================================================================ */}
+    <div class="watermark">
+      Observatorio del Sistema de Energía de Jalisco · CC BY-NC-SA 4.0
+    </div>
+
+  </div>
+</Editorial>

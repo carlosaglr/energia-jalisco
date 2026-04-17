@@ -1,0 +1,13 @@
+---
+// Eyebrow — label sans uppercase tracked
+// Uso: <Eyebrow>SÍNTESIS · 1A</Eyebrow>
+interface Props {
+  class?: string;
+  align?: 'left' | 'center' | 'right';
+}
+const { class: className = '', align = 'center' } = Astro.props;
+const styleAlign = align !== 'center' ? `text-align: ${align};` : '';
+---
+<span class={`eyebrow ${className}`} style={styleAlign}>
+  <slot />
+</span>

@@ -1,0 +1,345 @@
+[
+  {
+    "id": "6.1",
+    "n": 1,
+    "accion": "Convocar mesa interinstitucional de trabajo (AEEJ + SEMADET + Secretaría de Hacienda + Consejería Jurídica del Ejecutivo) para priorizar y secuenciar las reformas estatales conforme a la ruta crítica de Sección 2",
+    "responsable": "AEEJ",
+    "requiere_reforma_raw": "No (acto del Ejecutivo)",
+    "requiere_reforma_bool": false,
+    "reformas_referenciadas": [],
+    "plazo": "30 días"
+  },
+  {
+    "id": "6.2",
+    "n": 2,
+    "accion": "Emitir instructivo del Ejecutivo estatal con criterios provisionales internos para suspender la afirmativa ficta en trámites estatales conexos a materia federal energética exclusiva, en tanto se aprueba R-54",
+    "responsable": "Consejería Jurídica del Ejecutivo + AEEJ",
+    "requiere_reforma_raw": "No (precaución administrativa anterior a reforma)",
+    "requiere_reforma_bool": false,
+    "reformas_referenciadas": [
+      "R-54"
+    ],
+    "plazo": "60 días"
+  },
+  {
+    "id": "6.3",
+    "n": 3,
+    "accion": "Adopción por la Sala Superior del TJA de un acuerdo general interpretativo sobre causales de improcedencia en materias federales energéticas exclusivas (proyecto 3A.67)",
+    "responsable": "Sala Superior del TJA",
+    "requiere_reforma_raw": "No (facultad propia)",
+    "requiere_reforma_bool": false,
+    "reformas_referenciadas": [],
+    "plazo": "60-90 días"
+  },
+  {
+    "id": "6.4",
+    "n": 4,
+    "accion": "Diseño y arranque de la Ventanilla Única Estatal de Energía como decreto del Ejecutivo (proyectos 3A.21, 3A.49) en forma operativa, en paralelo a la tramitación legislativa de R-22",
+    "responsable": "AEEJ",
+    "requiere_reforma_raw": "No para el arranque; sí para exigibilidad plena (R-22)",
+    "requiere_reforma_bool": false,
+    "reformas_referenciadas": [
+      "R-22"
+    ],
+    "plazo": "90 días"
+  },
+  {
+    "id": "6.5",
+    "n": 5,
+    "accion": "Inventario integral de regulaciones estatales y municipales con incidencia energética y su inscripción en el Registro Estatal de Trámites (proyecto 3A.75)",
+    "responsable": "Secretaría de Desarrollo Económico + AEEJ + Consejo Estatal de Mejora Regulatoria",
+    "requiere_reforma_raw": "No",
+    "requiere_reforma_bool": false,
+    "reformas_referenciadas": [],
+    "plazo": "120 días"
+  },
+  {
+    "id": "6.6",
+    "n": 6,
+    "accion": "Diagnóstico estado-municipio de la operación del Derecho de Alumbrado Público (DAP) y propuesta de reglamento modelo de eficiencia energética para municipios",
+    "responsable": "AEEJ + Subsecretaría de Asuntos Municipales",
+    "requiere_reforma_raw": "No para el reglamento modelo; sí para mandato general (R-46)",
+    "requiere_reforma_bool": false,
+    "reformas_referenciadas": [
+      "R-46"
+    ],
+    "plazo": "120 días"
+  },
+  {
+    "id": "6.7",
+    "n": 7,
+    "accion": "Inicio de gestiones formales con SENER para suscripción de convenios marco bajo: LSE Art. 88 párr. 3 (ventanilla única), LSH Art. 78 (supervisión hidrocarburos), LBio Art. 8 (biocombustibles), LGeo Art. 7 Fracc. XXV (Usos Diversos geotérmicos, condicionado a Reglamento federal)",
+    "responsable": "Gobernador + AEEJ",
+    "requiere_reforma_raw": "No",
+    "requiere_reforma_bool": false,
+    "reformas_referenciadas": [],
+    "plazo": "90-180 días"
+  },
+  {
+    "id": "6.8",
+    "n": 8,
+    "accion": "Inicio de gestiones formales con CONUEE para convenio de asesoría técnica y reglamentaciones locales de eficiencia energética (LPTE Art. 11 Fracc. X)",
+    "responsable": "AEEJ + SEMADET",
+    "requiere_reforma_raw": "No",
+    "requiere_reforma_bool": false,
+    "reformas_referenciadas": [],
+    "plazo": "90 días"
+  },
+  {
+    "id": "6.9",
+    "n": 9,
+    "accion": "Inicio de gestiones formales con SEMARNAT/INECC para interoperabilidad del inventario estatal de fuentes fijas con RENE (proyectos 3A.58, 3A.65)",
+    "responsable": "SEMADET",
+    "requiere_reforma_raw": "No",
+    "requiere_reforma_bool": false,
+    "reformas_referenciadas": [],
+    "plazo": "120 días"
+  },
+  {
+    "id": "6.10",
+    "n": 10,
+    "accion": "Convocatoria a la Agencia de Energía y SEMADET como invitadas con voz al Consejo Estatal de Mejora Regulatoria, en paralelo a la tramitación legislativa de R-94 (proyecto 3A.78)",
+    "responsable": "Gobernador como Presidente del Consejo",
+    "requiere_reforma_raw": "No para invitación; sí para voto (R-94)",
+    "requiere_reforma_bool": false,
+    "reformas_referenciadas": [
+      "R-94"
+    ],
+    "plazo": "30 días"
+  },
+  {
+    "id": "6.11",
+    "n": 11,
+    "accion": "Aprobación por el Consejo Estatal de Mejora Regulatoria de lineamientos y manual sectorial de AIR en materia energética, climática y ambiental (proyecto 3A.74)",
+    "responsable": "Consejo Estatal",
+    "requiere_reforma_raw": "No",
+    "requiere_reforma_bool": false,
+    "reformas_referenciadas": [],
+    "plazo": "120 días"
+  },
+  {
+    "id": "6.12",
+    "n": 12,
+    "accion": "Diseño de protocolos internos de consulta previa, libre e informada para actos de la AEEJ y dependencias vinculadas (proyecto 3A.48)",
+    "responsable": "AEEJ + Consejería Jurídica + Secretaría General de Gobierno",
+    "requiere_reforma_raw": "No (protocolo administrativo); ulterior R-26, R-57, R-86, R-92",
+    "requiere_reforma_bool": false,
+    "reformas_referenciadas": [
+      "R-26",
+      "R-57",
+      "R-86",
+      "R-92"
+    ],
+    "plazo": "90 días"
+  },
+  {
+    "id": "6.13",
+    "n": 13,
+    "accion": "Preparación del paquete legislativo de reformas estatales del Tramo 1 (R-01, R-02, R-03, R-04) para iniciativa del Ejecutivo al Congreso del Estado",
+    "responsable": "Consejería Jurídica + AEEJ",
+    "requiere_reforma_raw": "Reformas Sección 2",
+    "requiere_reforma_bool": false,
+    "reformas_referenciadas": [
+      "R-01",
+      "R-02",
+      "R-03",
+      "R-04"
+    ],
+    "plazo": "180 días"
+  },
+  {
+    "id": "6.14",
+    "n": 14,
+    "accion": "Preparación del paquete legislativo de reformas estatales de actualización (R-06 LACCEJ, R-43 LPIPSEJM, R-65 LEEEPA-Jal, R-73 REEEPA) para corregir referencias federales obsoletas",
+    "responsable": "Consejería Jurídica + dependencias sectoriales",
+    "requiere_reforma_raw": "Reformas Sección 2",
+    "requiere_reforma_bool": false,
+    "reformas_referenciadas": [
+      "R-06",
+      "R-43",
+      "R-65",
+      "R-73"
+    ],
+    "plazo": "180 días"
+  },
+  {
+    "id": "6.15",
+    "n": 15,
+    "accion": "Preparación del paquete legislativo de reformas procesales urgentes (R-54 LPAEJ, R-82 LJAEJ, R-83 LJAEJ, R-84 LJAEJ) para neutralizar el riesgo sistémico de nulidad de títulos estatales por afirmativa ficta (caso 4C.2)",
+    "responsable": "Consejería Jurídica + TJA",
+    "requiere_reforma_raw": "Reformas Sección 2",
+    "requiere_reforma_bool": false,
+    "reformas_referenciadas": [
+      "R-54",
+      "R-82",
+      "R-83",
+      "R-84"
+    ],
+    "plazo": "180 días"
+  },
+  {
+    "id": "6.16",
+    "n": 16,
+    "accion": "Diseño del Fondo Estatal de Cambio Climático autónomo (R-12) en coordinación con Secretaría de Hacienda Pública del Estado, articulado con Ley de Hacienda y con vehículo fiscal específico (R-69)",
+    "responsable": "Secretaría de Hacienda + SEMADET + AEEJ",
+    "requiere_reforma_raw": "Sí (R-12 + R-69)",
+    "requiere_reforma_bool": true,
+    "reformas_referenciadas": [
+      "R-12",
+      "R-69"
+    ],
+    "plazo": "240 días"
+  },
+  {
+    "id": "6.17",
+    "n": 17,
+    "accion": "Impulso ejecutivo a la atracción por la Sala Superior del TJA de casos que fijen precedente sobre afirmativa ficta con componente federal energético (proyecto 3A.71) y sobre tarifas municipales con afectación colectiva (proyecto 3A.73)",
+    "responsable": "Sala Superior del TJA + Consejería Jurídica del Ejecutivo (gestión)",
+    "requiere_reforma_raw": "No",
+    "requiere_reforma_bool": false,
+    "reformas_referenciadas": [],
+    "plazo": "Continuo"
+  },
+  {
+    "id": "6.18",
+    "n": 18,
+    "accion": "Programa de capacitación a productores de caña de azúcar y sorgo sobre requisitos del permiso federal de producción de biomasa (proyecto 3A.30)",
+    "responsable": "AEEJ + LAEJ-Agencia + SEDER",
+    "requiere_reforma_raw": "No",
+    "requiere_reforma_bool": false,
+    "reformas_referenciadas": [],
+    "plazo": "180 días"
+  },
+  {
+    "id": "6.19",
+    "n": 19,
+    "accion": "Programa estatal de eficiencia energética y energías renovables en inmuebles y flotillas del Gobierno del Estado y municipios (proyectos 3A.10, 3A.17, 3A.54): definición de cartera, indicadores y línea base",
+    "responsable": "AEEJ + SEMADET + Oficialía Mayor",
+    "requiere_reforma_raw": "No",
+    "requiere_reforma_bool": false,
+    "reformas_referenciadas": [],
+    "plazo": "90 días para línea base; ejecución continua"
+  },
+  {
+    "id": "6.20",
+    "n": 20,
+    "accion": "Convocatoria a la Sala Superior del TJA para acuerdo general sobre estándares probatorios en juicios con evidencia técnica energética (proyecto 3A.72)",
+    "responsable": "Sala Superior del TJA",
+    "requiere_reforma_raw": "No",
+    "requiere_reforma_bool": false,
+    "reformas_referenciadas": [],
+    "plazo": "120 días"
+  },
+  {
+    "id": "6.21",
+    "n": 21,
+    "accion": "Diagnóstico de potencial geotérmico de Jalisco (Cinturón Volcánico Transmexicano: Los Azufres, La Primavera, La Ciénega, Volcán de Tequila) en coordinación con SENER y CFE-Geotermia (proyecto 3A.25, habilitación 3D.33)",
+    "responsable": "AEEJ + Consejo Estatal de Ciencia y Tecnología",
+    "requiere_reforma_raw": "No",
+    "requiere_reforma_bool": false,
+    "reformas_referenciadas": [],
+    "plazo": "240 días"
+  },
+  {
+    "id": "6.22",
+    "n": 22,
+    "accion": "Pilotos de aprovechamiento energético de biogás en rellenos sanitarios municipales (Los Laureles, Picachos, rellenos regionales) bajo el Art. 53 REEEPA con interpretación administrativa ad hoc, mientras se tramita R-75 (proyecto 3A.66)",
+    "responsable": "Municipios + SEMADET + AEEJ",
+    "requiere_reforma_raw": "No para pilotos; sí para escala (R-63 + R-75)",
+    "requiere_reforma_bool": false,
+    "reformas_referenciadas": [
+      "R-63",
+      "R-75"
+    ],
+    "plazo": "Continuo (pilotos arrancan en 90 días)"
+  },
+  {
+    "id": "6.23",
+    "n": 23,
+    "accion": "Tablero estadístico público sobre juicios administrativos con componente energético (proyecto 3A.70)",
+    "responsable": "TJA",
+    "requiere_reforma_raw": "No",
+    "requiere_reforma_bool": false,
+    "reformas_referenciadas": [],
+    "plazo": "180 días"
+  },
+  {
+    "id": "6.24",
+    "n": 24,
+    "accion": "Agenda regulatoria semestral sectorial energética integrada ante el Consejo Estatal de Mejora Regulatoria (proyecto 3A.79)",
+    "responsable": "AEEJ + dependencias emisoras",
+    "requiere_reforma_raw": "No",
+    "requiere_reforma_bool": false,
+    "reformas_referenciadas": [],
+    "plazo": "Continuo (primera entrega 90 días)"
+  },
+  {
+    "id": "6.25",
+    "n": 25,
+    "accion": "Programa de digitalización de trámites energéticos estatales bajo régimen vigente de firma electrónica (proyecto 3A.50)",
+    "responsable": "AEEJ + Coordinación General de Innovación Gubernamental",
+    "requiere_reforma_raw": "No para versión básica; sí para versión plena (R-56)",
+    "requiere_reforma_bool": false,
+    "reformas_referenciadas": [
+      "R-56"
+    ],
+    "plazo": "180 días"
+  },
+  {
+    "id": "6.26",
+    "n": 26,
+    "accion": "Identificación y postulación de proyectos estatales al Fondo para la Transición Energética y al Fondo de Servicio Universal Energético, aprovechando preferencia de entidades públicas (proyectos 3A.14, 3A.20)",
+    "responsable": "AEEJ",
+    "requiere_reforma_raw": "No",
+    "requiere_reforma_bool": false,
+    "reformas_referenciadas": [],
+    "plazo": "Continuo (siguiente convocatoria abierta)"
+  },
+  {
+    "id": "6.27",
+    "n": 27,
+    "accion": "Activación de gestiones políticas del Ejecutivo estatal — vía CONAGO o vía bilateral — para impulsar reformas federales identificadas como precondición de proyectos 3C (Reglamento LGeo, Reglamento y Programas LBio, reconocimiento estatal en LPTE Arts. 49-50, articulación procedimental LSH/LSE)",
+    "responsable": "Gobernador + Coordinación General Estratégica de Crecimiento y Desarrollo Económico",
+    "requiere_reforma_raw": "No (gestión política)",
+    "requiere_reforma_bool": false,
+    "reformas_referenciadas": [],
+    "plazo": "Continuo"
+  },
+  {
+    "id": "6.28",
+    "n": 28,
+    "accion": "Diagnóstico operativo del estado de explotación de las 58 habilitaciones federales del inventario 3D, con plan de activación priorizado de las 27 ociosas y de mejora de las 23 parcialmente explotadas",
+    "responsable": "AEEJ",
+    "requiere_reforma_raw": "No",
+    "requiere_reforma_bool": false,
+    "reformas_referenciadas": [],
+    "plazo": "180 días"
+  },
+  {
+    "id": "6.29",
+    "n": 29,
+    "accion": "Coordinación con el Instituto Estatal Electoral, el Instituto Jalisciense de los Pueblos Indígenas y comunidades wixárika, náayeri, o'dam y mexicaneras para diseño participativo del protocolo estatal de consulta previa (precondición de R-26, R-57, R-86, R-92)",
+    "responsable": "Secretaría General de Gobierno + IJPI",
+    "requiere_reforma_raw": "No (diseño participativo); sí (R-26 et al.)",
+    "requiere_reforma_bool": false,
+    "reformas_referenciadas": [
+      "R-26",
+      "R-57",
+      "R-86",
+      "R-92"
+    ],
+    "plazo": "240 días"
+  },
+  {
+    "id": "6.30",
+    "n": 30,
+    "accion": "Levantamiento de un mapa público de interfaz federal-estatal de trámites con incidencia energética (acompañante del proyecto 3A.75 y precondición de R-99)",
+    "responsable": "AEEJ + Secretaría de Desarrollo Económico",
+    "requiere_reforma_raw": "No",
+    "requiere_reforma_bool": false,
+    "reformas_referenciadas": [
+      "R-99"
+    ],
+    "plazo": "180 días"
+  }
+]

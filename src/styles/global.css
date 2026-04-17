@@ -1,0 +1,13 @@
+/* ============================================================================
+   global.css — Punto único de entrada para estilos
+   Importa los cuatro archivos del design system en el orden correcto:
+     1. tokens     — variables y reset
+     2. typography — escala tipográfica
+     3. components — componentes base
+     4. layout     — estructura de página
+   ============================================================================ */
+
+@import "./tokens.css";
+@import "./typography.css";
+@import "./components.css";
+@import "./layout.css";

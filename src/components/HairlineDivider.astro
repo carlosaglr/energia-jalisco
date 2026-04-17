@@ -1,0 +1,11 @@
+---
+// HairlineDivider — separador horizontal 1px
+// Uso: <HairlineDivider />
+interface Props {
+  light?: boolean;
+  class?: string;
+}
+const { light = false, class: className = '' } = Astro.props;
+const cls = light ? 'hairline-light' : 'hairline';
+---
+<hr class={`${cls} ${className}`} />

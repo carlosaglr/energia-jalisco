@@ -1,0 +1,498 @@
+[
+  {
+    "id": "4B.1",
+    "n": 1,
+    "titulo": "Régimen de generación eléctrica no exclusivo del servicio público (autoconsumo, GD, cogeneración): la frase \"en ningún caso tendrán prevalencia sobre la empresa pública del Estado\" (reforma DOF 20-12-2024) es ambigua",
+    "polo_federal": "CPEUM",
+    "art": "Art. 27 párr. 6",
+    "riesgo": "Permite restringir por vía reglamentaria iniciativas estatales de generación limpia, cogeneración o abasto aislado"
+  },
+  {
+    "id": "4B.2",
+    "n": 2,
+    "titulo": "Ausencia de referencia constitucional explícita a transición energética, energías renovables o cambio climático como materia concurrente",
+    "polo_federal": "CPEUM",
+    "art": "Art. 73 Fraccs. X y XXIX-G",
+    "riesgo": "La transición queda subsumida en competencia federal eléctrica; depende del anclaje en Art. 4 párr. 5 y XXIX-G"
+  },
+  {
+    "id": "4B.3",
+    "n": 3,
+    "titulo": "Indeterminación sobre la figura regulatoria energética tras la reforma DOF 20-12-2024",
+    "polo_federal": "CPEUM",
+    "art": "Art. 28 párr. sobre dependencia encargada de política energética",
+    "riesgo": "La absorción de funciones regulatorias por dependencia sectorial elimina la ventanilla autónoma de interlocución"
+  },
+  {
+    "id": "4B.4",
+    "n": 4,
+    "titulo": "Ausencia de procedimiento constitucional para concertación federal-estatal en infraestructura eléctrica sobre territorio estatal",
+    "polo_federal": "CPEUM",
+    "art": "Art. 27 párrs. 6-7 vs. Art. 115 Fracc. V",
+    "riesgo": "Conflicto recurrente entre planeación federal del SEN y facultades municipales de uso de suelo y zonificación, sin regla de resolución"
+  },
+  {
+    "id": "4B.5",
+    "n": 5,
+    "titulo": "Fórmula fiscal del impuesto especial sobre energía eléctrica no definida constitucionalmente",
+    "polo_federal": "CPEUM",
+    "art": "Art. 73 Fracc. XXIX último párr.",
+    "riesgo": "Discrecionalidad federal plena; Jalisco carece de base constitucional para negociar participaciones específicas"
+  },
+  {
+    "id": "4B.6",
+    "n": 6,
+    "titulo": "Litio: ausencia de régimen transicional para concesiones mineras preexistentes",
+    "polo_federal": "CPEUM",
+    "art": "Art. 27 párr. 6",
+    "riesgo": "La CPEUM no regula el destino de concesiones mineras que incluyan litio otorgadas antes de la reforma 2023; relegado a ley reglamentaria"
+  },
+  {
+    "id": "4B.7",
+    "n": 7,
+    "titulo": "Ausencia de facultad originaria estatal en LBio; toda intervención estatal depende de acto potestativo federal",
+    "polo_federal": "LBio",
+    "art": "Art. 4; Art. 8; Art. 10 Fracc. I",
+    "riesgo": "Jalisco no puede emitir regulación propia sobre cadena de biocombustibles; cualquier iniciativa requiere aquiescencia federal y puede ser bloqueada sin recurso"
+  },
+  {
+    "id": "4B.8",
+    "n": 8,
+    "titulo": "Sin plazos, criterios objetivos ni obligatoriedad para que la Federación suscriba convenios con los estados que lo soliciten",
+    "polo_federal": "LBio",
+    "art": "Art. 8; Art. 10 Fracc. I",
+    "riesgo": "Asimetría política: la decisión queda en fuero discrecional federal sin estándar verificable ni vía de impugnación"
+  },
+  {
+    "id": "4B.9",
+    "n": 9,
+    "titulo": "Frontera ambigua entre \"aprovechamiento y valorización de residuos orgánicos\" (federal SEMARNAT) y gestión integral estatal/municipal de RSU",
+    "polo_federal": "LBio",
+    "art": "Art. 3; Art. 6 Fraccs. I–V, VIII",
+    "riesgo": "Conflicto cuando municipios destinen residuos urbanos a biocombustibles: no queda claro cuándo deja de ser gestión local y pasa a cadena federal"
+  },
+  {
+    "id": "4B.10",
+    "n": 10,
+    "titulo": "Tránsito regulatorio indefinido: permisos vigentes y reglas previas continúan en vigor sin plazo cierto",
+    "polo_federal": "LBio",
+    "art": "Transitorios Tercero, Cuarto, Quinto, Décimo Segundo",
+    "riesgo": "Incertidumbre jurídica para inversionistas estatales; bloquea proyección de tarifas, requisitos y cargas fiscales"
+  },
+  {
+    "id": "4B.11",
+    "n": 11,
+    "titulo": "Sin regulación de relación entre metas federales de sustitución de combustibles fósiles y planeación energética/transporte de los estados",
+    "polo_federal": "LBio",
+    "art": "Arts. 11–13",
+    "riesgo": "El estado no puede fijar metas estatales vinculantes de mezcla o sustitución; queda limitado a replicar metas federales sin enforcement local"
+  },
+  {
+    "id": "4B.12",
+    "n": 12,
+    "titulo": "Aeronaves/aeródromos: Art. 26 LBio no distingue competencias territoriales cuando el aeródromo es estatal o municipal",
+    "polo_federal": "LBio",
+    "art": "Art. 26",
+    "riesgo": "En aeródromos civiles distintos al AICM/AIFA, distribución de bioturbosina queda íntegramente bajo permiso SENER, sin intervención estatal"
+  },
+  {
+    "id": "4B.13",
+    "n": 13,
+    "titulo": "Omisión total del orden estatal en el diseño del órgano regulador (CNE)",
+    "polo_federal": "LCNE",
+    "art": "Art. 10 párr. 1",
+    "riesgo": "Estados sin ventana institucional para incidir sobre decisiones técnicas que afectan desarrollo económico, ordenamiento territorial y seguridad energética locales"
+  },
+  {
+    "id": "4B.14",
+    "n": 14,
+    "titulo": "Ambigüedad sobre la naturaleza jurídica de las \"oficinas estatales o regionales\" de la Comisión",
+    "polo_federal": "LCNE",
+    "art": "Art. 2 párr. 3",
+    "riesgo": "No se define criterio de instalación, alcance, facultades delegadas ni relación con autoridades locales"
+  },
+  {
+    "id": "4B.15",
+    "n": 15,
+    "titulo": "Cláusula de inimpugnabilidad por daño económico aplicable a actos de la CNE",
+    "polo_federal": "LCNE",
+    "art": "Art. 28 párr. 3",
+    "riesgo": "Empresas estatales sujetas a regulación CNE quedan impedidas de reclamar afectación económica"
+  },
+  {
+    "id": "4B.16",
+    "n": 16,
+    "titulo": "Cláusula residual de delegación intra-federal sin correlato estatal",
+    "polo_federal": "LCNE",
+    "art": "Art. 7 Fracc. XXII; Art. 8 Fracc. IX; Art. 9 Fracc. VI",
+    "riesgo": "Ampliación de facultades CNE puede ocurrir por delegación administrativa de SENER sin intervención legislativa ni notificación a estados"
+  },
+  {
+    "id": "4B.17",
+    "n": 17,
+    "titulo": "Integración del Comité Técnico de la CNE sin representación territorial",
+    "polo_federal": "LCNE",
+    "art": "Art. 18 Fraccs. I a VI",
+    "riesgo": "Órgano colegiado que aprueba permisos, tarifas y regulación general carece de asiento, voz o invitación permanente para autoridades estatales"
+  },
+  {
+    "id": "4B.18",
+    "n": 18,
+    "titulo": "Régimen transitorio de continuidad regulatoria sin revisión",
+    "polo_federal": "LCNE",
+    "art": "Transitorio Séptimo",
+    "riesgo": "Normatividad heredada sobre interconexión, GD, tarifas y certificados permanece vigente sin plazo de revisión, congelando reglas que pudieron no considerar esquemas estatales"
+  },
+  {
+    "id": "4B.19",
+    "n": 19,
+    "titulo": "Asimetría estructural en facultad de convenios CFE-Estado",
+    "polo_federal": "LEPECFE",
+    "art": "Art. 10 párr. 1",
+    "riesgo": "Jalisco no puede exigir, por la sola existencia de la facultad, suscripción de convenios; ejecución depende de discrecionalidad federal"
+  },
+  {
+    "id": "4B.20",
+    "n": 20,
+    "titulo": "\"Estrategia de vinculación\" de CFE con autoridades estatales sin contenido mínimo, plazos ni mecanismos",
+    "polo_federal": "LEPECFE",
+    "art": "Art. 115",
+    "riesgo": "Vinculación meramente declarativa; el Estado no tiene anclaje jurídico para participar en decisiones sobre localización, mitigación o inversión social en proyectos de CFE"
+  },
+  {
+    "id": "4B.21",
+    "n": 21,
+    "titulo": "Indefinición sobre destino y aplicación territorial de los ingresos de CFE",
+    "polo_federal": "LEPECFE",
+    "art": "Art. 131 párr. 1",
+    "riesgo": "Entidades donde CFE genera, transmite o distribuye no tienen base legal para reclamar reinversión territorial proporcional"
+  },
+  {
+    "id": "4B.22",
+    "n": 22,
+    "titulo": "Flujo de información de CFE solo obliga frente a SENER y CNE, sin contemplar entidades federativas",
+    "polo_federal": "LEPECFE",
+    "art": "Art. 129 párr. 1",
+    "riesgo": "Jalisco carece de acceso directo y obligatorio a información operativa, planeación o inversión de CFE en su territorio"
+  },
+  {
+    "id": "4B.23",
+    "n": 23,
+    "titulo": "Reserva interpretativa en favor de SENER y supletoriedad \"siempre que no se opongan al régimen especial\"",
+    "polo_federal": "LEPECFE",
+    "art": "Art. 6 párrs. 3 y 5",
+    "riesgo": "Normas estatales conexas (desarrollo urbano, impacto ambiental local, derechos de vía, uso de suelo) pueden ser desplazadas sin mecanismo bilateral de armonización"
+  },
+  {
+    "id": "4B.24",
+    "n": 24,
+    "titulo": "Jurisdicción federal exclusiva del Art. 128 sin excepción aplicable a conflictos competenciales con entidades federativas",
+    "polo_federal": "LEPECFE",
+    "art": "Art. 128 párr. 1",
+    "riesgo": "Cualquier litigio Jalisco-CFE — incluso sobre materias donde el Estado tenga competencia (uso de suelo, protección ambiental local) — se sustancia en foro federal"
+  },
+  {
+    "id": "4B.25",
+    "n": 25,
+    "titulo": "\"Energía\" no incluida en Art. 8o LGCC mientras Art. 7o-VI-d la atribuye a Federación; perímetro estatal indefinido",
+    "polo_federal": "LGCC",
+    "art": "Art. 7o-VI-d; Art. 8o-II; Art. 33 Fracc. IV",
+    "riesgo": "Cualquier regulación estatal sobre GD, estándares de eficiencia para privados o incentivos al mercado eléctrico estatal queda expuesta a impugnación"
+  },
+  {
+    "id": "4B.26",
+    "n": 26,
+    "titulo": "Mitigación energética (Arts. 34, 35) asigna acciones a SENER, SHCP, CRE y CFE sin cláusula espejo para entidades federativas",
+    "polo_federal": "LGCC",
+    "art": "Art. 34 Fracc. I; Art. 35",
+    "riesgo": "\"En el ámbito de su competencia\" es circular: devuelve la definición al Art. 8o que no la contiene"
+  },
+  {
+    "id": "4B.27",
+    "n": 27,
+    "titulo": "Sistema de comercio de emisiones lo crea la Secretaría federal sin mencionar a entidades federativas",
+    "polo_federal": "LGCC",
+    "art": "Art. 7o Fracc. IX; Arts. 94, 95",
+    "riesgo": "Jalisco no tiene vía legal para operar mercado subnacional de carbono ni mecanismo de coordinación para emisores de jurisdicción mixta"
+  },
+  {
+    "id": "4B.28",
+    "n": 28,
+    "titulo": "Naturaleza ambigua de \"incentivos\" estatales (fiscal, regulatoria, financiera) y su relación con instrumentos de mercado federales",
+    "polo_federal": "LGCC",
+    "art": "Arts. 8o-XV, 91, 92",
+    "riesgo": "Ambigüedad sobre si un estado puede emitir créditos de carbono estatales o únicamente incentivos fiscales locales"
+  },
+  {
+    "id": "4B.29",
+    "n": 29,
+    "titulo": "Obligación de entrega de datos al INECC condicionada a normatividad secundaria federal sin plazo",
+    "polo_federal": "LGCC",
+    "art": "Art. 75",
+    "riesgo": "Si la normatividad federal no se expide o se expide tardíamente, el estado no puede cumplir ni diseñar su inventario con certeza"
+  },
+  {
+    "id": "4B.30",
+    "n": 30,
+    "titulo": "Obligación federal de \"colaborar\" con entidades vía asistencia técnica sin definir exigibilidad ni mecanismo",
+    "polo_federal": "LGCC",
+    "art": "Art. 7o-XXI",
+    "riesgo": "Obligación federal blanda; Jalisco carece de recurso jurídico para exigir asistencia técnica"
+  },
+  {
+    "id": "4B.31",
+    "n": 31,
+    "titulo": "Ausencia de definición y procedimiento de los convenios de coordinación estatal en materia geotérmica; remisión a Reglamento no emitido",
+    "polo_federal": "LGeo",
+    "art": "Art. 7 Fracc. XXV; Transitorio Quinto",
+    "riesgo": "Única vía operativa de participación estatal queda suspendida hasta emisión del Reglamento federal"
+  },
+  {
+    "id": "4B.32",
+    "n": 32,
+    "titulo": "Sin criterios de reparto competencial entre autoridades estatales/municipales y la Federación respecto de Aprovechamientos Geotérmicos Exentos",
+    "polo_federal": "LGeo",
+    "art": "Art. 2 Fracc. II; Arts. 46, 48",
+    "riesgo": "Actividades exentas pueden colisionar con licencias municipales (uso de suelo, agua potable, impacto estatal, salud) sin jerarquía o mecanismo de armonización"
+  },
+  {
+    "id": "4B.33",
+    "n": 33,
+    "titulo": "Autorizaciones estatales/municipales obligatorias pero sin plazos ni mecanismo resolutorio si la autoridad local niega, demora u obstruye",
+    "polo_federal": "LGeo",
+    "art": "Art. 8; Art. 23 Fracc. X y párr. final; Art. 18 Fracc. IV; Art. 25 Fracc. III",
+    "riesgo": "Inacción municipal puede derivar en caducidad de la Concesión federal (3 años, Art. 23), trasladando riesgo regulatorio estatal al permisionario"
+  },
+  {
+    "id": "4B.34",
+    "n": 34,
+    "titulo": "Prelación sobre el subsuelo no resuelta frente a otros aprovechamientos regulados por competencias estatales/municipales",
+    "polo_federal": "LGeo",
+    "art": "Art. 4 párr. 1",
+    "riesgo": "Utilidad pública preferente desplaza facultades estatales de ordenamiento territorial sin procedimiento de coordinación ni compensación"
+  },
+  {
+    "id": "4B.35",
+    "n": 35,
+    "titulo": "Consulta indígena previa, libre e informada se menciona sin asignación competencial ni procedimental",
+    "polo_federal": "LGeo",
+    "art": "Art. 4 párr. 2",
+    "riesgo": "Vacío sobre quién ejecuta la consulta y sus efectos jurídicos; fuente probable de impugnación en territorios wixárika y nahua con potencial geotérmico"
+  },
+  {
+    "id": "4B.36",
+    "n": 36,
+    "titulo": "Régimen de subproductos (distintos a litio e hidrocarburos) no articula competencia entre Federación, Estados y Conagua",
+    "polo_federal": "LGeo",
+    "art": "Art. 5 párrs. 1 y 3; Art. 6",
+    "riesgo": "Subproductos como sales, minerales no estratégicos o calor residual exportable pueden ser reclamados por legislación estatal sin que la Ley lo prohíba o autorice"
+  },
+  {
+    "id": "4B.37",
+    "n": 37,
+    "titulo": "Interconexión eléctrica obligatoria sin coordinación con autoridades estatales en planeación de infraestructura de transmisión/distribución",
+    "polo_federal": "LGeo",
+    "art": "Art. 23 Fracc. X",
+    "riesgo": "Desconexión con procesos estatales de ordenamiento territorial y licenciamiento de obra lineal"
+  },
+  {
+    "id": "4B.38",
+    "n": 38,
+    "titulo": "Aplicación supletoria limitada a LPTE y LSE sin resolver concurrencia con legislación ambiental estatal",
+    "polo_federal": "LGeo",
+    "art": "Art. 2 párr. 1; Art. 25 Fracc. VI; Art. 52",
+    "riesgo": "Coordinación ambiental se delega a \"instancias competentes\" sin distinguir federal/estatal, dejando al permisionario navegar dos regímenes sin armonización"
+  },
+  {
+    "id": "4B.39",
+    "n": 39,
+    "titulo": "Sin procedimiento, requisitos ni estándares mínimos para suscripción de convenios de coordinación estatal en LPTE",
+    "polo_federal": "LPTE",
+    "art": "Art. 8 Fracc. VI",
+    "riesgo": "Facultad estatal depende totalmente de voluntad política federal; Jalisco carece de derecho exigible a la coordinación"
+  },
+  {
+    "id": "4B.40",
+    "n": 40,
+    "titulo": "Sin criterios o pisos mínimos para representación estatal en el Consejo de Planeación Energética; invitación discrecional sin voto",
+    "polo_federal": "LPTE",
+    "art": "Arts. 17, 19",
+    "riesgo": "Estados quedan excluidos de la toma de decisiones de planeación vinculante que afecta directamente su territorio e infraestructura"
+  },
+  {
+    "id": "4B.41",
+    "n": 41,
+    "titulo": "PLADESE y PLATEASE vinculantes para permisos federales sin mecanismo alguno de consulta, conciliación o participación estatal en su elaboración",
+    "polo_federal": "LPTE",
+    "art": "Art. 32 párr. 3; Art. 28",
+    "riesgo": "Decisiones federales sobre expansión de transmisión, ubicación de centrales y retiro de infraestructura se imponen al territorio estatal sin audiencia formal"
+  },
+  {
+    "id": "4B.42",
+    "n": 42,
+    "titulo": "Indefinición del alcance del concepto \"reglamentaciones técnicas locales\" estatales",
+    "polo_federal": "LPTE",
+    "art": "Art. 8 Fracc. VII; Art. 11 Fracc. X",
+    "riesgo": "Conflicto de competencia con NOM federales (Art. 8 Fracc. XX; Art. 11 Fracc. VI) si el estado pretende legislar estándares técnicos propios"
+  },
+  {
+    "id": "4B.43",
+    "n": 43,
+    "titulo": "\"Opinión vinculatoria\" de CONUEE sobre programas estatales con fondos federales sin procedimiento, plazos ni recurso de impugnación",
+    "polo_federal": "LPTE",
+    "art": "Art. 11 Fracc. XI",
+    "riesgo": "CONUEE puede bloquear programas estatales sin estándares transparentes ni defensa procesal del estado"
+  },
+  {
+    "id": "4B.44",
+    "n": 44,
+    "titulo": "Fondo de Servicio Universal Energético sin reconocer a los estados como co-administradores, co-ejecutores ni receptores directos",
+    "polo_federal": "LPTE",
+    "art": "Arts. 49, 53",
+    "riesgo": "Estados con mayor pobreza energética no tienen vía institucional para priorizar territorios propios dentro del Fondo"
+  },
+  {
+    "id": "4B.45",
+    "n": 45,
+    "titulo": "Generación Limpia Distribuida regulada exclusivamente vía LSE y CNE, sin margen estatal",
+    "polo_federal": "LPTE",
+    "art": "Art. 14 Fracc. II",
+    "riesgo": "Estados no pueden habilitar esquemas propios de GD más ambiciosos que el federal"
+  },
+  {
+    "id": "4B.46",
+    "n": 46,
+    "titulo": "Ausencia de metas estatales diferenciadas; metas de Energías Limpias son nacionales como porcentaje del total",
+    "polo_federal": "LPTE",
+    "art": "Art. 26",
+    "riesgo": "Estados con mayor potencial o compromiso climático no tienen vehículo normativo para metas propias superiores a la federal"
+  },
+  {
+    "id": "4B.47",
+    "n": 47,
+    "titulo": "Abrogación de la LTE 2015 sin reconocer instrumentos estatales de transición energética vigentes ni mecánica de transición",
+    "polo_federal": "LPTE",
+    "art": "Transitorio Segundo",
+    "riesgo": "Programas estatales alineados al marco 2015 quedan sin anclaje expreso, lo que puede exigir reforma estatal"
+  },
+  {
+    "id": "4B.48",
+    "n": 48,
+    "titulo": "Ejecución de obras de T&D en vía pública sin condicionar a permisos ni coordinación con autoridad municipal/estatal titular del espacio público",
+    "polo_federal": "LSE",
+    "art": "Art. 54",
+    "riesgo": "Conflicto con Art. 115 CPEUM; sin obligación de aviso, coordinación o permiso municipal genera fricción entre operación federal y gestión urbana estatal/municipal"
+  },
+  {
+    "id": "4B.49",
+    "n": 49,
+    "titulo": "Indefinición del mecanismo de coordinación federal-estatal-municipal para proyectos eléctricos",
+    "polo_federal": "LSE",
+    "art": "Art. 88 párr. 3",
+    "riesgo": "Obligación de \"contribuir\" sin definir instrumento jurídico, plazos ni consecuencias ante omisión. Riesgo de bloqueo o duplicidad en trámites estatales/municipales"
+  },
+  {
+    "id": "4B.50",
+    "n": 50,
+    "titulo": "Regla de prevalencia federal sin delimitar casos de concurrencia",
+    "polo_federal": "LSE",
+    "art": "Art. 7",
+    "riesgo": "Norma de cierre que desactiva de facto cualquier pretensión estatal de regular materia conexa cuando toque actividad del sector eléctrico"
+  },
+  {
+    "id": "4B.51",
+    "n": 51,
+    "titulo": "Ausencia de reconocimiento a políticas energéticas estatales en la LSE",
+    "polo_federal": "LSE",
+    "art": "Art. 6; Art. 10 Fracc. I",
+    "riesgo": "Programas estatales de Jalisco carecen de anclaje y quedan subordinados a planeación vinculante federal"
+  },
+  {
+    "id": "4B.52",
+    "n": 52,
+    "titulo": "Generación Distribuida y electromovilidad regulación centralizada sin participación estatal",
+    "polo_federal": "LSE",
+    "art": "Arts. 25, 26, 27, 86",
+    "riesgo": "Regímenes con alto componente urbano y municipal sin ventana explícita para normativa estatal complementaria"
+  },
+  {
+    "id": "4B.53",
+    "n": 53,
+    "titulo": "Pequeños sistemas eléctricos y sistemas aislados sin previsión de operación estatal/municipal",
+    "polo_federal": "LSE",
+    "art": "Arts. 79, 80, 81",
+    "riesgo": "Sistemas hasta 100 MW (viables en zonas serranas de Jalisco) bajo control federal; sin operación por entes estatales ni cooperativas locales"
+  },
+  {
+    "id": "4B.54",
+    "n": 54,
+    "titulo": "Fondo de Servicio Universal Energético sin reglas de asignación territorial",
+    "polo_federal": "LSE",
+    "art": "Arts. 130, 131",
+    "riesgo": "Ejecución queda en CFE conforme a términos que fije la Secretaría; estados sin participación en priorización ni seguimiento"
+  },
+  {
+    "id": "4B.55",
+    "n": 55,
+    "titulo": "Migración de permisos de autoabastecimiento y cogeneración sin papel estatal en acompañamiento",
+    "polo_federal": "LSE",
+    "art": "Transitorios Sexto, Séptimo, Octavo",
+    "riesgo": "Falta de figura procesal estatal en el tránsito de permisos preexistentes"
+  },
+  {
+    "id": "4B.56",
+    "n": 56,
+    "titulo": "Art. 127 LSH amplía exclusividad federal a emisiones GEI, equilibrio ecológico y protección al ambiente, colisionando con LGEEPA concurrente",
+    "polo_federal": "LSH",
+    "art": "Art. 127 párr. 1",
+    "riesgo": "Desplazamiento de regulación ambiental estatal/municipal sobre instalaciones de hidrocarburos; vaciamiento de facultades estatales en cambio climático respecto del sector"
+  },
+  {
+    "id": "4B.57",
+    "n": 57,
+    "titulo": "Obligación de \"contribuir\" y \"agilizar\" del Art. 128 párr. 3 sin estándares, plazos ni consecuencias del incumplimiento estatal/municipal",
+    "polo_federal": "LSH",
+    "art": "Art. 128 párr. 3",
+    "riesgo": "Ambigüedad sobre alcance de discrecionalidad municipal/estatal en licencias frente a proyectos federalmente autorizados; potencial nulidad de negativas locales"
+  },
+  {
+    "id": "4B.58",
+    "n": 58,
+    "titulo": "Convenios del Art. 78 LSH sin criterios, contenidos mínimos ni mecanismo para que los estados inicien o soliciten su suscripción",
+    "polo_federal": "LSH",
+    "art": "Art. 78",
+    "riesgo": "Facultad de supervisión estatal queda condicionada a voluntad federal; asimetría entre entidades federativas"
+  },
+  {
+    "id": "4B.59",
+    "n": 59,
+    "titulo": "\"Demanda local y regional\" se evalúa unilateralmente por SENER/CNE sin canal obligatorio de entrada de diagnóstico estatal",
+    "polo_federal": "LSH",
+    "art": "Art. 81 párr. 1",
+    "riesgo": "Se diluye la capacidad de Jalisco para orientar decisiones federales sobre infraestructura en su territorio"
+  },
+  {
+    "id": "4B.60",
+    "n": 60,
+    "titulo": "Consulta previa LSH sin coordinación con órganos estatales en materia indígena ni Comisiones Estatales de Derechos Humanos",
+    "polo_federal": "LSH",
+    "art": "Art. 151",
+    "riesgo": "Exclusión de instituciones estatales indígenas en procesos de consulta; posible fragmentación y litigio sobre validez"
+  },
+  {
+    "id": "4B.61",
+    "n": 61,
+    "titulo": "Servidumbres legales de hidrocarburos rigen por derecho común federal y controversias por jurisdicción federal exclusiva",
+    "polo_federal": "LSH",
+    "art": "Art. 136 párr. 2; Art. 140",
+    "riesgo": "Tribunales y catastros estatales desplazados en ocupación superficial para ductos y E&E; potencial conflicto con registros públicos estatales de propiedad"
+  },
+  {
+    "id": "4B.62",
+    "n": 62,
+    "titulo": "Sin previsión de participación fiscal de estados y municipios en ingresos derivados de hidrocarburos",
+    "polo_federal": "LSH",
+    "art": "Art. 71 (remite a LISH)",
+    "riesgo": "Jalisco no puede reclamar ingresos directos del sector al amparo de la LSH"
+  }
+]

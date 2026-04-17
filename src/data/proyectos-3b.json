@@ -1,0 +1,820 @@
+[
+  {
+    "id": "3B.1",
+    "seccion": "3B",
+    "n": 1,
+    "titulo": "Política estatal vinculante para abatir Pobreza Energética en comunidades rurales y marginadas",
+    "ord_estatal": "LACCEJ",
+    "art_estatal": null,
+    "habilitacion_federal": "LPTE Arts. 49–50",
+    "condicion": null,
+    "prioridad": "Alta",
+    "reformas_requeridas": [
+      "R-10"
+    ],
+    "reformas_dependencias": [],
+    "raw_reforma_text": "ver R-10"
+  },
+  {
+    "id": "3B.2",
+    "seccion": "3B",
+    "n": 2,
+    "titulo": "Régimen estatal expreso de convenios con SENER, CONUEE y CNE en LACCEJ (eficiencia, energías limpias, almacenamiento)",
+    "ord_estatal": "LACCEJ",
+    "art_estatal": null,
+    "habilitacion_federal": "LPTE Art. 8 Fraccs. VI y VII; Art. 11 Fracc. X",
+    "condicion": null,
+    "prioridad": "Alta",
+    "reformas_requeridas": [
+      "R-08"
+    ],
+    "reformas_dependencias": [],
+    "raw_reforma_text": "ver R-08"
+  },
+  {
+    "id": "3B.3",
+    "seccion": "3B",
+    "n": 3,
+    "titulo": "Operación de Fondo Estatal de Cambio Climático con autonomía y patrimonio propio",
+    "ord_estatal": "LACCEJ",
+    "art_estatal": null,
+    "habilitacion_federal": "LGCC Art. 91; LPTE Art. 48 párr. 2",
+    "condicion": null,
+    "prioridad": "Alta",
+    "reformas_requeridas": [
+      "R-12"
+    ],
+    "reformas_dependencias": [],
+    "raw_reforma_text": "ver R-12"
+  },
+  {
+    "id": "3B.4",
+    "seccion": "3B",
+    "n": 4,
+    "titulo": "Instrumentación de metas estatales cuantitativas de largo plazo (emisiones, generación limpia en patrimonio público, NDC)",
+    "ord_estatal": "LACCEJ",
+    "art_estatal": null,
+    "habilitacion_federal": "LGCC Art. 72 Fracc. III; LPTE Art. 26",
+    "condicion": null,
+    "prioridad": "Alta",
+    "reformas_requeridas": [
+      "R-13"
+    ],
+    "reformas_dependencias": [],
+    "raw_reforma_text": "ver R-13"
+  },
+  {
+    "id": "3B.5",
+    "seccion": "3B",
+    "n": 5,
+    "titulo": "Operación de un mandato de contratación pública climáticamente responsable (compras, flotillas, GLD obligatoria en inmuebles nuevos)",
+    "ord_estatal": "LACCEJ",
+    "art_estatal": null,
+    "habilitacion_federal": "LGCC Art. 33 Fracc. IV; LPTE Art. 8 Fracc. VII",
+    "condicion": null,
+    "prioridad": "Alta",
+    "reformas_requeridas": [
+      "R-15"
+    ],
+    "reformas_dependencias": [],
+    "raw_reforma_text": "ver R-15"
+  },
+  {
+    "id": "3B.6",
+    "seccion": "3B",
+    "n": 6,
+    "titulo": "Operación de la Agencia de Energía como ventanilla única estatal exigible para proyectos federales energéticos",
+    "ord_estatal": "LOAEEJ",
+    "art_estatal": null,
+    "habilitacion_federal": "LSE Art. 88 párr. 3; LSH Art. 128 párr. 3",
+    "condicion": null,
+    "prioridad": "Alta",
+    "reformas_requeridas": [
+      "R-22"
+    ],
+    "reformas_dependencias": [
+      "R-21"
+    ],
+    "raw_reforma_text": "ver R-22 (depende de R-21)"
+  },
+  {
+    "id": "3B.7",
+    "seccion": "3B",
+    "n": 7,
+    "titulo": "Acceso reglado de la Agencia al Fondo de Transición Energética y Fondo de Servicio Universal Energético como postulante estatal formal",
+    "ord_estatal": "LOAEEJ",
+    "art_estatal": null,
+    "habilitacion_federal": "LPTE Arts. 43, 47, 48, 49–50",
+    "condicion": null,
+    "prioridad": "Alta",
+    "reformas_requeridas": [
+      "R-25"
+    ],
+    "reformas_dependencias": [],
+    "raw_reforma_text": "ver R-25"
+  },
+  {
+    "id": "3B.8",
+    "seccion": "3B",
+    "n": 8,
+    "titulo": "Creación de una empresa pública o mixta estatal para aprovechamiento energético de residuos orgánicos del sector agroalimentario (componente estatal)",
+    "ord_estatal": "LAEJ",
+    "art_estatal": null,
+    "habilitacion_federal": "LBio Art. 9 Fracc. I",
+    "condicion": null,
+    "prioridad": "Alta",
+    "reformas_requeridas": [
+      "R-31",
+      "R-33"
+    ],
+    "reformas_dependencias": [],
+    "raw_reforma_text": "ver R-31, R-33"
+  },
+  {
+    "id": "3B.9",
+    "seccion": "3B",
+    "n": 9,
+    "titulo": "Régimen de valorización energética de residuos orgánicos agroalimentarios al Programa Estratégico Estatal y operación material de la Agencia",
+    "ord_estatal": "LAEJ",
+    "art_estatal": null,
+    "habilitacion_federal": "LBio Art. 1 Fracc. V; Art. 9 Fracc. VII",
+    "condicion": null,
+    "prioridad": "Alta",
+    "reformas_requeridas": [
+      "R-31"
+    ],
+    "reformas_dependencias": [],
+    "raw_reforma_text": "ver R-31"
+  },
+  {
+    "id": "3B.10",
+    "seccion": "3B",
+    "n": 10,
+    "titulo": "APP energético con régimen específico de articulación con permisos CNE, CENACE y CFE (modalidad sectorial con catálogo de riesgos federal)",
+    "ord_estatal": "LPIPSEJM",
+    "art_estatal": null,
+    "habilitacion_federal": "LSE Art. 88 párr. 3; Art. 151; LEPECFE Arts. 10, 11",
+    "condicion": null,
+    "prioridad": "Alta",
+    "reformas_requeridas": [
+      "R-37",
+      "R-38",
+      "R-39"
+    ],
+    "reformas_dependencias": [],
+    "raw_reforma_text": "ver R-37, R-38, R-39"
+  },
+  {
+    "id": "3B.11",
+    "seccion": "3B",
+    "n": 11,
+    "titulo": "Régimen contractual APP con titularidad expresa de atributos energéticos (CELs, reducciones verificadas)",
+    "ord_estatal": "LPIPSEJM",
+    "art_estatal": null,
+    "habilitacion_federal": "LSE Art. 10 Fracc. X; Art. 11 Fracc. XVI",
+    "condicion": null,
+    "prioridad": "Media",
+    "reformas_requeridas": [
+      "R-40"
+    ],
+    "reformas_dependencias": [],
+    "raw_reforma_text": "ver R-40"
+  },
+  {
+    "id": "3B.12",
+    "seccion": "3B",
+    "n": 12,
+    "titulo": "Catálogo positivo y negativo de objeto APP con exclusión de actividades reservadas constitucionalmente a la Nación",
+    "ord_estatal": "LPIPSEJM",
+    "art_estatal": null,
+    "habilitacion_federal": "CPEUM Art. 27 párrs. 6, 7 y 8; Art. 28 párr. 4",
+    "condicion": null,
+    "prioridad": "Alta",
+    "reformas_requeridas": [
+      "R-42"
+    ],
+    "reformas_dependencias": [],
+    "raw_reforma_text": "ver R-42"
+  },
+  {
+    "id": "3B.13",
+    "seccion": "3B",
+    "n": 13,
+    "titulo": "Coordinación obligatoria con Consulta Previa federal en APPs energéticos en territorio indígena",
+    "ord_estatal": "LPIPSEJM",
+    "art_estatal": null,
+    "habilitacion_federal": "LSE Arts. 133, 134, 135; LSH Art. 151",
+    "condicion": null,
+    "prioridad": "Alta",
+    "reformas_requeridas": [
+      "R-41"
+    ],
+    "reformas_dependencias": [],
+    "raw_reforma_text": "ver R-41"
+  },
+  {
+    "id": "3B.14",
+    "seccion": "3B",
+    "n": 14,
+    "titulo": "Esquemas de coinversión APP estandarizados con CFE y filiales",
+    "ord_estatal": "LPIPSEJM",
+    "art_estatal": null,
+    "habilitacion_federal": "LEPECFE Arts. 10, 11",
+    "condicion": null,
+    "prioridad": "Media",
+    "reformas_requeridas": [
+      "R-44"
+    ],
+    "reformas_dependencias": [],
+    "raw_reforma_text": "ver R-44"
+  },
+  {
+    "id": "3B.15",
+    "seccion": "3B",
+    "n": 15,
+    "titulo": "Bases generales municipales de eficiencia energética y reglamentos modelo para alumbrado público",
+    "ord_estatal": "LGAPM",
+    "art_estatal": null,
+    "habilitacion_federal": "CPEUM Art. 115 Fracc. III inciso b) y penúltimo párr.; Art. 73 Fracc. XXIX-G; LPTE",
+    "condicion": null,
+    "prioridad": "Alta",
+    "reformas_requeridas": [
+      "R-46"
+    ],
+    "reformas_dependencias": [],
+    "raw_reforma_text": "ver R-46"
+  },
+  {
+    "id": "3B.16",
+    "seccion": "3B",
+    "n": 16,
+    "titulo": "Programa Municipal de Desarrollo Urbano con criterios obligatorios de eficiencia energética, GLD y edificación sustentable",
+    "ord_estatal": "LGAPM",
+    "art_estatal": null,
+    "habilitacion_federal": "CPEUM Art. 115 Fracc. V incisos a) y b)",
+    "condicion": null,
+    "prioridad": "Alta",
+    "reformas_requeridas": [
+      "R-47"
+    ],
+    "reformas_dependencias": [],
+    "raw_reforma_text": "ver R-47"
+  },
+  {
+    "id": "3B.17",
+    "seccion": "3B",
+    "n": 17,
+    "titulo": "Política ambiental municipal con cambio climático, mitigación y transición energética como materias coordinadas con el Estado",
+    "ord_estatal": "LGAPM",
+    "art_estatal": null,
+    "habilitacion_federal": "CPEUM Art. 73 Fracc. XXIX-G",
+    "condicion": null,
+    "prioridad": "Alta",
+    "reformas_requeridas": [
+      "R-48"
+    ],
+    "reformas_dependencias": [],
+    "raw_reforma_text": "ver R-48"
+  },
+  {
+    "id": "3B.18",
+    "seccion": "3B",
+    "n": 18,
+    "titulo": "Coordinación energética Estado-Municipio operada por la AEEJ como interlocutora reconocida",
+    "ord_estatal": "LGAPM + LOAEEJ",
+    "art_estatal": null,
+    "habilitacion_federal": "CPEUM Art. 116 Fracc. VII; LEPECFE Arts. 10, 115",
+    "condicion": null,
+    "prioridad": "Alta",
+    "reformas_requeridas": [
+      "R-49"
+    ],
+    "reformas_dependencias": [
+      "R-21"
+    ],
+    "raw_reforma_text": "ver R-49 (depende de R-21)"
+  },
+  {
+    "id": "3B.19",
+    "seccion": "3B",
+    "n": 19,
+    "titulo": "Régimen claro de concesiones municipales sobre alumbrado público con exclusión expresa de T&D federal",
+    "ord_estatal": "LGAPM",
+    "art_estatal": null,
+    "habilitacion_federal": "CPEUM Art. 27 párr. 6; Art. 28 párr. 4",
+    "condicion": null,
+    "prioridad": "Media",
+    "reformas_requeridas": [
+      "R-50"
+    ],
+    "reformas_dependencias": [],
+    "raw_reforma_text": "ver R-50"
+  },
+  {
+    "id": "3B.20",
+    "seccion": "3B",
+    "n": 20,
+    "titulo": "Procedimiento administrativo digital pleno con expediente electrónico unificado, notificación electrónica vinculante e interoperabilidad federal",
+    "ord_estatal": "LPAEJ",
+    "art_estatal": null,
+    "habilitacion_federal": "LCNE; LSE 2025",
+    "condicion": null,
+    "prioridad": "Alta",
+    "reformas_requeridas": [
+      "R-56"
+    ],
+    "reformas_dependencias": [],
+    "raw_reforma_text": "ver R-56"
+  },
+  {
+    "id": "3B.21",
+    "seccion": "3B",
+    "n": 21,
+    "titulo": "Procedimiento administrativo expedito para trámites estatales de generación distribuida y autoconsumo menor",
+    "ord_estatal": "LPAEJ",
+    "art_estatal": null,
+    "habilitacion_federal": "CPEUM Art. 27 párr. 6 in fine; LSE 2025",
+    "condicion": null,
+    "prioridad": "Media",
+    "reformas_requeridas": [
+      "R-58"
+    ],
+    "reformas_dependencias": [],
+    "raw_reforma_text": "ver R-58"
+  },
+  {
+    "id": "3B.22",
+    "seccion": "3B",
+    "n": 22,
+    "titulo": "Audiencias públicas y consultas públicas procesalizadas para actos estatales de impacto colectivo",
+    "ord_estatal": "LPAEJ",
+    "art_estatal": null,
+    "habilitacion_federal": "LGCC Art. 26; LPTE Art. 2",
+    "condicion": null,
+    "prioridad": "Media",
+    "reformas_requeridas": [
+      "R-59"
+    ],
+    "reformas_dependencias": [],
+    "raw_reforma_text": "ver R-59"
+  },
+  {
+    "id": "3B.23",
+    "seccion": "3B",
+    "n": 23,
+    "titulo": "Marco procesal de coordinación interinstitucional federal-estatal en LPAEJ",
+    "ord_estatal": "LPAEJ",
+    "art_estatal": null,
+    "habilitacion_federal": "CPEUM Art. 116 Fracc. VII; LSE Art. 2; LCNE; LPTE",
+    "condicion": null,
+    "prioridad": "Media",
+    "reformas_requeridas": [
+      "R-60"
+    ],
+    "reformas_dependencias": [
+      "R-21",
+      "R-49"
+    ],
+    "raw_reforma_text": "ver R-60 (depende de R-21, R-49)"
+  },
+  {
+    "id": "3B.24",
+    "seccion": "3B",
+    "n": 24,
+    "titulo": "Régimen integral de aprovechamiento energético de residuos (biogás, WTE, biomasa) en LEEEPA-Jal",
+    "ord_estatal": "LEEEPA-Jal",
+    "art_estatal": null,
+    "habilitacion_federal": "LPTE Art. 8 Fracc. VII; LGCC Art. 8 Fracc. II inciso h); Art. 34 Fracc. II",
+    "condicion": null,
+    "prioridad": "Alta",
+    "reformas_requeridas": [
+      "R-63"
+    ],
+    "reformas_dependencias": [],
+    "raw_reforma_text": "ver R-63"
+  },
+  {
+    "id": "3B.25",
+    "seccion": "3B",
+    "n": 25,
+    "titulo": "Capítulo de eficiencia energética y construcción sustentable en LEEEPA-Jal",
+    "ord_estatal": "LEEEPA-Jal",
+    "art_estatal": null,
+    "habilitacion_federal": "LGCC Art. 34 Fracc. I inciso i); Art. 33 Fracc. IV; LPTE Art. 8 Fracc. VII; Art. 11 Fracc. X",
+    "condicion": null,
+    "prioridad": "Alta",
+    "reformas_requeridas": [
+      "R-64"
+    ],
+    "reformas_dependencias": [],
+    "raw_reforma_text": "ver R-64"
+  },
+  {
+    "id": "3B.26",
+    "seccion": "3B",
+    "n": 26,
+    "titulo": "Política estatal de electromovilidad como política ambiental con infraestructura urbana, flotillas públicas e incentivos",
+    "ord_estatal": "LEEEPA-Jal",
+    "art_estatal": null,
+    "habilitacion_federal": "LGCC Art. 8 Fracc. IX; LSE Art. 86 (campo urbano)",
+    "condicion": null,
+    "prioridad": "Alta",
+    "reformas_requeridas": [
+      "R-68"
+    ],
+    "reformas_dependencias": [],
+    "raw_reforma_text": "ver R-68"
+  },
+  {
+    "id": "3B.27",
+    "seccion": "3B",
+    "n": 27,
+    "titulo": "Estímulos fiscales estatales a eficiencia energética y fuentes limpias articulados con Ley de Hacienda",
+    "ord_estatal": "LEEEPA-Jal + Ley de Hacienda",
+    "art_estatal": null,
+    "habilitacion_federal": "LGCC Art. 91; Art. 8 Fracc. XV; LPTE Art. 48 párr. 2",
+    "condicion": null,
+    "prioridad": "Alta",
+    "reformas_requeridas": [
+      "R-69"
+    ],
+    "reformas_dependencias": [
+      "R-12"
+    ],
+    "raw_reforma_text": "ver R-69 (depende de R-12)"
+  },
+  {
+    "id": "3B.28",
+    "seccion": "3B",
+    "n": 28,
+    "titulo": "Atribución expresa de la Secretaría para convenios marco con SENER y CONUEE",
+    "ord_estatal": "LEEEPA-Jal",
+    "art_estatal": null,
+    "habilitacion_federal": "LPTE Art. 8 Fracc. VI; Art. 11 Fracc. X",
+    "condicion": null,
+    "prioridad": "Media",
+    "reformas_requeridas": [
+      "R-70"
+    ],
+    "reformas_dependencias": [],
+    "raw_reforma_text": "ver R-70"
+  },
+  {
+    "id": "3B.29",
+    "seccion": "3B",
+    "n": 29,
+    "titulo": "Programa estatal de aprovechamiento de biogás en rellenos sanitarios (Los Laureles, Picachos, rellenos regionales) a escala",
+    "ord_estatal": "LEEEPA-Jal + REEEPA",
+    "art_estatal": null,
+    "habilitacion_federal": "LGCC Art. 34 Fracc. II; LPTE Art. 8 Fracc. VII",
+    "condicion": null,
+    "prioridad": "Alta",
+    "reformas_requeridas": [
+      "R-63",
+      "R-75"
+    ],
+    "reformas_dependencias": [],
+    "raw_reforma_text": "ver R-63, R-75"
+  },
+  {
+    "id": "3B.30",
+    "seccion": "3B",
+    "n": 30,
+    "titulo": "Cláusula de deferencia federal en REEEPA y modalidad expedita de EIA para proyectos de transición energética",
+    "ord_estatal": "REEEPA",
+    "art_estatal": null,
+    "habilitacion_federal": "LSE Arts. 25–28; Art. 86; LPTE Art. 8 Fracc. VII; LGCC Art. 34 Fraccs. I-i y II",
+    "condicion": null,
+    "prioridad": "Alta",
+    "reformas_requeridas": [
+      "R-73",
+      "R-74"
+    ],
+    "reformas_dependencias": [],
+    "raw_reforma_text": "ver R-73, R-74"
+  },
+  {
+    "id": "3B.31",
+    "seccion": "3B",
+    "n": 31,
+    "titulo": "Habilitación operativa de combustión a cielo abierto para antorchado de biogás y quemadores en WTE",
+    "ord_estatal": "REEEPA",
+    "art_estatal": null,
+    "habilitacion_federal": "LGCC Art. 34 Fracc. II; LPTE Art. 8 Fracc. VII",
+    "condicion": null,
+    "prioridad": "Alta",
+    "reformas_requeridas": [
+      "R-75"
+    ],
+    "reformas_dependencias": [],
+    "raw_reforma_text": "ver R-75"
+  },
+  {
+    "id": "3B.32",
+    "seccion": "3B",
+    "n": 32,
+    "titulo": "COA con campos energéticos, mix de combustibles y GEI; interoperabilidad RENE",
+    "ord_estatal": "REEEPA",
+    "art_estatal": null,
+    "habilitacion_federal": "LGCC Art. 7 Fraccs. XIV inciso a) y XV; Art. 8 Fracc. XII",
+    "condicion": null,
+    "prioridad": "Alta",
+    "reformas_requeridas": [
+      "R-76"
+    ],
+    "reformas_dependencias": [],
+    "raw_reforma_text": "ver R-76"
+  },
+  {
+    "id": "3B.33",
+    "seccion": "3B",
+    "n": 33,
+    "titulo": "Catálogo expreso de convenios sectoriales con SENER, CNE, CONUEE, CENACE e INECC",
+    "ord_estatal": "REEEPA",
+    "art_estatal": null,
+    "habilitacion_federal": "LSH Art. 78; LPTE Art. 8 Fracc. VI; Art. 11 Fracc. X; LSE Art. 88 párr. 3",
+    "condicion": null,
+    "prioridad": "Alta",
+    "reformas_requeridas": [
+      "R-77"
+    ],
+    "reformas_dependencias": [],
+    "raw_reforma_text": "ver R-77"
+  },
+  {
+    "id": "3B.34",
+    "seccion": "3B",
+    "n": 34,
+    "titulo": "Causal expresa de improcedencia LJAEJ por competencia federal exclusiva energética",
+    "ord_estatal": "LJAEJ",
+    "art_estatal": null,
+    "habilitacion_federal": "CPEUM Art. 27 párrs. 6 y 7; Art. 28 párr. reformado DOF 20-12-2024; Art. 73 Fracc. X",
+    "condicion": null,
+    "prioridad": "Alta",
+    "reformas_requeridas": [
+      "R-82"
+    ],
+    "reformas_dependencias": [],
+    "raw_reforma_text": "ver R-82"
+  },
+  {
+    "id": "3B.35",
+    "seccion": "3B",
+    "n": 35,
+    "titulo": "Excepción expresa a la afirmativa ficta del TJA cuando el acto requiera permiso federal energético",
+    "ord_estatal": "LJAEJ",
+    "art_estatal": null,
+    "habilitacion_federal": "CPEUM Art. 27 párrs. 6 y 7; LSE Art. 2; LSH Art. 1; LCNE Art. 2",
+    "condicion": null,
+    "prioridad": "Alta",
+    "reformas_requeridas": [
+      "R-83"
+    ],
+    "reformas_dependencias": [],
+    "raw_reforma_text": "ver R-83"
+  },
+  {
+    "id": "3B.36",
+    "seccion": "3B",
+    "n": 36,
+    "titulo": "Modulación de la suspensión y medidas cautelares para no comprometer continuidad del SEN",
+    "ord_estatal": "LJAEJ",
+    "art_estatal": null,
+    "habilitacion_federal": "CPEUM Art. 27 párr. 6; LSE",
+    "condicion": null,
+    "prioridad": "Alta",
+    "reformas_requeridas": [
+      "R-84"
+    ],
+    "reformas_dependencias": [],
+    "raw_reforma_text": "ver R-84"
+  },
+  {
+    "id": "3B.37",
+    "seccion": "3B",
+    "n": 37,
+    "titulo": "Procedimiento expedito en materia energética en el contencioso administrativo estatal",
+    "ord_estatal": "LJAEJ",
+    "art_estatal": null,
+    "habilitacion_federal": "LSE, LPTE, LCNE",
+    "condicion": null,
+    "prioridad": "Media",
+    "reformas_requeridas": [
+      "R-85"
+    ],
+    "reformas_dependencias": [],
+    "raw_reforma_text": "ver R-85"
+  },
+  {
+    "id": "3B.38",
+    "seccion": "3B",
+    "n": 38,
+    "titulo": "Etapa procesal de consulta previa a pueblos indígenas en juicios contenciosos sobre proyectos energéticos",
+    "ord_estatal": "LJAEJ",
+    "art_estatal": null,
+    "habilitacion_federal": "Convenio 169 OIT; CPEUM Arts. 1, 2; LGeo Art. 4 párr. 2; LSH Art. 151; LSE Arts. 133-135",
+    "condicion": null,
+    "prioridad": "Alta",
+    "reformas_requeridas": [
+      "R-86"
+    ],
+    "reformas_dependencias": [],
+    "raw_reforma_text": "ver R-86"
+  },
+  {
+    "id": "3B.39",
+    "seccion": "3B",
+    "n": 39,
+    "titulo": "Acción colectiva administrativa energética",
+    "ord_estatal": "LJAEJ",
+    "art_estatal": null,
+    "habilitacion_federal": "CPEUM Art. 17 párr. 3; Art. 73 Fracc. XXIX-G",
+    "condicion": null,
+    "prioridad": "Media",
+    "reformas_requeridas": [
+      "R-87"
+    ],
+    "reformas_dependencias": [],
+    "raw_reforma_text": "ver R-87"
+  },
+  {
+    "id": "3B.40",
+    "seccion": "3B",
+    "n": 40,
+    "titulo": "Inspección conjunta federal-estatal sobre infraestructura energética dual con figura procesal explícita",
+    "ord_estatal": "LPAEJ + convenio federal",
+    "art_estatal": null,
+    "habilitacion_federal": "CPEUM Art. 116 Fracc. VII; LCNE; LPTE",
+    "condicion": null,
+    "prioridad": "Media",
+    "reformas_requeridas": [
+      "R-60"
+    ],
+    "reformas_dependencias": [],
+    "raw_reforma_text": "ver R-60 + convenio"
+  },
+  {
+    "id": "3B.41",
+    "seccion": "3B",
+    "n": 41,
+    "titulo": "Reglamentación técnica local de edificaciones sustentables y criterios energéticos en desarrollo urbano (con coadyuvancia AEEJ)",
+    "ord_estatal": "LOAEEJ + Código Urbano",
+    "art_estatal": null,
+    "habilitacion_federal": "LGCC Art. 34 Fracc. I inciso i); LPTE Art. 8 Fracc. VII",
+    "condicion": null,
+    "prioridad": "Media",
+    "reformas_requeridas": [
+      "R-23"
+    ],
+    "reformas_dependencias": [],
+    "raw_reforma_text": "ver R-23 + reforma a Código Urbano del Estado"
+  },
+  {
+    "id": "3B.42",
+    "seccion": "3B",
+    "n": 42,
+    "titulo": "Instrumento estatal de incentivos económicos pleno (fondo estatal, estímulos fiscales, fideicomiso) para GD y proyectos comunitarios de energías limpias",
+    "ord_estatal": "LOAEEJ + Código Financiero",
+    "art_estatal": null,
+    "habilitacion_federal": "LGCC Art. 91; LSE Art. 25; CPEUM Art. 124",
+    "condicion": null,
+    "prioridad": "Media",
+    "reformas_requeridas": [
+      "R-29"
+    ],
+    "reformas_dependencias": [],
+    "raw_reforma_text": "ver R-29 + reforma al Código Financiero del Estado"
+  },
+  {
+    "id": "3B.43",
+    "seccion": "3B",
+    "n": 43,
+    "titulo": "Manual sectorial energético-climático obligatorio de AIR",
+    "ord_estatal": "LMR-Jal",
+    "art_estatal": null,
+    "habilitacion_federal": "LPTE Art. 2; LGCC Art. 26; LCNE Art. 1",
+    "condicion": null,
+    "prioridad": "Alta",
+    "reformas_requeridas": [
+      "R-93"
+    ],
+    "reformas_dependencias": [],
+    "raw_reforma_text": "ver R-93"
+  },
+  {
+    "id": "3B.44",
+    "seccion": "3B",
+    "n": 44,
+    "titulo": "Integración voto permanente AEEJ + SEMADET al Consejo Estatal de Mejora Regulatoria",
+    "ord_estatal": "LMR-Jal",
+    "art_estatal": null,
+    "habilitacion_federal": "Coherencia institucional estatal",
+    "condicion": null,
+    "prioridad": "Alta",
+    "reformas_requeridas": [
+      "R-94"
+    ],
+    "reformas_dependencias": [],
+    "raw_reforma_text": "ver R-94"
+  },
+  {
+    "id": "3B.45",
+    "seccion": "3B",
+    "n": 45,
+    "titulo": "Procedimiento de opinión consultiva obligatoria de la CNE y CONAMER para regulaciones estatales con dimensión federal energética",
+    "ord_estatal": "LMR-Jal",
+    "art_estatal": null,
+    "habilitacion_federal": "CPEUM Art. 73 Fracc. XXIX-Y; LCNE Art. 1; CPEUM Art. 116 Fracc. VII",
+    "condicion": null,
+    "prioridad": "Alta",
+    "reformas_requeridas": [
+      "R-95"
+    ],
+    "reformas_dependencias": [],
+    "raw_reforma_text": "ver R-95"
+  },
+  {
+    "id": "3B.46",
+    "seccion": "3B",
+    "n": 46,
+    "titulo": "Excepción a \"one-in, one-out\" para política energética, climática y de transición",
+    "ord_estatal": "LMR-Jal",
+    "art_estatal": null,
+    "habilitacion_federal": "LGCC Art. 26; LPTE Art. 2",
+    "condicion": null,
+    "prioridad": "Alta",
+    "reformas_requeridas": [
+      "R-96"
+    ],
+    "reformas_dependencias": [],
+    "raw_reforma_text": "ver R-96"
+  },
+  {
+    "id": "3B.47",
+    "seccion": "3B",
+    "n": 47,
+    "titulo": "Filtro de no exención de AIR con incidencia federal sin costos",
+    "ord_estatal": "LMR-Jal",
+    "art_estatal": null,
+    "habilitacion_federal": "CPEUM Art. 27 párrs. 6 y 7; Art. 28 párr. 8 reformado DOF 20-12-2024; LCNE Art. 1",
+    "condicion": null,
+    "prioridad": "Media",
+    "reformas_requeridas": [
+      "R-97"
+    ],
+    "reformas_dependencias": [],
+    "raw_reforma_text": "ver R-97"
+  },
+  {
+    "id": "3B.48",
+    "seccion": "3B",
+    "n": 48,
+    "titulo": "AIR ex post calendarizado y obligatorio para regulaciones con incidencia energética",
+    "ord_estatal": "LMR-Jal",
+    "art_estatal": null,
+    "habilitacion_federal": "LPTE Art. 2; LGCC Art. 26",
+    "condicion": null,
+    "prioridad": "Media",
+    "reformas_requeridas": [
+      "R-98"
+    ],
+    "reformas_dependencias": [],
+    "raw_reforma_text": "ver R-98"
+  },
+  {
+    "id": "3B.49",
+    "seccion": "3B",
+    "n": 49,
+    "titulo": "Ventanilla única estatal sectorial de proyectos energéticos en LMR-Jal con interoperabilidad federal",
+    "ord_estatal": "LMR-Jal",
+    "art_estatal": null,
+    "habilitacion_federal": "CPEUM Art. 116 Fracc. VII; LCNE Art. 1",
+    "condicion": null,
+    "prioridad": "Media",
+    "reformas_requeridas": [
+      "R-99"
+    ],
+    "reformas_dependencias": [
+      "R-22"
+    ],
+    "raw_reforma_text": "ver R-99 (depende de R-22)"
+  },
+  {
+    "id": "3B.50",
+    "seccion": "3B",
+    "n": 50,
+    "titulo": "AIR específico para regulación operativa derivada de convenios Art. 116 Fracc. VII CPEUM",
+    "ord_estatal": "LMR-Jal",
+    "art_estatal": null,
+    "habilitacion_federal": "CPEUM Art. 116 Fracc. VII; LBio Arts. 8-10",
+    "condicion": null,
+    "prioridad": "Baja",
+    "reformas_requeridas": [
+      "R-100"
+    ],
+    "reformas_dependencias": [
+      "R-21"
+    ],
+    "raw_reforma_text": "ver R-100 (depende de R-21)"
+  }
+]

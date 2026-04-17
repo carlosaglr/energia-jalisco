@@ -1,0 +1,388 @@
+[
+  {
+    "id": "4A.1",
+    "n": 1,
+    "titulo": "Atribución a la Comisión Interinstitucional para \"operar el mercado de emisiones\" estatal",
+    "polo_estatal": "LACCEJ Art. 45 Fracc. XIV; Arts. 83–87",
+    "polo_federal": "LGCC Art. 7 Fracc. IX; Art. 94 (sistema de comercio de emisiones reservado a la Secretaría federal)",
+    "riesgo": "Inaplicabilidad / controversia constitucional por invasión de competencia federal exclusiva. Redacción ambigua entre \"operar mercado estatal\" y \"participar en mercado nacional\"",
+    "reformas_vinculadas": [
+      "R-07"
+    ]
+  },
+  {
+    "id": "4A.2",
+    "n": 2,
+    "titulo": "Creación de mecanismos de mercado estatales \"cuando los existentes no generen incentivos suficientes\"",
+    "polo_estatal": "LACCEJ Art. 85 párr. 1",
+    "polo_federal": "LGCC Art. 94",
+    "riesgo": "Nulidad del mecanismo si opera con reglas de mercado en sentido estricto; viable solo como instrumento económico local fiscal/financiero (Art. 91 LGCC)",
+    "reformas_vinculadas": []
+  },
+  {
+    "id": "4A.3",
+    "n": 3,
+    "titulo": "Promoción estatal de transición energética en sentido amplio sobre generadores/consumidores privados",
+    "polo_estatal": "LACCEJ Art. 34",
+    "polo_federal": "LGCC Art. 35 (atribución expresa a SENER); LPTE Art. 2 y Art. 8 Fracc. I (planeación vinculante federal); CPEUM Art. 27 párr. 6",
+    "riesgo": "Inoperancia práctica si la política estatal se extiende a regulación sobre privados; viable solo sobre patrimonio público y movilidad",
+    "reformas_vinculadas": []
+  },
+  {
+    "id": "4A.4",
+    "n": 4,
+    "titulo": "Inclusión del sector \"Energético\" entre materias de adaptación y mitigación estatal sin salvaguarda competencial",
+    "polo_estatal": "LACCEJ Art. 24 Fracc. VII; Art. 33 Fracc. I",
+    "polo_federal": "LGCC Art. 7 Fracc. VI inciso d) (energía reservada a Federación); Art. 8 Fracc. II (no lista \"energía\" como materia estatal)",
+    "riesgo": "Inaplicabilidad parcial sobre terceros privados; riesgo de impugnación si se traduce en regulación vinculante (más restrictivo tras reforma 2024-2025)",
+    "reformas_vinculadas": [
+      "R-17"
+    ]
+  },
+  {
+    "id": "4A.5",
+    "n": 5,
+    "titulo": "Registro Estatal de Emisiones que incluye sustancias agotadoras de la capa de ozono y precursores",
+    "polo_estatal": "LACCEJ Art. 92 Fracc. I",
+    "polo_federal": "Régimen del Protocolo de Montreal y facultades federales exclusivas (SEMARNAT); LGCC Art. 7 Fracc. XV",
+    "riesgo": "Inoperancia; estas sustancias son competencia federal por obligación internacional. El estado no puede expedir umbrales propios",
+    "reformas_vinculadas": [
+      "R-18"
+    ]
+  },
+  {
+    "id": "4A.6",
+    "n": 6,
+    "titulo": "Atribución autónoma de la Agencia para actuar como generador y comercializador de energía eléctrica sin remisión al régimen de permisos federales",
+    "polo_estatal": "LOAEEJ Art. 3 Fracc. IV",
+    "polo_federal": "LSE Art. 151; LCNE Art. 7 Fracc. V y Art. 8 Fracc. IV",
+    "riesgo": "Inoperancia práctica (imposible ejecutar sin permiso federal); riesgo de nulidad de actos si la Agencia opera sin título",
+    "reformas_vinculadas": [
+      "R-19"
+    ]
+  },
+  {
+    "id": "4A.7",
+    "n": 7,
+    "titulo": "Impulso a la \"modernización de las redes de transmisión\" por la Agencia estatal",
+    "polo_estatal": "LOAEEJ Art. 3 Fracc. XXXVII",
+    "polo_federal": "CPEUM Art. 27 párr. 6; LSE Art. 2 párr. 2; LEPECFE Art. 8 párr. 1",
+    "riesgo": "Inaplicabilidad por invasión de área estratégica exclusiva; actuación directa nula de origen",
+    "reformas_vinculadas": [
+      "R-24"
+    ]
+  },
+  {
+    "id": "4A.8",
+    "n": 8,
+    "titulo": "Atribución de \"actividades regulativas y certificación\" como acciones permanentes de la Agencia",
+    "polo_estatal": "LOAEEJ Art. 27",
+    "polo_federal": "CPEUM Art. 28 (reforma DOF 20-12-2024); LCNE Art. 7 Fracc. II; Art. 8 Fracc. V (CELs); LGeo Art. 7 Fracc. XXIV",
+    "riesgo": "Inaplicabilidad; cualquier acto regulatorio o certificador en materia energética es nulo por usurpación de competencia federal",
+    "reformas_vinculadas": []
+  },
+  {
+    "id": "4A.9",
+    "n": 9,
+    "titulo": "Inclusión del CENACE como vocal permanente de la Junta de Gobierno sin habilitación federal",
+    "polo_estatal": "LOAEEJ Art. 5 Fracc. III inciso b) numeral 1",
+    "polo_federal": "LSE Arts. 14–15 (CENACE con función federal de Control Operativo); LCNE Art. 10 párr. 1",
+    "riesgo": "Inoperancia práctica. Jalisco no puede obligar al CENACE a designar vocal; expectativa no exigible",
+    "reformas_vinculadas": []
+  },
+  {
+    "id": "4A.10",
+    "n": 10,
+    "titulo": "Atribución de coadyuvancia en normatividad energética sin delimitación de materias concurrentes",
+    "polo_estatal": "LOAEEJ Art. 3 Fracc. XV",
+    "polo_federal": "CPEUM Art. 73 Fracc. X; LSH Art. 127 párr. 1",
+    "riesgo": "Ambigüedad / inoperancia parcial. Coadyuvancia válida sólo en materias concurrentes; nula en regulación de hidrocarburos y eléctrica sustantiva",
+    "reformas_vinculadas": [
+      "R-42"
+    ]
+  },
+  {
+    "id": "4A.11",
+    "n": 11,
+    "titulo": "Facultad para \"ejecutar\" política energética estatal sin anclaje a planeación vinculante federal",
+    "polo_estatal": "LOAEEJ Art. 3 Fracc. VII; Art. 3 Fracc. XXXV",
+    "polo_federal": "LPTE Art. 2 párr. 1; LSE Art. 12",
+    "riesgo": "Controversia competencial si la ejecución estatal se superpone a PLADESE/PLATEASE; inoperancia si excluye coordinación federal",
+    "reformas_vinculadas": []
+  },
+  {
+    "id": "4A.12",
+    "n": 12,
+    "titulo": "Existencia de área de \"hidrocarburos\" en el Consejo Consultivo sin acotamiento a materias concurrentes",
+    "polo_estatal": "LOAEEJ Art. 18 párr. 1",
+    "polo_federal": "LSH Art. 127 párr. 1; Art. 128 párr. 3",
+    "riesgo": "Inoperancia normativa; cualquier recomendación sobre regulación sustantiva de hidrocarburos no vinculante y excede competencia estatal",
+    "reformas_vinculadas": []
+  },
+  {
+    "id": "4A.13",
+    "n": 13,
+    "titulo": "Potencial invasión de la facultad federal exclusiva sobre permisos de producción de biomasa de caña y sorgo",
+    "polo_estatal": "LAEJ Art. 6 Fracc. XXXIII",
+    "polo_federal": "LBio Art. 7 Fracc. V; Art. 4 (interpretación y aplicación corresponde al Ejecutivo Federal)",
+    "riesgo": "Inaplicabilidad / controversia constitucional si la Agencia regulara aspectos de biomasa con destino energético que excedan lo fitozoosanitario",
+    "reformas_vinculadas": [
+      "R-50"
+    ]
+  },
+  {
+    "id": "4A.14",
+    "n": 14,
+    "titulo": "Frontera ambigua entre gestión sanitaria de residuos orgánicos agroalimentarios y su valorización energética como insumo de biocombustibles",
+    "polo_estatal": "LAEJ Art. 6 Fraccs. II, XI, XXIX; Art. 17 Fracc. IV",
+    "polo_federal": "LBio Art. 6 Fraccs. I–V, VIII (SEMARNAT — valorización para biocombustibles); Art. 1 Fracc. V",
+    "riesgo": "Inoperancia práctica — un residuo sujeto a destrucción por la Agencia podría simultáneamente ser insumo valorizable bajo LBio sin regla de preferencia",
+    "reformas_vinculadas": [
+      "R-51"
+    ]
+  },
+  {
+    "id": "4A.15",
+    "n": 15,
+    "titulo": "Proyectos de infraestructura agroalimentaria sin previsión de intervención de autoridades energéticas federales cuando hay autoabastecimiento o biogás",
+    "polo_estatal": "LAEJ Art. 19",
+    "polo_federal": "LBio Art. 5 Fracc. IX y Art. 25 Fracc. II (permisos SENER); Art. 6 Fracc. VI (EIA federal)",
+    "riesgo": "Inoperancia práctica — obra aprobada por la Agencia con biodigestor o planta fotovoltaica puede requerir permiso federal no previsto",
+    "reformas_vinculadas": [
+      "R-54"
+    ]
+  },
+  {
+    "id": "4A.16",
+    "n": 16,
+    "titulo": "Posible aportación al fideicomiso APP de \"bienes federales asignados\" sin sujeción a régimen federal actualizado",
+    "polo_estatal": "LPIPSEJM Art. 55 párr. 1",
+    "polo_federal": "CPEUM Art. 27 párr. 6 (reforma DOF 20-12-2024); LSE Art. 99 párr. 2",
+    "riesgo": "Inoperancia y potencial nulidad. Bienes asignados vinculados a infraestructura eléctrica de servicio público no son disponibles para aportación a fideicomiso APP privado",
+    "reformas_vinculadas": []
+  },
+  {
+    "id": "4A.17",
+    "n": 17,
+    "titulo": "Modalidad de \"concesión de servicios públicos\" como objeto del contrato APP sin exclusión de materias reservadas",
+    "polo_estatal": "LPIPSEJM Art. 40 párr. 2 Fracc. III",
+    "polo_federal": "CPEUM Art. 27 párr. 6 (no concesionabilidad de T&D); Art. 28 párr. 4",
+    "riesgo": "Inaplicabilidad parcial / controversia constitucional. APP estatal que pretenda concesionar T&D eléctrica se reputa contraria a reserva constitucional",
+    "reformas_vinculadas": []
+  },
+  {
+    "id": "4A.18",
+    "n": 18,
+    "titulo": "Tribunal de Justicia Administrativa estatal como foro para controversias APP cuando CFE sea parte",
+    "polo_estatal": "LPIPSEJM Art. 3 párr. 2",
+    "polo_federal": "LEPECFE Art. 128 párr. 1 (jurisdicción federal); LSE Art. 7; Art. 99 párr. 2",
+    "riesgo": "Inaplicabilidad. APP con CFE como tercero o conectada al SEN desplaza foro estatal al federal",
+    "reformas_vinculadas": [
+      "R-83"
+    ]
+  },
+  {
+    "id": "4A.19",
+    "n": 19,
+    "titulo": "Interpretación estatal de \"autorizaciones\" sin referencia a permisos CNE",
+    "polo_estatal": "LPIPSEJM Art. 4 párr. 2 incisos a, b, c",
+    "polo_federal": "LSE Art. 151 (permisos CNE); LSE Art. 7; LCNE Art. 7 Fracc. II",
+    "riesgo": "Inoperancia práctica. La Ley estatal regula plazos asumiendo competencia plena estatal; tratándose de permisos energéticos, vigencia depende de CNE/SENER",
+    "reformas_vinculadas": [
+      "R-84"
+    ]
+  },
+  {
+    "id": "4A.20",
+    "n": 20,
+    "titulo": "Amplitud del régimen de concesión municipal frente a exclusividad federal en servicio público de electricidad (alumbrado público con componentes eléctricos)",
+    "polo_estatal": "LGAPM Art. 103",
+    "polo_federal": "CPEUM Art. 27 párr. 6 (no concesiones en T&D)",
+    "riesgo": "Inoperancia práctica / inaplicabilidad parcial. Concesión sobre alumbrado público mal estructurada puede invadir funciones reservadas a CFE-Distribución (Arts. 107 Fracc. I, 108 Fracc. VIII)",
+    "reformas_vinculadas": [
+      "R-96"
+    ]
+  },
+  {
+    "id": "4A.21",
+    "n": 21,
+    "titulo": "Arbitraje del TJA estatal frente a jurisdicción federal en controversias con CFE",
+    "polo_estatal": "LGAPM Art. 100",
+    "polo_federal": "LEPECFE Art. 128 párr. 1",
+    "riesgo": "Inaplicabilidad. Cuando convenio municipal tenga a CFE como contraparte (Art. 38 Fracc. II LGAPM + Art. 10 LEPECFE), el Art. 100 LGAPM no opera",
+    "reformas_vinculadas": [
+      "R-97"
+    ]
+  },
+  {
+    "id": "4A.22",
+    "n": 22,
+    "titulo": "Contenido regulable del reglamento municipal sobre alumbrado público frente a régimen tarifario federal",
+    "polo_estatal": "LGAPM Art. 94 párr. último",
+    "polo_federal": "CPEUM Art. 28 párr. adicionado DOF 20-12-2024; Art. 73 Fracc. X",
+    "riesgo": "Inoperancia práctica. Reglamento municipal no puede fijar tarifas ni regular suministro eléctrico al servicio. Ambigüedad por interpretación sistemática caso por caso",
+    "reformas_vinculadas": []
+  },
+  {
+    "id": "4A.23",
+    "n": 23,
+    "titulo": "Inclusión genérica de \"concesiones\" como acto constitutivo estatal sin salvedad de materias reservadas a la Nación",
+    "polo_estatal": "LPAEJ Art. 9 Fracc. I inciso c)",
+    "polo_federal": "CPEUM Art. 27 párrs. 6 y 7; Art. 28 párr. 4",
+    "riesgo": "Inoperancia práctica si se pretende aplicar / inaplicabilidad por control de constitucionalidad. Uso para fundar concesiones estatales sobre materias reservadas sería nulo de pleno derecho",
+    "reformas_vinculadas": []
+  },
+  {
+    "id": "4A.24",
+    "n": 24,
+    "titulo": "Afirmativa ficta en actos regulativos sin distinción competencial",
+    "polo_estatal": "LPAEJ Art. 33 párr. 3",
+    "polo_federal": "CPEUM Art. 27 párr. 6 reformado DOF 20-12-2024; LSE Art. 2 párr. 2; LSH Art. 1 párr. 2; LGeo Art. 1; LBio Arts. 4 y 5",
+    "riesgo": "Nulidad del acto silente / controversia constitucional / inoponibilidad ante autoridad federal. Riesgo particular en biocombustibles, geotermia, hidrocarburos y electricidad",
+    "reformas_vinculadas": []
+  },
+  {
+    "id": "4A.25",
+    "n": 25,
+    "titulo": "Verificación estatal limitada a \"disposiciones legales y reglamentarias de carácter local\" sin protocolo de coordinación con CNE",
+    "polo_estatal": "LPAEJ Art. 67 párr. 1",
+    "polo_federal": "CPEUM Art. 28 reformado DOF 20-12-2024; LCNE Art. 1",
+    "riesgo": "Inoperancia práctica. No hay invasión, pero tampoco cauce para auxilio técnico entre niveles; brechas de vigilancia donde la infraestructura está físicamente en el territorio",
+    "reformas_vinculadas": []
+  },
+  {
+    "id": "4A.26",
+    "n": 26,
+    "titulo": "Autorización estatal a fuentes fijas locales vs. jurisdicción federal exclusiva sobre hidrocarburos",
+    "polo_estatal": "LEEEPA-Jal Art. 73",
+    "polo_federal": "LSH Art. 127 párr. 1 (incluye emisiones GEI, equilibrio ecológico, protección al ambiente como exclusivos federales)",
+    "riesgo": "Inoperancia práctica. Tras reforma 18-03-2025 la reserva federal se amplió, reduciendo el universo de fuentes fijas regulables por Jalisco (estaciones de servicio, terminales, GLP, GNC, ductos)",
+    "reformas_vinculadas": []
+  },
+  {
+    "id": "4A.27",
+    "n": 27,
+    "titulo": "Emisiones de fuentes fijas del sector eléctrico vs. prevalencia federal en concurrencia",
+    "polo_estatal": "LEEEPA-Jal Art. 72 Fracc. I",
+    "polo_federal": "LSE Art. 7 (prevalencia jurisdicción federal en concurrencia)",
+    "riesgo": "Inaplicabilidad parcial. Centrales eléctricas (incluso pequeñas) quedan fuera del alcance de autorización estatal sin convenio federal",
+    "reformas_vinculadas": []
+  },
+  {
+    "id": "4A.28",
+    "n": 28,
+    "titulo": "Programa Estatal Contra el Cambio Climático LEEEPA vs. Programa Estatal de Cambio Climático LACCEJ",
+    "polo_estatal": "LEEEPA Art. 6 Fracc. XXXI vs. atribuciones equivalentes en LACCEJ",
+    "polo_federal": "LGCC Art. 71 (programa único estatal al inicio de cada administración)",
+    "riesgo": "Inoperancia práctica por duplicidad. Ambigüedad normativa interna estatal sobre instrumento vinculante, dependencia coordinadora y Ley aplicable",
+    "reformas_vinculadas": []
+  },
+  {
+    "id": "4A.29",
+    "n": 29,
+    "titulo": "Integración del registro estatal de descargas con el nacional (descargas térmicas vinculadas a generación eléctrica)",
+    "polo_estatal": "LEEEPA Art. 8 Fracc. VI",
+    "polo_federal": "LGCC Art. 7 Fracc. XV (Registro Nacional de Emisiones)",
+    "riesgo": "Ambigüedad de bajo riesgo — sólo se activa en casos específicos de descargas térmicas",
+    "reformas_vinculadas": []
+  },
+  {
+    "id": "4A.30",
+    "n": 30,
+    "titulo": "Autorización estatal genérica de fuentes fijas (LAU) vs. exclusividad federal ampliada sobre hidrocarburos (18-03-2025)",
+    "polo_estatal": "REEEPA Art. 5 Fracc. VII; Art. 44",
+    "polo_federal": "LSH Art. 127 párr. 1",
+    "riesgo": "Inaplicabilidad parcial / inoperancia práctica. Estaciones de servicio, terminales, GLP, GNC, ductos caen fuera del alcance estatal; reglamento debe actualizarse para evitar nulidad de autorizaciones",
+    "reformas_vinculadas": []
+  },
+  {
+    "id": "4A.31",
+    "n": 31,
+    "titulo": "Autorización estatal de EIA a centrales eléctricas del SEN vs. prevalencia federal",
+    "polo_estatal": "REEEPA Art. 5 Fracc. II y Art. 4 Fracc. I",
+    "polo_federal": "LSE Art. 7; Art. 151",
+    "riesgo": "Inaplicabilidad parcial. La Secretaría estatal no puede condicionar técnicamente operación de centrales eléctricas permisionadas por CNE",
+    "reformas_vinculadas": []
+  },
+  {
+    "id": "4A.32",
+    "n": 32,
+    "titulo": "EIA estatal vs. EIA federal en proyectos de biocombustibles",
+    "polo_estatal": "REEEPA Art. 5 Fraccs. III, V, VII",
+    "polo_federal": "LBio Art. 6 Fracc. VI (EIA federal sobre instalaciones para producción, almacenamiento, transporte, comercialización, distribución y expendio de biocombustibles)",
+    "riesgo": "Conflicto por doble trámite o inaplicabilidad estatal. Proyecto de bioetanol o biogás destinado a cadena federal requiere EIA federal; el reglamento estatal no distingue",
+    "reformas_vinculadas": []
+  },
+  {
+    "id": "4A.33",
+    "n": 33,
+    "titulo": "Prohibición estatal de explosivos dentro de 1000 m de zonas urbanas vs. facultad federal exclusiva sobre explosivos",
+    "polo_estatal": "REEEPA Art. 39 Fraccs. III y IV",
+    "polo_federal": "CPEUM Art. 73 Fracc. X (facultad federal exclusiva sobre explosivos)",
+    "riesgo": "Ambigüedad. Restricción de distancia tiene anclaje ambiental legítimo, pero la \"supervisión\" estatal sobre el uso del explosivo es materia federal SEDENA",
+    "reformas_vinculadas": []
+  },
+  {
+    "id": "4A.34",
+    "n": 34,
+    "titulo": "Juicio contencioso estatal sobre actos cuyo contenido sustantivo invade competencia federal exclusiva energética",
+    "polo_estatal": "LJAEJ Art. 1 párr. 1",
+    "polo_federal": "CPEUM Art. 27 párrs. 6 y 7; Art. 73 Fracc. X",
+    "riesgo": "Inoperancia práctica de sentencias / controversia constitucional / nulidad por incompetencia orgánica del TJA estatal sobre fondo federal",
+    "reformas_vinculadas": []
+  },
+  {
+    "id": "4A.35",
+    "n": 35,
+    "titulo": "Afirmativa ficta declarada por el TJA sobre solicitudes de actos regulativos cuya materia exige permiso federal concurrente o exclusivo",
+    "polo_estatal": "LJAEJ Art. 108 párr. 1; Art. 113",
+    "polo_federal": "LSE Art. 2; LSH Art. 1; LCNE Art. 2; CPEUM Art. 27 párrs. 6 y 7",
+    "riesgo": "Emisión de títulos estatales vía ficta positiva sobre materias federales. Títulos inoponibles ante la autoridad federal y vulnerables a nulidad por invasión competencial",
+    "reformas_vinculadas": []
+  },
+  {
+    "id": "4A.36",
+    "n": 36,
+    "titulo": "Suspensión de actos estatales con efecto derivado sobre infraestructura o servicios del SEN",
+    "polo_estatal": "LJAEJ Art. 66",
+    "polo_federal": "CPEUM Art. 27 párr. 6; LSE (continuidad del servicio eléctrico)",
+    "riesgo": "Suspensiones que perturben operaciones de CFE, CENACE o titulares de permisos federales aunque recaigan sobre actos formalmente estatales (p. ej. licencia municipal); riesgo de inaplicabilidad o levantamiento vía amparo federal",
+    "reformas_vinculadas": []
+  },
+  {
+    "id": "4A.37",
+    "n": 37,
+    "titulo": "Causal de improcedencia abierta sin carve-out energético",
+    "polo_estatal": "LJAEJ Art. 29 Fraccs. II y VIII",
+    "polo_federal": "CPEUM Art. 27 párrs. 6 y 7; Art. 28 párr. reformado DOF 20-12-2024; Art. 73 Fracc. X",
+    "riesgo": "Ambigüedad sobre alcance de Fraccs. II y VIII para excluir materia federal energética. Inoperancia práctica: desechamientos o sobreseimientos tardíos",
+    "reformas_vinculadas": []
+  },
+  {
+    "id": "4A.38",
+    "n": 38,
+    "titulo": "Regla \"one-in, one-out\" aplicada universalmente sin salvedad para política energético-climática federal concurrente",
+    "polo_estatal": "LMR-Jal Art. 76 párrs. 1 y 2",
+    "polo_federal": "LPTE Art. 2 (Justicia Energética como principio vinculante); LGCC Art. 26; CPEUM Art. 4 párr. 5",
+    "riesgo": "Inoperancia práctica / contradicción con política pública federal de transición. No implica invasión competencial directa, pero crea fricción entre deber federal de transición y regla estatal de neutralidad de cargas",
+    "reformas_vinculadas": []
+  },
+  {
+    "id": "4A.39",
+    "n": 39,
+    "titulo": "Evaluación estatal de impacto en competencia sobre mercados de regulación federal exclusiva",
+    "polo_estatal": "LMR-Jal Art. 77 párr. 1",
+    "polo_federal": "CPEUM Art. 28 párr. 8 reformado DOF 20-12-2024; LCNE Art. 1; LSE Art. 2",
+    "riesgo": "Inoperancia práctica / potencial controversia constitucional si la autoridad estatal de mejora regulatoria emite dictamen que invada evaluación de competencia en mercados federales",
+    "reformas_vinculadas": []
+  },
+  {
+    "id": "4A.40",
+    "n": 40,
+    "titulo": "Exención automática de AIR por ausencia de costos en regulaciones con potencial impacto federal energético",
+    "polo_estatal": "LMR-Jal Art. 69 párr. 1; Art. 71",
+    "polo_federal": "CPEUM Art. 27 párrs. 6 y 7; LSE Art. 2; LSH Art. 1; LGeo Art. 1; LBio Arts. 4-5",
+    "riesgo": "Nulidad / inaplicabilidad de regulaciones estatales exentas que sin imponer costos sí incidan en materias federales exclusivas (almacenamiento, transporte interno de combustibles, conexión al SEN)",
+    "reformas_vinculadas": []
+  }
+]

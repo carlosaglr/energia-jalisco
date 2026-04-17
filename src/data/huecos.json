@@ -1,0 +1,54 @@
+{
+  "grupos": [
+    {
+      "codigo": "5.1",
+      "titulo": "Reglamentos federales pendientes de emisión (ventana de incertidumbre regulatoria)",
+      "items": [
+        "**Reglamento de la Ley de Geotermia.** Pendiente conforme al Transitorio Quinto LGeo: 180 días hábiles desde la entrada en vigor (19-03-2025). Bloquea Permisos para Usos Diversos (LGeo Art. 7 Fracc. XXV) que constituyen la principal vía operativa de participación estatal en geotermia.",
+        "**Reglamento de la Ley de Biocombustibles.** Pendiente conforme al Transitorio Quinto LBio: 180 días desde 19-03-2025. Bloquea instrumentación operativa.",
+        "**Programas SENER, SEMARNAT y SADER en materia de biocombustibles.** Pendientes conforme a Transitorios Octavo, Noveno y Décimo LBio: 360 días desde 19-03-2025. Bloquea metas y reglas operativas para proyectos estatales con certeza jurídica."
+      ]
+    },
+    {
+      "codigo": "5.2",
+      "titulo": "Marcos federales no cargados o no analizados con bloque propio",
+      "items": [
+        "**Ley de la Industria Eléctrica (LIE) 2014** y **Ley de Transición Energética (LTE) 2015**: abrogadas por el paquete federal DOF 18-03-2025; análisis específico de la mecánica de transición y sus efectos sobre programas estatales aún por documentar. Citado en LPTE Transitorio Segundo y referido transversalmente en bloques estatales (LACCEJ, LEEEPA-Jal).",
+        "**Ley General del Equilibrio Ecológico y la Protección al Ambiente (LGEEPA)** federal: necesaria para verificar la concurrencia ambiental Art. 73 XXIX-G CPEUM y para interpretar el alcance del condicionante \"previa aprobación federal\" en sistemas estatales de monitoreo (REEEPA Art. 4 Fracc. IV).",
+        "**Ley General para la Prevención y Gestión Integral de los Residuos (LGPGIR)** federal: necesaria para resolver la frontera ambigua entre gestión estatal/municipal de residuos orgánicos y régimen federal LBio (vacío 4B.9, conflicto 4A.14).",
+        "**Ley General de Mejora Regulatoria** federal: necesaria como marco supletorio sustantivo de la LMR-Jal y para determinar si la opinión consultiva de la CONAMER es exigible vía reforma estatal (R-95).",
+        "**Ley Federal del Procedimiento Contencioso Administrativo (LFPCA)** y **Ley Orgánica del Tribunal Federal de Justicia Administrativa (TFJA)**: necesarias para construir el carve-out federal en LJAEJ (R-82) y la articulación procesal (R-90, convenio TJA-TFJA).",
+        "**Ley de Coordinación Fiscal** federal: necesaria para activar las reformas R-04, R-45, R-52 y R-89 sobre participaciones estatales y municipales en contribuciones especiales sobre energía eléctrica.",
+        "**Ley de Ingresos sobre Hidrocarburos (LISH)**: necesaria para evaluar la posibilidad de participación fiscal estatal/municipal en ingresos derivados del sector (vacío 4B.62).",
+        "**Ley Orgánica del Régimen de Coordinación en Materia Energética (LORCME)**: identificada en CPEUM como cruce necesario para evaluar la figura orgánica que sustituye a CRE/CNH y la sustitución de la \"ventanilla autónoma de interlocución\" estatal (vacío 4B.3).",
+        "**Convenio 169 de la Organización Internacional del Trabajo** y **Ley del Instituto Nacional de los Pueblos Indígenas**: necesarios como marco complementario para las reformas R-26, R-57, R-86 y R-92 sobre consulta previa, libre e informada en proyectos energéticos."
+      ]
+    },
+    {
+      "codigo": "5.3",
+      "titulo": "Reglamentos y leyes secundarias estatales pendientes o no analizadas",
+      "items": [
+        "**Reglamento de la LACCEJ.** Pendiente conforme al Transitorio Segundo LACCEJ. Determinar si se expidió y su contenido es indispensable para evaluar si subsana vacíos de implementación de los proyectos 3A.7-3A.16.",
+        "**Reglamento Interno de la Comisión Interinstitucional para la Acción ante el Cambio Climático.** Necesario para confirmar estructura y funcionamiento post-2021 y para activar R-14.",
+        "**Reglamento de la LMR-Jal y lineamientos del Consejo Estatal sobre AIR.** Necesarios para verificar el alcance actual y la viabilidad operativa del manual sectorial energético (R-93).",
+        "**Reglamento Interno de la LOAEEJ.** Plazo de 180 días vencido desde 2017; ausencia limita operatividad institucional (relacionado con R-27).",
+        "**Reglamento de la LPIPSEJM.** Necesario para precisar el régimen contractual de los proyectos 3A.32-3A.40 y la titularidad de atributos (R-40).",
+        "**Ley Orgánica del Poder Ejecutivo del Estado de Jalisco (LOPEJ).** Vigente, necesaria para actualizar la Junta de Gobierno de la Agencia (R-27) y para verificar la nomenclatura institucional de la Secretaría de Medio Ambiente (R-81).",
+        "**Ley Orgánica del Tribunal de Justicia Administrativa del Estado de Jalisco (LOTJAEJ).** Necesaria para coordinar la reforma R-90 sobre especialización en juicios energético-ambientales y para verificar la facultad genérica del TJA para celebrar convenios interinstitucionales (proyecto 3A.68).",
+        "**Ley Orgánica de la Agencia Integral de Regulación de Emisiones (Decreto 27260/LXII/19).** Necesaria para complementar la operación del proyecto 3A.56 (verificación vehicular).",
+        "**Ley de Hacienda Municipal del Estado de Jalisco**, **Ley de Coordinación Fiscal del Estado de Jalisco** y **Ley de Deuda Pública y Disciplina Financiera del Estado de Jalisco.** Necesarias para activar R-04, R-12, R-29, R-45, R-52 y R-69 (vehículos fiscales y de financiamiento estatal y municipal).",
+        "**Programa Estatal de Cambio Climático vigente.** Necesario para contrastar la incorporación de NDC, metas cuantitativas y articulación con LPTE 2025; precondición de R-13 y R-28.",
+        "**Ley de Ingresos y Presupuesto de Egresos del Estado.** Necesaria para verificar etiquetación y operación efectiva de la partida del Fondo Ambiental Estatal y la viabilidad de R-12.",
+        "**Código Urbano del Estado de Jalisco.** Necesario como destinatario de las reformas R-23 (reglamentación técnica local de edificaciones sustentables) y R-47 (criterios energéticos en PMDU y licencias de construcción).",
+        "**Código Financiero del Estado y de los Municipios de Jalisco.** Necesario como destinatario de las reformas R-29 y R-69 (incentivos fiscales estatales)."
+      ]
+    },
+    {
+      "codigo": "5.4",
+      "titulo": "Bloques federales no analizados con sección propia, identificados como brechas en el bloque LAEJ",
+      "items": [
+        "**LIE, LTE, LFOSCE, LORCME**: el propio bloque LAEJ señala que su análisis se sostuvo solo sobre LBio del marco federal; una segunda pasada sobre el Art. 19 LAEJ (infraestructura con autoabastecimiento eléctrico) y sobre el régimen de Generación Distribuida requeriría revisar estos bloques para afinar conflictos 4A.15 y reformas R-35.\n\n---"
+      ]
+    }
+  ]
+}

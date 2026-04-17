@@ -1,0 +1,11 @@
+---
+// Subtitle — italic serif centrado, 18px
+// Uso: <Subtitle>Ochenta hallazgos, ciento una reformas...</Subtitle>
+interface Props {
+  class?: string;
+}
+const { class: className = '' } = Astro.props;
+---
+<p class={`subtitle ${className}`}>
+  <slot />
+</p>

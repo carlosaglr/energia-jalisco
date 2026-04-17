@@ -1,0 +1,2439 @@
+[
+  {
+    "id": "R-01",
+    "n": 1,
+    "titulo": "Derecho humano al acceso a energía asequible, limpia y fiable",
+    "reforma": "Incorporar en el catálogo de derechos de la CPEJ el derecho humano al acceso a energía asequible, limpia y fiable.",
+    "ordenamiento": "CPEJ",
+    "ordenamiento_raw": "CPEJ, Art. 4° (catálogo de derechos) o nueva fracción del Art. 15.",
+    "articulo_modificar": "CPEJ, Art. 4° (catálogo de derechos) o nueva fracción del Art. 15.",
+    "fundamento": "Vacío iusfundamental que limita programas estatales contra pobreza energética (1A.2).",
+    "fundamento_federal": "CPEUM Art. 4°, párr. 5; Art. 124.",
+    "habilitacion_federal": "CPEUM Art. 4°, párr. 5; Art. 124.",
+    "nivel": "Reforma estatal suficiente",
+    "prioridad": "Alta",
+    "dependencias": [],
+    "tramo_ruta_critica": 1,
+    "es_independiente": false,
+    "debilidades_origen": [
+      "1A.2"
+    ],
+    "conflictos_origen": [],
+    "proyectos_habilitados": [],
+    "texto_completo": "- **Reforma:** Incorporar en el catálogo de derechos de la CPEJ el derecho humano al acceso a energía asequible, limpia y fiable.\n- **Ordenamiento a modificar:** CPEJ, Art. 4° (catálogo de derechos) o nueva fracción del Art. 15.\n- **Fundamento:** Vacío iusfundamental que limita programas estatales contra pobreza energética (1A.2).\n- **Habilitación federal:** CPEUM Art. 4°, párr. 5; Art. 124.\n- **Nivel:** Reforma estatal suficiente. **Prioridad:** Alta. **Dependencias:** ninguna."
+  },
+  {
+    "id": "R-02",
+    "n": 2,
+    "titulo": "Anclaje constitucional de transición energética y planeación energética estatal",
+    "reforma": "Incorporar transición energética, eficiencia energética y cambio climático como ejes rectores del sistema estatal de planeación. Crear anclaje constitucional para la planeación energética estatal.",
+    "ordenamiento": "CPEJ",
+    "ordenamiento_raw": "CPEJ, Art. 15, Fraccs. VI y VII (reforma) o nueva Fracc. XI; Art. 50, Fracc. X (nuevo párrafo).",
+    "articulo_modificar": "CPEJ, Art. 15, Fraccs. VI y VII (reforma) o nueva Fracc. XI; Art. 50, Fracc. X (nuevo párrafo).",
+    "fundamento": "Ausencia total de referencia constitucional (1A.1, 1A.3).",
+    "fundamento_federal": "CPEUM Art. 4°, párr. 5; Art. 25, párr. 2; Art. 73, Fracc. XXIX-G; LPTE 2025.",
+    "habilitacion_federal": "CPEUM Art. 4°, párr. 5; Art. 25, párr. 2; Art. 73, Fracc. XXIX-G; LPTE 2025.",
+    "nivel": "Reforma estatal suficiente",
+    "prioridad": "Alta",
+    "dependencias": [],
+    "tramo_ruta_critica": 1,
+    "es_independiente": false,
+    "debilidades_origen": [
+      "1A.1",
+      "1A.3"
+    ],
+    "conflictos_origen": [],
+    "proyectos_habilitados": [],
+    "texto_completo": "- **Reforma:** Incorporar transición energética, eficiencia energética y cambio climático como ejes rectores del sistema estatal de planeación. Crear anclaje constitucional para la planeación energética estatal.\n- **Ordenamiento a modificar:** CPEJ, Art. 15, Fraccs. VI y VII (reforma) o nueva Fracc. XI; Art. 50, Fracc. X (nuevo párrafo).\n- **Fundamento:** Ausencia total de referencia constitucional (1A.1, 1A.3).\n- **Habilitación federal:** CPEUM Art. 4°, párr. 5; Art. 25, párr. 2; Art. 73, Fracc. XXIX-G; LPTE 2025.\n- **Nivel:** Reforma estatal suficiente. **Prioridad:** Alta. **Dependencias:** ninguna."
+  },
+  {
+    "id": "R-03",
+    "n": 3,
+    "titulo": "Facultad expresa del Ejecutivo para convenios federales energéticos",
+    "reforma": "Consagrar facultad explícita del Ejecutivo para celebrar convenios con la Federación en materia energética (CFE, dependencia federal de política energética, CNE, CONUEE, SENER-geotermia).",
+    "ordenamiento": "CPEJ",
+    "ordenamiento_raw": "CPEJ, Art. 50, nueva fracción específica o reforma a Fracc. XVIII.",
+    "articulo_modificar": "CPEJ, Art. 50, nueva fracción específica o reforma a Fracc. XVIII.",
+    "fundamento": "Omisión constitucional (1A.47).",
+    "fundamento_federal": "CPEUM Art. 116, Fracc. VII; LSE, LSH, LPTE.",
+    "habilitacion_federal": "CPEUM Art. 116, Fracc. VII; LSE, LSH, LPTE.",
+    "nivel": "Reforma estatal suficiente",
+    "prioridad": "Media",
+    "dependencias": [],
+    "tramo_ruta_critica": 1,
+    "es_independiente": false,
+    "debilidades_origen": [
+      "1A.47"
+    ],
+    "conflictos_origen": [],
+    "proyectos_habilitados": [],
+    "texto_completo": "- **Reforma:** Consagrar facultad explícita del Ejecutivo para celebrar convenios con la Federación en materia energética (CFE, dependencia federal de política energética, CNE, CONUEE, SENER-geotermia).\n- **Ordenamiento a modificar:** CPEJ, Art. 50, nueva fracción específica o reforma a Fracc. XVIII.\n- **Fundamento:** Omisión constitucional (1A.47).\n- **Habilitación federal:** CPEUM Art. 116, Fracc. VII; LSE, LSH, LPTE.\n- **Nivel:** Reforma estatal suficiente. **Prioridad:** Media. **Dependencias:** ninguna."
+  },
+  {
+    "id": "R-04",
+    "n": 4,
+    "titulo": "Obligación constitucional del Congreso local de fijar porcentaje municipal del impuesto sobre energía eléctrica",
+    "reforma": null,
+    "ordenamiento": "CPEJ",
+    "ordenamiento_raw": "CPEJ, Art. 35 (adicionar fracción específica) o Art. 15, Fracc. X.",
+    "articulo_modificar": "CPEJ, Art. 35 (adicionar fracción específica) o Art. 15, Fracc. X.",
+    "fundamento": "Omisión constitucional permanente (1A.45).",
+    "fundamento_federal": "CPEUM Art. 73, Fracc. XXIX, último párr.",
+    "habilitacion_federal": "CPEUM Art. 73, Fracc. XXIX, último párr.",
+    "nivel": "Reforma estatal suficiente",
+    "prioridad": "Media",
+    "dependencias": [],
+    "tramo_ruta_critica": 1,
+    "es_independiente": false,
+    "debilidades_origen": [
+      "1A.45"
+    ],
+    "conflictos_origen": [],
+    "proyectos_habilitados": [],
+    "texto_completo": "- **Ordenamiento a modificar:** CPEJ, Art. 35 (adicionar fracción específica) o Art. 15, Fracc. X.\n- **Fundamento:** Omisión constitucional permanente (1A.45).\n- **Habilitación federal:** CPEUM Art. 73, Fracc. XXIX, último párr.\n- **Nivel:** Reforma estatal suficiente. **Prioridad:** Media. **Dependencias:** ninguna."
+  },
+  {
+    "id": "R-05",
+    "n": 5,
+    "titulo": "Eficiencia energética como criterio del servicio municipal de alumbrado público",
+    "reforma": null,
+    "ordenamiento": "CPEJ",
+    "ordenamiento_raw": "CPEJ, Título correspondiente al régimen municipal (artículo a verificar fuera del segmento revisado).",
+    "articulo_modificar": "CPEJ, Título correspondiente al régimen municipal (artículo a verificar fuera del segmento revisado).",
+    "fundamento": "Vacío del régimen municipal energético.",
+    "fundamento_federal": "CPEUM Art. 115, Fracc. III, inciso b).",
+    "habilitacion_federal": "CPEUM Art. 115, Fracc. III, inciso b).",
+    "nivel": "Reforma estatal suficiente",
+    "prioridad": "Media",
+    "dependencias": [],
+    "tramo_ruta_critica": null,
+    "es_independiente": true,
+    "debilidades_origen": [],
+    "conflictos_origen": [],
+    "proyectos_habilitados": [],
+    "texto_completo": "- **Ordenamiento a modificar:** CPEJ, Título correspondiente al régimen municipal (artículo a verificar fuera del segmento revisado).\n- **Fundamento:** Vacío del régimen municipal energético.\n- **Habilitación federal:** CPEUM Art. 115, Fracc. III, inciso b).\n- **Nivel:** Reforma estatal suficiente. **Prioridad:** Media. **Dependencias:** ninguna."
+  },
+  {
+    "id": "R-06",
+    "n": 6,
+    "titulo": "Actualización integral de referencias federales obsoletas (LIE 2014/LTE 2015 → paquete federal 2025)",
+    "reforma": "Sustituir referencias implícitas a LIE 2014 y LTE 2015 por LSE, LPTE, LCNE, LEPECFE (DOF 18-03-2025) y reforma CPEUM 20-12-2024.",
+    "ordenamiento": "LACCEJ",
+    "ordenamiento_raw": "LACCEJ, Art. 7 (definiciones); Art. 31, Fraccs. IV–X; Art. 33, Fracc. I (incisos a–i); Art. 34; Art. 115.",
+    "articulo_modificar": "LACCEJ, Art. 7 (definiciones); Art. 31, Fraccs. IV–X; Art. 33, Fracc. I (incisos a–i); Art. 34; Art. 115.",
+    "fundamento": "Desactualización (1A.4).",
+    "fundamento_federal": "CPEUM Art. 27, párr. 6 y Art. 28, párr. 4 (reforma 20-12-2024); LPTE Transitorio Segundo; LSE Art. 2.",
+    "habilitacion_federal": "CPEUM Art. 27, párr. 6 y Art. 28, párr. 4 (reforma 20-12-2024); LPTE Transitorio Segundo; LSE Art. 2.",
+    "nivel": "Reforma estatal suficiente",
+    "prioridad": "Alta",
+    "dependencias": [],
+    "tramo_ruta_critica": 2,
+    "es_independiente": false,
+    "debilidades_origen": [
+      "1A.4"
+    ],
+    "conflictos_origen": [],
+    "proyectos_habilitados": [],
+    "texto_completo": "- **Reforma:** Sustituir referencias implícitas a LIE 2014 y LTE 2015 por LSE, LPTE, LCNE, LEPECFE (DOF 18-03-2025) y reforma CPEUM 20-12-2024.\n- **Ordenamiento a modificar:** LACCEJ, Art. 7 (definiciones); Art. 31, Fraccs. IV–X; Art. 33, Fracc. I (incisos a–i); Art. 34; Art. 115.\n- **Fundamento:** Desactualización (1A.4).\n- **Habilitación federal:** CPEUM Art. 27, párr. 6 y Art. 28, párr. 4 (reforma 20-12-2024); LPTE Transitorio Segundo; LSE Art. 2.\n- **Nivel:** Reforma estatal suficiente. **Prioridad:** Alta. **Dependencias:** ninguna."
+  },
+  {
+    "id": "R-07",
+    "n": 7,
+    "titulo": "Acotar competencia de la Comisión sobre \"mercado de emisiones\"",
+    "reforma": "Acotar la atribución de la Comisión Interinstitucional para \"operar el mercado de emisiones\" a participación/coordinación con el sistema federal y a instrumentos económicos locales del Art. 91 LGCC.",
+    "ordenamiento": "LACCEJ",
+    "ordenamiento_raw": "LACCEJ, Art. 45, Fracc. XIV; Arts. 83–87.",
+    "articulo_modificar": "LACCEJ, Art. 45, Fracc. XIV; Arts. 83–87.",
+    "fundamento": "Conflicto de competencia (4A.1).",
+    "fundamento_federal": "LGCC Art. 7, Fracc. IX; Art. 91; Art. 94.",
+    "habilitacion_federal": "LGCC Art. 7, Fracc. IX; Art. 91; Art. 94.",
+    "nivel": "Reforma estatal suficiente",
+    "prioridad": "Alta",
+    "dependencias": [],
+    "tramo_ruta_critica": 6,
+    "es_independiente": false,
+    "debilidades_origen": [],
+    "conflictos_origen": [
+      "4A.1"
+    ],
+    "proyectos_habilitados": [],
+    "texto_completo": "- **Reforma:** Acotar la atribución de la Comisión Interinstitucional para \"operar el mercado de emisiones\" a participación/coordinación con el sistema federal y a instrumentos económicos locales del Art. 91 LGCC.\n- **Ordenamiento a modificar:** LACCEJ, Art. 45, Fracc. XIV; Arts. 83–87.\n- **Fundamento:** Conflicto de competencia (4A.1).\n- **Habilitación federal:** LGCC Art. 7, Fracc. IX; Art. 91; Art. 94.\n- **Nivel:** Reforma estatal suficiente. **Prioridad:** Alta. **Dependencias:** ninguna."
+  },
+  {
+    "id": "R-08",
+    "n": 8,
+    "titulo": "Mecanismo expreso de convenios estatales con SENER, CONUEE y CNE en LACCEJ",
+    "reforma": "Incorporar mecanismo expreso de convenio con autoridades federales para eficiencia energética, energías limpias, almacenamiento, reducción de emisiones y reglamentación técnica local.",
+    "ordenamiento": "LACCEJ",
+    "ordenamiento_raw": "LACCEJ, nuevo artículo en Título Segundo, Capítulo II; o adición a Art. 13.",
+    "articulo_modificar": "LACCEJ, nuevo artículo en Título Segundo, Capítulo II; o adición a Art. 13.",
+    "fundamento": "Omisión estructural (1A.5).",
+    "fundamento_federal": "LPTE Art. 8, Fraccs. VI y VII; Art. 11, Fracc. X.",
+    "habilitacion_federal": "LPTE Art. 8, Fraccs. VI y VII; Art. 11, Fracc. X.",
+    "nivel": "Reforma estatal suficiente",
+    "prioridad": "Alta",
+    "dependencias": [],
+    "tramo_ruta_critica": 6,
+    "es_independiente": false,
+    "debilidades_origen": [
+      "1A.5"
+    ],
+    "conflictos_origen": [],
+    "proyectos_habilitados": [
+      "3B.2"
+    ],
+    "texto_completo": "- **Reforma:** Incorporar mecanismo expreso de convenio con autoridades federales para eficiencia energética, energías limpias, almacenamiento, reducción de emisiones y reglamentación técnica local.\n- **Ordenamiento a modificar:** LACCEJ, nuevo artículo en Título Segundo, Capítulo II; o adición a Art. 13.\n- **Fundamento:** Omisión estructural (1A.5).\n- **Habilitación federal:** LPTE Art. 8, Fraccs. VI y VII; Art. 11, Fracc. X.\n- **Nivel:** Reforma estatal suficiente. **Prioridad:** Alta. **Dependencias:** ninguna."
+  },
+  {
+    "id": "R-09",
+    "n": 9,
+    "titulo": "Referencia expresa a Contribuciones Determinadas a Nivel Nacional (NDC) en LACCEJ",
+    "reforma": null,
+    "ordenamiento": "LACCEJ",
+    "ordenamiento_raw": "LACCEJ, Art. 3, Fracc. XVIII; Art. 56; Art. 59, Fracc. X.",
+    "articulo_modificar": "LACCEJ, Art. 3, Fracc. XVIII; Art. 56; Art. 59, Fracc. X.",
+    "fundamento": "Desactualización metodológica.",
+    "fundamento_federal": "LGCC Art. 7, Fracc. III (reforma 2018).",
+    "habilitacion_federal": "LGCC Art. 7, Fracc. III (reforma 2018).",
+    "nivel": "Reforma estatal suficiente",
+    "prioridad": "Media",
+    "dependencias": [],
+    "tramo_ruta_critica": null,
+    "es_independiente": true,
+    "debilidades_origen": [],
+    "conflictos_origen": [],
+    "proyectos_habilitados": [],
+    "texto_completo": "- **Ordenamiento a modificar:** LACCEJ, Art. 3, Fracc. XVIII; Art. 56; Art. 59, Fracc. X.\n- **Fundamento:** Desactualización metodológica.\n- **Habilitación federal:** LGCC Art. 7, Fracc. III (reforma 2018).\n- **Nivel:** Reforma estatal suficiente. **Prioridad:** Media. **Dependencias:** ninguna."
+  },
+  {
+    "id": "R-10",
+    "n": 10,
+    "titulo": "Definir Pobreza Energética, Justicia Energética, GLD y Almacenamiento; crear política específica",
+    "reforma": null,
+    "ordenamiento": "LACCEJ",
+    "ordenamiento_raw": "LACCEJ, Art. 7 (definiciones); adición de capítulo o artículos en Título Tercero.",
+    "articulo_modificar": "LACCEJ, Art. 7 (definiciones); adición de capítulo o artículos en Título Tercero.",
+    "fundamento": "Vacío conceptual y de política (1A.8).",
+    "fundamento_federal": "LPTE Arts. 49–50; Art. 2; Art. 14.",
+    "habilitacion_federal": "LPTE Arts. 49–50; Art. 2; Art. 14.",
+    "nivel": "Reforma estatal suficiente",
+    "prioridad": "Alta",
+    "dependencias": [],
+    "tramo_ruta_critica": 6,
+    "es_independiente": false,
+    "debilidades_origen": [
+      "1A.8"
+    ],
+    "conflictos_origen": [],
+    "proyectos_habilitados": [
+      "3B.1"
+    ],
+    "texto_completo": "- **Ordenamiento a modificar:** LACCEJ, Art. 7 (definiciones); adición de capítulo o artículos en Título Tercero.\n- **Fundamento:** Vacío conceptual y de política (1A.8).\n- **Habilitación federal:** LPTE Arts. 49–50; Art. 2; Art. 14.\n- **Nivel:** Reforma estatal suficiente. **Prioridad:** Alta. **Dependencias:** ninguna."
+  },
+  {
+    "id": "R-11",
+    "n": 11,
+    "titulo": "Alineación del Atlas Estatal con el Atlas Nacional de Vulnerabilidad",
+    "reforma": null,
+    "ordenamiento": "LACCEJ",
+    "ordenamiento_raw": "LACCEJ, Art. 13, Fracc. XI; Art. 25, Fracc. XIII.",
+    "articulo_modificar": "LACCEJ, Art. 13, Fracc. XI; Art. 25, Fracc. XIII.",
+    "fundamento": "Desactualización (1A.48).",
+    "fundamento_federal": "LGCC Art. 8, Fracc. XIII; Art. 30, Fracc. II.",
+    "habilitacion_federal": "LGCC Art. 8, Fracc. XIII; Art. 30, Fracc. II.",
+    "nivel": "Reforma estatal suficiente",
+    "prioridad": "Media",
+    "dependencias": [],
+    "tramo_ruta_critica": null,
+    "es_independiente": true,
+    "debilidades_origen": [
+      "1A.48"
+    ],
+    "conflictos_origen": [],
+    "proyectos_habilitados": [],
+    "texto_completo": "- **Ordenamiento a modificar:** LACCEJ, Art. 13, Fracc. XI; Art. 25, Fracc. XIII.\n- **Fundamento:** Desactualización (1A.48).\n- **Habilitación federal:** LGCC Art. 8, Fracc. XIII; Art. 30, Fracc. II.\n- **Nivel:** Reforma estatal suficiente. **Prioridad:** Media. **Dependencias:** ninguna."
+  },
+  {
+    "id": "R-12",
+    "n": 12,
+    "titulo": "Crear Fondo Estatal de Cambio Climático autónomo",
+    "reforma": "Crear Fondo Estatal con autonomía operativa, patrimonio propio y capacidad para recibir recursos federales etiquetados.",
+    "ordenamiento": "LACCEJ",
+    "ordenamiento_raw": "LACCEJ, nuevo capítulo en Título Quinto; sustituir Transitorio Cuarto.",
+    "articulo_modificar": "LACCEJ, nuevo capítulo en Título Quinto; sustituir Transitorio Cuarto.",
+    "fundamento": "Vacío de financiamiento autónomo (1A.6).",
+    "fundamento_federal": "LGCC Art. 91; LPTE Art. 48, párr. 2; Art. 88.",
+    "habilitacion_federal": "LGCC Art. 91; LPTE Art. 48, párr. 2; Art. 88.",
+    "nivel": "Reforma estatal suficiente",
+    "prioridad": "Alta",
+    "dependencias": [],
+    "tramo_ruta_critica": 4,
+    "es_independiente": false,
+    "debilidades_origen": [
+      "1A.6"
+    ],
+    "conflictos_origen": [],
+    "proyectos_habilitados": [
+      "3B.3"
+    ],
+    "texto_completo": "- **Reforma:** Crear Fondo Estatal con autonomía operativa, patrimonio propio y capacidad para recibir recursos federales etiquetados.\n- **Ordenamiento a modificar:** LACCEJ, nuevo capítulo en Título Quinto; sustituir Transitorio Cuarto.\n- **Fundamento:** Vacío de financiamiento autónomo (1A.6).\n- **Habilitación federal:** LGCC Art. 91; LPTE Art. 48, párr. 2; Art. 88.\n- **Nivel:** Reforma estatal suficiente. **Prioridad:** Alta. **Dependencias:** ninguna."
+  },
+  {
+    "id": "R-13",
+    "n": 13,
+    "titulo": "Metas estatales cuantitativas de largo plazo en ley",
+    "reforma": "Fijar en ley metas estatales de reducción de emisiones y de generación limpia en patrimonio público, ancladas a NDC y Estrategia Nacional.",
+    "ordenamiento": "LACCEJ",
+    "ordenamiento_raw": "LACCEJ, nuevo artículo en Título Tercero, Capítulo III.",
+    "articulo_modificar": "LACCEJ, nuevo artículo en Título Tercero, Capítulo III.",
+    "fundamento": "Vacío (1A.7).",
+    "fundamento_federal": "LGCC Art. 72, Fracc. III; LPTE Art. 26 (metas nacionales como piso mínimo).",
+    "habilitacion_federal": "LGCC Art. 72, Fracc. III; LPTE Art. 26 (metas nacionales como piso mínimo).",
+    "nivel": "Reforma estatal suficiente",
+    "prioridad": "Alta",
+    "dependencias": [],
+    "tramo_ruta_critica": 6,
+    "es_independiente": false,
+    "debilidades_origen": [
+      "1A.7"
+    ],
+    "conflictos_origen": [],
+    "proyectos_habilitados": [
+      "3B.4"
+    ],
+    "texto_completo": "- **Reforma:** Fijar en ley metas estatales de reducción de emisiones y de generación limpia en patrimonio público, ancladas a NDC y Estrategia Nacional.\n- **Ordenamiento a modificar:** LACCEJ, nuevo artículo en Título Tercero, Capítulo III.\n- **Fundamento:** Vacío (1A.7).\n- **Habilitación federal:** LGCC Art. 72, Fracc. III; LPTE Art. 26 (metas nacionales como piso mínimo).\n- **Nivel:** Reforma estatal suficiente. **Prioridad:** Alta. **Dependencias:** ninguna."
+  },
+  {
+    "id": "R-14",
+    "n": 14,
+    "titulo": "Actualizar integración de la Comisión Interinstitucional (SADER, post-2024-2025)",
+    "reforma": null,
+    "ordenamiento": "LACCEJ",
+    "ordenamiento_raw": "LACCEJ, Art. 41, Fracc. IV.",
+    "articulo_modificar": "LACCEJ, Art. 41, Fracc. IV.",
+    "fundamento": "Desactualización (1A.49 / referencias SAGARPA).",
+    "fundamento_federal": "DOF 16-12-2019 y reformas 2024-2025.",
+    "habilitacion_federal": "DOF 16-12-2019 y reformas 2024-2025.",
+    "nivel": "Reforma estatal suficiente",
+    "prioridad": "Baja",
+    "dependencias": [],
+    "tramo_ruta_critica": null,
+    "es_independiente": true,
+    "debilidades_origen": [
+      "1A.49"
+    ],
+    "conflictos_origen": [],
+    "proyectos_habilitados": [],
+    "texto_completo": "- **Ordenamiento a modificar:** LACCEJ, Art. 41, Fracc. IV.\n- **Fundamento:** Desactualización (1A.49 / referencias SAGARPA).\n- **Habilitación federal:** DOF 16-12-2019 y reformas 2024-2025.\n- **Nivel:** Reforma estatal suficiente. **Prioridad:** Baja. **Dependencias:** ninguna."
+  },
+  {
+    "id": "R-15",
+    "n": 15,
+    "titulo": "Capítulo de contratación pública climáticamente responsable",
+    "reforma": "Compras sustentables, eficiencia energética en inmuebles públicos, flotillas bajas en emisiones, GLD obligatoria en nuevos inmuebles estatales y municipales.",
+    "ordenamiento": "LACCEJ",
+    "ordenamiento_raw": "LACCEJ, nuevo capítulo en Título Quinto.",
+    "articulo_modificar": "LACCEJ, nuevo capítulo en Título Quinto.",
+    "fundamento": "Omisión estructural (1A.9).",
+    "fundamento_federal": "LGCC Art. 33, Fracc. IV; LPTE Art. 8, Fracc. VII.",
+    "habilitacion_federal": "LGCC Art. 33, Fracc. IV; LPTE Art. 8, Fracc. VII.",
+    "nivel": "Reforma estatal suficiente",
+    "prioridad": "Alta",
+    "dependencias": [],
+    "tramo_ruta_critica": 6,
+    "es_independiente": false,
+    "debilidades_origen": [
+      "1A.9"
+    ],
+    "conflictos_origen": [],
+    "proyectos_habilitados": [
+      "3B.5"
+    ],
+    "texto_completo": "- **Reforma:** Compras sustentables, eficiencia energética en inmuebles públicos, flotillas bajas en emisiones, GLD obligatoria en nuevos inmuebles estatales y municipales.\n- **Ordenamiento a modificar:** LACCEJ, nuevo capítulo en Título Quinto.\n- **Fundamento:** Omisión estructural (1A.9).\n- **Habilitación federal:** LGCC Art. 33, Fracc. IV; LPTE Art. 8, Fracc. VII.\n- **Nivel:** Reforma estatal suficiente. **Prioridad:** Alta. **Dependencias:** ninguna."
+  },
+  {
+    "id": "R-16",
+    "n": 16,
+    "titulo": "Facultades sancionatorias diferenciadas a la Procuraduría Estatal de Protección al Ambiente",
+    "reforma": null,
+    "ordenamiento": "LACCEJ",
+    "ordenamiento_raw": "LACCEJ, Art. 14; Arts. 95–96.",
+    "articulo_modificar": "LACCEJ, Art. 14; Arts. 95–96.",
+    "fundamento": "Vacío sancionatorio.",
+    "fundamento_federal": "LGCC Art. 8, Fracc. XVIII.",
+    "habilitacion_federal": "LGCC Art. 8, Fracc. XVIII.",
+    "nivel": "Reforma estatal suficiente",
+    "prioridad": "Media",
+    "dependencias": [],
+    "tramo_ruta_critica": null,
+    "es_independiente": true,
+    "debilidades_origen": [],
+    "conflictos_origen": [],
+    "proyectos_habilitados": [],
+    "texto_completo": "- **Ordenamiento a modificar:** LACCEJ, Art. 14; Arts. 95–96.\n- **Fundamento:** Vacío sancionatorio.\n- **Habilitación federal:** LGCC Art. 8, Fracc. XVIII.\n- **Nivel:** Reforma estatal suficiente. **Prioridad:** Media. **Dependencias:** ninguna."
+  },
+  {
+    "id": "R-17",
+    "n": 17,
+    "titulo": "Condicionar facultad de la Agencia como generador/comercializador eléctrico a permisos federales",
+    "reforma": null,
+    "ordenamiento": "LOAEEJ",
+    "ordenamiento_raw": "LOAEEJ, Art. 3, Fracc. IV.",
+    "articulo_modificar": "LOAEEJ, Art. 3, Fracc. IV.",
+    "fundamento": "Conflicto / desactualización (4A.4).",
+    "fundamento_federal": "LSE Art. 151; LCNE Art. 6, Fracc. IV y Art. 8, Fracc. IV.",
+    "habilitacion_federal": "LSE Art. 151; LCNE Art. 6, Fracc. IV y Art. 8, Fracc. IV.",
+    "nivel": "Reforma estatal suficiente",
+    "prioridad": "Alta",
+    "dependencias": [],
+    "tramo_ruta_critica": 6,
+    "es_independiente": false,
+    "debilidades_origen": [],
+    "conflictos_origen": [
+      "4A.4"
+    ],
+    "proyectos_habilitados": [],
+    "texto_completo": "- **Ordenamiento a modificar:** LOAEEJ, Art. 3, Fracc. IV.\n- **Fundamento:** Conflicto / desactualización (4A.4).\n- **Habilitación federal:** LSE Art. 151; LCNE Art. 6, Fracc. IV y Art. 8, Fracc. IV.\n- **Nivel:** Reforma estatal suficiente. **Prioridad:** Alta. **Dependencias:** ninguna."
+  },
+  {
+    "id": "R-18",
+    "n": 18,
+    "titulo": "Reformular \"modernización de redes de transmisión\" como gestión y promoción",
+    "reforma": null,
+    "ordenamiento": "LOAEEJ",
+    "ordenamiento_raw": "LOAEEJ, Art. 3, Fracc. XXXVII.",
+    "articulo_modificar": "LOAEEJ, Art. 3, Fracc. XXXVII.",
+    "fundamento": "Conflicto con área estratégica federal (4A.5).",
+    "fundamento_federal": "CPEUM Art. 27, párr. 6; LEPECFE Art. 8, párr. 1; Art. 10; Art. 115.",
+    "habilitacion_federal": "CPEUM Art. 27, párr. 6; LEPECFE Art. 8, párr. 1; Art. 10; Art. 115.",
+    "nivel": "Reforma estatal suficiente",
+    "prioridad": "Alta",
+    "dependencias": [],
+    "tramo_ruta_critica": 6,
+    "es_independiente": false,
+    "debilidades_origen": [],
+    "conflictos_origen": [
+      "4A.5"
+    ],
+    "proyectos_habilitados": [],
+    "texto_completo": "- **Ordenamiento a modificar:** LOAEEJ, Art. 3, Fracc. XXXVII.\n- **Fundamento:** Conflicto con área estratégica federal (4A.5).\n- **Habilitación federal:** CPEUM Art. 27, párr. 6; LEPECFE Art. 8, párr. 1; Art. 10; Art. 115.\n- **Nivel:** Reforma estatal suficiente. **Prioridad:** Alta. **Dependencias:** ninguna."
+  },
+  {
+    "id": "R-19",
+    "n": 19,
+    "titulo": "Eliminar/reformular \"actividades regulativas y certificación\" de la Agencia",
+    "reforma": null,
+    "ordenamiento": "LOAEEJ",
+    "ordenamiento_raw": "LOAEEJ, Art. 27.",
+    "articulo_modificar": "LOAEEJ, Art. 27.",
+    "fundamento": "Conflicto con concentración regulatoria federal post-reforma DOF 20-12-2024 (4A.6).",
+    "fundamento_federal": "CPEUM Art. 28; LCNE Art. 7, Fracc. II; Art. 8, Fracc. V.",
+    "habilitacion_federal": "CPEUM Art. 28; LCNE Art. 7, Fracc. II; Art. 8, Fracc. V.",
+    "nivel": "Reforma estatal suficiente",
+    "prioridad": "Alta",
+    "dependencias": [],
+    "tramo_ruta_critica": 6,
+    "es_independiente": false,
+    "debilidades_origen": [],
+    "conflictos_origen": [
+      "4A.6"
+    ],
+    "proyectos_habilitados": [],
+    "texto_completo": "- **Ordenamiento a modificar:** LOAEEJ, Art. 27.\n- **Fundamento:** Conflicto con concentración regulatoria federal post-reforma DOF 20-12-2024 (4A.6).\n- **Habilitación federal:** CPEUM Art. 28; LCNE Art. 7, Fracc. II; Art. 8, Fracc. V.\n- **Nivel:** Reforma estatal suficiente. **Prioridad:** Alta. **Dependencias:** ninguna."
+  },
+  {
+    "id": "R-20",
+    "n": 20,
+    "titulo": "Subordinar Plan Estatal de Energía a planeación vinculante federal y al Programa Estatal de Cambio Climático",
+    "reforma": null,
+    "ordenamiento": "LOAEEJ",
+    "ordenamiento_raw": "LOAEEJ, Art. 3, Fraccs. VII y XXXV; nueva fracción de congruencia.",
+    "articulo_modificar": "LOAEEJ, Art. 3, Fraccs. VII y XXXV; nueva fracción de congruencia.",
+    "fundamento": "Omisión / desactualización (1A.10).",
+    "fundamento_federal": "LPTE Art. 2, párr. 1; Art. 32; LGCC Arts. 71–72; CPEUM Art. 25, párr. 2.",
+    "habilitacion_federal": "LPTE Art. 2, párr. 1; Art. 32; LGCC Arts. 71–72; CPEUM Art. 25, párr. 2.",
+    "nivel": "Reforma estatal suficiente",
+    "prioridad": "Alta",
+    "dependencias": [
+      "R-13"
+    ],
+    "tramo_ruta_critica": 1,
+    "es_independiente": false,
+    "debilidades_origen": [
+      "1A.10"
+    ],
+    "conflictos_origen": [],
+    "proyectos_habilitados": [],
+    "texto_completo": "- **Ordenamiento a modificar:** LOAEEJ, Art. 3, Fraccs. VII y XXXV; nueva fracción de congruencia.\n- **Fundamento:** Omisión / desactualización (1A.10).\n- **Habilitación federal:** LPTE Art. 2, párr. 1; Art. 32; LGCC Arts. 71–72; CPEUM Art. 25, párr. 2.\n- **Nivel:** Reforma estatal suficiente. **Prioridad:** Alta. **Dependencias:** R-13 (metas estatales coherentes)."
+  },
+  {
+    "id": "R-21",
+    "n": 21,
+    "titulo": "Régimen expreso de convenios federales en LOAEEJ (SENER, CNE, CONUEE, CFE, CONAGUA)",
+    "reforma": null,
+    "ordenamiento": "LOAEEJ",
+    "ordenamiento_raw": "LOAEEJ, adición de capítulo sobre Convenios Federales de Coordinación; reforma a Art. 3, Fracc. XXVII.",
+    "articulo_modificar": "LOAEEJ, adición de capítulo sobre Convenios Federales de Coordinación; reforma a Art. 3, Fracc. XXVII.",
+    "fundamento": "Vacío (1A.11).",
+    "fundamento_federal": "LPTE Art. 8, Fraccs. VI y VII; Art. 11, Fracc. X; LSE Art. 88, párr. 3 y Art. 129; LSH Art. 78; LEPECFE Art. 10; LGeo Art. 7, Fracc. XXV.",
+    "habilitacion_federal": "LPTE Art. 8, Fraccs. VI y VII; Art. 11, Fracc. X; LSE Art. 88, párr. 3 y Art. 129; LSH Art. 78; LEPECFE Art. 10; LGeo Art. 7, Fracc. XXV.",
+    "nivel": "Reforma estatal suficiente",
+    "prioridad": "Alta",
+    "dependencias": [],
+    "tramo_ruta_critica": 3,
+    "es_independiente": false,
+    "debilidades_origen": [
+      "1A.11"
+    ],
+    "conflictos_origen": [],
+    "proyectos_habilitados": [],
+    "texto_completo": "- **Ordenamiento a modificar:** LOAEEJ, adición de capítulo sobre Convenios Federales de Coordinación; reforma a Art. 3, Fracc. XXVII.\n- **Fundamento:** Vacío (1A.11).\n- **Habilitación federal:** LPTE Art. 8, Fraccs. VI y VII; Art. 11, Fracc. X; LSE Art. 88, párr. 3 y Art. 129; LSH Art. 78; LEPECFE Art. 10; LGeo Art. 7, Fracc. XXV.\n- **Nivel:** Reforma estatal suficiente. **Prioridad:** Alta. **Dependencias:** ninguna."
+  },
+  {
+    "id": "R-22",
+    "n": 22,
+    "titulo": "Designar a la Agencia como ventanilla única estatal para proyectos federales energéticos",
+    "reforma": null,
+    "ordenamiento": "LOAEEJ",
+    "ordenamiento_raw": "LOAEEJ, adición de fracción al Art. 3 y capítulo sobre coordinación intergubernamental.",
+    "articulo_modificar": "LOAEEJ, adición de fracción al Art. 3 y capítulo sobre coordinación intergubernamental.",
+    "fundamento": "Vacío (1A.12).",
+    "fundamento_federal": "LSE Art. 88, párr. 3; LSH Art. 128, párr. 3.",
+    "habilitacion_federal": "LSE Art. 88, párr. 3; LSH Art. 128, párr. 3.",
+    "nivel": "Reforma estatal suficiente",
+    "prioridad": "Alta",
+    "dependencias": [
+      "R-21"
+    ],
+    "tramo_ruta_critica": 1,
+    "es_independiente": false,
+    "debilidades_origen": [
+      "1A.12"
+    ],
+    "conflictos_origen": [],
+    "proyectos_habilitados": [
+      "3B.6"
+    ],
+    "texto_completo": "- **Ordenamiento a modificar:** LOAEEJ, adición de fracción al Art. 3 y capítulo sobre coordinación intergubernamental.\n- **Fundamento:** Vacío (1A.12).\n- **Habilitación federal:** LSE Art. 88, párr. 3; LSH Art. 128, párr. 3.\n- **Nivel:** Reforma estatal suficiente. **Prioridad:** Alta. **Dependencias:** R-21."
+  },
+  {
+    "id": "R-23",
+    "n": 23,
+    "titulo": "Facultad de proponer y operar reglamentación técnica local de eficiencia energética",
+    "reforma": null,
+    "ordenamiento": "LOAEEJ",
+    "ordenamiento_raw": "LOAEEJ, adición al Art. 3 y artículo nuevo sobre reglamentación técnica local.",
+    "articulo_modificar": "LOAEEJ, adición al Art. 3 y artículo nuevo sobre reglamentación técnica local.",
+    "fundamento": "Aprovechamiento de ventana federal.",
+    "fundamento_federal": "LPTE Art. 8, Fracc. VII; Art. 11, Fracc. X.",
+    "habilitacion_federal": "LPTE Art. 8, Fracc. VII; Art. 11, Fracc. X.",
+    "nivel": "Reforma estatal suficiente",
+    "prioridad": "Media",
+    "dependencias": [],
+    "tramo_ruta_critica": null,
+    "es_independiente": true,
+    "debilidades_origen": [],
+    "conflictos_origen": [],
+    "proyectos_habilitados": [
+      "3B.41"
+    ],
+    "texto_completo": "- **Ordenamiento a modificar:** LOAEEJ, adición al Art. 3 y artículo nuevo sobre reglamentación técnica local.\n- **Fundamento:** Aprovechamiento de ventana federal.\n- **Habilitación federal:** LPTE Art. 8, Fracc. VII; Art. 11, Fracc. X.\n- **Nivel:** Reforma estatal suficiente. **Prioridad:** Media. **Dependencias:** ninguna."
+  },
+  {
+    "id": "R-24",
+    "n": 24,
+    "titulo": "Delimitar áreas del Consejo Consultivo de la Agencia a competencia real estatal",
+    "reforma": null,
+    "ordenamiento": "LOAEEJ",
+    "ordenamiento_raw": "LOAEEJ, Art. 18, párr. 1.",
+    "articulo_modificar": "LOAEEJ, Art. 18, párr. 1.",
+    "fundamento": "Conflicto / ambigüedad (4A.7).",
+    "fundamento_federal": "LSH Art. 127, párr. 1; LSE Art. 7; LPTE Art. 8, Fracc. VII.",
+    "habilitacion_federal": "LSH Art. 127, párr. 1; LSE Art. 7; LPTE Art. 8, Fracc. VII.",
+    "nivel": "Reforma estatal suficiente",
+    "prioridad": "Media",
+    "dependencias": [],
+    "tramo_ruta_critica": null,
+    "es_independiente": true,
+    "debilidades_origen": [],
+    "conflictos_origen": [
+      "4A.7"
+    ],
+    "proyectos_habilitados": [],
+    "texto_completo": "- **Ordenamiento a modificar:** LOAEEJ, Art. 18, párr. 1.\n- **Fundamento:** Conflicto / ambigüedad (4A.7).\n- **Habilitación federal:** LSH Art. 127, párr. 1; LSE Art. 7; LPTE Art. 8, Fracc. VII.\n- **Nivel:** Reforma estatal suficiente. **Prioridad:** Media. **Dependencias:** ninguna."
+  },
+  {
+    "id": "R-25",
+    "n": 25,
+    "titulo": "Procedimiento formal de postulación a Fondo de Transición Energética y Fondo de Servicio Universal Energético",
+    "reforma": null,
+    "ordenamiento": "LOAEEJ",
+    "ordenamiento_raw": "LOAEEJ, adición al Art. 3 y artículo nuevo.",
+    "articulo_modificar": "LOAEEJ, adición al Art. 3 y artículo nuevo.",
+    "fundamento": "Omisión (1A.13).",
+    "fundamento_federal": "LPTE Arts. 43, 47, 48, 49–50.",
+    "habilitacion_federal": "LPTE Arts. 43, 47, 48, 49–50.",
+    "nivel": "Reforma estatal suficiente",
+    "prioridad": "Alta",
+    "dependencias": [],
+    "tramo_ruta_critica": 4,
+    "es_independiente": false,
+    "debilidades_origen": [
+      "1A.13"
+    ],
+    "conflictos_origen": [],
+    "proyectos_habilitados": [
+      "3B.7"
+    ],
+    "texto_completo": "- **Ordenamiento a modificar:** LOAEEJ, adición al Art. 3 y artículo nuevo.\n- **Fundamento:** Omisión (1A.13).\n- **Habilitación federal:** LPTE Arts. 43, 47, 48, 49–50.\n- **Nivel:** Reforma estatal suficiente. **Prioridad:** Alta. **Dependencias:** ninguna."
+  },
+  {
+    "id": "R-26",
+    "n": 26,
+    "titulo": "Consulta previa estatal complementaria a pueblos indígenas y afromexicanas en proyectos de la Agencia",
+    "reforma": null,
+    "ordenamiento": "LOAEEJ",
+    "ordenamiento_raw": "LOAEEJ, adición de capítulo sobre participación social y consulta.",
+    "articulo_modificar": "LOAEEJ, adición de capítulo sobre participación social y consulta.",
+    "fundamento": "Vacío (1A.50).",
+    "fundamento_federal": "LSE Arts. 133–135; LSH Art. 151; LGeo Art. 4, párr. 2; CPEUM Art. 2° Apartado B.",
+    "habilitacion_federal": "LSE Arts. 133–135; LSH Art. 151; LGeo Art. 4, párr. 2; CPEUM Art. 2° Apartado B.",
+    "nivel": "Reforma estatal suficiente",
+    "prioridad": "Media",
+    "dependencias": [],
+    "tramo_ruta_critica": null,
+    "es_independiente": true,
+    "debilidades_origen": [
+      "1A.50"
+    ],
+    "conflictos_origen": [],
+    "proyectos_habilitados": [],
+    "texto_completo": "- **Ordenamiento a modificar:** LOAEEJ, adición de capítulo sobre participación social y consulta.\n- **Fundamento:** Vacío (1A.50).\n- **Habilitación federal:** LSE Arts. 133–135; LSH Art. 151; LGeo Art. 4, párr. 2; CPEUM Art. 2° Apartado B.\n- **Nivel:** Reforma estatal suficiente. **Prioridad:** Media. **Dependencias:** ninguna."
+  },
+  {
+    "id": "R-27",
+    "n": 27,
+    "titulo": "Actualizar Junta de Gobierno de la Agencia y modular vocalato del CENACE",
+    "reforma": null,
+    "ordenamiento": "LOAEEJ",
+    "ordenamiento_raw": "LOAEEJ, Art. 5, Fracc. III.",
+    "articulo_modificar": "LOAEEJ, Art. 5, Fracc. III.",
+    "fundamento": "Desactualización (1A.49).",
+    "fundamento_federal": "LSE Arts. 14–15; LCNE Art. 10, párr. 1.",
+    "habilitacion_federal": "LSE Arts. 14–15; LCNE Art. 10, párr. 1.",
+    "nivel": "Reforma estatal suficiente",
+    "prioridad": "Media",
+    "dependencias": [],
+    "tramo_ruta_critica": null,
+    "es_independiente": true,
+    "debilidades_origen": [
+      "1A.49"
+    ],
+    "conflictos_origen": [],
+    "proyectos_habilitados": [],
+    "texto_completo": "- **Ordenamiento a modificar:** LOAEEJ, Art. 5, Fracc. III.\n- **Fundamento:** Desactualización (1A.49).\n- **Habilitación federal:** LSE Arts. 14–15; LCNE Art. 10, párr. 1.\n- **Nivel:** Reforma estatal suficiente. **Prioridad:** Media. **Dependencias:** ninguna."
+  },
+  {
+    "id": "R-28",
+    "n": 28,
+    "titulo": "Metas estatales cuantitativas en el Plan Estatal de Energía con MRV",
+    "reforma": null,
+    "ordenamiento": "LOAEEJ",
+    "ordenamiento_raw": "LOAEEJ, Art. 3, Fracc. XXXV, párr. 2.",
+    "articulo_modificar": "LOAEEJ, Art. 3, Fracc. XXXV, párr. 2.",
+    "fundamento": "Omisión (1A.51).",
+    "fundamento_federal": "LGCC Arts. 71–72; LPTE Art. 26 (no prohibitivo).",
+    "habilitacion_federal": "LGCC Arts. 71–72; LPTE Art. 26 (no prohibitivo).",
+    "nivel": "Reforma estatal suficiente",
+    "prioridad": "Media",
+    "dependencias": [
+      "R-20"
+    ],
+    "tramo_ruta_critica": null,
+    "es_independiente": true,
+    "debilidades_origen": [
+      "1A.51"
+    ],
+    "conflictos_origen": [],
+    "proyectos_habilitados": [],
+    "texto_completo": "- **Ordenamiento a modificar:** LOAEEJ, Art. 3, Fracc. XXXV, párr. 2.\n- **Fundamento:** Omisión (1A.51).\n- **Habilitación federal:** LGCC Arts. 71–72; LPTE Art. 26 (no prohibitivo).\n- **Nivel:** Reforma estatal suficiente. **Prioridad:** Media. **Dependencias:** R-20."
+  },
+  {
+    "id": "R-29",
+    "n": 29,
+    "titulo": "Régimen de incentivos económicos estatales para mitigación, eficiencia y energías limpias en LOAEEJ",
+    "reforma": null,
+    "ordenamiento": "LOAEEJ",
+    "ordenamiento_raw": "LOAEEJ, adición al Art. 3 y coordinación con Código Financiero del Estado.",
+    "articulo_modificar": "LOAEEJ, adición al Art. 3 y coordinación con Código Financiero del Estado.",
+    "fundamento": "Vacío instrumental.",
+    "fundamento_federal": "LGCC Art. 91; CPEUM Art. 124.",
+    "habilitacion_federal": "LGCC Art. 91; CPEUM Art. 124.",
+    "nivel": "Reforma estatal suficiente",
+    "prioridad": "Media",
+    "dependencias": [],
+    "tramo_ruta_critica": 4,
+    "es_independiente": false,
+    "debilidades_origen": [],
+    "conflictos_origen": [],
+    "proyectos_habilitados": [
+      "3B.42"
+    ],
+    "texto_completo": "- **Ordenamiento a modificar:** LOAEEJ, adición al Art. 3 y coordinación con Código Financiero del Estado.\n- **Fundamento:** Vacío instrumental.\n- **Habilitación federal:** LGCC Art. 91; CPEUM Art. 124.\n- **Nivel:** Reforma estatal suficiente. **Prioridad:** Media. **Dependencias:** ninguna."
+  },
+  {
+    "id": "R-30",
+    "n": 30,
+    "titulo": "Agencia como autoridad estatal postulante de Zonas de Salvaguarda y promotora de convenios geotérmicos",
+    "reforma": null,
+    "ordenamiento": "LOAEEJ",
+    "ordenamiento_raw": "LOAEEJ, adición al Art. 3.",
+    "articulo_modificar": "LOAEEJ, adición al Art. 3.",
+    "fundamento": "Vacío diferencial (1A.75).",
+    "fundamento_federal": "LSH Art. 69; LGeo Art. 7, Fracc. XXV.",
+    "habilitacion_federal": "LSH Art. 69; LGeo Art. 7, Fracc. XXV.",
+    "nivel": "Reforma estatal suficiente para gestoría; canal exigible requiere reforma federal",
+    "prioridad": "Baja",
+    "dependencias": [],
+    "tramo_ruta_critica": null,
+    "es_independiente": true,
+    "debilidades_origen": [
+      "1A.75"
+    ],
+    "conflictos_origen": [],
+    "proyectos_habilitados": [],
+    "texto_completo": "- **Ordenamiento a modificar:** LOAEEJ, adición al Art. 3.\n- **Fundamento:** Vacío diferencial (1A.75).\n- **Habilitación federal:** LSH Art. 69; LGeo Art. 7, Fracc. XXV.\n- **Nivel:** Reforma estatal suficiente para gestoría; canal exigible requiere reforma federal.\n- **Prioridad:** Baja. **Dependencias:** ninguna."
+  },
+  {
+    "id": "R-31",
+    "n": 31,
+    "titulo": "Capítulo sobre valorización energética de insumos, subproductos y residuos agroalimentarios en LAEJ",
+    "reforma": null,
+    "ordenamiento": "LAEJ",
+    "ordenamiento_raw": "LAEJ, crear capítulo nuevo; adicionar fracción al Art. 6 y al Art. 25.",
+    "articulo_modificar": "LAEJ, crear capítulo nuevo; adicionar fracción al Art. 6 y al Art. 25.",
+    "fundamento": "Vacío (1A.14).",
+    "fundamento_federal": "LBio Art. 1, Fracc. V; Art. 8; Art. 9, Fraccs. I, III, V, VII; Art. 10, Fracc. I.",
+    "habilitacion_federal": "LBio Art. 1, Fracc. V; Art. 8; Art. 9, Fraccs. I, III, V, VII; Art. 10, Fracc. I.",
+    "nivel": "Reforma estatal suficiente",
+    "prioridad": "Alta",
+    "dependencias": [],
+    "tramo_ruta_critica": 6,
+    "es_independiente": false,
+    "debilidades_origen": [
+      "1A.14"
+    ],
+    "conflictos_origen": [],
+    "proyectos_habilitados": [
+      "3B.8",
+      "3B.9"
+    ],
+    "texto_completo": "- **Ordenamiento a modificar:** LAEJ, crear capítulo nuevo; adicionar fracción al Art. 6 y al Art. 25.\n- **Fundamento:** Vacío (1A.14).\n- **Habilitación federal:** LBio Art. 1, Fracc. V; Art. 8; Art. 9, Fraccs. I, III, V, VII; Art. 10, Fracc. I.\n- **Nivel:** Reforma estatal suficiente. **Prioridad:** Alta. **Dependencias:** ninguna."
+  },
+  {
+    "id": "R-32",
+    "n": 32,
+    "titulo": "Definiciones de biomasa agroalimentaria, residuo orgánico valorizable y subproducto agroindustrial energético en LAEJ",
+    "reforma": null,
+    "ordenamiento": "LAEJ",
+    "ordenamiento_raw": "LAEJ, Art. 4 (catálogo de definiciones).",
+    "articulo_modificar": "LAEJ, Art. 4 (catálogo de definiciones).",
+    "fundamento": "Vacío conceptual.",
+    "fundamento_federal": "LBio Art. 3; Art. 5, Fracc. XIV.",
+    "habilitacion_federal": "LBio Art. 3; Art. 5, Fracc. XIV.",
+    "nivel": "Reforma estatal suficiente",
+    "prioridad": "Media",
+    "dependencias": [
+      "R-31"
+    ],
+    "tramo_ruta_critica": 6,
+    "es_independiente": false,
+    "debilidades_origen": [],
+    "conflictos_origen": [],
+    "proyectos_habilitados": [],
+    "texto_completo": "- **Ordenamiento a modificar:** LAEJ, Art. 4 (catálogo de definiciones).\n- **Fundamento:** Vacío conceptual.\n- **Habilitación federal:** LBio Art. 3; Art. 5, Fracc. XIV.\n- **Nivel:** Reforma estatal suficiente. **Prioridad:** Media. **Dependencias:** R-31."
+  },
+  {
+    "id": "R-33",
+    "n": 33,
+    "titulo": "Atribución expresa de la Agencia agroalimentaria para suscribir convenios SENER/SADER/SEMARNAT",
+    "reforma": null,
+    "ordenamiento": "LAEJ",
+    "ordenamiento_raw": "LAEJ, Art. 6 (nueva fracción) y/o adición al Art. 7.",
+    "articulo_modificar": "LAEJ, Art. 6 (nueva fracción) y/o adición al Art. 7.",
+    "fundamento": "Vacío (1A.15).",
+    "fundamento_federal": "LBio Art. 8, párr. 2 y Art. 10, Fracc. I.",
+    "habilitacion_federal": "LBio Art. 8, párr. 2 y Art. 10, Fracc. I.",
+    "nivel": "Reforma estatal suficiente",
+    "prioridad": "Alta",
+    "dependencias": [],
+    "tramo_ruta_critica": 6,
+    "es_independiente": false,
+    "debilidades_origen": [
+      "1A.15"
+    ],
+    "conflictos_origen": [],
+    "proyectos_habilitados": [
+      "3B.8"
+    ],
+    "texto_completo": "- **Ordenamiento a modificar:** LAEJ, Art. 6 (nueva fracción) y/o adición al Art. 7.\n- **Fundamento:** Vacío (1A.15).\n- **Habilitación federal:** LBio Art. 8, párr. 2 y Art. 10, Fracc. I.\n- **Nivel:** Reforma estatal suficiente. **Prioridad:** Alta. **Dependencias:** ninguna."
+  },
+  {
+    "id": "R-34",
+    "n": 34,
+    "titulo": "Habilitación municipal para canalizar residuos orgánicos urbanos a valorización energética",
+    "reforma": null,
+    "ordenamiento": "LAEJ",
+    "ordenamiento_raw": "LAEJ, Art. 17 (nueva fracción).",
+    "articulo_modificar": "LAEJ, Art. 17 (nueva fracción).",
+    "fundamento": "Vacío.",
+    "fundamento_federal": "LBio Art. 1, Fracc. V; Art. 9, Fracc. I.",
+    "habilitacion_federal": "LBio Art. 1, Fracc. V; Art. 9, Fracc. I.",
+    "nivel": "Reforma estatal suficiente",
+    "prioridad": "Media",
+    "dependencias": [
+      "R-31"
+    ],
+    "tramo_ruta_critica": 6,
+    "es_independiente": false,
+    "debilidades_origen": [],
+    "conflictos_origen": [],
+    "proyectos_habilitados": [],
+    "texto_completo": "- **Ordenamiento a modificar:** LAEJ, Art. 17 (nueva fracción).\n- **Fundamento:** Vacío.\n- **Habilitación federal:** LBio Art. 1, Fracc. V; Art. 9, Fracc. I.\n- **Nivel:** Reforma estatal suficiente. **Prioridad:** Media. **Dependencias:** R-31."
+  },
+  {
+    "id": "R-35",
+    "n": 35,
+    "titulo": "Criterios energéticos en proyectos de infraestructura agroalimentaria",
+    "reforma": null,
+    "ordenamiento": "LAEJ",
+    "ordenamiento_raw": "LAEJ, Art. 19 (adición de párrafo).",
+    "articulo_modificar": "LAEJ, Art. 19 (adición de párrafo).",
+    "fundamento": "Omisión / desactualización (1A.53).",
+    "fundamento_federal": "LBio Art. 9, Fracc. III; remisiones del Art. 3 LBio a LGCC y LGEEPA.",
+    "habilitacion_federal": "LBio Art. 9, Fracc. III; remisiones del Art. 3 LBio a LGCC y LGEEPA.",
+    "nivel": "Reforma estatal suficiente",
+    "prioridad": "Media",
+    "dependencias": [],
+    "tramo_ruta_critica": null,
+    "es_independiente": true,
+    "debilidades_origen": [
+      "1A.53"
+    ],
+    "conflictos_origen": [],
+    "proyectos_habilitados": [],
+    "texto_completo": "- **Ordenamiento a modificar:** LAEJ, Art. 19 (adición de párrafo).\n- **Fundamento:** Omisión / desactualización (1A.53).\n- **Habilitación federal:** LBio Art. 9, Fracc. III; remisiones del Art. 3 LBio a LGCC y LGEEPA.\n- **Nivel:** Reforma estatal suficiente. **Prioridad:** Media. **Dependencias:** ninguna."
+  },
+  {
+    "id": "R-36",
+    "n": 36,
+    "titulo": "Interoperabilidad del Sistema Estatal de Información Agroalimentaria con el Subsistema federal de Biocombustibles",
+    "reforma": null,
+    "ordenamiento": "LAEJ",
+    "ordenamiento_raw": "LAEJ, Art. 29 (adición de fracción).",
+    "articulo_modificar": "LAEJ, Art. 29 (adición de fracción).",
+    "fundamento": "Vacío técnico-administrativo.",
+    "fundamento_federal": "LBio Art. 5, Fraccs. XI, XII; Art. 22; Art. 37.",
+    "habilitacion_federal": "LBio Art. 5, Fraccs. XI, XII; Art. 22; Art. 37.",
+    "nivel": "Reforma estatal suficiente",
+    "prioridad": "Media",
+    "dependencias": [
+      "R-33"
+    ],
+    "tramo_ruta_critica": 6,
+    "es_independiente": false,
+    "debilidades_origen": [],
+    "conflictos_origen": [],
+    "proyectos_habilitados": [],
+    "texto_completo": "- **Ordenamiento a modificar:** LAEJ, Art. 29 (adición de fracción).\n- **Fundamento:** Vacío técnico-administrativo.\n- **Habilitación federal:** LBio Art. 5, Fraccs. XI, XII; Art. 22; Art. 37.\n- **Nivel:** Reforma estatal suficiente. **Prioridad:** Media. **Dependencias:** R-33."
+  },
+  {
+    "id": "R-37",
+    "n": 37,
+    "titulo": "Modalidad APP específica para proyectos energéticos",
+    "reforma": "Crear modalidad/capítulo específico para \"Proyectos APP con componente energético\" con reglas de articulación con permisos CNE, CENACE y CFE.",
+    "ordenamiento": "LPIPSEJM",
+    "ordenamiento_raw": "LPIPSEJM, crear Capítulo II Bis o Art. 1 Ter; modificar Art. 2 (definición de \"proyecto energético\"); modificar Art. 8.",
+    "articulo_modificar": "LPIPSEJM, crear Capítulo II Bis o Art. 1 Ter; modificar Art. 2 (definición de \"proyecto energético\"); modificar Art. 8.",
+    "fundamento": "Vacío / desactualización (1A.16).",
+    "fundamento_federal": "LSE Art. 88, párr. 3; Art. 151; LEPECFE Art. 10; Art. 11.",
+    "habilitacion_federal": "LSE Art. 88, párr. 3; Art. 151; LEPECFE Art. 10; Art. 11.",
+    "nivel": "Reforma estatal suficiente",
+    "prioridad": "Alta",
+    "dependencias": [],
+    "tramo_ruta_critica": 6,
+    "es_independiente": false,
+    "debilidades_origen": [
+      "1A.16"
+    ],
+    "conflictos_origen": [],
+    "proyectos_habilitados": [
+      "3B.10"
+    ],
+    "texto_completo": "- **Reforma:** Crear modalidad/capítulo específico para \"Proyectos APP con componente energético\" con reglas de articulación con permisos CNE, CENACE y CFE.\n- **Ordenamiento a modificar:** LPIPSEJM, crear Capítulo II Bis o Art. 1 Ter; modificar Art. 2 (definición de \"proyecto energético\"); modificar Art. 8.\n- **Fundamento:** Vacío / desactualización (1A.16).\n- **Habilitación federal:** LSE Art. 88, párr. 3; Art. 151; LEPECFE Art. 10; Art. 11.\n- **Nivel:** Reforma estatal suficiente. **Prioridad:** Alta. **Dependencias:** ninguna."
+  },
+  {
+    "id": "R-38",
+    "n": 38,
+    "titulo": "Integrar al órgano estatal de energía al Comité de Adjudicación APP",
+    "reforma": null,
+    "ordenamiento": "LPIPSEJM",
+    "ordenamiento_raw": "LPIPSEJM, Art. 18, Apartado A.",
+    "articulo_modificar": "LPIPSEJM, Art. 18, Apartado A.",
+    "fundamento": "Omisión (1A.19).",
+    "fundamento_federal": "LPTE Art. 8, Fracc. VII; LSE Art. 88, párr. 3.",
+    "habilitacion_federal": "LPTE Art. 8, Fracc. VII; LSE Art. 88, párr. 3.",
+    "nivel": "Reforma estatal suficiente",
+    "prioridad": "Alta",
+    "dependencias": [
+      "R-22"
+    ],
+    "tramo_ruta_critica": 6,
+    "es_independiente": false,
+    "debilidades_origen": [
+      "1A.19"
+    ],
+    "conflictos_origen": [],
+    "proyectos_habilitados": [
+      "3B.10"
+    ],
+    "texto_completo": "- **Ordenamiento a modificar:** LPIPSEJM, Art. 18, Apartado A.\n- **Fundamento:** Omisión (1A.19).\n- **Habilitación federal:** LPTE Art. 8, Fracc. VII; LSE Art. 88, párr. 3.\n- **Nivel:** Reforma estatal suficiente. **Prioridad:** Alta. **Dependencias:** R-22."
+  },
+  {
+    "id": "R-39",
+    "n": 39,
+    "titulo": "Tipificar el riesgo regulatorio federal en el catálogo de riesgos APP",
+    "reforma": null,
+    "ordenamiento": "LPIPSEJM",
+    "ordenamiento_raw": "LPIPSEJM, Art. 8, Fracc. IX, inciso f) (numeral 6 nuevo).",
+    "articulo_modificar": "LPIPSEJM, Art. 8, Fracc. IX, inciso f) (numeral 6 nuevo).",
+    "fundamento": "Omisión (1A.17).",
+    "fundamento_federal": "LSE Arts. 170, 174; LCNE Art. 7, Fracc. II; CPEUM Art. 28 reformado DOF 20-12-2024.",
+    "habilitacion_federal": "LSE Arts. 170, 174; LCNE Art. 7, Fracc. II; CPEUM Art. 28 reformado DOF 20-12-2024.",
+    "nivel": "Reforma estatal suficiente",
+    "prioridad": "Alta",
+    "dependencias": [],
+    "tramo_ruta_critica": 6,
+    "es_independiente": false,
+    "debilidades_origen": [
+      "1A.17"
+    ],
+    "conflictos_origen": [],
+    "proyectos_habilitados": [
+      "3B.10"
+    ],
+    "texto_completo": "- **Ordenamiento a modificar:** LPIPSEJM, Art. 8, Fracc. IX, inciso f) (numeral 6 nuevo).\n- **Fundamento:** Omisión (1A.17).\n- **Habilitación federal:** LSE Arts. 170, 174; LCNE Art. 7, Fracc. II; CPEUM Art. 28 reformado DOF 20-12-2024.\n- **Nivel:** Reforma estatal suficiente. **Prioridad:** Alta. **Dependencias:** ninguna."
+  },
+  {
+    "id": "R-40",
+    "n": 40,
+    "titulo": "Definir titularidad de atributos energéticos (CELs, reducciones verificadas) en contratos APP",
+    "reforma": null,
+    "ordenamiento": "LPIPSEJM",
+    "ordenamiento_raw": "LPIPSEJM, adición al Art. 45 y Art. 44, párr. 2; alternativa: Art. 2 (definición).",
+    "articulo_modificar": "LPIPSEJM, adición al Art. 45 y Art. 44, párr. 2; alternativa: Art. 2 (definición).",
+    "fundamento": "Vacío (1A.54).",
+    "fundamento_federal": "LSE Art. 10, Fracc. X; Art. 11, Fracc. XVI.",
+    "habilitacion_federal": "LSE Art. 10, Fracc. X; Art. 11, Fracc. XVI.",
+    "nivel": "Reforma estatal suficiente",
+    "prioridad": "Media",
+    "dependencias": [
+      "R-37"
+    ],
+    "tramo_ruta_critica": 6,
+    "es_independiente": false,
+    "debilidades_origen": [
+      "1A.54"
+    ],
+    "conflictos_origen": [],
+    "proyectos_habilitados": [
+      "3B.11"
+    ],
+    "texto_completo": "- **Ordenamiento a modificar:** LPIPSEJM, adición al Art. 45 y Art. 44, párr. 2; alternativa: Art. 2 (definición).\n- **Fundamento:** Vacío (1A.54).\n- **Habilitación federal:** LSE Art. 10, Fracc. X; Art. 11, Fracc. XVI.\n- **Nivel:** Reforma estatal suficiente. **Prioridad:** Media. **Dependencias:** R-37."
+  },
+  {
+    "id": "R-41",
+    "n": 41,
+    "titulo": "Coordinación con Consulta Previa federal en APPs energéticos en territorio indígena",
+    "reforma": null,
+    "ordenamiento": "LPIPSEJM",
+    "ordenamiento_raw": "LPIPSEJM, Art. 8, Fracc. III.",
+    "articulo_modificar": "LPIPSEJM, Art. 8, Fracc. III.",
+    "fundamento": "Vacío (1A.20).",
+    "fundamento_federal": "LSE Arts. 133, 134, 135; LSH Art. 151.",
+    "habilitacion_federal": "LSE Arts. 133, 134, 135; LSH Art. 151.",
+    "nivel": "Reforma estatal suficiente",
+    "prioridad": "Alta",
+    "dependencias": [],
+    "tramo_ruta_critica": 6,
+    "es_independiente": false,
+    "debilidades_origen": [
+      "1A.20"
+    ],
+    "conflictos_origen": [],
+    "proyectos_habilitados": [
+      "3B.13"
+    ],
+    "texto_completo": "- **Ordenamiento a modificar:** LPIPSEJM, Art. 8, Fracc. III.\n- **Fundamento:** Vacío (1A.20).\n- **Habilitación federal:** LSE Arts. 133, 134, 135; LSH Art. 151.\n- **Nivel:** Reforma estatal suficiente. **Prioridad:** Alta. **Dependencias:** ninguna."
+  },
+  {
+    "id": "R-42",
+    "n": 42,
+    "titulo": "Excluir expresamente del objeto APP las actividades reservadas constitucionalmente a la Nación",
+    "reforma": null,
+    "ordenamiento": "LPIPSEJM",
+    "ordenamiento_raw": "LPIPSEJM, Art. 1 Quáter (nuevo) o Transitorio Quinto; modificar Art. 40 Fracc. III.",
+    "articulo_modificar": "LPIPSEJM, Art. 1 Quáter (nuevo) o Transitorio Quinto; modificar Art. 40 Fracc. III.",
+    "fundamento": "Conflicto (4A.10).",
+    "fundamento_federal": "CPEUM Art. 27, párrs. 6, 7 y 8; Art. 28, párr. 4; LEPECFE Art. 8, párr. 1; LSH.",
+    "habilitacion_federal": "CPEUM Art. 27, párrs. 6, 7 y 8; Art. 28, párr. 4; LEPECFE Art. 8, párr. 1; LSH.",
+    "nivel": "Reforma estatal suficiente",
+    "prioridad": "Alta",
+    "dependencias": [],
+    "tramo_ruta_critica": 6,
+    "es_independiente": false,
+    "debilidades_origen": [],
+    "conflictos_origen": [
+      "4A.10"
+    ],
+    "proyectos_habilitados": [
+      "3B.12"
+    ],
+    "texto_completo": "- **Ordenamiento a modificar:** LPIPSEJM, Art. 1 Quáter (nuevo) o Transitorio Quinto; modificar Art. 40 Fracc. III.\n- **Fundamento:** Conflicto (4A.10).\n- **Habilitación federal:** CPEUM Art. 27, párrs. 6, 7 y 8; Art. 28, párr. 4; LEPECFE Art. 8, párr. 1; LSH.\n- **Nivel:** Reforma estatal suficiente. **Prioridad:** Alta. **Dependencias:** ninguna."
+  },
+  {
+    "id": "R-43",
+    "n": 43,
+    "titulo": "Actualizar marco supletorio LPIPSEJM con paquete federal energético 2025",
+    "reforma": null,
+    "ordenamiento": "LPIPSEJM",
+    "ordenamiento_raw": "LPIPSEJM, Art. 3.",
+    "articulo_modificar": "LPIPSEJM, Art. 3.",
+    "fundamento": "Desactualización (1A.18).",
+    "fundamento_federal": "CPEUM Art. 73, Fracc. X; LEPECFE Art. 6, párr. 3.",
+    "habilitacion_federal": "CPEUM Art. 73, Fracc. X; LEPECFE Art. 6, párr. 3.",
+    "nivel": "Reforma estatal suficiente",
+    "prioridad": "Media",
+    "dependencias": [],
+    "tramo_ruta_critica": 2,
+    "es_independiente": false,
+    "debilidades_origen": [
+      "1A.18"
+    ],
+    "conflictos_origen": [],
+    "proyectos_habilitados": [],
+    "texto_completo": "- **Ordenamiento a modificar:** LPIPSEJM, Art. 3.\n- **Fundamento:** Desactualización (1A.18).\n- **Habilitación federal:** CPEUM Art. 73, Fracc. X; LEPECFE Art. 6, párr. 3.\n- **Nivel:** Reforma estatal suficiente. **Prioridad:** Media. **Dependencias:** ninguna."
+  },
+  {
+    "id": "R-44",
+    "n": 44,
+    "titulo": "Esquemas de coinversión APP con CFE y filiales",
+    "reforma": null,
+    "ordenamiento": "LEPECFE",
+    "ordenamiento_raw": "LPIPSEJM, adicionar Art. 2 Fracc. XIV; artículo de remisión a LEPECFE.",
+    "articulo_modificar": "LPIPSEJM, adicionar Art. 2 Fracc. XIV; artículo de remisión a LEPECFE.",
+    "fundamento": "Omisión instrumental.",
+    "fundamento_federal": "LEPECFE Art. 10, párr. 1; Art. 11.",
+    "habilitacion_federal": "LEPECFE Art. 10, párr. 1; Art. 11.",
+    "nivel": "Reforma estatal suficiente; eficacia plena depende de voluntad de CFE (excede ámbito estatal)",
+    "prioridad": "Media",
+    "dependencias": [
+      "R-37"
+    ],
+    "tramo_ruta_critica": null,
+    "es_independiente": true,
+    "debilidades_origen": [],
+    "conflictos_origen": [],
+    "proyectos_habilitados": [
+      "3B.14"
+    ],
+    "texto_completo": "- **Ordenamiento a modificar:** LPIPSEJM, adicionar Art. 2 Fracc. XIV; artículo de remisión a LEPECFE.\n- **Fundamento:** Omisión instrumental.\n- **Habilitación federal:** LEPECFE Art. 10, párr. 1; Art. 11.\n- **Nivel:** Reforma estatal suficiente; eficacia plena depende de voluntad de CFE (excede ámbito estatal).\n- **Prioridad:** Media. **Dependencias:** R-37."
+  },
+  {
+    "id": "R-45",
+    "n": 45,
+    "titulo": "Fuente de pago APP con participaciones federales por contribuciones especiales sobre energía eléctrica",
+    "reforma": null,
+    "ordenamiento": "LPIPSEJM",
+    "ordenamiento_raw": "LPIPSEJM, Art. 12.",
+    "articulo_modificar": "LPIPSEJM, Art. 12.",
+    "fundamento": "Omisión (1A.80).",
+    "fundamento_federal": "CPEUM Art. 73, Fracc. XXIX, numeral 5°, último párr.; Ley de Coordinación Fiscal.",
+    "habilitacion_federal": "CPEUM Art. 73, Fracc. XXIX, numeral 5°, último párr.; Ley de Coordinación Fiscal.",
+    "nivel": "Reforma estatal suficiente; sujeta a ley federal de participaciones",
+    "prioridad": "Baja",
+    "dependencias": [
+      "R-04"
+    ],
+    "tramo_ruta_critica": 4,
+    "es_independiente": false,
+    "debilidades_origen": [
+      "1A.80"
+    ],
+    "conflictos_origen": [],
+    "proyectos_habilitados": [],
+    "texto_completo": "- **Ordenamiento a modificar:** LPIPSEJM, Art. 12.\n- **Fundamento:** Omisión (1A.80).\n- **Habilitación federal:** CPEUM Art. 73, Fracc. XXIX, numeral 5°, último párr.; Ley de Coordinación Fiscal.\n- **Nivel:** Reforma estatal suficiente; sujeta a ley federal de participaciones.\n- **Prioridad:** Baja. **Dependencias:** R-04."
+  },
+  {
+    "id": "R-46",
+    "n": 46,
+    "titulo": "Mandato municipal de eficiencia energética y bases generales para reglamentos de alumbrado público",
+    "reforma": null,
+    "ordenamiento": "LGAPM",
+    "ordenamiento_raw": "LGAPM, Art. 37 (nueva fracción, p. ej. VIII Ter).",
+    "articulo_modificar": "LGAPM, Art. 37 (nueva fracción, p. ej. VIII Ter).",
+    "fundamento": "Omisión (1A.21).",
+    "fundamento_federal": "CPEUM Art. 115, Fracc. III, inciso b) y penúltimo párr.; Art. 73, Fracc. XXIX-G; LPTE.",
+    "habilitacion_federal": "CPEUM Art. 115, Fracc. III, inciso b) y penúltimo párr.; Art. 73, Fracc. XXIX-G; LPTE.",
+    "nivel": "Reforma estatal suficiente",
+    "prioridad": "Alta",
+    "dependencias": [],
+    "tramo_ruta_critica": 6,
+    "es_independiente": false,
+    "debilidades_origen": [
+      "1A.21"
+    ],
+    "conflictos_origen": [],
+    "proyectos_habilitados": [
+      "3B.15"
+    ],
+    "texto_completo": "- **Ordenamiento a modificar:** LGAPM, Art. 37 (nueva fracción, p. ej. VIII Ter).\n- **Fundamento:** Omisión (1A.21).\n- **Habilitación federal:** CPEUM Art. 115, Fracc. III, inciso b) y penúltimo párr.; Art. 73, Fracc. XXIX-G; LPTE.\n- **Nivel:** Reforma estatal suficiente. **Prioridad:** Alta. **Dependencias:** ninguna."
+  },
+  {
+    "id": "R-47",
+    "n": 47,
+    "titulo": "Criterios de eficiencia energética y GLD en Programa Municipal de Desarrollo Urbano y licencias de construcción",
+    "reforma": null,
+    "ordenamiento": "LGAPM",
+    "ordenamiento_raw": "LGAPM, Art. 37, Fracc. XIV.",
+    "articulo_modificar": "LGAPM, Art. 37, Fracc. XIV.",
+    "fundamento": "Omisión (1A.22).",
+    "fundamento_federal": "CPEUM Art. 115, Fracc. V, incisos a) y b).",
+    "habilitacion_federal": "CPEUM Art. 115, Fracc. V, incisos a) y b).",
+    "nivel": "Reforma estatal suficiente",
+    "prioridad": "Alta",
+    "dependencias": [],
+    "tramo_ruta_critica": 6,
+    "es_independiente": false,
+    "debilidades_origen": [
+      "1A.22"
+    ],
+    "conflictos_origen": [],
+    "proyectos_habilitados": [
+      "3B.16"
+    ],
+    "texto_completo": "- **Ordenamiento a modificar:** LGAPM, Art. 37, Fracc. XIV.\n- **Fundamento:** Omisión (1A.22).\n- **Habilitación federal:** CPEUM Art. 115, Fracc. V, incisos a) y b).\n- **Nivel:** Reforma estatal suficiente. **Prioridad:** Alta. **Dependencias:** ninguna."
+  },
+  {
+    "id": "R-48",
+    "n": 48,
+    "titulo": "Cambio climático, mitigación y transición energética en facultad ambiental municipal",
+    "reforma": null,
+    "ordenamiento": "LGAPM",
+    "ordenamiento_raw": "LGAPM, Art. 38, Fracc. XIII.",
+    "articulo_modificar": "LGAPM, Art. 38, Fracc. XIII.",
+    "fundamento": "Vacío (1A.23).",
+    "fundamento_federal": "CPEUM Art. 73, Fracc. XXIX-G.",
+    "habilitacion_federal": "CPEUM Art. 73, Fracc. XXIX-G.",
+    "nivel": "Reforma estatal suficiente",
+    "prioridad": "Alta",
+    "dependencias": [],
+    "tramo_ruta_critica": 6,
+    "es_independiente": false,
+    "debilidades_origen": [
+      "1A.23"
+    ],
+    "conflictos_origen": [],
+    "proyectos_habilitados": [
+      "3B.17"
+    ],
+    "texto_completo": "- **Ordenamiento a modificar:** LGAPM, Art. 38, Fracc. XIII.\n- **Fundamento:** Vacío (1A.23).\n- **Habilitación federal:** CPEUM Art. 73, Fracc. XXIX-G.\n- **Nivel:** Reforma estatal suficiente. **Prioridad:** Alta. **Dependencias:** ninguna."
+  },
+  {
+    "id": "R-49",
+    "n": 49,
+    "titulo": "Coordinación energética Estado–Municipio y reconocimiento operativo de la AEEJ como interlocutora municipal",
+    "reforma": null,
+    "ordenamiento": "LGAPM",
+    "ordenamiento_raw": "LGAPM, Art. 94-Bis (nueva fracción) o Art. 95 (párrafo adicional).",
+    "articulo_modificar": "LGAPM, Art. 94-Bis (nueva fracción) o Art. 95 (párrafo adicional).",
+    "fundamento": "Vacío (1A.24).",
+    "fundamento_federal": "CPEUM Art. 116, Fracc. VII; LEPECFE Arts. 10 y 115; CPEUM Art. 124.",
+    "habilitacion_federal": "CPEUM Art. 116, Fracc. VII; LEPECFE Arts. 10 y 115; CPEUM Art. 124.",
+    "nivel": "Reforma estatal suficiente (requiere armonización con LOAEEJ)",
+    "prioridad": "Alta",
+    "dependencias": [
+      "R-21"
+    ],
+    "tramo_ruta_critica": 1,
+    "es_independiente": false,
+    "debilidades_origen": [
+      "1A.24"
+    ],
+    "conflictos_origen": [],
+    "proyectos_habilitados": [
+      "3B.18"
+    ],
+    "texto_completo": "- **Ordenamiento a modificar:** LGAPM, Art. 94-Bis (nueva fracción) o Art. 95 (párrafo adicional).\n- **Fundamento:** Vacío (1A.24).\n- **Habilitación federal:** CPEUM Art. 116, Fracc. VII; LEPECFE Arts. 10 y 115; CPEUM Art. 124.\n- **Nivel:** Reforma estatal suficiente (requiere armonización con LOAEEJ).\n- **Prioridad:** Alta. **Dependencias:** R-21."
+  },
+  {
+    "id": "R-50",
+    "n": 50,
+    "titulo": "Delimitar concesiones municipales sobre alumbrado público respecto a exclusividad federal en T&D",
+    "reforma": null,
+    "ordenamiento": "LGAPM",
+    "ordenamiento_raw": "LGAPM, Art. 103 (párrafo adicional) y Art. 107 (fracción adicional).",
+    "articulo_modificar": "LGAPM, Art. 103 (párrafo adicional) y Art. 107 (fracción adicional).",
+    "fundamento": "Conflicto (4A.13).",
+    "fundamento_federal": "CPEUM Art. 27, párr. 6; Art. 28, párr. 4.",
+    "habilitacion_federal": "CPEUM Art. 27, párr. 6; Art. 28, párr. 4.",
+    "nivel": "Reforma estatal suficiente",
+    "prioridad": "Media",
+    "dependencias": [],
+    "tramo_ruta_critica": 6,
+    "es_independiente": false,
+    "debilidades_origen": [],
+    "conflictos_origen": [
+      "4A.13"
+    ],
+    "proyectos_habilitados": [
+      "3B.19"
+    ],
+    "texto_completo": "- **Ordenamiento a modificar:** LGAPM, Art. 103 (párrafo adicional) y Art. 107 (fracción adicional).\n- **Fundamento:** Conflicto (4A.13).\n- **Habilitación federal:** CPEUM Art. 27, párr. 6; Art. 28, párr. 4.\n- **Nivel:** Reforma estatal suficiente. **Prioridad:** Media. **Dependencias:** ninguna."
+  },
+  {
+    "id": "R-51",
+    "n": 51,
+    "titulo": "Salvedad jurisdiccional federal cuando CFE sea parte de convenio municipal",
+    "reforma": null,
+    "ordenamiento": "LGAPM",
+    "ordenamiento_raw": "LGAPM, Art. 100.",
+    "articulo_modificar": "LGAPM, Art. 100.",
+    "fundamento": "Desactualización (4A.14).",
+    "fundamento_federal": "LEPECFE Art. 128, párr. 1.",
+    "habilitacion_federal": "LEPECFE Art. 128, párr. 1.",
+    "nivel": "Reforma estatal suficiente",
+    "prioridad": "Media",
+    "dependencias": [],
+    "tramo_ruta_critica": null,
+    "es_independiente": true,
+    "debilidades_origen": [],
+    "conflictos_origen": [
+      "4A.14"
+    ],
+    "proyectos_habilitados": [],
+    "texto_completo": "- **Ordenamiento a modificar:** LGAPM, Art. 100.\n- **Fundamento:** Desactualización (4A.14).\n- **Habilitación federal:** LEPECFE Art. 128, párr. 1.\n- **Nivel:** Reforma estatal suficiente. **Prioridad:** Media. **Dependencias:** ninguna."
+  },
+  {
+    "id": "R-52",
+    "n": 52,
+    "titulo": "Anclaje hacendario municipal a contribuciones especiales sobre energía eléctrica",
+    "reforma": null,
+    "ordenamiento": "LGAPM",
+    "ordenamiento_raw": "LGAPM, nuevo artículo en Título Quinto (p. ej. Art. 93 Ter).",
+    "articulo_modificar": "LGAPM, nuevo artículo en Título Quinto (p. ej. Art. 93 Ter).",
+    "fundamento": "Vacío (1A.56).",
+    "fundamento_federal": "CPEUM Art. 73, Fracc. XXIX, numeral 5°, último párr.",
+    "habilitacion_federal": "CPEUM Art. 73, Fracc. XXIX, numeral 5°, último párr.",
+    "nivel": "Reforma estatal suficiente (armonización con Ley de Hacienda Municipal y Ley de Coordinación Fiscal del Estado)",
+    "prioridad": "Media",
+    "dependencias": [
+      "R-04"
+    ],
+    "tramo_ruta_critica": null,
+    "es_independiente": true,
+    "debilidades_origen": [
+      "1A.56"
+    ],
+    "conflictos_origen": [],
+    "proyectos_habilitados": [],
+    "texto_completo": "- **Ordenamiento a modificar:** LGAPM, nuevo artículo en Título Quinto (p. ej. Art. 93 Ter).\n- **Fundamento:** Vacío (1A.56).\n- **Habilitación federal:** CPEUM Art. 73, Fracc. XXIX, numeral 5°, último párr.\n- **Nivel:** Reforma estatal suficiente (armonización con Ley de Hacienda Municipal y Ley de Coordinación Fiscal del Estado).\n- **Prioridad:** Media. **Dependencias:** R-04."
+  },
+  {
+    "id": "R-53",
+    "n": 53,
+    "titulo": "Habilitación expresa para convenios municipio-CFE",
+    "reforma": null,
+    "ordenamiento": "LGAPM",
+    "ordenamiento_raw": "LGAPM, Art. 38 (nueva fracción).",
+    "articulo_modificar": "LGAPM, Art. 38 (nueva fracción).",
+    "fundamento": "Omisión (1A.57).",
+    "fundamento_federal": "LEPECFE Arts. 10 y 115.",
+    "habilitacion_federal": "LEPECFE Arts. 10 y 115.",
+    "nivel": "Reforma estatal suficiente",
+    "prioridad": "Media",
+    "dependencias": [],
+    "tramo_ruta_critica": 6,
+    "es_independiente": false,
+    "debilidades_origen": [
+      "1A.57"
+    ],
+    "conflictos_origen": [],
+    "proyectos_habilitados": [],
+    "texto_completo": "- **Ordenamiento a modificar:** LGAPM, Art. 38 (nueva fracción).\n- **Fundamento:** Omisión (1A.57).\n- **Habilitación federal:** LEPECFE Arts. 10 y 115.\n- **Nivel:** Reforma estatal suficiente. **Prioridad:** Media. **Dependencias:** ninguna."
+  },
+  {
+    "id": "R-54",
+    "n": 54,
+    "titulo": "Excepción expresa a afirmativa ficta para solicitudes que requieran permiso federal energético en LPAEJ",
+    "reforma": null,
+    "ordenamiento": "LPAEJ",
+    "ordenamiento_raw": "LPAEJ, reformar Art. 29 o adicionar Art. 33 Ter.",
+    "articulo_modificar": "LPAEJ, reformar Art. 29 o adicionar Art. 33 Ter.",
+    "fundamento": "Conflicto / vacío (4A.15).",
+    "fundamento_federal": "CPEUM Art. 27, párrs. 6 y 7; Art. 28, párr. 8 reformado DOF 20-12-2024; LSE Art. 2; LSH Art. 1; LGeo Art. 1.",
+    "habilitacion_federal": "CPEUM Art. 27, párrs. 6 y 7; Art. 28, párr. 8 reformado DOF 20-12-2024; LSE Art. 2; LSH Art. 1; LGeo Art. 1.",
+    "nivel": "Reforma estatal suficiente",
+    "prioridad": "Alta",
+    "dependencias": [],
+    "tramo_ruta_critica": 5,
+    "es_independiente": false,
+    "debilidades_origen": [],
+    "conflictos_origen": [
+      "4A.15"
+    ],
+    "proyectos_habilitados": [],
+    "texto_completo": "- **Ordenamiento a modificar:** LPAEJ, reformar Art. 29 o adicionar Art. 33 Ter.\n- **Fundamento:** Conflicto / vacío (4A.15).\n- **Habilitación federal:** CPEUM Art. 27, párrs. 6 y 7; Art. 28, párr. 8 reformado DOF 20-12-2024; LSE Art. 2; LSH Art. 1; LGeo Art. 1.\n- **Nivel:** Reforma estatal suficiente. **Prioridad:** Alta. **Dependencias:** ninguna."
+  },
+  {
+    "id": "R-55",
+    "n": 55,
+    "titulo": "Catálogo de principios LPAEJ con Justicia Energética, consulta previa, pro persona, máxima publicidad, precaución ambiental, perspectiva de género e intergeneracional",
+    "reforma": null,
+    "ordenamiento": "LPAEJ",
+    "ordenamiento_raw": "LPAEJ, Art. 4 (nuevos incisos r–x).",
+    "articulo_modificar": "LPAEJ, Art. 4 (nuevos incisos r–x).",
+    "fundamento": "Desactualización (1A.25).",
+    "fundamento_federal": "LPTE Art. 2; LGCC Art. 26; CPEUM Art. 1, Art. 2 Apartado B Fracc. IX, Art. 4 párr. 5.",
+    "habilitacion_federal": "LPTE Art. 2; LGCC Art. 26; CPEUM Art. 1, Art. 2 Apartado B Fracc. IX, Art. 4 párr. 5.",
+    "nivel": "Reforma estatal suficiente",
+    "prioridad": "Alta",
+    "dependencias": [],
+    "tramo_ruta_critica": 5,
+    "es_independiente": false,
+    "debilidades_origen": [
+      "1A.25"
+    ],
+    "conflictos_origen": [],
+    "proyectos_habilitados": [],
+    "texto_completo": "- **Ordenamiento a modificar:** LPAEJ, Art. 4 (nuevos incisos r–x).\n- **Fundamento:** Desactualización (1A.25).\n- **Habilitación federal:** LPTE Art. 2; LGCC Art. 26; CPEUM Art. 1, Art. 2 Apartado B Fracc. IX, Art. 4 párr. 5.\n- **Nivel:** Reforma estatal suficiente. **Prioridad:** Alta. **Dependencias:** ninguna."
+  },
+  {
+    "id": "R-56",
+    "n": 56,
+    "titulo": "Procedimiento administrativo digital con expediente electrónico interoperable y notificación electrónica vinculante",
+    "reforma": null,
+    "ordenamiento": "LPAEJ",
+    "ordenamiento_raw": "LPAEJ, reformar Arts. 13, 35, 36, 39, 47, 84; adicionar Capítulo en Título Primero, Sección Segunda.",
+    "articulo_modificar": "LPAEJ, reformar Arts. 13, 35, 36, 39, 47, 84; adicionar Capítulo en Título Primero, Sección Segunda.",
+    "fundamento": "Omisión de implementación (1A.27).",
+    "fundamento_federal": "LCNE (plataforma electrónica federal); LSE (interconexión digital).",
+    "habilitacion_federal": "LCNE (plataforma electrónica federal); LSE (interconexión digital).",
+    "nivel": "Reforma estatal suficiente",
+    "prioridad": "Alta",
+    "dependencias": [],
+    "tramo_ruta_critica": 5,
+    "es_independiente": false,
+    "debilidades_origen": [
+      "1A.27"
+    ],
+    "conflictos_origen": [],
+    "proyectos_habilitados": [
+      "3B.20"
+    ],
+    "texto_completo": "- **Ordenamiento a modificar:** LPAEJ, reformar Arts. 13, 35, 36, 39, 47, 84; adicionar Capítulo en Título Primero, Sección Segunda.\n- **Fundamento:** Omisión de implementación (1A.27).\n- **Habilitación federal:** LCNE (plataforma electrónica federal); LSE (interconexión digital).\n- **Nivel:** Reforma estatal suficiente. **Prioridad:** Alta. **Dependencias:** ninguna."
+  },
+  {
+    "id": "R-57",
+    "n": 57,
+    "titulo": "Etapa procesal obligatoria de consulta previa, libre e informada en LPAEJ",
+    "reforma": null,
+    "ordenamiento": "LPAEJ",
+    "ordenamiento_raw": "LPAEJ, adicionar Capítulo III Bis del Título Primero, Sección Segunda; o artículos entre Arts. 54 y 55.",
+    "articulo_modificar": "LPAEJ, adicionar Capítulo III Bis del Título Primero, Sección Segunda; o artículos entre Arts. 54 y 55.",
+    "fundamento": "Vacío (1A.26).",
+    "fundamento_federal": "CPEUM Art. 2, Apartado B, Fracc. IX; Art. 1, párr. 3; Convenio 169 OIT.",
+    "habilitacion_federal": "CPEUM Art. 2, Apartado B, Fracc. IX; Art. 1, párr. 3; Convenio 169 OIT.",
+    "nivel": "Reforma estatal suficiente",
+    "prioridad": "Alta",
+    "dependencias": [],
+    "tramo_ruta_critica": 5,
+    "es_independiente": false,
+    "debilidades_origen": [
+      "1A.26"
+    ],
+    "conflictos_origen": [],
+    "proyectos_habilitados": [],
+    "texto_completo": "- **Ordenamiento a modificar:** LPAEJ, adicionar Capítulo III Bis del Título Primero, Sección Segunda; o artículos entre Arts. 54 y 55.\n- **Fundamento:** Vacío (1A.26).\n- **Habilitación federal:** CPEUM Art. 2, Apartado B, Fracc. IX; Art. 1, párr. 3; Convenio 169 OIT.\n- **Nivel:** Reforma estatal suficiente. **Prioridad:** Alta. **Dependencias:** ninguna."
+  },
+  {
+    "id": "R-58",
+    "n": 58,
+    "titulo": "Procedimiento administrativo expedito para trámites estatales complementarios a generación distribuida y autoconsumo",
+    "reforma": null,
+    "ordenamiento": "LPAEJ",
+    "ordenamiento_raw": "LPAEJ, adicionar Capítulo XVI al Título Primero de la Sección Segunda.",
+    "articulo_modificar": "LPAEJ, adicionar Capítulo XVI al Título Primero de la Sección Segunda.",
+    "fundamento": "Desactualización (1A.59).",
+    "fundamento_federal": "CPEUM Art. 27, párr. 6 in fine; LSE 2025.",
+    "habilitacion_federal": "CPEUM Art. 27, párr. 6 in fine; LSE 2025.",
+    "nivel": "Reforma estatal suficiente",
+    "prioridad": "Media",
+    "dependencias": [],
+    "tramo_ruta_critica": null,
+    "es_independiente": true,
+    "debilidades_origen": [
+      "1A.59"
+    ],
+    "conflictos_origen": [],
+    "proyectos_habilitados": [
+      "3B.21"
+    ],
+    "texto_completo": "- **Ordenamiento a modificar:** LPAEJ, adicionar Capítulo XVI al Título Primero de la Sección Segunda.\n- **Fundamento:** Desactualización (1A.59).\n- **Habilitación federal:** CPEUM Art. 27, párr. 6 in fine; LSE 2025.\n- **Nivel:** Reforma estatal suficiente. **Prioridad:** Media. **Dependencias:** ninguna."
+  },
+  {
+    "id": "R-59",
+    "n": 59,
+    "titulo": "Procesalización de audiencias públicas y consultas para actos de impacto colectivo en LPAEJ",
+    "reforma": null,
+    "ordenamiento": "LPAEJ",
+    "ordenamiento_raw": "LPAEJ, adicionar capítulo en Título Primero, Sección Segunda; reformar Art. 4 inciso m).",
+    "articulo_modificar": "LPAEJ, adicionar capítulo en Título Primero, Sección Segunda; reformar Art. 4 inciso m).",
+    "fundamento": "Vacío (1A.61).",
+    "fundamento_federal": "LGCC Art. 26; LPTE Art. 2.",
+    "habilitacion_federal": "LGCC Art. 26; LPTE Art. 2.",
+    "nivel": "Reforma estatal suficiente",
+    "prioridad": "Media",
+    "dependencias": [],
+    "tramo_ruta_critica": null,
+    "es_independiente": true,
+    "debilidades_origen": [
+      "1A.61"
+    ],
+    "conflictos_origen": [],
+    "proyectos_habilitados": [
+      "3B.22"
+    ],
+    "texto_completo": "- **Ordenamiento a modificar:** LPAEJ, adicionar capítulo en Título Primero, Sección Segunda; reformar Art. 4 inciso m).\n- **Fundamento:** Vacío (1A.61).\n- **Habilitación federal:** LGCC Art. 26; LPTE Art. 2.\n- **Nivel:** Reforma estatal suficiente. **Prioridad:** Media. **Dependencias:** ninguna."
+  },
+  {
+    "id": "R-60",
+    "n": 60,
+    "titulo": "Marco procesal de coordinación interinstitucional federal-estatal en LPAEJ",
+    "reforma": null,
+    "ordenamiento": "LPAEJ",
+    "ordenamiento_raw": "LPAEJ, adicionar Título o Capítulo sobre Convenios y Coordinación Interinstitucional.",
+    "articulo_modificar": "LPAEJ, adicionar Título o Capítulo sobre Convenios y Coordinación Interinstitucional.",
+    "fundamento": "Vacío (1A.58).",
+    "fundamento_federal": "CPEUM Art. 116, Fracc. VII; LSE Art. 2; LCNE; LPTE.",
+    "habilitacion_federal": "CPEUM Art. 116, Fracc. VII; LSE Art. 2; LCNE; LPTE.",
+    "nivel": "Reforma estatal suficiente",
+    "prioridad": "Media",
+    "dependencias": [
+      "R-21",
+      "R-49"
+    ],
+    "tramo_ruta_critica": null,
+    "es_independiente": true,
+    "debilidades_origen": [
+      "1A.58"
+    ],
+    "conflictos_origen": [],
+    "proyectos_habilitados": [
+      "3B.23",
+      "3B.40"
+    ],
+    "texto_completo": "- **Ordenamiento a modificar:** LPAEJ, adicionar Título o Capítulo sobre Convenios y Coordinación Interinstitucional.\n- **Fundamento:** Vacío (1A.58).\n- **Habilitación federal:** CPEUM Art. 116, Fracc. VII; LSE Art. 2; LCNE; LPTE.\n- **Nivel:** Reforma estatal suficiente. **Prioridad:** Media. **Dependencias:** R-21, R-49."
+  },
+  {
+    "id": "R-61",
+    "n": 61,
+    "titulo": "Diferenciar concepto de \"concesiones\" en LPAEJ con salvedad de materias reservadas a la Nación",
+    "reforma": null,
+    "ordenamiento": "LPAEJ",
+    "ordenamiento_raw": "LPAEJ, Art. 9, Fracc. I, inciso c).",
+    "articulo_modificar": "LPAEJ, Art. 9, Fracc. I, inciso c).",
+    "fundamento": "Conflicto potencial (1A.77).",
+    "fundamento_federal": "CPEUM Art. 27, párrs. 6 y 7; Art. 28, párr. 4.",
+    "habilitacion_federal": "CPEUM Art. 27, párrs. 6 y 7; Art. 28, párr. 4.",
+    "nivel": "Reforma estatal suficiente",
+    "prioridad": "Baja",
+    "dependencias": [],
+    "tramo_ruta_critica": null,
+    "es_independiente": true,
+    "debilidades_origen": [
+      "1A.77"
+    ],
+    "conflictos_origen": [],
+    "proyectos_habilitados": [],
+    "texto_completo": "- **Ordenamiento a modificar:** LPAEJ, Art. 9, Fracc. I, inciso c).\n- **Fundamento:** Conflicto potencial (1A.77).\n- **Habilitación federal:** CPEUM Art. 27, párrs. 6 y 7; Art. 28, párr. 4.\n- **Nivel:** Reforma estatal suficiente. **Prioridad:** Baja. **Dependencias:** ninguna."
+  },
+  {
+    "id": "R-62",
+    "n": 62,
+    "titulo": "Eliminar duplicidad de definición de \"cambio climático\" en LEEEPA-Jal",
+    "reforma": null,
+    "ordenamiento": "LEEEPA-Jal",
+    "ordenamiento_raw": "LEEEPA-Jal, Art. 3, Fraccs. VI y XXXVI.",
+    "articulo_modificar": "LEEEPA-Jal, Art. 3, Fraccs. VI y XXXVI.",
+    "fundamento": "Vicio técnico.",
+    "fundamento_federal": "LGCC Art. 7, Fracc. III; Art. 8, Fracc. I.",
+    "habilitacion_federal": "LGCC Art. 7, Fracc. III; Art. 8, Fracc. I.",
+    "nivel": "Reforma estatal suficiente",
+    "prioridad": "Baja",
+    "dependencias": [],
+    "tramo_ruta_critica": null,
+    "es_independiente": true,
+    "debilidades_origen": [],
+    "conflictos_origen": [],
+    "proyectos_habilitados": [],
+    "texto_completo": "- **Ordenamiento a modificar:** LEEEPA-Jal, Art. 3, Fraccs. VI y XXXVI.\n- **Fundamento:** Vicio técnico.\n- **Habilitación federal:** LGCC Art. 7, Fracc. III; Art. 8, Fracc. I.\n- **Nivel:** Reforma estatal suficiente. **Prioridad:** Baja. **Dependencias:** ninguna."
+  },
+  {
+    "id": "R-63",
+    "n": 63,
+    "titulo": "Redefinir \"rescate energético\" y habilitar aprovechamiento energético de residuos en LEEEPA-Jal",
+    "reforma": null,
+    "ordenamiento": "LEEEPA-Jal",
+    "ordenamiento_raw": "LEEEPA-Jal, Art. 3, Fracc. XXXII; crear capítulo en Título Cuarto (biogás, WTE, biomasa).",
+    "articulo_modificar": "LEEEPA-Jal, Art. 3, Fracc. XXXII; crear capítulo en Título Cuarto (biogás, WTE, biomasa).",
+    "fundamento": "Vacío / omisión (1A.28).",
+    "fundamento_federal": "LPTE Art. 8, Fracc. VII; LGCC Art. 8, Fracc. II inciso h); Art. 34, Fracc. II.",
+    "habilitacion_federal": "LPTE Art. 8, Fracc. VII; LGCC Art. 8, Fracc. II inciso h); Art. 34, Fracc. II.",
+    "nivel": "Reforma estatal suficiente",
+    "prioridad": "Alta",
+    "dependencias": [],
+    "tramo_ruta_critica": 6,
+    "es_independiente": false,
+    "debilidades_origen": [
+      "1A.28"
+    ],
+    "conflictos_origen": [],
+    "proyectos_habilitados": [
+      "3B.24",
+      "3B.29"
+    ],
+    "texto_completo": "- **Ordenamiento a modificar:** LEEEPA-Jal, Art. 3, Fracc. XXXII; crear capítulo en Título Cuarto (biogás, WTE, biomasa).\n- **Fundamento:** Vacío / omisión (1A.28).\n- **Habilitación federal:** LPTE Art. 8, Fracc. VII; LGCC Art. 8, Fracc. II inciso h); Art. 34, Fracc. II.\n- **Nivel:** Reforma estatal suficiente. **Prioridad:** Alta. **Dependencias:** ninguna."
+  },
+  {
+    "id": "R-64",
+    "n": 64,
+    "titulo": "Capítulo de eficiencia energética y construcción sustentable en LEEEPA-Jal",
+    "reforma": null,
+    "ordenamiento": "LEEEPA-Jal",
+    "ordenamiento_raw": "LEEEPA-Jal, nuevo Capítulo en Título Tercero o adición a Art. 14 y Art. 76.",
+    "articulo_modificar": "LEEEPA-Jal, nuevo Capítulo en Título Tercero o adición a Art. 14 y Art. 76.",
+    "fundamento": "Omisión (1A.29).",
+    "fundamento_federal": "LGCC Art. 34, Fracc. I, inciso i); Art. 33, Fracc. IV; LPTE Art. 8, Fracc. VII; Art. 11, Fracc. X.",
+    "habilitacion_federal": "LGCC Art. 34, Fracc. I, inciso i); Art. 33, Fracc. IV; LPTE Art. 8, Fracc. VII; Art. 11, Fracc. X.",
+    "nivel": "Reforma estatal suficiente",
+    "prioridad": "Alta",
+    "dependencias": [],
+    "tramo_ruta_critica": 6,
+    "es_independiente": false,
+    "debilidades_origen": [
+      "1A.29"
+    ],
+    "conflictos_origen": [],
+    "proyectos_habilitados": [
+      "3B.25"
+    ],
+    "texto_completo": "- **Ordenamiento a modificar:** LEEEPA-Jal, nuevo Capítulo en Título Tercero o adición a Art. 14 y Art. 76.\n- **Fundamento:** Omisión (1A.29).\n- **Habilitación federal:** LGCC Art. 34, Fracc. I, inciso i); Art. 33, Fracc. IV; LPTE Art. 8, Fracc. VII; Art. 11, Fracc. X.\n- **Nivel:** Reforma estatal suficiente. **Prioridad:** Alta. **Dependencias:** ninguna."
+  },
+  {
+    "id": "R-65",
+    "n": 65,
+    "titulo": "Actualizar Art. 14 LEEEPA-Jal con terminología \"Energías Limpias\" y \"Energías Renovables\" (LPTE)",
+    "reforma": null,
+    "ordenamiento": "LEEEPA-Jal",
+    "ordenamiento_raw": "LEEEPA-Jal, Art. 14, Fraccs. I y II; Art. 3 (nuevas fracciones espejo).",
+    "articulo_modificar": "LEEEPA-Jal, Art. 14, Fraccs. I y II; Art. 3 (nuevas fracciones espejo).",
+    "fundamento": "Desactualización (1A.31).",
+    "fundamento_federal": "LPTE Art. 3; LGCC Art. 33, Fracc. IV.",
+    "habilitacion_federal": "LPTE Art. 3; LGCC Art. 33, Fracc. IV.",
+    "nivel": "Reforma estatal suficiente",
+    "prioridad": "Media",
+    "dependencias": [],
+    "tramo_ruta_critica": 2,
+    "es_independiente": false,
+    "debilidades_origen": [
+      "1A.31"
+    ],
+    "conflictos_origen": [],
+    "proyectos_habilitados": [],
+    "texto_completo": "- **Ordenamiento a modificar:** LEEEPA-Jal, Art. 14, Fraccs. I y II; Art. 3 (nuevas fracciones espejo).\n- **Fundamento:** Desactualización (1A.31).\n- **Habilitación federal:** LPTE Art. 3; LGCC Art. 33, Fracc. IV.\n- **Nivel:** Reforma estatal suficiente. **Prioridad:** Media. **Dependencias:** ninguna."
+  },
+  {
+    "id": "R-66",
+    "n": 66,
+    "titulo": "Resolver duplicidad LEEEPA-LACCEJ sobre Programa Estatal Contra el Cambio Climático",
+    "reforma": null,
+    "ordenamiento": "LACCEJ",
+    "ordenamiento_raw": "LEEEPA-Jal, Art. 6, Fracc. XXXI (reenviar a LACCEJ o derogar por redundancia).",
+    "articulo_modificar": "LEEEPA-Jal, Art. 6, Fracc. XXXI (reenviar a LACCEJ o derogar por redundancia).",
+    "fundamento": "Conflicto / desactualización.",
+    "fundamento_federal": "LGCC Art. 71 (programa único estatal).",
+    "habilitacion_federal": "LGCC Art. 71 (programa único estatal).",
+    "nivel": "Reforma estatal suficiente",
+    "prioridad": "Media",
+    "dependencias": [],
+    "tramo_ruta_critica": null,
+    "es_independiente": true,
+    "debilidades_origen": [],
+    "conflictos_origen": [],
+    "proyectos_habilitados": [],
+    "texto_completo": "- **Ordenamiento a modificar:** LEEEPA-Jal, Art. 6, Fracc. XXXI (reenviar a LACCEJ o derogar por redundancia).\n- **Fundamento:** Conflicto / desactualización.\n- **Habilitación federal:** LGCC Art. 71 (programa único estatal).\n- **Nivel:** Reforma estatal suficiente. **Prioridad:** Media. **Dependencias:** ninguna."
+  },
+  {
+    "id": "R-67",
+    "n": 67,
+    "titulo": "Inventario LEEEPA-Jal con categoría \"generación y uso de energía\" y GEI",
+    "reforma": null,
+    "ordenamiento": "LEEEPA-Jal",
+    "ordenamiento_raw": "LEEEPA-Jal, Art. 72, Fracc. IV.",
+    "articulo_modificar": "LEEEPA-Jal, Art. 72, Fracc. IV.",
+    "fundamento": "Omisión (1A.63).",
+    "fundamento_federal": "LGCC Art. 7, Fracc. XIV inciso a); Art. 8, Fracc. XII.",
+    "habilitacion_federal": "LGCC Art. 7, Fracc. XIV inciso a); Art. 8, Fracc. XII.",
+    "nivel": "Reforma estatal suficiente",
+    "prioridad": "Media",
+    "dependencias": [],
+    "tramo_ruta_critica": null,
+    "es_independiente": true,
+    "debilidades_origen": [
+      "1A.63"
+    ],
+    "conflictos_origen": [],
+    "proyectos_habilitados": [],
+    "texto_completo": "- **Ordenamiento a modificar:** LEEEPA-Jal, Art. 72, Fracc. IV.\n- **Fundamento:** Omisión (1A.63).\n- **Habilitación federal:** LGCC Art. 7, Fracc. XIV inciso a); Art. 8, Fracc. XII.\n- **Nivel:** Reforma estatal suficiente. **Prioridad:** Media. **Dependencias:** ninguna."
+  },
+  {
+    "id": "R-68",
+    "n": 68,
+    "titulo": "Habilitar electromovilidad como política ambiental estatal",
+    "reforma": null,
+    "ordenamiento": "LEEEPA-Jal",
+    "ordenamiento_raw": "LEEEPA-Jal, adición a Art. 14 y Capítulo I Título Cuarto; nueva atribución en Art. 6.",
+    "articulo_modificar": "LEEEPA-Jal, adición a Art. 14 y Capítulo I Título Cuarto; nueva atribución en Art. 6.",
+    "fundamento": "Vacío (1A.30).",
+    "fundamento_federal": "LGCC Art. 8, Fracc. IX; LSE Art. 86 (regulación técnica eléctrica federal — Jalisco actúa en lo urbano).",
+    "habilitacion_federal": "LGCC Art. 8, Fracc. IX; LSE Art. 86 (regulación técnica eléctrica federal — Jalisco actúa en lo urbano).",
+    "nivel": "Reforma estatal suficiente",
+    "prioridad": "Alta",
+    "dependencias": [],
+    "tramo_ruta_critica": 6,
+    "es_independiente": false,
+    "debilidades_origen": [
+      "1A.30"
+    ],
+    "conflictos_origen": [],
+    "proyectos_habilitados": [
+      "3B.26"
+    ],
+    "texto_completo": "- **Ordenamiento a modificar:** LEEEPA-Jal, adición a Art. 14 y Capítulo I Título Cuarto; nueva atribución en Art. 6.\n- **Fundamento:** Vacío (1A.30).\n- **Habilitación federal:** LGCC Art. 8, Fracc. IX; LSE Art. 86 (regulación técnica eléctrica federal — Jalisco actúa en lo urbano).\n- **Nivel:** Reforma estatal suficiente. **Prioridad:** Alta. **Dependencias:** ninguna."
+  },
+  {
+    "id": "R-69",
+    "n": 69,
+    "titulo": "Vehículo fiscal específico para transición energética articulado con Ley de Hacienda",
+    "reforma": null,
+    "ordenamiento": "LEEEPA-Jal",
+    "ordenamiento_raw": "LEEEPA-Jal, Art. 13 y Art. 14.",
+    "articulo_modificar": "LEEEPA-Jal, Art. 13 y Art. 14.",
+    "fundamento": "Desactualización (1A.31).",
+    "fundamento_federal": "LGCC Art. 91; Art. 8, Fracc. XV; LPTE Art. 48, párr. 2.",
+    "habilitacion_federal": "LGCC Art. 91; Art. 8, Fracc. XV; LPTE Art. 48, párr. 2.",
+    "nivel": "Reforma estatal suficiente (requiere modificar Ley de Hacienda Estatal)",
+    "prioridad": "Alta",
+    "dependencias": [
+      "R-12"
+    ],
+    "tramo_ruta_critica": 4,
+    "es_independiente": false,
+    "debilidades_origen": [
+      "1A.31"
+    ],
+    "conflictos_origen": [],
+    "proyectos_habilitados": [
+      "3B.27"
+    ],
+    "texto_completo": "- **Ordenamiento a modificar:** LEEEPA-Jal, Art. 13 y Art. 14.\n- **Fundamento:** Desactualización (1A.31).\n- **Habilitación federal:** LGCC Art. 91; Art. 8, Fracc. XV; LPTE Art. 48, párr. 2.\n- **Nivel:** Reforma estatal suficiente (requiere modificar Ley de Hacienda Estatal).\n- **Prioridad:** Alta. **Dependencias:** R-12."
+  },
+  {
+    "id": "R-70",
+    "n": 70,
+    "titulo": "Convenios marco con SENER y CONUEE como atribución expresa de la Secretaría",
+    "reforma": null,
+    "ordenamiento": "LEEEPA-Jal",
+    "ordenamiento_raw": "LEEEPA-Jal, Art. 6 (nueva fracción).",
+    "articulo_modificar": "LEEEPA-Jal, Art. 6 (nueva fracción).",
+    "fundamento": "Omisión (1A.66).",
+    "fundamento_federal": "LPTE Art. 8, Fracc. VI; Art. 11, Fracc. X.",
+    "habilitacion_federal": "LPTE Art. 8, Fracc. VI; Art. 11, Fracc. X.",
+    "nivel": "Reforma estatal suficiente",
+    "prioridad": "Media",
+    "dependencias": [],
+    "tramo_ruta_critica": null,
+    "es_independiente": true,
+    "debilidades_origen": [
+      "1A.66"
+    ],
+    "conflictos_origen": [],
+    "proyectos_habilitados": [
+      "3B.28"
+    ],
+    "texto_completo": "- **Ordenamiento a modificar:** LEEEPA-Jal, Art. 6 (nueva fracción).\n- **Fundamento:** Omisión (1A.66).\n- **Habilitación federal:** LPTE Art. 8, Fracc. VI; Art. 11, Fracc. X.\n- **Nivel:** Reforma estatal suficiente. **Prioridad:** Media. **Dependencias:** ninguna."
+  },
+  {
+    "id": "R-71",
+    "n": 71,
+    "titulo": "Reconocer calor residual, cogeneración y redes de calor urbano como instrumentos ambientales",
+    "reforma": null,
+    "ordenamiento": "LEEEPA-Jal",
+    "ordenamiento_raw": "LEEEPA-Jal, Art. 3 (nueva definición); adición a Título Cuarto Capítulo VI.",
+    "articulo_modificar": "LEEEPA-Jal, Art. 3 (nueva definición); adición a Título Cuarto Capítulo VI.",
+    "fundamento": "Vacío (1A.64).",
+    "fundamento_federal": "LPTE Art. 8, Fracc. VII.",
+    "habilitacion_federal": "LPTE Art. 8, Fracc. VII.",
+    "nivel": "Reforma estatal suficiente",
+    "prioridad": "Baja-Media",
+    "dependencias": [],
+    "tramo_ruta_critica": null,
+    "es_independiente": true,
+    "debilidades_origen": [
+      "1A.64"
+    ],
+    "conflictos_origen": [],
+    "proyectos_habilitados": [],
+    "texto_completo": "- **Ordenamiento a modificar:** LEEEPA-Jal, Art. 3 (nueva definición); adición a Título Cuarto Capítulo VI.\n- **Fundamento:** Vacío (1A.64).\n- **Habilitación federal:** LPTE Art. 8, Fracc. VII.\n- **Nivel:** Reforma estatal suficiente. **Prioridad:** Baja-Media. **Dependencias:** ninguna."
+  },
+  {
+    "id": "R-72",
+    "n": 72,
+    "titulo": "Participación formal estatal en consulta ambiental de proyectos federales de energía",
+    "reforma": null,
+    "ordenamiento": "LEEEPA-Jal",
+    "ordenamiento_raw": "LEEEPA-Jal, adición a Art. 6 y Título Cuarto.",
+    "articulo_modificar": "LEEEPA-Jal, adición a Art. 6 y Título Cuarto.",
+    "fundamento": "Vacío.",
+    "fundamento_federal": "LSH Arts. 151, 152; LSE Arts. 133–135.",
+    "habilitacion_federal": "LSH Arts. 151, 152; LSE Arts. 133–135.",
+    "nivel": "Reforma estatal útil; **incidencia plena requiere reforma federal previa**",
+    "prioridad": "Media",
+    "dependencias": [],
+    "tramo_ruta_critica": 7,
+    "es_independiente": false,
+    "debilidades_origen": [],
+    "conflictos_origen": [],
+    "proyectos_habilitados": [],
+    "texto_completo": "- **Ordenamiento a modificar:** LEEEPA-Jal, adición a Art. 6 y Título Cuarto.\n- **Fundamento:** Vacío.\n- **Habilitación federal:** LSH Arts. 151, 152; LSE Arts. 133–135.\n- **Nivel:** Reforma estatal útil; **incidencia plena requiere reforma federal previa**.\n- **Prioridad:** Media. **Dependencias:** Reforma federal a LSE/LSH (no controlable desde Jalisco)."
+  },
+  {
+    "id": "R-73",
+    "n": 73,
+    "titulo": "Cláusula de deferencia federal expresa en REEEPA-IA-BMG-FF",
+    "reforma": null,
+    "ordenamiento": "LBio",
+    "ordenamiento_raw": "REEEPA-IA-BMG-FF, Arts. 1 y 2 (excluir LAU/EIA estatal sobre instalaciones LSH/LSE/LBio/litio).",
+    "articulo_modificar": "REEEPA-IA-BMG-FF, Arts. 1 y 2 (excluir LAU/EIA estatal sobre instalaciones LSH/LSE/LBio/litio).",
+    "fundamento": "Desactualización / conflicto (1A.32).",
+    "fundamento_federal": "CPEUM Art. 27, párrs. 6–8; LSH Art. 127, párr. 1; LSE Art. 7; LBio Arts. 4, 5 Fracc. IX.",
+    "habilitacion_federal": "CPEUM Art. 27, párrs. 6–8; LSH Art. 127, párr. 1; LSE Art. 7; LBio Arts. 4, 5 Fracc. IX.",
+    "nivel": "Reforma estatal suficiente",
+    "prioridad": "Alta",
+    "dependencias": [],
+    "tramo_ruta_critica": 2,
+    "es_independiente": false,
+    "debilidades_origen": [
+      "1A.32"
+    ],
+    "conflictos_origen": [],
+    "proyectos_habilitados": [
+      "3B.30"
+    ],
+    "texto_completo": "- **Ordenamiento a modificar:** REEEPA-IA-BMG-FF, Arts. 1 y 2 (excluir LAU/EIA estatal sobre instalaciones LSH/LSE/LBio/litio).\n- **Fundamento:** Desactualización / conflicto (1A.32).\n- **Habilitación federal:** CPEUM Art. 27, párrs. 6–8; LSH Art. 127, párr. 1; LSE Art. 7; LBio Arts. 4, 5 Fracc. IX.\n- **Nivel:** Reforma estatal suficiente. **Prioridad:** Alta. **Dependencias:** ninguna."
+  },
+  {
+    "id": "R-74",
+    "n": 74,
+    "titulo": "Modalidad expedita de EIA estatal para proyectos de transición energética",
+    "reforma": "Diferenciar supuestos del Art. 5 y crear modalidad simplificada (GD ≤0.7 MW, biogás, WTE, cogeneración con biomasa, recarga EV).",
+    "ordenamiento": "REEEPA",
+    "ordenamiento_raw": "REEEPA-IA-BMG-FF, Art. 5; nuevo artículo de modalidad expedita.",
+    "articulo_modificar": "REEEPA-IA-BMG-FF, Art. 5; nuevo artículo de modalidad expedita.",
+    "fundamento": "Vacío / omisión (1A.33).",
+    "fundamento_federal": "LSE Arts. 25–28; Art. 86; LPTE Art. 8, Fracc. VII; LGCC Art. 34, Fraccs. I-i y II.",
+    "habilitacion_federal": "LSE Arts. 25–28; Art. 86; LPTE Art. 8, Fracc. VII; LGCC Art. 34, Fraccs. I-i y II.",
+    "nivel": "Reforma estatal suficiente",
+    "prioridad": "Alta",
+    "dependencias": [],
+    "tramo_ruta_critica": 6,
+    "es_independiente": false,
+    "debilidades_origen": [
+      "1A.33"
+    ],
+    "conflictos_origen": [],
+    "proyectos_habilitados": [
+      "3B.30"
+    ],
+    "texto_completo": "- **Reforma:** Diferenciar supuestos del Art. 5 y crear modalidad simplificada (GD ≤0.7 MW, biogás, WTE, cogeneración con biomasa, recarga EV).\n- **Ordenamiento a modificar:** REEEPA-IA-BMG-FF, Art. 5; nuevo artículo de modalidad expedita.\n- **Fundamento:** Vacío / omisión (1A.33).\n- **Habilitación federal:** LSE Arts. 25–28; Art. 86; LPTE Art. 8, Fracc. VII; LGCC Art. 34, Fraccs. I-i y II.\n- **Nivel:** Reforma estatal suficiente. **Prioridad:** Alta. **Dependencias:** ninguna."
+  },
+  {
+    "id": "R-75",
+    "n": 75,
+    "titulo": "Rediseño del Art. 53 REEEPA para combustión con fines de aprovechamiento energético de biogás y WTE",
+    "reforma": null,
+    "ordenamiento": "REEEPA",
+    "ordenamiento_raw": "REEEPA-IA-BMG-FF, Art. 53 (nueva fracción IV).",
+    "articulo_modificar": "REEEPA-IA-BMG-FF, Art. 53 (nueva fracción IV).",
+    "fundamento": "Vacío (1A.35).",
+    "fundamento_federal": "LGCC Art. 34, Fracc. II; LPTE Art. 8, Fracc. VII.",
+    "habilitacion_federal": "LGCC Art. 34, Fracc. II; LPTE Art. 8, Fracc. VII.",
+    "nivel": "Reforma estatal suficiente",
+    "prioridad": "Alta",
+    "dependencias": [
+      "R-63"
+    ],
+    "tramo_ruta_critica": 6,
+    "es_independiente": false,
+    "debilidades_origen": [
+      "1A.35"
+    ],
+    "conflictos_origen": [],
+    "proyectos_habilitados": [
+      "3B.29",
+      "3B.31"
+    ],
+    "texto_completo": "- **Ordenamiento a modificar:** REEEPA-IA-BMG-FF, Art. 53 (nueva fracción IV).\n- **Fundamento:** Vacío (1A.35).\n- **Habilitación federal:** LGCC Art. 34, Fracc. II; LPTE Art. 8, Fracc. VII.\n- **Nivel:** Reforma estatal suficiente. **Prioridad:** Alta. **Dependencias:** R-63."
+  },
+  {
+    "id": "R-76",
+    "n": 76,
+    "titulo": "Cédula de Operación Anual con campos energéticos y GEI; interoperabilidad RENE",
+    "reforma": null,
+    "ordenamiento": "REEEPA",
+    "ordenamiento_raw": "REEEPA-IA-BMG-FF, Art. 3 Fracc. II; Art. 47; Art. 58.",
+    "articulo_modificar": "REEEPA-IA-BMG-FF, Art. 3 Fracc. II; Art. 47; Art. 58.",
+    "fundamento": "Omisión (1A.34).",
+    "fundamento_federal": "LGCC Art. 7, Fraccs. XIV inciso a) y XV; Art. 8, Fracc. XII.",
+    "habilitacion_federal": "LGCC Art. 7, Fraccs. XIV inciso a) y XV; Art. 8, Fracc. XII.",
+    "nivel": "Reforma estatal suficiente; recomendable convenio con INECC/SEMARNAT",
+    "prioridad": "Alta",
+    "dependencias": [],
+    "tramo_ruta_critica": null,
+    "es_independiente": true,
+    "debilidades_origen": [
+      "1A.34"
+    ],
+    "conflictos_origen": [],
+    "proyectos_habilitados": [
+      "3B.32"
+    ],
+    "texto_completo": "- **Ordenamiento a modificar:** REEEPA-IA-BMG-FF, Art. 3 Fracc. II; Art. 47; Art. 58.\n- **Fundamento:** Omisión (1A.34).\n- **Habilitación federal:** LGCC Art. 7, Fraccs. XIV inciso a) y XV; Art. 8, Fracc. XII.\n- **Nivel:** Reforma estatal suficiente; recomendable convenio con INECC/SEMARNAT.\n- **Prioridad:** Alta. **Dependencias:** ninguna."
+  },
+  {
+    "id": "R-77",
+    "n": 77,
+    "titulo": "Convenios específicos con SENER, CNE, CONUEE, CENACE e INECC en REEEPA",
+    "reforma": null,
+    "ordenamiento": "REEEPA",
+    "ordenamiento_raw": "REEEPA-IA-BMG-FF, Art. 2, Párr. 2 (sustituir formulación genérica por catálogo sectorial).",
+    "articulo_modificar": "REEEPA-IA-BMG-FF, Art. 2, Párr. 2 (sustituir formulación genérica por catálogo sectorial).",
+    "fundamento": "Omisión (1A.36).",
+    "fundamento_federal": "LSH Art. 78; LPTE Art. 8, Fracc. VI; Art. 11, Fracc. X; LSE Art. 88, Párr. 3.",
+    "habilitacion_federal": "LSH Art. 78; LPTE Art. 8, Fracc. VI; Art. 11, Fracc. X; LSE Art. 88, Párr. 3.",
+    "nivel": "Reforma estatal suficiente",
+    "prioridad": "Alta",
+    "dependencias": [],
+    "tramo_ruta_critica": null,
+    "es_independiente": true,
+    "debilidades_origen": [
+      "1A.36"
+    ],
+    "conflictos_origen": [],
+    "proyectos_habilitados": [
+      "3B.33"
+    ],
+    "texto_completo": "- **Ordenamiento a modificar:** REEEPA-IA-BMG-FF, Art. 2, Párr. 2 (sustituir formulación genérica por catálogo sectorial).\n- **Fundamento:** Omisión (1A.36).\n- **Habilitación federal:** LSH Art. 78; LPTE Art. 8, Fracc. VI; Art. 11, Fracc. X; LSE Art. 88, Párr. 3.\n- **Nivel:** Reforma estatal suficiente. **Prioridad:** Alta. **Dependencias:** ninguna."
+  },
+  {
+    "id": "R-78",
+    "n": 78,
+    "titulo": "Zonas Críticas como instrumento de transición energética",
+    "reforma": null,
+    "ordenamiento": "REEEPA",
+    "ordenamiento_raw": "REEEPA-IA-BMG-FF, Art. 48; adición de artículo de planeación en Capítulo VII o VIII.",
+    "articulo_modificar": "REEEPA-IA-BMG-FF, Art. 48; adición de artículo de planeación en Capítulo VII o VIII.",
+    "fundamento": "Aprovechamiento de instrumento existente.",
+    "fundamento_federal": "LGCC Art. 8, Fracc. II inciso f); Art. 34, Fracc. II; LPTE Art. 32, Párr. 3.",
+    "habilitacion_federal": "LGCC Art. 8, Fracc. II inciso f); Art. 34, Fracc. II; LPTE Art. 32, Párr. 3.",
+    "nivel": "Reforma estatal suficiente",
+    "prioridad": "Media",
+    "dependencias": [],
+    "tramo_ruta_critica": null,
+    "es_independiente": true,
+    "debilidades_origen": [],
+    "conflictos_origen": [],
+    "proyectos_habilitados": [],
+    "texto_completo": "- **Ordenamiento a modificar:** REEEPA-IA-BMG-FF, Art. 48; adición de artículo de planeación en Capítulo VII o VIII.\n- **Fundamento:** Aprovechamiento de instrumento existente.\n- **Habilitación federal:** LGCC Art. 8, Fracc. II inciso f); Art. 34, Fracc. II; LPTE Art. 32, Párr. 3.\n- **Nivel:** Reforma estatal suficiente. **Prioridad:** Media. **Dependencias:** ninguna."
+  },
+  {
+    "id": "R-79",
+    "n": 79,
+    "titulo": "Saneamiento técnico de numeración Art. 3 Fracc. XVII duplicada",
+    "reforma": null,
+    "ordenamiento": "REEEPA",
+    "ordenamiento_raw": "REEEPA-IA-BMG-FF, Art. 3, Fracc. XVII (renumerar segunda ocurrencia como XXII).",
+    "articulo_modificar": "REEEPA-IA-BMG-FF, Art. 3, Fracc. XVII (renumerar segunda ocurrencia como XXII).",
+    "fundamento": "Vicio técnico (1A.78).",
+    "fundamento_federal": "No aplica (saneamiento interno).",
+    "habilitacion_federal": "No aplica (saneamiento interno).",
+    "nivel": "Reforma estatal suficiente",
+    "prioridad": "Baja",
+    "dependencias": [],
+    "tramo_ruta_critica": null,
+    "es_independiente": true,
+    "debilidades_origen": [
+      "1A.78"
+    ],
+    "conflictos_origen": [],
+    "proyectos_habilitados": [],
+    "texto_completo": "- **Ordenamiento a modificar:** REEEPA-IA-BMG-FF, Art. 3, Fracc. XVII (renumerar segunda ocurrencia como XXII).\n- **Fundamento:** Vicio técnico (1A.78).\n- **Habilitación federal:** No aplica (saneamiento interno).\n- **Nivel:** Reforma estatal suficiente. **Prioridad:** Baja. **Dependencias:** ninguna."
+  },
+  {
+    "id": "R-80",
+    "n": 80,
+    "titulo": "Articulación REEEPA con MIS federal y consulta previa indígena",
+    "reforma": null,
+    "ordenamiento": "REEEPA",
+    "ordenamiento_raw": "REEEPA-IA-BMG-FF, adición a Capítulo II tras Art. 25.",
+    "articulo_modificar": "REEEPA-IA-BMG-FF, adición a Capítulo II tras Art. 25.",
+    "fundamento": "Vacío (1A.69).",
+    "fundamento_federal": "LSH Arts. 151, 152; LSE Arts. 133–135; CPEUM Art. 2, Apartado B.",
+    "habilitacion_federal": "LSH Arts. 151, 152; LSE Arts. 133–135; CPEUM Art. 2, Apartado B.",
+    "nivel": "Reforma estatal útil; incidencia plena **requiere reforma federal previa**",
+    "prioridad": "Media",
+    "dependencias": [],
+    "tramo_ruta_critica": 7,
+    "es_independiente": false,
+    "debilidades_origen": [
+      "1A.69"
+    ],
+    "conflictos_origen": [],
+    "proyectos_habilitados": [],
+    "texto_completo": "- **Ordenamiento a modificar:** REEEPA-IA-BMG-FF, adición a Capítulo II tras Art. 25.\n- **Fundamento:** Vacío (1A.69).\n- **Habilitación federal:** LSH Arts. 151, 152; LSE Arts. 133–135; CPEUM Art. 2, Apartado B.\n- **Nivel:** Reforma estatal útil; incidencia plena **requiere reforma federal previa**.\n- **Prioridad:** Media. **Dependencias:** Reforma federal a LSE/LSH."
+  },
+  {
+    "id": "R-81",
+    "n": 81,
+    "titulo": "Actualizar nomenclatura de \"Comisión Estatal de Ecología\" en REEEPA",
+    "reforma": null,
+    "ordenamiento": "REEEPA",
+    "ordenamiento_raw": "REEEPA-IA-BMG-FF, Art. 2; Art. 3, Fracc. XX; revisión integral del texto.",
+    "articulo_modificar": "REEEPA-IA-BMG-FF, Art. 2; Art. 3, Fracc. XX; revisión integral del texto.",
+    "fundamento": "Desactualización institucional.",
+    "fundamento_federal": "No aplica (adecuación a LOPEJ vigente).",
+    "habilitacion_federal": "No aplica (adecuación a LOPEJ vigente).",
+    "nivel": "Reforma estatal suficiente",
+    "prioridad": "Media",
+    "dependencias": [],
+    "tramo_ruta_critica": null,
+    "es_independiente": true,
+    "debilidades_origen": [],
+    "conflictos_origen": [],
+    "proyectos_habilitados": [],
+    "texto_completo": "- **Ordenamiento a modificar:** REEEPA-IA-BMG-FF, Art. 2; Art. 3, Fracc. XX; revisión integral del texto.\n- **Fundamento:** Desactualización institucional.\n- **Habilitación federal:** No aplica (adecuación a LOPEJ vigente).\n- **Nivel:** Reforma estatal suficiente. **Prioridad:** Media. **Dependencias:** ninguna."
+  },
+  {
+    "id": "R-82",
+    "n": 82,
+    "titulo": "Causal expresa de improcedencia LJAEJ por competencia federal exclusiva energética",
+    "reforma": null,
+    "ordenamiento": "LJAEJ",
+    "ordenamiento_raw": "LJAEJ, Art. 29 (adicionar Fracc. XIII).",
+    "articulo_modificar": "LJAEJ, Art. 29 (adicionar Fracc. XIII).",
+    "fundamento": "Vacío / omisión (1A.37).",
+    "fundamento_federal": "CPEUM Art. 27, párrs. 6 y 7; Art. 28, párr. reformado DOF 20-12-2024; Art. 73, Fracc. X.",
+    "habilitacion_federal": "CPEUM Art. 27, párrs. 6 y 7; Art. 28, párr. reformado DOF 20-12-2024; Art. 73, Fracc. X.",
+    "nivel": "Reforma estatal suficiente",
+    "prioridad": "Alta",
+    "dependencias": [],
+    "tramo_ruta_critica": 6,
+    "es_independiente": false,
+    "debilidades_origen": [
+      "1A.37"
+    ],
+    "conflictos_origen": [],
+    "proyectos_habilitados": [
+      "3B.34"
+    ],
+    "texto_completo": "- **Ordenamiento a modificar:** LJAEJ, Art. 29 (adicionar Fracc. XIII).\n- **Fundamento:** Vacío / omisión (1A.37).\n- **Habilitación federal:** CPEUM Art. 27, párrs. 6 y 7; Art. 28, párr. reformado DOF 20-12-2024; Art. 73, Fracc. X.\n- **Nivel:** Reforma estatal suficiente. **Prioridad:** Alta. **Dependencias:** ninguna."
+  },
+  {
+    "id": "R-83",
+    "n": 83,
+    "titulo": "Excepción a la afirmativa ficta del TJA cuando el acto requiera permiso federal energético",
+    "reforma": null,
+    "ordenamiento": "LJAEJ",
+    "ordenamiento_raw": "LJAEJ, Art. 108 (nuevo párr. 3).",
+    "articulo_modificar": "LJAEJ, Art. 108 (nuevo párr. 3).",
+    "fundamento": "Conflicto / desactualización (4A.18).",
+    "fundamento_federal": "CPEUM Art. 27, párrs. 6 y 7; LSE Art. 2; LSH Art. 1; LCNE Art. 2.",
+    "habilitacion_federal": "CPEUM Art. 27, párrs. 6 y 7; LSE Art. 2; LSH Art. 1; LCNE Art. 2.",
+    "nivel": "Reforma estatal suficiente",
+    "prioridad": "Alta",
+    "dependencias": [
+      "R-54"
+    ],
+    "tramo_ruta_critica": 5,
+    "es_independiente": false,
+    "debilidades_origen": [],
+    "conflictos_origen": [
+      "4A.18"
+    ],
+    "proyectos_habilitados": [
+      "3B.35"
+    ],
+    "texto_completo": "- **Ordenamiento a modificar:** LJAEJ, Art. 108 (nuevo párr. 3).\n- **Fundamento:** Conflicto / desactualización (4A.18).\n- **Habilitación federal:** CPEUM Art. 27, párrs. 6 y 7; LSE Art. 2; LSH Art. 1; LCNE Art. 2.\n- **Nivel:** Reforma estatal suficiente. **Prioridad:** Alta. **Dependencias:** R-54 (paralelismo)."
+  },
+  {
+    "id": "R-84",
+    "n": 84,
+    "titulo": "Modulación de suspensión y medidas cautelares cuando el acto incida sobre continuidad del SEN",
+    "reforma": null,
+    "ordenamiento": "LJAEJ",
+    "ordenamiento_raw": "LJAEJ, Art. 66 (nuevo párr. final).",
+    "articulo_modificar": "LJAEJ, Art. 66 (nuevo párr. final).",
+    "fundamento": "Conflicto / vacío (4A.19).",
+    "fundamento_federal": "CPEUM Art. 27, párr. 6; LSE.",
+    "habilitacion_federal": "CPEUM Art. 27, párr. 6; LSE.",
+    "nivel": "Reforma estatal suficiente",
+    "prioridad": "Alta",
+    "dependencias": [],
+    "tramo_ruta_critica": 5,
+    "es_independiente": false,
+    "debilidades_origen": [],
+    "conflictos_origen": [
+      "4A.19"
+    ],
+    "proyectos_habilitados": [
+      "3B.36"
+    ],
+    "texto_completo": "- **Ordenamiento a modificar:** LJAEJ, Art. 66 (nuevo párr. final).\n- **Fundamento:** Conflicto / vacío (4A.19).\n- **Habilitación federal:** CPEUM Art. 27, párr. 6; LSE.\n- **Nivel:** Reforma estatal suficiente. **Prioridad:** Alta. **Dependencias:** ninguna."
+  },
+  {
+    "id": "R-85",
+    "n": 85,
+    "titulo": "Procedimiento expedito en materia energética en LJAEJ",
+    "reforma": null,
+    "ordenamiento": "LJAEJ",
+    "ordenamiento_raw": "LJAEJ, adicionar Sección al Capítulo XVII \"De los Procedimientos Especiales\".",
+    "articulo_modificar": "LJAEJ, adicionar Sección al Capítulo XVII \"De los Procedimientos Especiales\".",
+    "fundamento": "Vacío (1A.71).",
+    "fundamento_federal": "LSE, LPTE, LCNE.",
+    "habilitacion_federal": "LSE, LPTE, LCNE.",
+    "nivel": "Reforma estatal suficiente",
+    "prioridad": "Media",
+    "dependencias": [],
+    "tramo_ruta_critica": null,
+    "es_independiente": true,
+    "debilidades_origen": [
+      "1A.71"
+    ],
+    "conflictos_origen": [],
+    "proyectos_habilitados": [
+      "3B.37"
+    ],
+    "texto_completo": "- **Ordenamiento a modificar:** LJAEJ, adicionar Sección al Capítulo XVII \"De los Procedimientos Especiales\".\n- **Fundamento:** Vacío (1A.71).\n- **Habilitación federal:** LSE, LPTE, LCNE.\n- **Nivel:** Reforma estatal suficiente. **Prioridad:** Media. **Dependencias:** ninguna."
+  },
+  {
+    "id": "R-86",
+    "n": 86,
+    "titulo": "Etapa procesal de consulta previa a pueblos indígenas en juicios contenciosos sobre proyectos energéticos",
+    "reforma": null,
+    "ordenamiento": "LJAEJ",
+    "ordenamiento_raw": "LJAEJ, adicionar Art. 40 Bis.",
+    "articulo_modificar": "LJAEJ, adicionar Art. 40 Bis.",
+    "fundamento": "Vacío (1A.38).",
+    "fundamento_federal": "LGeo Art. 4, párr. 2; LSH Art. 151; LSE Arts. 133-135; CPEUM Art. 1 (Convenio 169 OIT).",
+    "habilitacion_federal": "LGeo Art. 4, párr. 2; LSH Art. 151; LSE Arts. 133-135; CPEUM Art. 1 (Convenio 169 OIT).",
+    "nivel": "Reforma estatal suficiente",
+    "prioridad": "Alta",
+    "dependencias": [],
+    "tramo_ruta_critica": 5,
+    "es_independiente": false,
+    "debilidades_origen": [
+      "1A.38"
+    ],
+    "conflictos_origen": [],
+    "proyectos_habilitados": [
+      "3B.38"
+    ],
+    "texto_completo": "- **Ordenamiento a modificar:** LJAEJ, adicionar Art. 40 Bis.\n- **Fundamento:** Vacío (1A.38).\n- **Habilitación federal:** LGeo Art. 4, párr. 2; LSH Art. 151; LSE Arts. 133-135; CPEUM Art. 1 (Convenio 169 OIT).\n- **Nivel:** Reforma estatal suficiente. **Prioridad:** Alta. **Dependencias:** ninguna."
+  },
+  {
+    "id": "R-87",
+    "n": 87,
+    "titulo": "Acción colectiva administrativa energética en LJAEJ",
+    "reforma": null,
+    "ordenamiento": "LJAEJ",
+    "ordenamiento_raw": "LJAEJ, adicionar Capítulo XIX.",
+    "articulo_modificar": "LJAEJ, adicionar Capítulo XIX.",
+    "fundamento": "Vacío (1A.70).",
+    "fundamento_federal": "CPEUM Art. 17, párr. 3; Art. 73 Fracc. XXIX-G.",
+    "habilitacion_federal": "CPEUM Art. 17, párr. 3; Art. 73 Fracc. XXIX-G.",
+    "nivel": "Reforma estatal suficiente",
+    "prioridad": "Media",
+    "dependencias": [],
+    "tramo_ruta_critica": null,
+    "es_independiente": true,
+    "debilidades_origen": [
+      "1A.70"
+    ],
+    "conflictos_origen": [],
+    "proyectos_habilitados": [
+      "3B.39"
+    ],
+    "texto_completo": "- **Ordenamiento a modificar:** LJAEJ, adicionar Capítulo XIX.\n- **Fundamento:** Vacío (1A.70).\n- **Habilitación federal:** CPEUM Art. 17, párr. 3; Art. 73 Fracc. XXIX-G.\n- **Nivel:** Reforma estatal suficiente. **Prioridad:** Media. **Dependencias:** ninguna."
+  },
+  {
+    "id": "R-88",
+    "n": 88,
+    "titulo": "Interoperabilidad del juicio en línea LJAEJ con plataformas federales energéticas",
+    "reforma": null,
+    "ordenamiento": "LJAEJ",
+    "ordenamiento_raw": "LJAEJ, Art. 118 (nuevo párr.).",
+    "articulo_modificar": "LJAEJ, Art. 118 (nuevo párr.).",
+    "fundamento": "Omisión (1A.72).",
+    "fundamento_federal": "[INFERENCIA: necesidad operativa derivada del diseño institucional federal 2025; convenio interinstitucional viable sin reforma federal previa.]",
+    "habilitacion_federal": "[INFERENCIA: necesidad operativa derivada del diseño institucional federal 2025; convenio interinstitucional viable sin reforma federal previa.]",
+    "nivel": "Reforma estatal suficiente",
+    "prioridad": "Media",
+    "dependencias": [],
+    "tramo_ruta_critica": null,
+    "es_independiente": true,
+    "debilidades_origen": [
+      "1A.72"
+    ],
+    "conflictos_origen": [],
+    "proyectos_habilitados": [],
+    "texto_completo": "- **Ordenamiento a modificar:** LJAEJ, Art. 118 (nuevo párr.).\n- **Fundamento:** Omisión (1A.72).\n- **Habilitación federal:** [INFERENCIA: necesidad operativa derivada del diseño institucional federal 2025; convenio interinstitucional viable sin reforma federal previa.]\n- **Nivel:** Reforma estatal suficiente. **Prioridad:** Media. **Dependencias:** ninguna."
+  },
+  {
+    "id": "R-89",
+    "n": 89,
+    "titulo": "Suspensión de créditos fiscales con participaciones estatales en contribuciones especiales federales energéticas",
+    "reforma": null,
+    "ordenamiento": "LJAEJ",
+    "ordenamiento_raw": "LJAEJ, Art. 69 (nueva Fracc. VI).",
+    "articulo_modificar": "LJAEJ, Art. 69 (nueva Fracc. VI).",
+    "fundamento": "Omisión (1A.79).",
+    "fundamento_federal": "CPEUM Art. 73, Fracc. XXIX, numeral 5° y último párr.",
+    "habilitacion_federal": "CPEUM Art. 73, Fracc. XXIX, numeral 5° y último párr.",
+    "nivel": "Reforma estatal suficiente",
+    "prioridad": "Baja",
+    "dependencias": [
+      "R-04"
+    ],
+    "tramo_ruta_critica": 4,
+    "es_independiente": false,
+    "debilidades_origen": [
+      "1A.79"
+    ],
+    "conflictos_origen": [],
+    "proyectos_habilitados": [],
+    "texto_completo": "- **Ordenamiento a modificar:** LJAEJ, Art. 69 (nueva Fracc. VI).\n- **Fundamento:** Omisión (1A.79).\n- **Habilitación federal:** CPEUM Art. 73, Fracc. XXIX, numeral 5° y último párr.\n- **Nivel:** Reforma estatal suficiente. **Prioridad:** Baja. **Dependencias:** R-04."
+  },
+  {
+    "id": "R-90",
+    "n": 90,
+    "titulo": "Articulación procesal LJAEJ-LOTJAEJ para especialización en juicios energético-ambientales",
+    "reforma": null,
+    "ordenamiento": "LJAEJ",
+    "ordenamiento_raw": "LJAEJ, Art. 70 Nonies, Fracc. a) (remisión); reforma complementaria a LOTJAEJ.",
+    "articulo_modificar": "LJAEJ, Art. 70 Nonies, Fracc. a) (remisión); reforma complementaria a LOTJAEJ.",
+    "fundamento": "Vacío articulatorio (1A.39).",
+    "fundamento_federal": "[INFERENCIA: necesidad por complejidad post-reformas 2024-2025].",
+    "habilitacion_federal": "[INFERENCIA: necesidad por complejidad post-reformas 2024-2025].",
+    "nivel": "Reforma estatal suficiente (coordinada con LOTJAEJ)",
+    "prioridad": "Media",
+    "dependencias": [],
+    "tramo_ruta_critica": null,
+    "es_independiente": true,
+    "debilidades_origen": [
+      "1A.39"
+    ],
+    "conflictos_origen": [],
+    "proyectos_habilitados": [],
+    "texto_completo": "- **Ordenamiento a modificar:** LJAEJ, Art. 70 Nonies, Fracc. a) (remisión); reforma complementaria a LOTJAEJ.\n- **Fundamento:** Vacío articulatorio (1A.39).\n- **Habilitación federal:** [INFERENCIA: necesidad por complejidad post-reformas 2024-2025].\n- **Nivel:** Reforma estatal suficiente (coordinada con LOTJAEJ).\n- **Prioridad:** Media. **Dependencias:** ninguna."
+  },
+  {
+    "id": "R-91",
+    "n": 91,
+    "titulo": "Propósitos sustantivos del AIR (Justicia Energética, precaución ambiental, perspectiva intergeneracional, pro persona, género, GEI)",
+    "reforma": null,
+    "ordenamiento": "LMR-Jal",
+    "ordenamiento_raw": "LMR-Jal, Art. 59, párr. 1 (Fraccs. IX-XIV).",
+    "articulo_modificar": "LMR-Jal, Art. 59, párr. 1 (Fraccs. IX-XIV).",
+    "fundamento": "Desactualización / vacío (1A.40).",
+    "fundamento_federal": "LPTE Art. 2; LGCC Art. 26; CPEUM Arts. 1, 4 párrs. 1 y 5.",
+    "habilitacion_federal": "LPTE Art. 2; LGCC Art. 26; CPEUM Arts. 1, 4 párrs. 1 y 5.",
+    "nivel": "Reforma estatal suficiente",
+    "prioridad": "Alta",
+    "dependencias": [],
+    "tramo_ruta_critica": 6,
+    "es_independiente": false,
+    "debilidades_origen": [
+      "1A.40"
+    ],
+    "conflictos_origen": [],
+    "proyectos_habilitados": [],
+    "texto_completo": "- **Ordenamiento a modificar:** LMR-Jal, Art. 59, párr. 1 (Fraccs. IX-XIV).\n- **Fundamento:** Desactualización / vacío (1A.40).\n- **Habilitación federal:** LPTE Art. 2; LGCC Art. 26; CPEUM Arts. 1, 4 párrs. 1 y 5.\n- **Nivel:** Reforma estatal suficiente. **Prioridad:** Alta. **Dependencias:** ninguna."
+  },
+  {
+    "id": "R-92",
+    "n": 92,
+    "titulo": "Consulta previa, libre e informada como etapa procesal obligatoria del AIR",
+    "reforma": null,
+    "ordenamiento": "LMR-Jal",
+    "ordenamiento_raw": "LMR-Jal, Capítulo III Bis del Título Tercero (entre Arts. 67 y 68) o Fracc. VI al Art. 61, párr. 1.",
+    "articulo_modificar": "LMR-Jal, Capítulo III Bis del Título Tercero (entre Arts. 67 y 68) o Fracc. VI al Art. 61, párr. 1.",
+    "fundamento": "Vacío (1A.41).",
+    "fundamento_federal": "CPEUM Art. 2, Apartado B, Fracc. IX; Art. 1, párr. 3; Convenio 169 OIT.",
+    "habilitacion_federal": "CPEUM Art. 2, Apartado B, Fracc. IX; Art. 1, párr. 3; Convenio 169 OIT.",
+    "nivel": "Reforma estatal suficiente",
+    "prioridad": "Alta",
+    "dependencias": [],
+    "tramo_ruta_critica": 6,
+    "es_independiente": false,
+    "debilidades_origen": [
+      "1A.41"
+    ],
+    "conflictos_origen": [],
+    "proyectos_habilitados": [],
+    "texto_completo": "- **Ordenamiento a modificar:** LMR-Jal, Capítulo III Bis del Título Tercero (entre Arts. 67 y 68) o Fracc. VI al Art. 61, párr. 1.\n- **Fundamento:** Vacío (1A.41).\n- **Habilitación federal:** CPEUM Art. 2, Apartado B, Fracc. IX; Art. 1, párr. 3; Convenio 169 OIT.\n- **Nivel:** Reforma estatal suficiente. **Prioridad:** Alta. **Dependencias:** ninguna."
+  },
+  {
+    "id": "R-93",
+    "n": 93,
+    "titulo": "Manual sectorial obligatorio de AIR en materia energética, ambiental y climática",
+    "reforma": null,
+    "ordenamiento": "LMR-Jal",
+    "ordenamiento_raw": "LMR-Jal, adicionar Art. 58 Bis o reforma Art. 58, párr. 3 (obligatoriedad).",
+    "articulo_modificar": "LMR-Jal, adicionar Art. 58 Bis o reforma Art. 58, párr. 3 (obligatoriedad).",
+    "fundamento": "Vacío (1A.43).",
+    "fundamento_federal": "LPTE Art. 2; LGCC Art. 26; LCNE Art. 1.",
+    "habilitacion_federal": "LPTE Art. 2; LGCC Art. 26; LCNE Art. 1.",
+    "nivel": "Reforma estatal suficiente",
+    "prioridad": "Alta",
+    "dependencias": [],
+    "tramo_ruta_critica": 6,
+    "es_independiente": false,
+    "debilidades_origen": [
+      "1A.43"
+    ],
+    "conflictos_origen": [],
+    "proyectos_habilitados": [
+      "3B.43"
+    ],
+    "texto_completo": "- **Ordenamiento a modificar:** LMR-Jal, adicionar Art. 58 Bis o reforma Art. 58, párr. 3 (obligatoriedad).\n- **Fundamento:** Vacío (1A.43).\n- **Habilitación federal:** LPTE Art. 2; LGCC Art. 26; LCNE Art. 1.\n- **Nivel:** Reforma estatal suficiente. **Prioridad:** Alta. **Dependencias:** ninguna."
+  },
+  {
+    "id": "R-94",
+    "n": 94,
+    "titulo": "Integrar AEEJ y autoridad ambiental estatal al Consejo Estatal de Mejora Regulatoria con voz y voto",
+    "reforma": null,
+    "ordenamiento": "LMR-Jal",
+    "ordenamiento_raw": "LMR-Jal, Art. 14, párr. 1, Fraccs. II-IV y párr. 6.",
+    "articulo_modificar": "LMR-Jal, Art. 14, párr. 1, Fraccs. II-IV y párr. 6.",
+    "fundamento": "Omisión estructural (1A.42).",
+    "fundamento_federal": "Coherencia institucional estatal.",
+    "habilitacion_federal": "Coherencia institucional estatal.",
+    "nivel": "Reforma estatal suficiente",
+    "prioridad": "Alta",
+    "dependencias": [],
+    "tramo_ruta_critica": 3,
+    "es_independiente": false,
+    "debilidades_origen": [
+      "1A.42"
+    ],
+    "conflictos_origen": [],
+    "proyectos_habilitados": [
+      "3B.44"
+    ],
+    "texto_completo": "- **Ordenamiento a modificar:** LMR-Jal, Art. 14, párr. 1, Fraccs. II-IV y párr. 6.\n- **Fundamento:** Omisión estructural (1A.42).\n- **Habilitación federal:** Coherencia institucional estatal.\n- **Nivel:** Reforma estatal suficiente. **Prioridad:** Alta. **Dependencias:** ninguna."
+  },
+  {
+    "id": "R-95",
+    "n": 95,
+    "titulo": "Opinión consultiva obligatoria de la CNE y CONAMER para regulaciones estatales con dimensión federal energética",
+    "reforma": null,
+    "ordenamiento": "LMR-Jal",
+    "ordenamiento_raw": "LMR-Jal, adicionar Art. 62 Bis o Fracc. al Art. 64.",
+    "articulo_modificar": "LMR-Jal, adicionar Art. 62 Bis o Fracc. al Art. 64.",
+    "fundamento": "Vacío (1A.44).",
+    "fundamento_federal": "CPEUM Art. 73, Fracc. XXIX-Y; LCNE Art. 1; CPEUM Art. 116, Fracc. VII.",
+    "habilitacion_federal": "CPEUM Art. 73, Fracc. XXIX-Y; LCNE Art. 1; CPEUM Art. 116, Fracc. VII.",
+    "nivel": "Reforma estatal suficiente (la opinión federal requiere convenio)",
+    "prioridad": "Alta",
+    "dependencias": [],
+    "tramo_ruta_critica": 6,
+    "es_independiente": false,
+    "debilidades_origen": [
+      "1A.44"
+    ],
+    "conflictos_origen": [],
+    "proyectos_habilitados": [
+      "3B.45"
+    ],
+    "texto_completo": "- **Ordenamiento a modificar:** LMR-Jal, adicionar Art. 62 Bis o Fracc. al Art. 64.\n- **Fundamento:** Vacío (1A.44).\n- **Habilitación federal:** CPEUM Art. 73, Fracc. XXIX-Y; LCNE Art. 1; CPEUM Art. 116, Fracc. VII.\n- **Nivel:** Reforma estatal suficiente (la opinión federal requiere convenio).\n- **Prioridad:** Alta. **Dependencias:** ninguna."
+  },
+  {
+    "id": "R-96",
+    "n": 96,
+    "titulo": "Excepción a la regla \"one-in, one-out\" para regulaciones de política energética, climática y de transición",
+    "reforma": null,
+    "ordenamiento": "LMR-Jal",
+    "ordenamiento_raw": "LMR-Jal, Art. 76, párr. 2 (Fracc. IV).",
+    "articulo_modificar": "LMR-Jal, Art. 76, párr. 2 (Fracc. IV).",
+    "fundamento": "Conflicto / desactualización (4A.20).",
+    "fundamento_federal": "LGCC Art. 26; LPTE Art. 2.",
+    "habilitacion_federal": "LGCC Art. 26; LPTE Art. 2.",
+    "nivel": "Reforma estatal suficiente",
+    "prioridad": "Alta",
+    "dependencias": [],
+    "tramo_ruta_critica": 6,
+    "es_independiente": false,
+    "debilidades_origen": [],
+    "conflictos_origen": [
+      "4A.20"
+    ],
+    "proyectos_habilitados": [
+      "3B.46"
+    ],
+    "texto_completo": "- **Ordenamiento a modificar:** LMR-Jal, Art. 76, párr. 2 (Fracc. IV).\n- **Fundamento:** Conflicto / desactualización (4A.20).\n- **Habilitación federal:** LGCC Art. 26; LPTE Art. 2.\n- **Nivel:** Reforma estatal suficiente. **Prioridad:** Alta. **Dependencias:** ninguna."
+  },
+  {
+    "id": "R-97",
+    "n": 97,
+    "titulo": "Filtro de no exención de AIR cuando la regulación tenga incidencia federal aunque no imponga costos",
+    "reforma": null,
+    "ordenamiento": "LMR-Jal",
+    "ordenamiento_raw": "LMR-Jal, Art. 71 (Fracc. V) o Art. 69 (condición).",
+    "articulo_modificar": "LMR-Jal, Art. 71 (Fracc. V) o Art. 69 (condición).",
+    "fundamento": "Conflicto potencial (4A.21).",
+    "fundamento_federal": "CPEUM Art. 27, párrs. 6 y 7; Art. 28, párr. 8 reformado DOF 20-12-2024; LCNE Art. 1.",
+    "habilitacion_federal": "CPEUM Art. 27, párrs. 6 y 7; Art. 28, párr. 8 reformado DOF 20-12-2024; LCNE Art. 1.",
+    "nivel": "Reforma estatal suficiente",
+    "prioridad": "Media",
+    "dependencias": [],
+    "tramo_ruta_critica": null,
+    "es_independiente": true,
+    "debilidades_origen": [],
+    "conflictos_origen": [
+      "4A.21"
+    ],
+    "proyectos_habilitados": [
+      "3B.47"
+    ],
+    "texto_completo": "- **Ordenamiento a modificar:** LMR-Jal, Art. 71 (Fracc. V) o Art. 69 (condición).\n- **Fundamento:** Conflicto potencial (4A.21).\n- **Habilitación federal:** CPEUM Art. 27, párrs. 6 y 7; Art. 28, párr. 8 reformado DOF 20-12-2024; LCNE Art. 1.\n- **Nivel:** Reforma estatal suficiente. **Prioridad:** Media. **Dependencias:** ninguna."
+  },
+  {
+    "id": "R-98",
+    "n": 98,
+    "titulo": "AIR ex post calendarizado y obligatorio para regulaciones con incidencia energética",
+    "reforma": null,
+    "ordenamiento": "LMR-Jal",
+    "ordenamiento_raw": "LMR-Jal, Arts. 72 y 73 (periodicidad mínima cada 3 años).",
+    "articulo_modificar": "LMR-Jal, Arts. 72 y 73 (periodicidad mínima cada 3 años).",
+    "fundamento": "Omisión de implementación (1A.73).",
+    "fundamento_federal": "LPTE Art. 2; LGCC Art. 26.",
+    "habilitacion_federal": "LPTE Art. 2; LGCC Art. 26.",
+    "nivel": "Reforma estatal suficiente",
+    "prioridad": "Media",
+    "dependencias": [],
+    "tramo_ruta_critica": null,
+    "es_independiente": true,
+    "debilidades_origen": [
+      "1A.73"
+    ],
+    "conflictos_origen": [],
+    "proyectos_habilitados": [
+      "3B.48"
+    ],
+    "texto_completo": "- **Ordenamiento a modificar:** LMR-Jal, Arts. 72 y 73 (periodicidad mínima cada 3 años).\n- **Fundamento:** Omisión de implementación (1A.73).\n- **Habilitación federal:** LPTE Art. 2; LGCC Art. 26.\n- **Nivel:** Reforma estatal suficiente. **Prioridad:** Media. **Dependencias:** ninguna."
+  },
+  {
+    "id": "R-99",
+    "n": 99,
+    "titulo": "Ventanilla única estatal de proyectos energéticos en LMR-Jal",
+    "reforma": null,
+    "ordenamiento": "LMR-Jal",
+    "ordenamiento_raw": "LMR-Jal, capítulo nuevo en Título Tercero; ampliar Art. 50.",
+    "articulo_modificar": "LMR-Jal, capítulo nuevo en Título Tercero; ampliar Art. 50.",
+    "fundamento": "Omisión de implementación (1A.74).",
+    "fundamento_federal": "CPEUM Art. 116, Fracc. VII; LCNE Art. 1.",
+    "habilitacion_federal": "CPEUM Art. 116, Fracc. VII; LCNE Art. 1.",
+    "nivel": "Reforma estatal suficiente (parte local); interoperabilidad federal requiere convenio",
+    "prioridad": "Media",
+    "dependencias": [
+      "R-22"
+    ],
+    "tramo_ruta_critica": null,
+    "es_independiente": true,
+    "debilidades_origen": [
+      "1A.74"
+    ],
+    "conflictos_origen": [],
+    "proyectos_habilitados": [
+      "3B.49"
+    ],
+    "texto_completo": "- **Ordenamiento a modificar:** LMR-Jal, capítulo nuevo en Título Tercero; ampliar Art. 50.\n- **Fundamento:** Omisión de implementación (1A.74).\n- **Habilitación federal:** CPEUM Art. 116, Fracc. VII; LCNE Art. 1.\n- **Nivel:** Reforma estatal suficiente (parte local); interoperabilidad federal requiere convenio.\n- **Prioridad:** Media. **Dependencias:** R-22 (ventanilla única operativa)."
+  },
+  {
+    "id": "R-100",
+    "n": 100,
+    "titulo": "AIR específico para regulación operativa derivada de convenios Art. 116, Fracc. VII CPEUM",
+    "reforma": null,
+    "ordenamiento": "LMR-Jal",
+    "ordenamiento_raw": "LMR-Jal, nuevo artículo tras Art. 68.",
+    "articulo_modificar": "LMR-Jal, nuevo artículo tras Art. 68.",
+    "fundamento": "Vacío instrumental.",
+    "fundamento_federal": "CPEUM Art. 116, Fracc. VII; LBio Arts. 8-10.",
+    "habilitacion_federal": "CPEUM Art. 116, Fracc. VII; LBio Arts. 8-10.",
+    "nivel": "Reforma estatal suficiente",
+    "prioridad": "Baja",
+    "dependencias": [
+      "R-21"
+    ],
+    "tramo_ruta_critica": 3,
+    "es_independiente": false,
+    "debilidades_origen": [],
+    "conflictos_origen": [],
+    "proyectos_habilitados": [
+      "3B.50"
+    ],
+    "texto_completo": "- **Ordenamiento a modificar:** LMR-Jal, nuevo artículo tras Art. 68.\n- **Fundamento:** Vacío instrumental.\n- **Habilitación federal:** CPEUM Art. 116, Fracc. VII; LBio Arts. 8-10.\n- **Nivel:** Reforma estatal suficiente. **Prioridad:** Baja. **Dependencias:** R-21."
+  },
+  {
+    "id": "R-101",
+    "n": 101,
+    "titulo": "Reforma federal previa para participación estatal vinculante en el SEN [no controlable desde Jalisco]",
+    "reforma": "Habilitar mecanismo constitucional federal de concertación federal-estatal sobre planeación, expansión y tarifas del SEN.",
+    "ordenamiento": "CPEUM",
+    "ordenamiento_raw": "No aplica a nivel estatal sin reforma federal previa.",
+    "articulo_modificar": "No aplica a nivel estatal sin reforma federal previa.",
+    "fundamento": "Vacío estructural CPEUM.",
+    "fundamento_federal": "CPEUM Art. 27, párr. 6; Art. 28, párr. 4.",
+    "habilitacion_federal": "CPEUM Art. 27, párr. 6; Art. 28, párr. 4.",
+    "nivel": "Requiere reforma federal previa",
+    "prioridad": "Baja (por inviabilidad política y técnica)",
+    "dependencias": [],
+    "tramo_ruta_critica": 7,
+    "es_independiente": false,
+    "debilidades_origen": [],
+    "conflictos_origen": [],
+    "proyectos_habilitados": [],
+    "texto_completo": "- **Reforma:** Habilitar mecanismo constitucional federal de concertación federal-estatal sobre planeación, expansión y tarifas del SEN.\n- **Ordenamiento a modificar:** No aplica a nivel estatal sin reforma federal previa.\n- **Fundamento:** Vacío estructural CPEUM.\n- **Habilitación federal:** CPEUM Art. 27, párr. 6; Art. 28, párr. 4.\n- **Nivel:** Requiere reforma federal previa. **Prioridad:** Baja (por inviabilidad política y técnica). **Dependencias:** ninguna.\n\n---"
+  }
+]

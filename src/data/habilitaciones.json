@@ -1,0 +1,728 @@
+[
+  {
+    "id": "3D.1",
+    "n": 1,
+    "titulo": "Legislar y operar programas estatales de eficiencia energética y uso racional de energía en edificios públicos, alumbrado y transporte estatal",
+    "ord_federal": "CPEUM",
+    "art": "Art. 124 (residual); Art. 73 Fracc. XXIX-G (concurrencia ambiental)",
+    "condicion": "No invadir planeación SEN ni regulación técnica de la industria eléctrica",
+    "estado": "Explotada",
+    "estado_glosa": "Explotada — ver 3A.1, 3A.10, 3A.17, 3A.54",
+    "proyectos_vinculados": [
+      "3A.1",
+      "3A.10",
+      "3A.17",
+      "3A.54"
+    ]
+  },
+  {
+    "id": "3D.2",
+    "n": 2,
+    "titulo": "Impulsar generación distribuida, autoconsumo y cogeneración en inmuebles de propiedad estatal y municipal",
+    "ord_federal": "CPEUM",
+    "art": "Art. 27 párr. 6 in fine",
+    "condicion": "Sujeción a LIE/LSE; sin prevalencia sobre la empresa pública del Estado",
+    "estado": "Explotada",
+    "estado_glosa": "Explotada — ver 3A.2, 3A.32, 3A.42",
+    "proyectos_vinculados": [
+      "3A.2",
+      "3A.32",
+      "3A.42"
+    ]
+  },
+  {
+    "id": "3D.3",
+    "n": 3,
+    "titulo": "Integrar criterios energéticos y de eficiencia en zonificación, planes de desarrollo urbano y reglamentos de construcción",
+    "ord_federal": "CPEUM",
+    "art": "Art. 115 Fracc. V incisos a), c), f), g)",
+    "condicion": "Congruencia con leyes federales y estatales",
+    "estado": "Parcialmente explotada",
+    "estado_glosa": "Parcialmente explotada — ver 3A.43, 3A.59; potencial pleno con R-47",
+    "proyectos_vinculados": [
+      "3A.43",
+      "3A.59"
+    ]
+  },
+  {
+    "id": "3D.4",
+    "n": 4,
+    "titulo": "Convenios con la Federación para asunción de funciones en infraestructura eléctrica o coordinación en hidrocarburos (gestión territorial de ductos)",
+    "ord_federal": "CPEUM",
+    "art": "Art. 116 Fracc. VII",
+    "condicion": "Convenio expreso; no transfiere titularidad de áreas estratégicas",
+    "estado": "Parcialmente explotada",
+    "estado_glosa": "Parcialmente explotada — ver 3A.3; ventana subutilizada",
+    "proyectos_vinculados": [
+      "3A.3"
+    ]
+  },
+  {
+    "id": "3D.5",
+    "n": 5,
+    "titulo": "Expedir legislación estatal de cambio climático y transición energética anclada en derecho al medio ambiente sano",
+    "ord_federal": "CPEUM",
+    "art": "Art. 4° párr. 5; Art. 73 Fracc. XXIX-G",
+    "condicion": "No regular materia eléctrica ni hidrocarburos; actuar sobre emisiones, metas, eficiencia, adaptación",
+    "estado": "Explotada",
+    "estado_glosa": "Explotada — ver 3A.5, 3A.7, 3A.55",
+    "proyectos_vinculados": [
+      "3A.5",
+      "3A.7",
+      "3A.55"
+    ]
+  },
+  {
+    "id": "3D.6",
+    "n": 6,
+    "titulo": "Crear organismo estatal coordinador de política energética con planeación indicativa, asesoría técnica y gestión de convenios",
+    "ord_federal": "CPEUM",
+    "art": "Art. 124",
+    "condicion": "El organismo no puede ejercer regulación técnica/económica ni sanción",
+    "estado": "Explotada",
+    "estado_glosa": "Explotada (LOAEEJ existente) — ver 3A.6",
+    "proyectos_vinculados": [
+      "3A.6"
+    ]
+  },
+  {
+    "id": "3D.7",
+    "n": 7,
+    "titulo": "Fijar por ley estatal el porcentaje de la participación del impuesto federal sobre energía eléctrica hacia municipios",
+    "ord_federal": "CPEUM",
+    "art": "Art. 73 Fracc. XXIX último párr.",
+    "condicion": "Sólo redistribuye lo participado por la Federación",
+    "estado": "Parcialmente explotada",
+    "estado_glosa": "Parcialmente explotada — ver 3A.84; pleno alcance con R-04, R-52",
+    "proyectos_vinculados": [
+      "3A.84"
+    ]
+  },
+  {
+    "id": "3D.8",
+    "n": 8,
+    "titulo": "Suscripción de convenios LBio con SENER, SEMARNAT, SADER para asumir facultades operativas en biocombustibles",
+    "ord_federal": "LBio",
+    "art": "Arts. 8, 9, 10 Fracc. I",
+    "condicion": "Acreditación de capacidades; voluntad federal potestativa",
+    "estado": "Parcialmente explotada",
+    "estado_glosa": "Parcialmente explotada — ver 3A.29; sin formalización plena",
+    "proyectos_vinculados": [
+      "3A.29"
+    ]
+  },
+  {
+    "id": "3D.9",
+    "n": 9,
+    "titulo": "Crear empresa pública o mixta estatal para aprovechamiento de residuos orgánicos para biocombustibles",
+    "ord_federal": "LBio",
+    "art": "Art. 9 Fracc. I",
+    "condicion": "Convenio + permisos SENER/SADER",
+    "estado": "Ociosa",
+    "estado_glosa": "Ociosa — pendiente reforma R-31; ver 3B.8",
+    "proyectos_vinculados": [
+      "3B.8"
+    ]
+  },
+  {
+    "id": "3D.10",
+    "n": 10,
+    "titulo": "Programa estatal de monitoreo de emisiones por sustitución de fósiles por biocombustibles",
+    "ord_federal": "LBio",
+    "art": "Art. 9 Fracc. VII",
+    "condicion": "Convenio",
+    "estado": "Ociosa",
+    "estado_glosa": "Ociosa — sin instrumentación",
+    "proyectos_vinculados": []
+  },
+  {
+    "id": "3D.11",
+    "n": 11,
+    "titulo": "Fomento de biomasa en Suelos Marginales a partir de residuos agropecuarios (caña, sorgo)",
+    "ord_federal": "LBio",
+    "art": "Art. 9 Fracc. V; Art. 7 Fracc. V",
+    "condicion": "Permisos SADER federales; estado puede concurrir vía programas",
+    "estado": "Parcialmente explotada",
+    "estado_glosa": "Parcialmente explotada — ver 3A.30",
+    "proyectos_vinculados": [
+      "3A.30"
+    ]
+  },
+  {
+    "id": "3D.12",
+    "n": 12,
+    "titulo": "Integrar valorización energética de residuos orgánicos municipales al Plan Estatal de Desarrollo",
+    "ord_federal": "LBio",
+    "art": "Art. 1 Fracc. V; Art. 3 (remisión a LGEEPA, LGPGIR, LGCC)",
+    "condicion": "NOM y permiso SENER al salir del flujo local",
+    "estado": "Ociosa",
+    "estado_glosa": "Ociosa — pendiente reforma R-31, R-34",
+    "proyectos_vinculados": []
+  },
+  {
+    "id": "3D.13",
+    "n": 13,
+    "titulo": "Iniciativa legislativa estatal para coordinación municipal sobre residuos orgánicos urbanos con destino energético",
+    "ord_federal": "LBio",
+    "art": "Art. 1 Fracc. V; Art. 8; Art. 3 → LGPGIR",
+    "condicion": "Convenio federal para cerrar cadena energética",
+    "estado": "Ociosa",
+    "estado_glosa": "Ociosa — pendiente reforma R-34",
+    "proyectos_vinculados": []
+  },
+  {
+    "id": "3D.14",
+    "n": 14,
+    "titulo": "Convenios con universidades y centros de investigación estatales para I+D en biocombustibles",
+    "ord_federal": "LBio",
+    "art": "Arts. 20, 21 Fraccs. V, VIII; Art. 24 Fracc. II",
+    "condicion": "Concertación dentro del marco de convenio federal",
+    "estado": "Parcialmente explotada",
+    "estado_glosa": "Parcialmente explotada — ver 3A.35 (APP de coinversión LPIPSEJM)",
+    "proyectos_vinculados": [
+      "3A.35"
+    ]
+  },
+  {
+    "id": "3D.15",
+    "n": 15,
+    "titulo": "Solicitar/convenir instalación de oficinas regionales de la CNE en el estado",
+    "ord_federal": "LCNE",
+    "art": "Art. 2 párr. 3",
+    "condicion": "Decisión discrecional federal",
+    "estado": "Ociosa",
+    "estado_glosa": "Ociosa — sin gestión documentada en marco analizado",
+    "proyectos_vinculados": []
+  },
+  {
+    "id": "3D.16",
+    "n": 16,
+    "titulo": "Participar como invitado con voz en sesiones del Comité Técnico de la CNE",
+    "ord_federal": "LCNE",
+    "art": "Art. 18 párr. 8",
+    "condicion": "Invitación discrecional; sin voto",
+    "estado": "Parcialmente explotada",
+    "estado_glosa": "Parcialmente explotada — ver 3A.28",
+    "proyectos_vinculados": [
+      "3A.28"
+    ]
+  },
+  {
+    "id": "3D.17",
+    "n": 17,
+    "titulo": "Aportar elementos técnicos para el Programa Sectorial de Energía vía SENER",
+    "ord_federal": "LCNE",
+    "art": "Art. 7 Fracc. XVII",
+    "condicion": "Sin ruta formal en la Ley; convenio ad hoc",
+    "estado": "Ociosa",
+    "estado_glosa": "Ociosa",
+    "proyectos_vinculados": []
+  },
+  {
+    "id": "3D.18",
+    "n": 18,
+    "titulo": "Estado como Sujeto Regulado vía empresa pública estatal para participar en actividades del sector eléctrico",
+    "ord_federal": "LCNE",
+    "art": "Art. 6 Fracc. IV",
+    "condicion": "Régimen permisionario, tarifario y sancionador de la CNE; pago de derechos Art. 27",
+    "estado": "Parcialmente explotada",
+    "estado_glosa": "Parcialmente explotada — ver 3A.2; LOAEEJ Art. 3 Fracc. IV (pendiente R-17)",
+    "proyectos_vinculados": [
+      "3A.2"
+    ]
+  },
+  {
+    "id": "3D.19",
+    "n": 19,
+    "titulo": "Impugnar actos u omisiones de la CNE que afecten al estado o a sus entes",
+    "ord_federal": "LCNE",
+    "art": "Art. 28 párr. 1",
+    "condicion": "Limitada por Art. 28 párr. 3 (no se puede alegar daño económico)",
+    "estado": "Ociosa",
+    "estado_glosa": "Ociosa — sin litigio documentado en marco",
+    "proyectos_vinculados": []
+  },
+  {
+    "id": "3D.20",
+    "n": 20,
+    "titulo": "Suscribir con CFE convenios de coordinación, coinversión, electrificación rural, movilidad eléctrica, infraestructura asociada",
+    "ord_federal": "LEPECFE",
+    "art": "Art. 10 párr. 1",
+    "condicion": "Voluntad contractual de CFE",
+    "estado": "Parcialmente explotada",
+    "estado_glosa": "Parcialmente explotada — ver 3A.22, 3A.36",
+    "proyectos_vinculados": [
+      "3A.22",
+      "3A.36"
+    ]
+  },
+  {
+    "id": "3D.21",
+    "n": 21,
+    "titulo": "Posicionar entidades estatales como contrapartes de CFE mediante contratación directa por excepción al concurso",
+    "ord_federal": "LEPECFE",
+    "art": "Art. 83 Fracc. XXIII",
+    "condicion": "Capacidad jurídica y operativa",
+    "estado": "Parcialmente explotada",
+    "estado_glosa": "Parcialmente explotada — ver 3A.23",
+    "proyectos_vinculados": [
+      "3A.23"
+    ]
+  },
+  {
+    "id": "3D.22",
+    "n": 22,
+    "titulo": "Construir institucionalidad estatal de interlocución con CFE para responsabilidad social y compensación territorial",
+    "ord_federal": "LEPECFE",
+    "art": "Art. 115",
+    "condicion": "Organización estatal unilateral; eficacia depende de CFE",
+    "estado": "Ociosa",
+    "estado_glosa": "Ociosa — sin instrumento formal estatal documentado",
+    "proyectos_vinculados": []
+  },
+  {
+    "id": "3D.23",
+    "n": 23,
+    "titulo": "Participación estatal en esquemas de desarrollo mixto con CFE y filiales (compartir costos, inversiones, riesgos)",
+    "ord_federal": "LEPECFE",
+    "art": "Art. 11",
+    "condicion": "Normatividad del Consejo de Administración de CFE",
+    "estado": "Ociosa",
+    "estado_glosa": "Ociosa — pendiente R-44",
+    "proyectos_vinculados": []
+  },
+  {
+    "id": "3D.24",
+    "n": 24,
+    "titulo": "Expedir ley estatal de cambio climático y reglamentos en materias del Art. 8o LGCC",
+    "ord_federal": "LGCC",
+    "art": "Art. 11",
+    "condicion": "Limitado a materias del Art. 8o; no invadir Art. 7o",
+    "estado": "Explotada",
+    "estado_glosa": "Explotada — LACCEJ existente",
+    "proyectos_vinculados": []
+  },
+  {
+    "id": "3D.25",
+    "n": 25,
+    "titulo": "Ejecutar programas de eficiencia energética y uso de renovables en inmuebles y flotillas del gobierno estatal y municipal",
+    "ord_federal": "LGCC",
+    "art": "Art. 33 Fracc. IV",
+    "condicion": "Restringido a patrimonio público",
+    "estado": "Explotada",
+    "estado_glosa": "Explotada — ver 3A.10, 3A.17, 3A.54",
+    "proyectos_vinculados": [
+      "3A.10",
+      "3A.17",
+      "3A.54"
+    ]
+  },
+  {
+    "id": "3D.26",
+    "n": 26,
+    "titulo": "Diseñar e implementar sistemas de transporte público sustentable, movilidad no motorizada, planes de movilidad urbana",
+    "ord_federal": "LGCC",
+    "art": "Art. 8o Fracc. II inciso e); Fracc. IX; Art. 34 Fracc. II",
+    "condicion": "Congruencia con Estrategia Nacional y Programa",
+    "estado": "Explotada",
+    "estado_glosa": "Explotada — ver 3A.11",
+    "proyectos_vinculados": [
+      "3A.11"
+    ]
+  },
+  {
+    "id": "3D.27",
+    "n": 27,
+    "titulo": "Diseñar instrumentos económicos estatales (estímulos fiscales, fondos, fideicomisos) para mitigación y adaptación",
+    "ord_federal": "LGCC",
+    "art": "Art. 91; Art. 8o Fracc. XV",
+    "condicion": "En el ámbito de competencia estatal; no como mercado de carbono nacional",
+    "estado": "Parcialmente explotada",
+    "estado_glosa": "Parcialmente explotada — ver 3A.16; pleno alcance con R-12, R-69",
+    "proyectos_vinculados": [
+      "3A.16"
+    ]
+  },
+  {
+    "id": "3D.28",
+    "n": 28,
+    "titulo": "Celebrar convenios de coordinación con la Federación para asistencia técnica, acciones regionales, transferencia de recursos",
+    "ord_federal": "LGCC",
+    "art": "Arts. 7o Fracc. XXI; 8o Fracc. VII; 10",
+    "condicion": "Voluntad federal",
+    "estado": "Parcialmente explotada",
+    "estado_glosa": "Parcialmente explotada — ver 3A.13, 3A.57",
+    "proyectos_vinculados": [
+      "3A.13",
+      "3A.57"
+    ]
+  },
+  {
+    "id": "3D.29",
+    "n": 29,
+    "titulo": "Integrar inventario estatal de emisiones (incluido sector energía en jurisdicción estatal)",
+    "ord_federal": "LGCC",
+    "art": "Art. 8o Fracc. XII; Art. 7o Fracc. XIV inciso a)",
+    "condicion": "Sujeto a metodologías federales",
+    "estado": "Explotada",
+    "estado_glosa": "Explotada — ver 3A.8, 3A.24, 3A.58",
+    "proyectos_vinculados": [
+      "3A.8",
+      "3A.24",
+      "3A.58"
+    ]
+  },
+  {
+    "id": "3D.30",
+    "n": 30,
+    "titulo": "Reglamentos de construcción y ordenamiento territorial con criterios de eficiencia energética y sustentabilidad (edificaciones sustentables)",
+    "ord_federal": "LGCC",
+    "art": "Art. 30 Fracc. II; Art. 34 Fracc. I inciso i)",
+    "condicion": "Materias concurrentes (desarrollo urbano, ordenamiento territorial)",
+    "estado": "Parcialmente explotada",
+    "estado_glosa": "Parcialmente explotada — pleno alcance con R-23, R-47, R-64",
+    "proyectos_vinculados": []
+  },
+  {
+    "id": "3D.31",
+    "n": 31,
+    "titulo": "Convenio con SENER para Permisos para Usos Diversos geotérmicos",
+    "ord_federal": "LGeo",
+    "art": "Art. 7 Fracc. XXV",
+    "condicion": "Reglamento federal pendiente (Transitorio Quinto LGeo)",
+    "estado": "Ociosa diferida",
+    "estado_glosa": "Ociosa diferida — ver 3C.5",
+    "proyectos_vinculados": [
+      "3C.5"
+    ]
+  },
+  {
+    "id": "3D.32",
+    "n": 32,
+    "titulo": "Convenio con SENER para verificación e inspección de Permisos, Concesiones y Aprovechamientos Exentos geotérmicos",
+    "ord_federal": "LGeo",
+    "art": "Art. 7 Fracc. XXIII",
+    "condicion": "Coordinación formal con SENER (sin Reglamento)",
+    "estado": "Ociosa",
+    "estado_glosa": "Ociosa",
+    "proyectos_vinculados": []
+  },
+  {
+    "id": "3D.33",
+    "n": 33,
+    "titulo": "Coordinación con SENER, Conagua y dependencias federales para identificación del potencial geotérmico",
+    "ord_federal": "LGeo",
+    "art": "Art. 7 Fracc. XX",
+    "condicion": "Convenios técnicos",
+    "estado": "Parcialmente explotada",
+    "estado_glosa": "Parcialmente explotada — ver 3A.25",
+    "proyectos_vinculados": [
+      "3A.25"
+    ]
+  },
+  {
+    "id": "3D.34",
+    "n": 34,
+    "titulo": "Convenios con CFE para reconversión de pozos inactivos o resguardo de Áreas Geotérmicas",
+    "ord_federal": "LGeo",
+    "art": "Art. 7 Fracc. XXI; Art. 41",
+    "condicion": "Iniciativa federal; estado como facilitador",
+    "estado": "Ociosa",
+    "estado_glosa": "Ociosa",
+    "proyectos_vinculados": []
+  },
+  {
+    "id": "3D.35",
+    "n": 35,
+    "titulo": "Promoción ejecutiva de proyectos de Usos Diversos en invernaderos, secado agrícola, acuacultura y balneología",
+    "ord_federal": "LGeo",
+    "art": "Art. 7 Fracc. V; Fracc. XXVI",
+    "condicion": "Permiso federal o aviso de Aprovechamiento Exento",
+    "estado": "Ociosa",
+    "estado_glosa": "Ociosa",
+    "proyectos_vinculados": []
+  },
+  {
+    "id": "3D.36",
+    "n": 36,
+    "titulo": "Suscribir convenio con SENER para diseño e implementación de proyectos locales de Eficiencia Energética, Energías Limpias, almacenamiento y reducción de emisiones",
+    "ord_federal": "LPTE",
+    "art": "Art. 8 Fraccs. VI y VII",
+    "condicion": "Convenio con SENER",
+    "estado": "Parcialmente explotada",
+    "estado_glosa": "Parcialmente explotada — ver 3A.13, 3A.19, 3A.57",
+    "proyectos_vinculados": [
+      "3A.13",
+      "3A.19",
+      "3A.57"
+    ]
+  },
+  {
+    "id": "3D.37",
+    "n": 37,
+    "titulo": "Solicitar a CONUEE asesoría técnica y convenio para reglamentaciones locales de Eficiencia Energética",
+    "ord_federal": "LPTE",
+    "art": "Art. 11 Fracc. X",
+    "condicion": "Solicitud y convenio con CONUEE",
+    "estado": "Parcialmente explotada",
+    "estado_glosa": "Parcialmente explotada — ver 3A.18",
+    "proyectos_vinculados": [
+      "3A.18"
+    ]
+  },
+  {
+    "id": "3D.38",
+    "n": 38,
+    "titulo": "Proponer proyectos al Fondo para la Transición Energética y el Aprovechamiento Sustentable",
+    "ord_federal": "LPTE",
+    "art": "Art. 47 Fracc. II; Art. 48 párr. 2",
+    "condicion": "Reglas de operación; preferencia entidades públicas",
+    "estado": "Parcialmente explotada",
+    "estado_glosa": "Parcialmente explotada — ver 3A.14, 3A.20",
+    "proyectos_vinculados": [
+      "3A.14",
+      "3A.20"
+    ]
+  },
+  {
+    "id": "3D.39",
+    "n": 39,
+    "titulo": "Legislar reglamentación técnica local en Eficiencia Energética y Aprovechamiento Sustentable",
+    "ord_federal": "LPTE",
+    "art": "Art. 8 Fracc. VII; Art. 11 Fracc. X",
+    "condicion": "No contravenir NOM federales",
+    "estado": "Ociosa",
+    "estado_glosa": "Ociosa — pendiente R-23, R-64",
+    "proyectos_vinculados": []
+  },
+  {
+    "id": "3D.40",
+    "n": 40,
+    "titulo": "Crear instancia estatal de planeación energética territorial complementaria a la federal",
+    "ord_federal": "LPTE",
+    "art": "Art. 8 Fracc. VI; Art. 2 (no excluye planeación estatal)",
+    "condicion": "No invadir PLADESE/PLADESHi/PLATEASE",
+    "estado": "Parcialmente explotada",
+    "estado_glosa": "Parcialmente explotada — LOAEEJ existente; pleno alcance con R-20",
+    "proyectos_vinculados": []
+  },
+  {
+    "id": "3D.41",
+    "n": 41,
+    "titulo": "Receptor y operador territorial del Fondo de Servicio Universal Energético para Pobreza Energética",
+    "ord_federal": "LPTE",
+    "art": "Art. 50",
+    "condicion": "Sin reconocimiento como ejecutor directo",
+    "estado": "Ociosa diferida",
+    "estado_glosa": "Ociosa diferida — ver 3C.3, 3C.11",
+    "proyectos_vinculados": [
+      "3C.3",
+      "3C.11"
+    ]
+  },
+  {
+    "id": "3D.42",
+    "n": 42,
+    "titulo": "Establecer metas estatales de Energías Limpias superiores a la federal",
+    "ord_federal": "LPTE",
+    "art": "Art. 26 (no prohibitivo)",
+    "condicion": "Sin habilitación expresa estatal en Ley",
+    "estado": "Ociosa",
+    "estado_glosa": "Ociosa — pendiente R-13, R-28",
+    "proyectos_vinculados": []
+  },
+  {
+    "id": "3D.43",
+    "n": 43,
+    "titulo": "Emitir estándares estatales de eficiencia energética en edificaciones públicas locales",
+    "ord_federal": "LPTE",
+    "art": "Art. 8 Fracc. VII",
+    "condicion": "Compatibilidad con NOM federales",
+    "estado": "Parcialmente explotada",
+    "estado_glosa": "Parcialmente explotada",
+    "proyectos_vinculados": []
+  },
+  {
+    "id": "3D.44",
+    "n": 44,
+    "titulo": "Participar en Consejo de Planeación Energética como invitado",
+    "ord_federal": "LPTE",
+    "art": "Art. 19",
+    "condicion": "Invitación discrecional; sin voto",
+    "estado": "Parcialmente explotada",
+    "estado_glosa": "Parcialmente explotada — ver 3A.28",
+    "proyectos_vinculados": [
+      "3A.28"
+    ]
+  },
+  {
+    "id": "3D.45",
+    "n": 45,
+    "titulo": "Diseñar Ventanilla Única Estatal para permisos estatales/municipales vinculados a proyectos eléctricos",
+    "ord_federal": "LSE",
+    "art": "Art. 88 párr. 3",
+    "condicion": "Convenio con Secretaría federal",
+    "estado": "Parcialmente explotada",
+    "estado_glosa": "Parcialmente explotada — ver 3A.21; pleno alcance con R-22",
+    "proyectos_vinculados": [
+      "3A.21"
+    ]
+  },
+  {
+    "id": "3D.46",
+    "n": 46,
+    "titulo": "Suscribir convenios con la Secretaría federal para electrificación de comunidades rurales y zonas marginadas",
+    "ord_federal": "LSE",
+    "art": "Art. 129; Art. 132",
+    "condicion": "Discrecional federal",
+    "estado": "Parcialmente explotada",
+    "estado_glosa": "Parcialmente explotada — ver 3A.22, 3A.36",
+    "proyectos_vinculados": [
+      "3A.22",
+      "3A.36"
+    ]
+  },
+  {
+    "id": "3D.47",
+    "n": 47,
+    "titulo": "Programas estatales de fomento y financiamiento a Generación Distribuida con Energía Limpia (≤0.7 MW)",
+    "ord_federal": "LSE",
+    "art": "Arts. 25, 28",
+    "condicion": "Coordinación con CNE; uso de facultades fiscales y de fomento estatales",
+    "estado": "Parcialmente explotada",
+    "estado_glosa": "Parcialmente explotada — pleno alcance con R-29, R-69",
+    "proyectos_vinculados": []
+  },
+  {
+    "id": "3D.48",
+    "n": 48,
+    "titulo": "Normatividad estatal de uso de suelo y movilidad aplicable a infraestructura de electromovilidad",
+    "ord_federal": "LSE",
+    "art": "Art. 86 (en lo no técnico-eléctrico)",
+    "condicion": "No invadir materia técnica eléctrica",
+    "estado": "Ociosa",
+    "estado_glosa": "Ociosa — pendiente R-68",
+    "proyectos_vinculados": []
+  },
+  {
+    "id": "3D.49",
+    "n": 49,
+    "titulo": "Participación del estado como promovente o cofinanciador en esquemas de Inversión Mixta o Producción de Largo Plazo",
+    "ord_federal": "LSE",
+    "art": "Arts. 38, 39, 40",
+    "condicion": "\"El Estado\" refiere a Empresa Pública del Estado",
+    "estado": "Ociosa",
+    "estado_glosa": "Ociosa — ver 3C",
+    "proyectos_vinculados": []
+  },
+  {
+    "id": "3D.50",
+    "n": 50,
+    "titulo": "Observatorio estatal de confiabilidad, calidad y tarifas y defensoría del usuario eléctrico",
+    "ord_federal": "LSE",
+    "art": "Art. 11 Fracc. XLVI; competencias concurrentes",
+    "condicion": "No sustituye a CNE ni PROFECO",
+    "estado": "Parcialmente explotada",
+    "estado_glosa": "Parcialmente explotada — ver 3A.27",
+    "proyectos_vinculados": [
+      "3A.27"
+    ]
+  },
+  {
+    "id": "3D.51",
+    "n": 51,
+    "titulo": "Régimen estatal de consulta previa complementaria a comunidades indígenas y afromexicanas en proyectos eléctricos",
+    "ord_federal": "LSE",
+    "art": "Arts. 133, 134, 135",
+    "condicion": "Complementariedad con consulta federal",
+    "estado": "Ociosa",
+    "estado_glosa": "Ociosa — pendiente R-26, R-41, R-86",
+    "proyectos_vinculados": []
+  },
+  {
+    "id": "3D.52",
+    "n": 52,
+    "titulo": "Gestión estatal de pequeños sistemas eléctricos aislados en zonas serranas o indígenas",
+    "ord_federal": "LSE",
+    "art": "Arts. 79, 80",
+    "condicion": "Control Operativo CENACE; autorización federal caso por caso",
+    "estado": "Parcialmente explotada",
+    "estado_glosa": "Parcialmente explotada — ver 3A.37; pleno alcance ver 3C.9",
+    "proyectos_vinculados": [
+      "3A.37",
+      "3C.9"
+    ]
+  },
+  {
+    "id": "3D.53",
+    "n": 53,
+    "titulo": "Suscribir convenio con SENER/CNE para supervisar, vigilar y verificar actividades de transporte, almacenamiento, distribución, comercialización y expendio de gas natural y petrolíferos",
+    "ord_federal": "LSH",
+    "art": "Art. 78",
+    "condicion": "Convenio federal",
+    "estado": "Ociosa",
+    "estado_glosa": "Ociosa — sin instrumentación documentada",
+    "proyectos_vinculados": []
+  },
+  {
+    "id": "3D.54",
+    "n": 54,
+    "titulo": "Establecer procedimientos estatales/municipales expeditos de coordinación para permisos complementarios a infraestructura de hidrocarburos",
+    "ord_federal": "LSH",
+    "art": "Art. 128 párr. 3",
+    "condicion": "\"Ámbito de competencia\" estatal/municipal",
+    "estado": "Ociosa",
+    "estado_glosa": "Ociosa",
+    "proyectos_vinculados": []
+  },
+  {
+    "id": "3D.55",
+    "n": 55,
+    "titulo": "Prestar apoyo operativo (policía estatal, fiscalía, protección civil) en ejecución de suspensiones federales contra mercado ilícito de hidrocarburos",
+    "ord_federal": "LSH",
+    "art": "Art. 79 párr. 5",
+    "condicion": "Solicitud SENER/CNE",
+    "estado": "Parcialmente explotada",
+    "estado_glosa": "Parcialmente explotada (operativa habitual)",
+    "proyectos_vinculados": []
+  },
+  {
+    "id": "3D.56",
+    "n": 56,
+    "titulo": "Aportar formalmente diagnóstico de \"demanda local y regional\" de energéticos para influir en evaluación de permisos por SENER/CNE",
+    "ord_federal": "LSH",
+    "art": "Art. 81 párr. 1",
+    "condicion": "Sin mecanismo formal de coordinación",
+    "estado": "Ociosa diferida",
+    "estado_glosa": "Ociosa diferida — ver 3C.14",
+    "proyectos_vinculados": [
+      "3C.14"
+    ]
+  },
+  {
+    "id": "3D.57",
+    "n": 57,
+    "titulo": "Coordinarse con SENER en consulta previa a comunidades indígenas en territorio jaliscience (wixárika, náayeri, o'dam, mexicaneros)",
+    "ord_federal": "LSH",
+    "art": "Art. 151",
+    "condicion": "Sin mención expresa de órganos estatales",
+    "estado": "Ociosa diferida",
+    "estado_glosa": "Ociosa diferida — ver 3C.12",
+    "proyectos_vinculados": [
+      "3C.12"
+    ]
+  },
+  {
+    "id": "3D.58",
+    "n": 58,
+    "titulo": "Solicitar a SENER la creación de Zona de Salvaguarda en áreas prioritarias de conservación estatal",
+    "ord_federal": "LSH",
+    "art": "Art. 69",
+    "condicion": "Iniciativa formal a cargo de SENER al Ejecutivo Federal",
+    "estado": "Ociosa diferida",
+    "estado_glosa": "Ociosa diferida — ver 3C.13",
+    "proyectos_vinculados": [
+      "3C.13"
+    ]
+  }
+]

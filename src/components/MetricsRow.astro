@@ -1,0 +1,33 @@
+---
+// MetricsRow — fila de métricas con hairlines verticales entre ellas
+// Uso:
+//   <MetricsRow metrics={[
+//     { number: "80", label: "Debilidades" },
+//     { number: "101", label: "Reformas" },
+//   ]} />
+interface Metric {
+  number: string | number;
+  label: string;
+}
+interface Props {
+  metrics: Metric[];
+  class?: string;
+}
+const { metrics, class: className = '' } = Astro.props;
+const cols = metrics.length;
+const rowClass =
+  cols === 3 ? 'metrics-row--3' :
+  cols === 4 ? 'metrics-row--4' :
+  cols === 5 ? 'metrics-row--5' :
+  cols === 6 ? 'metrics-row--6' :
+  '';
+const inline = rowClass ? '' : `grid-template-columns: repeat(${cols}, 1fr);`;
+---
+<div class={`metrics-row ${rowClass} ${className}`} style={inline}>
+  {metrics.map((m) => (
+    <div class="metric">
+      <div class="metric-number">{m.number}</div>
+      <div class="metric-label">{m.label}</div>
+    </div>
+  ))}
+</div>

@@ -1,0 +1,1026 @@
+[
+  {
+    "id": "1A.1",
+    "n": 1,
+    "ord": "CPEJ",
+    "art": "Art. 15, Fraccs. VI y VII (omisas)",
+    "tipo": "Vacío",
+    "prioridad": "Alta",
+    "texto": "Ausencia total de referencia constitucional a energía, transición energética, eficiencia o cambio climático como eje del sistema estatal de planeación",
+    "reformas": [
+      "R-02"
+    ],
+    "proyectos": []
+  },
+  {
+    "id": "1A.2",
+    "n": 2,
+    "ord": "CPEJ",
+    "art": "Art. 4° y Art. 15 (ausencia)",
+    "tipo": "Omisión",
+    "prioridad": "Alta",
+    "texto": "No se reconoce derecho humano al acceso a energía asequible, limpia y fiable",
+    "reformas": [
+      "R-01"
+    ],
+    "proyectos": []
+  },
+  {
+    "id": "1A.3",
+    "n": 3,
+    "ord": "CPEJ",
+    "art": "Art. 50, Fracc. X; Art. 15, Fracc. VI",
+    "tipo": "Vacío",
+    "prioridad": "Alta",
+    "texto": "Ausencia de anclaje constitucional para planeación energética estatal y para coordinación con la dependencia federal y CFE",
+    "reformas": [
+      "R-02"
+    ],
+    "proyectos": []
+  },
+  {
+    "id": "1A.4",
+    "n": 4,
+    "ord": "LACCEJ",
+    "art": "Art. 31, Fraccs. IV–X; Art. 33, Fracc. I; Art. 34; Art. 115",
+    "tipo": "Desactualización",
+    "prioridad": "Alta",
+    "texto": "Marco energético desactualizado: referencias implícitas a LIE 2014/LTE 2015 abrogadas por el paquete federal DOF 18-03-2025 y la reforma CPEUM 20-12-2024",
+    "reformas": [
+      "R-06"
+    ],
+    "proyectos": []
+  },
+  {
+    "id": "1A.5",
+    "n": 5,
+    "ord": "LACCEJ",
+    "art": "Omisión estructural en Título Segundo",
+    "tipo": "Omisión",
+    "prioridad": "Alta",
+    "texto": "Ausencia de mecanismo de convenio con SENER/CONUEE/CNE para eficiencia energética, energías limpias, almacenamiento y reglamentación técnica local",
+    "reformas": [
+      "R-08"
+    ],
+    "proyectos": []
+  },
+  {
+    "id": "1A.6",
+    "n": 6,
+    "ord": "LACCEJ",
+    "art": "Transitorio Cuarto",
+    "tipo": "Vacío",
+    "prioridad": "Alta",
+    "texto": "No hay Fondo Estatal de Cambio Climático con autonomía; Transitorio Cuarto condicionado a \"suficiencia presupuestaria\" dentro del Fondo Ambiental",
+    "reformas": [
+      "R-12"
+    ],
+    "proyectos": []
+  },
+  {
+    "id": "1A.7",
+    "n": 7,
+    "ord": "LACCEJ",
+    "art": "Art. 30; Art. 31; Art. 59",
+    "tipo": "Vacío",
+    "prioridad": "Alta",
+    "texto": "Sin metas estatales cuantitativas de largo plazo en ley (reducción de emisiones, generación limpia en patrimonio público, NDC)",
+    "reformas": [
+      "R-13"
+    ],
+    "proyectos": []
+  },
+  {
+    "id": "1A.8",
+    "n": 8,
+    "ord": "LACCEJ",
+    "art": "Art. 7 (definiciones); Título Tercero",
+    "tipo": "Vacío",
+    "prioridad": "Alta",
+    "texto": "Ausencia de Pobreza Energética, Justicia Energética, Generación Limpia Distribuida y Almacenamiento como figuras y políticas",
+    "reformas": [
+      "R-10"
+    ],
+    "proyectos": []
+  },
+  {
+    "id": "1A.9",
+    "n": 9,
+    "ord": "LACCEJ",
+    "art": "Omisión estructural en Título Quinto",
+    "tipo": "Omisión",
+    "prioridad": "Alta",
+    "texto": "No hay política de contratación pública climáticamente responsable con estándares obligatorios (compras, flotillas, GLD en inmuebles nuevos)",
+    "reformas": [
+      "R-15"
+    ],
+    "proyectos": []
+  },
+  {
+    "id": "1A.10",
+    "n": 10,
+    "ord": "LOAEEJ",
+    "art": "Art. 3, Fraccs. VII y XXXV",
+    "tipo": "Omisión / Desactualización",
+    "prioridad": "Alta",
+    "texto": "Plan Estatal de Energía sin subordinación expresa a planeación vinculante federal (PLADESE/PLATEASE) ni articulación con Programa Estatal de Cambio Climático",
+    "reformas": [
+      "R-20"
+    ],
+    "proyectos": []
+  },
+  {
+    "id": "1A.11",
+    "n": 11,
+    "ord": "LOAEEJ",
+    "art": "Art. 3, Fracc. XXVII",
+    "tipo": "Vacío",
+    "prioridad": "Alta",
+    "texto": "Ausencia de régimen de convenios federales específicos (SENER, CNE, CONUEE, CFE, SENER-geotermia) como vía principal de operación estatal",
+    "reformas": [
+      "R-21"
+    ],
+    "proyectos": []
+  },
+  {
+    "id": "1A.12",
+    "n": 12,
+    "ord": "LOAEEJ",
+    "art": "[AUSENCIA en el articulado]",
+    "tipo": "Vacío",
+    "prioridad": "Alta",
+    "texto": "Ausencia de designación de ventanilla única estatal para proyectos federales de electricidad e hidrocarburos",
+    "reformas": [
+      "R-22"
+    ],
+    "proyectos": []
+  },
+  {
+    "id": "1A.13",
+    "n": 13,
+    "ord": "LOAEEJ",
+    "art": "[AUSENCIA en el articulado]",
+    "tipo": "Omisión",
+    "prioridad": "Alta",
+    "texto": "Ausencia de procedimiento formal de postulación al Fondo para la Transición Energética y al Fondo de Servicio Universal Energético",
+    "reformas": [
+      "R-25"
+    ],
+    "proyectos": []
+  },
+  {
+    "id": "1A.14",
+    "n": 14,
+    "ord": "LAEJ",
+    "art": "Omisión transversal; Arts. 2, 4, 6 (Fraccs. II, XXIX, XLII), 17 (Fracc. IV), 25",
+    "tipo": "Vacío / Omisión de implementación",
+    "prioridad": "Alta",
+    "texto": "Ausencia total de régimen sobre biomasa agroalimentaria y valorización energética de residuos orgánicos con destino a biocombustibles",
+    "reformas": [
+      "R-31"
+    ],
+    "proyectos": []
+  },
+  {
+    "id": "1A.15",
+    "n": 15,
+    "ord": "LAEJ",
+    "art": "Art. 6, Fracc. VII y Art. 7 (coordinación genérica insuficiente)",
+    "tipo": "Vacío",
+    "prioridad": "Alta",
+    "texto": "Agencia agroalimentaria sin atribución expresa para suscribir convenios con SENER/SADER/SEMARNAT en materia LBio",
+    "reformas": [
+      "R-33"
+    ],
+    "proyectos": []
+  },
+  {
+    "id": "1A.16",
+    "n": 16,
+    "ord": "LPIPSEJM",
+    "art": "Art. 2; Art. 8",
+    "tipo": "Vacío / Desactualización",
+    "prioridad": "Alta",
+    "texto": "Ley no tipifica \"proyecto energético\" ni articula con permisos CNE, operación CENACE y servidumbres LSE; el vehículo APP opera sin brújula sectorial",
+    "reformas": [
+      "R-37"
+    ],
+    "proyectos": []
+  },
+  {
+    "id": "1A.17",
+    "n": 17,
+    "ord": "LPIPSEJM",
+    "art": "Art. 8, Fracc. IX, inciso f)",
+    "tipo": "Omisión",
+    "prioridad": "Alta",
+    "texto": "Catálogo de riesgos contractuales no incluye riesgo regulatorio federal (intervención, requisa, modificación de permiso)",
+    "reformas": [
+      "R-39"
+    ],
+    "proyectos": []
+  },
+  {
+    "id": "1A.18",
+    "n": 18,
+    "ord": "LPIPSEJM",
+    "art": "Art. 3",
+    "tipo": "Desactualización",
+    "prioridad": "Alta",
+    "texto": "Marco supletorio omite LSE, LPTE, LCNE, LEPECFE, LSH, LGeo, LBio (DOF 18-03-2025) y reforma CPEUM 20-12-2024",
+    "reformas": [
+      "R-43"
+    ],
+    "proyectos": []
+  },
+  {
+    "id": "1A.19",
+    "n": 19,
+    "ord": "LPIPSEJM",
+    "art": "Art. 18, Apartado A",
+    "tipo": "Omisión",
+    "prioridad": "Alta",
+    "texto": "Comité de Adjudicación sin representación del órgano estatal especializado en energía",
+    "reformas": [
+      "R-38"
+    ],
+    "proyectos": []
+  },
+  {
+    "id": "1A.20",
+    "n": 20,
+    "ord": "LPIPSEJM",
+    "art": "Art. 8, Fracc. III",
+    "tipo": "Vacío",
+    "prioridad": "Alta",
+    "texto": "Ausencia de coordinación con Consulta Previa federal para proyectos en territorio indígena y afromexicano",
+    "reformas": [
+      "R-41"
+    ],
+    "proyectos": []
+  },
+  {
+    "id": "1A.21",
+    "n": 21,
+    "ord": "LGAPM",
+    "art": "Art. 37 (fracción inexistente análoga a Fracc. VIII); Art. 94 Fracc. II y párr. último",
+    "tipo": "Omisión",
+    "prioridad": "Alta",
+    "texto": "Ausencia de mandato de eficiencia energética y bases generales para reglamentos municipales de alumbrado público",
+    "reformas": [
+      "R-46"
+    ],
+    "proyectos": []
+  },
+  {
+    "id": "1A.22",
+    "n": 22,
+    "ord": "LGAPM",
+    "art": "Art. 37, Fracc. XIV",
+    "tipo": "Omisión",
+    "prioridad": "Alta",
+    "texto": "Omisión de criterios energéticos, generación distribuida y edificación sustentable en el Programa Municipal de Desarrollo Urbano y licencias de construcción",
+    "reformas": [
+      "R-47"
+    ],
+    "proyectos": []
+  },
+  {
+    "id": "1A.23",
+    "n": 23,
+    "ord": "LGAPM",
+    "art": "Art. 38, Fracc. XIII",
+    "tipo": "Vacío",
+    "prioridad": "Alta",
+    "texto": "Ausencia de cambio climático, mitigación de emisiones y transición energética en la facultad ambiental municipal coordinada con el Estado",
+    "reformas": [
+      "R-48"
+    ],
+    "proyectos": []
+  },
+  {
+    "id": "1A.24",
+    "n": 24,
+    "ord": "LGAPM",
+    "art": "Art. 94-Bis; Art. 95",
+    "tipo": "Vacío",
+    "prioridad": "Alta",
+    "texto": "Falta de figura específica de coordinación Estado–Municipio en materia energética y de reconocimiento operativo de la AEEJ como interlocutora municipal",
+    "reformas": [
+      "R-49"
+    ],
+    "proyectos": []
+  },
+  {
+    "id": "1A.25",
+    "n": 25,
+    "ord": "LPAEJ",
+    "art": "Art. 4",
+    "tipo": "Desactualización",
+    "prioridad": "Alta",
+    "texto": "Catálogo de principios desactualizado: omite Justicia Energética, consulta previa, pro persona, máxima publicidad, precaución ambiental",
+    "reformas": [
+      "R-55"
+    ],
+    "proyectos": []
+  },
+  {
+    "id": "1A.26",
+    "n": 26,
+    "ord": "LPAEJ",
+    "art": "Arts. 44–54, 99–116 (no la contemplan)",
+    "tipo": "Vacío",
+    "prioridad": "Alta",
+    "texto": "Ausencia de etapa procesal obligatoria de consulta previa, libre e informada a pueblos y comunidades indígenas",
+    "reformas": [
+      "R-57"
+    ],
+    "proyectos": []
+  },
+  {
+    "id": "1A.27",
+    "n": 27,
+    "ord": "LPAEJ",
+    "art": "Arts. 13 Fracc. I; 35; 84",
+    "tipo": "Omisión de implementación",
+    "prioridad": "Alta",
+    "texto": "Procedimiento administrativo digital incompleto (sin expediente electrónico unificado, notificación electrónica vinculante ni interoperabilidad federal)",
+    "reformas": [
+      "R-56"
+    ],
+    "proyectos": []
+  },
+  {
+    "id": "1A.28",
+    "n": 28,
+    "ord": "LEEEPA-Jal",
+    "art": "Art. 3, Fracc. XXXII",
+    "tipo": "Vacío / Omisión",
+    "prioridad": "Alta",
+    "texto": "\"Rescate energético\" definido pero sin régimen operativo de aprovechamiento energético de residuos (biogás, WTE, biomasa)",
+    "reformas": [
+      "R-63"
+    ],
+    "proyectos": []
+  },
+  {
+    "id": "1A.29",
+    "n": 29,
+    "ord": "LEEEPA-Jal",
+    "art": "Art. 14; Art. 76 (ausencia específica)",
+    "tipo": "Omisión",
+    "prioridad": "Alta",
+    "texto": "Ausencia de reglamentación técnica local de eficiencia energética y construcción sustentable, pese a ventana federal expresa (LGCC Art. 34-I-i; LPTE Art. 8-VII)",
+    "reformas": [
+      "R-64"
+    ],
+    "proyectos": []
+  },
+  {
+    "id": "1A.30",
+    "n": 30,
+    "ord": "LEEEPA-Jal",
+    "art": "Art. 72 (ausencia)",
+    "tipo": "Vacío",
+    "prioridad": "Alta",
+    "texto": "Electromovilidad no regulada como política ambiental estatal; sólo verificación vehicular de emisiones convencionales",
+    "reformas": [
+      "R-68"
+    ],
+    "proyectos": []
+  },
+  {
+    "id": "1A.31",
+    "n": 31,
+    "ord": "LEEEPA-Jal",
+    "art": "Art. 14, Fraccs. I y II",
+    "tipo": "Desactualización",
+    "prioridad": "Alta",
+    "texto": "Estímulos fiscales con lenguaje genérico (\"fuentes menos contaminantes\") sin criterios, vehículo fiscal específico ni terminología LPTE vigente (\"Energías Limpias\")",
+    "reformas": [
+      "R-65",
+      "R-69"
+    ],
+    "proyectos": []
+  },
+  {
+    "id": "1A.32",
+    "n": 32,
+    "ord": "REEEPA",
+    "art": "Art. 1; Art. 2; Art. 5",
+    "tipo": "Desactualización / Conflicto",
+    "prioridad": "Alta",
+    "texto": "Ausencia de cláusula de deferencia expresa al marco federal energético vigente post 18-03-2025 (LSH Art. 127; LSE Art. 7; LBio Art. 5 Fracc. IX)",
+    "reformas": [
+      "R-73"
+    ],
+    "proyectos": []
+  },
+  {
+    "id": "1A.33",
+    "n": 33,
+    "ord": "REEEPA",
+    "art": "Art. 5",
+    "tipo": "Vacío / Omisión",
+    "prioridad": "Alta",
+    "texto": "Lista del Art. 5 no distingue proyectos energéticos federales ni crea modalidad expedita para generación distribuida, biogás, WTE, cogeneración y recarga de EV",
+    "reformas": [
+      "R-74"
+    ],
+    "proyectos": []
+  },
+  {
+    "id": "1A.34",
+    "n": 34,
+    "ord": "REEEPA",
+    "art": "Art. 3 Fracc. II; Art. 47",
+    "tipo": "Omisión",
+    "prioridad": "Alta",
+    "texto": "Cédula de Operación Anual sin campos de consumo energético, mix de combustibles ni GEI; desconexión del RENE (LGCC Art. 7 XV)",
+    "reformas": [
+      "R-76"
+    ],
+    "proyectos": []
+  },
+  {
+    "id": "1A.35",
+    "n": 35,
+    "ord": "REEEPA",
+    "art": "Art. 53",
+    "tipo": "Vacío",
+    "prioridad": "Alta",
+    "texto": "Régimen del Art. 53 (combustión a cielo abierto) incompatible con aprovechamiento energético de biogás y quemadores de seguridad en WTE",
+    "reformas": [
+      "R-75"
+    ],
+    "proyectos": []
+  },
+  {
+    "id": "1A.36",
+    "n": 36,
+    "ord": "REEEPA",
+    "art": "Art. 2 Párr. 2",
+    "tipo": "Omisión",
+    "prioridad": "Alta",
+    "texto": "Ausencia de convenios específicos expresos con SENER, CNE, CONUEE, CENACE e INECC como vía de coordinación",
+    "reformas": [
+      "R-77"
+    ],
+    "proyectos": []
+  },
+  {
+    "id": "1A.37",
+    "n": 37,
+    "ord": "LJAEJ",
+    "art": "Art. 29, Fraccs. II y VIII",
+    "tipo": "Vacío / Omisión",
+    "prioridad": "Alta",
+    "texto": "Ausencia de carve-out expreso por competencia federal exclusiva energética en causales de improcedencia",
+    "reformas": [
+      "R-82"
+    ],
+    "proyectos": []
+  },
+  {
+    "id": "1A.38",
+    "n": 38,
+    "ord": "LJAEJ",
+    "art": "Arts. 1, 3, 4 (ausencia)",
+    "tipo": "Vacío",
+    "prioridad": "Alta",
+    "texto": "Vacío de consulta previa, libre e informada a comunidades indígenas en juicios con afectación por proyectos energéticos",
+    "reformas": [
+      "R-86"
+    ],
+    "proyectos": []
+  },
+  {
+    "id": "1A.39",
+    "n": 39,
+    "ord": "LJAEJ",
+    "art": "Art. 34 (competencia auxiliar limitada a primera instancia civil estatal)",
+    "tipo": "Vacío",
+    "prioridad": "Alta",
+    "texto": "Falta de articulación procesal con jurisdicción federal (TFJA, Juzgados de Distrito) en litigios con materia mixta",
+    "reformas": [
+      "R-90"
+    ],
+    "proyectos": []
+  },
+  {
+    "id": "1A.40",
+    "n": 40,
+    "ord": "LMR-Jal",
+    "art": "Art. 59, párr. 1",
+    "tipo": "Desactualización / Vacío",
+    "prioridad": "Alta",
+    "texto": "Propósitos del AIR omiten Justicia Energética, precaución ambiental, pro persona, perspectiva intergeneracional y de género",
+    "reformas": [
+      "R-91"
+    ],
+    "proyectos": []
+  },
+  {
+    "id": "1A.41",
+    "n": 41,
+    "ord": "LMR-Jal",
+    "art": "Ausente en Cap. III del Título Tercero",
+    "tipo": "Vacío",
+    "prioridad": "Alta",
+    "texto": "Ausencia de consulta previa, libre e informada a pueblos y comunidades indígenas como etapa procesal obligatoria del AIR",
+    "reformas": [
+      "R-92"
+    ],
+    "proyectos": []
+  },
+  {
+    "id": "1A.42",
+    "n": 42,
+    "ord": "LMR-Jal",
+    "art": "Art. 14, párr. 1 y párr. 6",
+    "tipo": "Omisión estructural",
+    "prioridad": "Alta",
+    "texto": "Agencia de Energía del Estado de Jalisco no integra el Consejo Estatal de Mejora Regulatoria con voz y voto permanentes",
+    "reformas": [
+      "R-94"
+    ],
+    "proyectos": []
+  },
+  {
+    "id": "1A.43",
+    "n": 43,
+    "ord": "LMR-Jal",
+    "art": "Art. 58, párr. 3",
+    "tipo": "Vacío",
+    "prioridad": "Alta",
+    "texto": "Ausencia de manual sectorial energético-climático de AIR (sólo habilitado por lineamientos generales potestativos)",
+    "reformas": [
+      "R-93"
+    ],
+    "proyectos": []
+  },
+  {
+    "id": "1A.44",
+    "n": 44,
+    "ord": "LMR-Jal",
+    "art": "Ausente en Arts. 62-67",
+    "tipo": "Vacío",
+    "prioridad": "Alta",
+    "texto": "Sin procedimiento de opinión consultiva obligatoria de CNE y CONAMER para regulaciones estatales con dimensión federal energética",
+    "reformas": [
+      "R-95"
+    ],
+    "proyectos": []
+  },
+  {
+    "id": "1A.45",
+    "n": 45,
+    "ord": "CPEJ",
+    "art": "Art. 35 y Art. 15, Fracc. X (ausencia)",
+    "tipo": "Omisión",
+    "prioridad": "Media",
+    "texto": "No se consagra la obligación del Congreso local de fijar por ley el porcentaje municipal en el impuesto sobre energía eléctrica",
+    "reformas": [
+      "R-04"
+    ],
+    "proyectos": []
+  },
+  {
+    "id": "1A.46",
+    "n": 46,
+    "ord": "CPEJ",
+    "art": "Art. 35, Fracc. I",
+    "tipo": "Desactualización",
+    "prioridad": "Media",
+    "texto": "Reserva competencial genérica al Congreso estatal sin enumeración de márgenes energéticos concurrentes",
+    "reformas": [],
+    "proyectos": []
+  },
+  {
+    "id": "1A.47",
+    "n": 47,
+    "ord": "CPEJ",
+    "art": "Art. 50, Fracc. XVIII",
+    "tipo": "Omisión",
+    "prioridad": "Media",
+    "texto": "Ausencia de mandato constitucional para facultar al Ejecutivo a celebrar convenios específicos en materia energética",
+    "reformas": [
+      "R-03"
+    ],
+    "proyectos": []
+  },
+  {
+    "id": "1A.48",
+    "n": 48,
+    "ord": "LACCEJ",
+    "art": "Art. 13, Fracc. XI; Art. 25, Fracc. XIII",
+    "tipo": "Desactualización",
+    "prioridad": "Media",
+    "texto": "Atlas de Riesgo estatal no articulado con el Atlas Nacional de Vulnerabilidad al Cambio Climático (reforma LGCC 15-11-2023)",
+    "reformas": [
+      "R-11"
+    ],
+    "proyectos": []
+  },
+  {
+    "id": "1A.49",
+    "n": 49,
+    "ord": "LOAEEJ",
+    "art": "Art. 5, Fracc. III, inciso b), numeral 1",
+    "tipo": "Desactualización",
+    "prioridad": "Media",
+    "texto": "CENACE integrado como vocal de la Junta de Gobierno sin base federal exigible; operatividad depende de voluntad federal",
+    "reformas": [
+      "R-14",
+      "R-27"
+    ],
+    "proyectos": []
+  },
+  {
+    "id": "1A.50",
+    "n": 50,
+    "ord": "LOAEEJ",
+    "art": "[AUSENCIA en el articulado]",
+    "tipo": "Vacío",
+    "prioridad": "Media",
+    "texto": "Ausencia de régimen de consulta previa a pueblos y comunidades indígenas para proyectos de la Agencia en territorio wixárika, náayeri y o'dam",
+    "reformas": [
+      "R-26"
+    ],
+    "proyectos": []
+  },
+  {
+    "id": "1A.51",
+    "n": 51,
+    "ord": "LOAEEJ",
+    "art": "Art. 3, Fracc. XXXV, párr. 2",
+    "tipo": "Omisión",
+    "prioridad": "Media",
+    "texto": "Ausencia de metas cuantitativas estatales (energías limpias, eficiencia, almacenamiento) con MRV en el Plan Estatal de Energía",
+    "reformas": [
+      "R-28"
+    ],
+    "proyectos": []
+  },
+  {
+    "id": "1A.52",
+    "n": 52,
+    "ord": "LOAEEJ",
+    "art": "[AUSENCIA en el articulado]",
+    "tipo": "Vacío",
+    "prioridad": "Media",
+    "texto": "Ausencia de figuras de pobreza energética y electrificación rural como objeto de la Agencia (zonas serranas e indígenas de Jalisco)",
+    "reformas": [],
+    "proyectos": []
+  },
+  {
+    "id": "1A.53",
+    "n": 53,
+    "ord": "LAEJ",
+    "art": "Art. 19",
+    "tipo": "Omisión / Desactualización",
+    "prioridad": "Media",
+    "texto": "Proyectos de infraestructura agroalimentaria sin incorporación de criterios energéticos (eficiencia, autoabastecimiento, biogás) ni articulación con autoridades energéticas federales",
+    "reformas": [
+      "R-35"
+    ],
+    "proyectos": []
+  },
+  {
+    "id": "1A.54",
+    "n": 54,
+    "ord": "LPIPSEJM",
+    "art": "Art. 44, Párr. 2; Art. 45",
+    "tipo": "Vacío",
+    "prioridad": "Media",
+    "texto": "Titularidad de Certificados de Energías Limpias y atributos ambientales no regulada",
+    "reformas": [
+      "R-40"
+    ],
+    "proyectos": []
+  },
+  {
+    "id": "1A.55",
+    "n": 55,
+    "ord": "LPIPSEJM",
+    "art": "Art. 4, Fracc. VIII y Párr. 2",
+    "tipo": "Omisión",
+    "prioridad": "Media",
+    "texto": "Vigencia de autorizaciones del contrato (5-40 años) desarticulada de vigencia de permisos federales energéticos",
+    "reformas": [],
+    "proyectos": []
+  },
+  {
+    "id": "1A.56",
+    "n": 56,
+    "ord": "LGAPM",
+    "art": "Título Quinto (Hacienda Municipal), artículo inexistente",
+    "tipo": "Vacío",
+    "prioridad": "Media",
+    "texto": "Ausencia de remisión o anclaje a la participación municipal en contribuciones especiales sobre energía eléctrica",
+    "reformas": [
+      "R-52"
+    ],
+    "proyectos": []
+  },
+  {
+    "id": "1A.57",
+    "n": 57,
+    "ord": "LGAPM",
+    "art": "Art. 38 (fracción inexistente)",
+    "tipo": "Omisión",
+    "prioridad": "Media",
+    "texto": "Falta de habilitación expresa para convenios municipio-CFE (coordinación, vinculación comunitaria, DAP)",
+    "reformas": [
+      "R-53"
+    ],
+    "proyectos": []
+  },
+  {
+    "id": "1A.58",
+    "n": 58,
+    "ord": "LPAEJ",
+    "art": "Art. 67",
+    "tipo": "Vacío",
+    "prioridad": "Media",
+    "texto": "Verificación e inspección estatal limitada a \"carácter local\" sin protocolo de coordinación con autoridades energéticas federales",
+    "reformas": [
+      "R-60"
+    ],
+    "proyectos": []
+  },
+  {
+    "id": "1A.59",
+    "n": 59,
+    "ord": "LPAEJ",
+    "art": "Arts. 25, 31, 37-Bis",
+    "tipo": "Desactualización",
+    "prioridad": "Media",
+    "texto": "Plazos generales (30 días hábiles actos regulativos, 2 meses actos constitutivos) incompatibles con celeridad requerida para generación distribuida y autoconsumo menor",
+    "reformas": [
+      "R-58"
+    ],
+    "proyectos": []
+  },
+  {
+    "id": "1A.60",
+    "n": 60,
+    "ord": "LPAEJ",
+    "art": "Arts. 154–158 derogados",
+    "tipo": "Vacío estructural (fragmentación)",
+    "prioridad": "Media",
+    "texto": "Título Sexto (Mejora Regulatoria) derogado: Arts. 154–158 sin contenido en esta ley",
+    "reformas": [],
+    "proyectos": []
+  },
+  {
+    "id": "1A.61",
+    "n": 61,
+    "ord": "LPAEJ",
+    "art": "Art. 4, inciso m); ausencia en Cap. III del Tít. Primero Secc. Segunda",
+    "tipo": "Vacío",
+    "prioridad": "Media",
+    "texto": "Principio de participación enunciado sin cauce procesal (audiencias públicas, comentarios públicos) para actos de impacto colectivo",
+    "reformas": [
+      "R-59"
+    ],
+    "proyectos": []
+  },
+  {
+    "id": "1A.62",
+    "n": 62,
+    "ord": "LPAEJ",
+    "art": "Art. 2",
+    "tipo": "Omisión",
+    "prioridad": "Media",
+    "texto": "Ausencia de excepción material de energía en Art. 2 que permita modular aplicación de reglas procesales generales a trámites con dimensión federal concurrente",
+    "reformas": [],
+    "proyectos": []
+  },
+  {
+    "id": "1A.63",
+    "n": 63,
+    "ord": "LEEEPA-Jal",
+    "art": "Art. 72, Fracc. IV",
+    "tipo": "Omisión",
+    "prioridad": "Media",
+    "texto": "Inventario estatal de fuentes fijas no incluye explícitamente categoría \"generación y uso de energía\" ni GEI (LGCC Art. 7-XIV-a)",
+    "reformas": [
+      "R-67"
+    ],
+    "proyectos": []
+  },
+  {
+    "id": "1A.64",
+    "n": 64,
+    "ord": "LEEEPA-Jal",
+    "art": "Art. 102; Art. 3 (ausencia)",
+    "tipo": "Vacío",
+    "prioridad": "Media",
+    "texto": "Energía térmica tratada solo como contaminante a limitar; ausencia de régimen para cogeneración, calor residual y redes de calor",
+    "reformas": [
+      "R-71"
+    ],
+    "proyectos": []
+  },
+  {
+    "id": "1A.65",
+    "n": 65,
+    "ord": "LEEEPA-Jal",
+    "art": "Art. 76",
+    "tipo": "Omisión",
+    "prioridad": "Media",
+    "texto": "Art. 76 (\"energéticos no contaminantes\") promocional sin instrumento, padrón, criterio ni sanción",
+    "reformas": [],
+    "proyectos": []
+  },
+  {
+    "id": "1A.66",
+    "n": 66,
+    "ord": "LEEEPA-Jal",
+    "art": "Art. 6 (ausencia específica); Art. 7 (genérico)",
+    "tipo": "Omisión",
+    "prioridad": "Media",
+    "texto": "Ausencia de atribución expresa para convenios con SENER/CONUEE en materia de transición energética",
+    "reformas": [
+      "R-70"
+    ],
+    "proyectos": []
+  },
+  {
+    "id": "1A.67",
+    "n": 67,
+    "ord": "REEEPA",
+    "art": "Art. 4 Fracc. IV",
+    "tipo": "Conflicto / Restricción",
+    "prioridad": "Media",
+    "texto": "Sistema de monitoreo atmosférico estatal condicionado a \"aprobación previa\" federal, restricción más gravosa que la concurrencia LGEEPA / CPEUM 73-XXIX-G",
+    "reformas": [],
+    "proyectos": []
+  },
+  {
+    "id": "1A.68",
+    "n": 68,
+    "ord": "REEEPA",
+    "art": "Art. 58; Art. 4 Fracc. III",
+    "tipo": "Omisión",
+    "prioridad": "Media",
+    "texto": "Inventario estatal de fuentes fijas sin categoría energía ni GEI (LGCC Art. 7 XIV-a)",
+    "reformas": [],
+    "proyectos": []
+  },
+  {
+    "id": "1A.69",
+    "n": 69,
+    "ord": "REEEPA",
+    "art": "Art. 24; Art. 25",
+    "tipo": "Vacío",
+    "prioridad": "Media",
+    "texto": "Ausencia de articulación procedimental entre EIA estatal y Manifestación de Impacto Social federal (LSH Art. 152) y consulta previa indígena (LSH Art. 151)",
+    "reformas": [
+      "R-80"
+    ],
+    "proyectos": []
+  },
+  {
+    "id": "1A.70",
+    "n": 70,
+    "ord": "LJAEJ",
+    "art": "Art. 4 (interés jurídico individual)",
+    "tipo": "Vacío",
+    "prioridad": "Media",
+    "texto": "Ausencia de acción colectiva para controversias energéticas con afectación difusa",
+    "reformas": [
+      "R-87"
+    ],
+    "proyectos": []
+  },
+  {
+    "id": "1A.71",
+    "n": 71,
+    "ord": "LJAEJ",
+    "art": "Capítulo XVII (ausencia)",
+    "tipo": "Vacío",
+    "prioridad": "Media",
+    "texto": "Inexistencia de procedimiento expedito para actos estatales con componente energético urgente",
+    "reformas": [
+      "R-85"
+    ],
+    "proyectos": []
+  },
+  {
+    "id": "1A.72",
+    "n": 72,
+    "ord": "LJAEJ",
+    "art": "Art. 118",
+    "tipo": "Omisión de implementación",
+    "prioridad": "Media",
+    "texto": "Ausencia de interoperabilidad del juicio en línea con plataformas federales energéticas (DOF, CNE, CENACE, SENER)",
+    "reformas": [
+      "R-88"
+    ],
+    "proyectos": []
+  },
+  {
+    "id": "1A.73",
+    "n": 73,
+    "ord": "LMR-Jal",
+    "art": "Arts. 72, 73",
+    "tipo": "Omisión de implementación",
+    "prioridad": "Media",
+    "texto": "AIR ex post es potestativo y sin calendarización obligatoria",
+    "reformas": [
+      "R-98"
+    ],
+    "proyectos": []
+  },
+  {
+    "id": "1A.74",
+    "n": 74,
+    "ord": "LMR-Jal",
+    "art": "Arts. 50, 91-92 (alcance limitado a construcción)",
+    "tipo": "Omisión de implementación",
+    "prioridad": "Media",
+    "texto": "Ausencia de ventanilla única estatal sectorial para proyectos energéticos integrando trámites federales",
+    "reformas": [
+      "R-99"
+    ],
+    "proyectos": []
+  },
+  {
+    "id": "1A.75",
+    "n": 75,
+    "ord": "LOAEEJ",
+    "art": "[AUSENCIA en el articulado]",
+    "tipo": "Vacío",
+    "prioridad": "Baja",
+    "texto": "Ausencia de geotermia como materia diferenciada pese al potencial del Cinturón Volcánico Transmexicano en territorio estatal",
+    "reformas": [
+      "R-30"
+    ],
+    "proyectos": []
+  },
+  {
+    "id": "1A.76",
+    "n": 76,
+    "ord": "LOAEEJ",
+    "art": "Art. 28",
+    "tipo": "Restricción excesiva",
+    "prioridad": "Baja",
+    "texto": "Prohibición absoluta de proyectos en ANP, sin mecanismo de compatibilidad con permisos federales en categorías donde la LSE/LGeo/LSH lo permiten",
+    "reformas": [],
+    "proyectos": []
+  },
+  {
+    "id": "1A.77",
+    "n": 77,
+    "ord": "LPAEJ",
+    "art": "Art. 9, Fracc. I, inciso c)",
+    "tipo": "Conflicto potencial",
+    "prioridad": "Baja",
+    "texto": "Concepto genérico de \"concesiones\" como acto constitutivo estatal sin salvedad constitucional sobre materias reservadas a la Nación",
+    "reformas": [
+      "R-61"
+    ],
+    "proyectos": []
+  },
+  {
+    "id": "1A.78",
+    "n": 78,
+    "ord": "REEEPA",
+    "art": "Art. 3 Fracc. XVII (segunda ocurrencia)",
+    "tipo": "Omisión / saneamiento",
+    "prioridad": "Baja",
+    "texto": "Vicio técnico de numeración del Art. 3 (Zona Crítica como \"XVII\" duplicada, debería ser XXII conforme Acuerdo DIGELAG/ACU-26/2007)",
+    "reformas": [
+      "R-79"
+    ],
+    "proyectos": []
+  },
+  {
+    "id": "1A.79",
+    "n": 79,
+    "ord": "LJAEJ",
+    "art": "Art. 69",
+    "tipo": "Omisión",
+    "prioridad": "Baja",
+    "texto": "Suspensión de créditos fiscales sin contemplar participaciones estatales en contribuciones especiales federales energéticas",
+    "reformas": [
+      "R-89"
+    ],
+    "proyectos": []
+  },
+  {
+    "id": "1A.80",
+    "n": 80,
+    "ord": "LPIPSEJM",
+    "art": "Art. 12 (omisión)",
+    "tipo": "Omisión",
+    "prioridad": "Baja",
+    "texto": "Fuente de pago APP con participaciones federales por contribuciones especiales sobre energía eléctrica no regulada",
+    "reformas": [
+      "R-45"
+    ],
+    "proyectos": []
+  }
+]

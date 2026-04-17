@@ -1,0 +1,171 @@
+/* ============================================================================
+   tokens.css — Variables globales del design system Julius Bär
+   Observatorio del Sistema de Energía de Jalisco
+   ============================================================================
+   Solo modo claro. No dark mode.
+   Referencia visual: juliusbaer.com (serif ligero, navy profundo, hairlines,
+   small caps tracked-out, centrados editoriales, generoso espacio negativo).
+   ============================================================================ */
+
+:root {
+  /* --------------------------------------------------------------------------
+     Paleta de colores — Primarios
+     -------------------------------------------------------------------------- */
+  --navy: #1B2C5E;
+  --navy-soft: #4A5B85;
+  --navy-bg: rgba(27, 44, 94, 0.03);
+
+  /* --------------------------------------------------------------------------
+     Paleta de colores — Líneas y separadores
+     -------------------------------------------------------------------------- */
+  --line: rgba(27, 44, 94, 0.18);
+  --hair: rgba(27, 44, 94, 0.12);
+  --hair-light: rgba(27, 44, 94, 0.06);
+
+  /* --------------------------------------------------------------------------
+     Paleta de colores — Texto
+     -------------------------------------------------------------------------- */
+  --text-primary: #1A1A1A;
+  --text-secondary: #4A5B85;
+  --text-muted: #8696B0;
+
+  /* --------------------------------------------------------------------------
+     Paleta de colores — Superficies
+     -------------------------------------------------------------------------- */
+  --bg-page: #FFFFFF;
+  --bg-surface: #F8F9FB;
+  --bg-hover: rgba(27, 44, 94, 0.04);
+
+  /* --------------------------------------------------------------------------
+     Semánticos — Tags de prioridad
+     -------------------------------------------------------------------------- */
+  --tag-alta-bg: #1B2C5E;
+  --tag-alta-text: #FFFFFF;
+  --tag-media-border: #1B2C5E;
+  --tag-media-text: #1B2C5E;
+  --tag-baja-border: #A8B2C7;
+  --tag-baja-text: #4A5B85;
+
+  /* --------------------------------------------------------------------------
+     Semánticos — Barras de distribución
+     -------------------------------------------------------------------------- */
+  --bar-alta: #1B2C5E;
+  --bar-media: #4A5B85;
+  --bar-baja: #A8B2C7;
+
+  /* --------------------------------------------------------------------------
+     Interacción
+     -------------------------------------------------------------------------- */
+  --link: #1B2C5E;
+  --link-hover-bg: rgba(27, 44, 94, 0.08);
+  --focus-ring: rgba(27, 44, 94, 0.3);
+
+  /* --------------------------------------------------------------------------
+     Familias tipográficas
+     -------------------------------------------------------------------------- */
+  --font-serif: 'Source Serif 4', 'Source Serif Pro', 'Georgia', 'Times New Roman', serif;
+  --font-sans: 'Inter', 'Helvetica Neue', 'Arial', sans-serif;
+  --font-mono: 'JetBrains Mono', 'Fira Code', 'Consolas', monospace;
+
+  /* --------------------------------------------------------------------------
+     Spacing scale — Base 8px
+     -------------------------------------------------------------------------- */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+  --space-7: 48px;
+  --space-8: 64px;
+  --space-9: 96px;
+  --space-10: 128px;
+
+  /* --------------------------------------------------------------------------
+     Layout — Contenedores
+     -------------------------------------------------------------------------- */
+  --container-narrow: 720px;    /* Prosa editorial, fichas */
+  --container-medium: 960px;    /* Explorers, tablas densas */
+  --container-wide: 1200px;     /* Home hero, grids amplios */
+  --page-gutter: 24px;
+
+  /* --------------------------------------------------------------------------
+     Z-index scale
+     -------------------------------------------------------------------------- */
+  --z-base: 1;
+  --z-tooltip: 20;
+  --z-header: 50;
+  --z-drawer-overlay: 99;
+  --z-drawer: 100;
+
+  /* --------------------------------------------------------------------------
+     Transiciones
+     -------------------------------------------------------------------------- */
+  --transition-fast: 0.15s ease;
+  --transition-base: 0.2s ease;
+  --transition-slow: 0.3s ease;
+
+  /* --------------------------------------------------------------------------
+     Shadows — usadas con moderación (Julius Bär prefiere hairlines)
+     -------------------------------------------------------------------------- */
+  --shadow-tooltip: 0 4px 20px rgba(27, 44, 94, 0.08);
+  --shadow-card: 0 1px 3px rgba(27, 44, 94, 0.04);
+}
+
+/* ============================================================================
+   Reset mínimo — complementa el reset implícito del browser
+   ============================================================================ */
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background: var(--bg-page);
+  color: var(--text-primary);
+  font-family: var(--font-serif);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+img, picture, svg, video {
+  display: block;
+  max-width: 100%;
+}
+
+button {
+  font: inherit;
+  color: inherit;
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+a {
+  color: var(--link);
+  text-decoration: none;
+}
+
+/* ============================================================================
+   Focus visible — accesibilidad
+   ============================================================================ */
+
+:focus {
+  outline: none;
+}
+
+:focus-visible {
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 2px;
+}

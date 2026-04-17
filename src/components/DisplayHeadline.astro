@@ -1,0 +1,12 @@
+---
+// DisplayHeadline — heading hero 52px serif 300
+// Uso: <DisplayHeadline>Sistema estatal de energía de Jalisco</DisplayHeadline>
+interface Props {
+  as?: 'h1' | 'h2' | 'div';
+  class?: string;
+}
+const { as: Tag = 'h1', class: className = '' } = Astro.props;
+---
+<Tag class={`display ${className}`}>
+  <slot />
+</Tag>

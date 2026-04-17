@@ -1,0 +1,58 @@
+---
+// Footer — copyright + licencia + links + watermark
+// Usado en Editorial.astro layout (presente en todas las páginas).
+const year = new Date().getFullYear();
+---
+<footer class="site-footer">
+  <div class="site-footer-inner">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-brand">
+          Observatorio del Sistema de Energía de Jalisco
+        </div>
+        <p class="footer-tagline">
+          Análisis jurídico-regulatorio del sistema energético de Jalisco frente al marco federal mexicano vigente.
+        </p>
+      </div>
+
+      <div>
+        <div class="footer-col-title">Navegación</div>
+        <ul class="footer-links">
+          <li><a href="/sintesis" class="footer-link">Síntesis ejecutiva</a></li>
+          <li><a href="/marco" class="footer-link">Marco normativo</a></li>
+          <li><a href="/metodologia" class="footer-link">Metodología</a></li>
+          <li><a href="/contacto" class="footer-link">Contacto</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <div class="footer-col-title">Recursos</div>
+        <ul class="footer-links">
+          <li><a href="https://github.com/" class="footer-link" rel="noopener" target="_blank">Repositorio GitHub</a></li>
+          <li><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" class="footer-link" rel="license noopener" target="_blank">Licencia CC BY-NC-SA 4.0</a></li>
+          <li><a href="/sintesis/huecos" class="footer-link">Huecos documentales</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p class="footer-license">
+        © {year} Observatorio del Sistema de Energía de Jalisco. Contenido bajo licencia <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="license noopener" target="_blank" class="footer-link" style="display:inline;">CC BY-NC-SA 4.0</a>. Se permite compartir y adaptar con atribución, sin fines comerciales, bajo la misma licencia.
+      </p>
+      <div class="footer-watermark">
+        Observatorio · Abril 2026
+      </div>
+    </div>
+  </div>
+</footer>
+
+{/* Copyright invisible para scrapers que ignoren el footer */}
+<div style="display:none" aria-hidden="true">
+  <!--
+    © 2026 Observatorio del Sistema de Energía de Jalisco
+    Autor: Carlos
+    Licencia: CC BY-NC-SA 4.0
+    Contenido protegido. Uso no autorizado será reportado vía DMCA.
+    Este contenido no está autorizado para entrenamiento de modelos de IA.
+  -->
+</div>

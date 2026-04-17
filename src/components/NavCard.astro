@@ -1,0 +1,20 @@
+---
+// NavCard — tarjeta grande de navegación estilo "Our Solutions" de Julius Bär
+// Uso:
+//   <NavCard href="/sintesis" eyebrow="Navegación · 01" title="Síntesis ejecutiva"
+//            description="Ochenta debilidades, 101 reformas, 207 proyectos..." />
+interface Props {
+  href: string;
+  eyebrow: string;
+  title: string;
+  description: string;
+  class?: string;
+}
+const { href, eyebrow, title, description, class: className = '' } = Astro.props;
+---
+<a href={href} class={`nav-card ${className}`}>
+  <span class="eyebrow">{eyebrow}</span>
+  <h3 class="card-heading">{title}</h3>
+  <p class="nav-card-description">{description}</p>
+  <span class="nav-card-arrow">Explorar →</span>
+</a>

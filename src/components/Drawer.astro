@@ -1,0 +1,172 @@
+---
+// Drawer — panel lateral con navegación jerárquica completa.
+// Estructura derivada de ARCHITECTURE.md Sección 3 (Mapa de URLs).
+// Disparado por #drawer-trigger del Header. JS inline al final.
+
+// Conteos por sección (alineados con ARCHITECTURE.md §0 y datos reales de Fase 1).
+const sintesisLinks = [
+  { href: '/sintesis/mapa/debilidades', label: 'Debilidades', count: 80 },
+  { href: '/sintesis/mapa/condicionamientos', label: 'Condicionamientos', count: 34 },
+  { href: '/sintesis/reformas', label: 'Reformas estructurales', count: 101 },
+  { href: '/sintesis/proyectos', label: 'Proyectos ejecutivos', count: 207 },
+  { href: '/sintesis/conflictos', label: 'Conflictos de competencia', count: 40 },
+  { href: '/sintesis/vacios', label: 'Vacíos federal-estatal', count: 62 },
+  { href: '/sintesis/riesgos', label: 'Casos de máximo riesgo', count: 2 },
+  { href: '/sintesis/huecos', label: 'Huecos documentales', count: null },
+  { href: '/sintesis/siguiente', label: 'Próximos pasos', count: 30 },
+];
+
+const proyectosLinks = [
+  { href: '/sintesis/proyectos/viables-hoy', label: 'Viables hoy', count: 84 },
+  { href: '/sintesis/proyectos/reforma-estatal', label: 'Con reforma estatal', count: 50 },
+  { href: '/sintesis/proyectos/reforma-federal', label: 'Con reforma federal', count: 15 },
+  { href: '/sintesis/proyectos/habilitaciones', label: 'Habilitaciones federales', count: 58 },
+];
+
+const marcoFederal = [
+  { slug: 'cpeum', tag: 'CPEUM', label: 'Constitución federal' },
+  { slug: 'lbio', tag: 'LBio', label: 'Biocombustibles' },
+  { slug: 'lcne', tag: 'LCNE', label: 'Comisión Nacional de Energía' },
+  { slug: 'lepecfe', tag: 'LEPECFE', label: 'Empresa Pública CFE' },
+  { slug: 'lgcc', tag: 'LGCC', label: 'Cambio climático' },
+  { slug: 'lgeo', tag: 'LGeo', label: 'Geotermia' },
+  { slug: 'lpte', tag: 'LPTE', label: 'Planeación y transición' },
+  { slug: 'lse', tag: 'LSE', label: 'Sector eléctrico' },
+  { slug: 'lsh', tag: 'LSH', label: 'Sector hidrocarburos' },
+];
+
+const marcoEstatal = [
+  { slug: 'cpej', tag: 'CPEJ', label: 'Constitución de Jalisco' },
+  { slug: 'laccej', tag: 'LACCEJ', label: 'Cambio climático Jalisco' },
+  { slug: 'loaeej', tag: 'LOAEEJ', label: 'Agencia de Energía' },
+  { slug: 'laej', tag: 'LAEJ', label: 'Agroalimentaria' },
+  { slug: 'lpipsejm', tag: 'LPIPSEJM', label: 'APPs' },
+  { slug: 'lgapm', tag: 'LGAPM', label: 'Gobierno municipal' },
+  { slug: 'lpaej', tag: 'LPAEJ', label: 'Procedimiento administrativo' },
+  { slug: 'leeepa-jal', tag: 'LEEEPA-Jal', label: 'Equilibrio ecológico' },
+  { slug: 'reeepa', tag: 'REEEPA', label: 'Reglamento ambiental' },
+  { slug: 'ljaej', tag: 'LJAEJ', label: 'Justicia administrativa' },
+  { slug: 'lmr-jal', tag: 'LMR-Jal', label: 'Mejora regulatoria' },
+];
+---
+<div id="drawer-overlay" class="drawer-overlay" aria-hidden="true"></div>
+
+<aside
+  id="site-drawer"
+  class="drawer"
+  role="dialog"
+  aria-modal="true"
+  aria-labelledby="drawer-title"
+  aria-hidden="true"
+>
+  <button id="drawer-close" class="drawer-close" type="button" aria-label="Cerrar navegación">
+    ×
+  </button>
+
+  <div class="drawer-header">
+    <div class="drawer-eyebrow">Observatorio</div>
+    <div id="drawer-title" class="drawer-title">Sistema de Energía de Jalisco</div>
+  </div>
+
+  <nav aria-label="Navegación principal">
+
+    <div class="drawer-section">
+      <div class="drawer-section-title">General</div>
+      <ul class="drawer-nav">
+        <li><a href="/" class="drawer-link">Inicio</a></li>
+        <li><a href="/metodologia" class="drawer-link">Metodología</a></li>
+        <li><a href="/contacto" class="drawer-link">Contacto</a></li>
+      </ul>
+    </div>
+
+    <div class="drawer-section">
+      <div class="drawer-section-title">Síntesis ejecutiva</div>
+      <ul class="drawer-nav">
+        <li><a href="/sintesis" class="drawer-link"><span>Índice</span></a></li>
+        {sintesisLinks.map((l) => (
+          <li>
+            <a href={l.href} class="drawer-link">
+              <span>{l.label}</span>
+              {l.count !== null && <span class="drawer-link-count">{l.count}</span>}
+            </a>
+          </li>
+        ))}
+      </ul>
+
+      <div class="drawer-section-title" style="margin-top:1rem">Proyectos — por vía</div>
+      {proyectosLinks.map((l) => (
+        <a href={l.href} class="drawer-sublink">
+          {l.label} <span class="drawer-link-count" style="margin-left:0.5em">{l.count}</span>
+        </a>
+      ))}
+    </div>
+
+    <div class="drawer-section">
+      <div class="drawer-section-title">Marco federal (9)</div>
+      <ul class="drawer-nav">
+        <li><a href="/marco" class="drawer-link"><span>Índice de los 20 ordenamientos</span></a></li>
+      </ul>
+      {marcoFederal.map((o) => (
+        <a href={`/marco/federal/${o.slug}`} class="drawer-sublink">
+          <b style="font-style:italic;color:var(--navy);font-weight:500">{o.tag}</b>
+          <span style="color:var(--text-muted);margin-left:0.5em">{o.label}</span>
+        </a>
+      ))}
+    </div>
+
+    <div class="drawer-section">
+      <div class="drawer-section-title">Marco estatal Jalisco (11)</div>
+      {marcoEstatal.map((o) => (
+        <a href={`/marco/estatal/${o.slug}`} class="drawer-sublink">
+          <b style="font-style:italic;color:var(--navy);font-weight:500">{o.tag}</b>
+          <span style="color:var(--text-muted);margin-left:0.5em">{o.label}</span>
+        </a>
+      ))}
+    </div>
+
+    <div class="drawer-section">
+      <div class="drawer-section-title">Design system</div>
+      <ul class="drawer-nav">
+        <li><a href="/demo" class="drawer-link">Página demo</a></li>
+      </ul>
+    </div>
+
+  </nav>
+</aside>
+
+<script is:inline>
+(function () {
+  const trigger = document.getElementById('drawer-trigger');
+  const drawer = document.getElementById('site-drawer');
+  const overlay = document.getElementById('drawer-overlay');
+  const closeBtn = document.getElementById('drawer-close');
+
+  if (!trigger || !drawer || !overlay || !closeBtn) return;
+
+  function openDrawer() {
+    drawer.classList.add('open');
+    overlay.classList.add('visible');
+    drawer.setAttribute('aria-hidden', 'false');
+    trigger.setAttribute('aria-expanded', 'true');
+    document.body.style.overflow = 'hidden';
+  }
+
+  function closeDrawer() {
+    drawer.classList.remove('open');
+    overlay.classList.remove('visible');
+    drawer.setAttribute('aria-hidden', 'true');
+    trigger.setAttribute('aria-expanded', 'false');
+    document.body.style.overflow = '';
+  }
+
+  trigger.addEventListener('click', openDrawer);
+  closeBtn.addEventListener('click', closeDrawer);
+  overlay.addEventListener('click', closeDrawer);
+
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape' && drawer.classList.contains('open')) {
+      closeDrawer();
+    }
+  });
+})();
+</script>

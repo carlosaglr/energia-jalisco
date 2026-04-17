@@ -1,0 +1,222 @@
+{
+  "CPEUM": {
+    "tag": "CPEUM",
+    "slug": "cpeum",
+    "ambito": "federal",
+    "nombre_completo": "Constitución Política de los Estados Unidos Mexicanos",
+    "nombre_display": {
+      "prefix_italic": "",
+      "core_bold_italic": "Constitución",
+      "suffix_italic_small": " Política de los Estados Unidos Mexicanos"
+    }
+  },
+  "LBio": {
+    "tag": "LBio",
+    "slug": "lbio",
+    "ambito": "federal",
+    "nombre_completo": "Ley de Biocombustibles",
+    "nombre_display": {
+      "prefix_italic": "Ley de ",
+      "core_bold_italic": "Biocombustibles",
+      "suffix_italic_small": ""
+    }
+  },
+  "LCNE": {
+    "tag": "LCNE",
+    "slug": "lcne",
+    "ambito": "federal",
+    "nombre_completo": "Ley de la Comisión Nacional de Energía",
+    "nombre_display": {
+      "prefix_italic": "Ley de la ",
+      "core_bold_italic": "Comisión Nacional de Energía",
+      "suffix_italic_small": ""
+    }
+  },
+  "LEPECFE": {
+    "tag": "LEPECFE",
+    "slug": "lepecfe",
+    "ambito": "federal",
+    "nombre_completo": "Ley de la Empresa Pública del Estado, Comisión Federal de Electricidad",
+    "nombre_display": {
+      "prefix_italic": "Ley de la Empresa Pública del Estado, ",
+      "core_bold_italic": "Comisión Federal de Electricidad",
+      "suffix_italic_small": ""
+    }
+  },
+  "LGCC": {
+    "tag": "LGCC",
+    "slug": "lgcc",
+    "ambito": "federal",
+    "nombre_completo": "Ley General de Cambio Climático",
+    "nombre_display": {
+      "prefix_italic": "Ley General de ",
+      "core_bold_italic": "Cambio Climático",
+      "suffix_italic_small": ""
+    }
+  },
+  "LGeo": {
+    "tag": "LGeo",
+    "slug": "lgeo",
+    "ambito": "federal",
+    "nombre_completo": "Ley de Geotermia",
+    "nombre_display": {
+      "prefix_italic": "Ley de ",
+      "core_bold_italic": "Geotermia",
+      "suffix_italic_small": ""
+    }
+  },
+  "LPTE": {
+    "tag": "LPTE",
+    "slug": "lpte",
+    "ambito": "federal",
+    "nombre_completo": "Ley de Planeación y Transición Energética",
+    "nombre_display": {
+      "prefix_italic": "Ley de ",
+      "core_bold_italic": "Planeación y Transición Energética",
+      "suffix_italic_small": ""
+    }
+  },
+  "LSE": {
+    "tag": "LSE",
+    "slug": "lse",
+    "ambito": "federal",
+    "nombre_completo": "Ley del Sector Eléctrico",
+    "nombre_display": {
+      "prefix_italic": "Ley del ",
+      "core_bold_italic": "Sector Eléctrico",
+      "suffix_italic_small": ""
+    }
+  },
+  "LSH": {
+    "tag": "LSH",
+    "slug": "lsh",
+    "ambito": "federal",
+    "nombre_completo": "Ley del Sector Hidrocarburos",
+    "nombre_display": {
+      "prefix_italic": "Ley del ",
+      "core_bold_italic": "Sector Hidrocarburos",
+      "suffix_italic_small": ""
+    }
+  },
+  "CPEJ": {
+    "tag": "CPEJ",
+    "slug": "cpej",
+    "ambito": "estatal",
+    "nombre_completo": "Constitución Política del Estado de Jalisco",
+    "nombre_display": {
+      "prefix_italic": "",
+      "core_bold_italic": "Constitución",
+      "suffix_italic_small": " Política del Estado de Jalisco"
+    }
+  },
+  "LACCEJ": {
+    "tag": "LACCEJ",
+    "slug": "laccej",
+    "ambito": "estatal",
+    "nombre_completo": "Ley para la Acción ante el Cambio Climático del Estado de Jalisco",
+    "nombre_display": {
+      "prefix_italic": "Ley para la Acción ante el ",
+      "core_bold_italic": "Cambio Climático",
+      "suffix_italic_small": " del Estado de Jalisco"
+    }
+  },
+  "LOAEEJ": {
+    "tag": "LOAEEJ",
+    "slug": "loaeej",
+    "ambito": "estatal",
+    "nombre_completo": "Ley Orgánica de la Agencia de Energía del Estado de Jalisco",
+    "nombre_display": {
+      "prefix_italic": "Ley Orgánica de la ",
+      "core_bold_italic": "Agencia de Energía",
+      "suffix_italic_small": " del Estado de Jalisco"
+    }
+  },
+  "LAEJ": {
+    "tag": "LAEJ",
+    "slug": "laej",
+    "ambito": "estatal",
+    "nombre_completo": "Ley Agroalimentaria del Estado de Jalisco",
+    "nombre_display": {
+      "prefix_italic": "Ley ",
+      "core_bold_italic": "Agroalimentaria",
+      "suffix_italic_small": " del Estado de Jalisco"
+    }
+  },
+  "LPIPSEJM": {
+    "tag": "LPIPSEJM",
+    "slug": "lpipsejm",
+    "ambito": "estatal",
+    "nombre_completo": "Ley de Proyectos de Inversión y de Prestación de Servicios del Estado de Jalisco y sus Municipios",
+    "nombre_display": {
+      "prefix_italic": "Ley de ",
+      "core_bold_italic": "Proyectos de Inversión y de Prestación de Servicios",
+      "suffix_italic_small": " del Estado de Jalisco y sus Municipios"
+    }
+  },
+  "LGAPM": {
+    "tag": "LGAPM",
+    "slug": "lgapm",
+    "ambito": "estatal",
+    "nombre_completo": "Ley del Gobierno y la Administración Pública Municipal del Estado de Jalisco",
+    "nombre_display": {
+      "prefix_italic": "Ley del ",
+      "core_bold_italic": "Gobierno y la Administración Pública Municipal",
+      "suffix_italic_small": " del Estado de Jalisco"
+    }
+  },
+  "LPAEJ": {
+    "tag": "LPAEJ",
+    "slug": "lpaej",
+    "ambito": "estatal",
+    "nombre_completo": "Ley del Procedimiento Administrativo del Estado de Jalisco",
+    "nombre_display": {
+      "prefix_italic": "Ley del ",
+      "core_bold_italic": "Procedimiento Administrativo",
+      "suffix_italic_small": " del Estado de Jalisco"
+    }
+  },
+  "LEEEPA-Jal": {
+    "tag": "LEEEPA-Jal",
+    "slug": "leeepa-jal",
+    "ambito": "estatal",
+    "nombre_completo": "Ley Estatal del Equilibrio Ecológico y la Protección al Ambiente",
+    "nombre_display": {
+      "prefix_italic": "Ley Estatal del ",
+      "core_bold_italic": "Equilibrio Ecológico y la Protección al Ambiente",
+      "suffix_italic_small": ""
+    }
+  },
+  "REEEPA": {
+    "tag": "REEEPA",
+    "slug": "reeepa",
+    "ambito": "estatal",
+    "nombre_completo": "Reglamento de la Ley Estatal del Equilibrio Ecológico y la Protección al Ambiente en Materia de Impacto Ambiental, Explotación de Bancos de Material Geológico, Yacimientos Pétreos y de Prevención y Control de la Contaminación a la Atmósfera Generada por Fuentes Fijas en el Estado de Jalisco",
+    "nombre_display": {
+      "prefix_italic": "Reglamento de la ",
+      "core_bold_italic": "LEEEPA",
+      "suffix_italic_small": " en Materia de Impacto Ambiental, Bancos de Material, Yacimientos Pétreos y Fuentes Fijas"
+    }
+  },
+  "LJAEJ": {
+    "tag": "LJAEJ",
+    "slug": "ljaej",
+    "ambito": "estatal",
+    "nombre_completo": "Ley de Justicia Administrativa del Estado de Jalisco",
+    "nombre_display": {
+      "prefix_italic": "Ley de ",
+      "core_bold_italic": "Justicia Administrativa",
+      "suffix_italic_small": " del Estado de Jalisco"
+    }
+  },
+  "LMR-Jal": {
+    "tag": "LMR-Jal",
+    "slug": "lmr-jal",
+    "ambito": "estatal",
+    "nombre_completo": "Ley de Mejora Regulatoria para el Estado de Jalisco y sus Municipios",
+    "nombre_display": {
+      "prefix_italic": "Ley de ",
+      "core_bold_italic": "Mejora Regulatoria",
+      "suffix_italic_small": " para el Estado de Jalisco y sus Municipios"
+    }
+  }
+}
