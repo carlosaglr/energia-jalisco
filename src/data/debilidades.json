@@ -121,7 +121,7 @@
     "n": 10,
     "ord": "LOAEEJ",
     "art": "Art. 3, Fraccs. VII y XXXV",
-    "tipo": "Omisión / Desactualización",
+    "tipo": "Omisión",
     "prioridad": "Alta",
     "texto": "Plan Estatal de Energía sin subordinación expresa a planeación vinculante federal (PLADESE/PLATEASE) ni articulación con Programa Estatal de Cambio Climático",
     "reformas": [
@@ -173,7 +173,7 @@
     "n": 14,
     "ord": "LAEJ",
     "art": "Omisión transversal; Arts. 2, 4, 6 (Fraccs. II, XXIX, XLII), 17 (Fracc. IV), 25",
-    "tipo": "Vacío / Omisión de implementación",
+    "tipo": "Omisión de implementación",
     "prioridad": "Alta",
     "texto": "Ausencia total de régimen sobre biomasa agroalimentaria y valorización energética de residuos orgánicos con destino a biocombustibles",
     "reformas": [
@@ -199,7 +199,7 @@
     "n": 16,
     "ord": "LPIPSEJM",
     "art": "Art. 2; Art. 8",
-    "tipo": "Vacío / Desactualización",
+    "tipo": "Desactualización",
     "prioridad": "Alta",
     "texto": "Ley no tipifica \"proyecto energético\" ni articula con permisos CNE, operación CENACE y servidumbres LSE; el vehículo APP opera sin brújula sectorial",
     "reformas": [
@@ -355,7 +355,7 @@
     "n": 28,
     "ord": "LEEEPA-Jal",
     "art": "Art. 3, Fracc. XXXII",
-    "tipo": "Vacío / Omisión",
+    "tipo": "Vacío / Omisión combinado",
     "prioridad": "Alta",
     "texto": "\"Rescate energético\" definido pero sin régimen operativo de aprovechamiento energético de residuos (biogás, WTE, biomasa)",
     "reformas": [
@@ -408,7 +408,7 @@
     "n": 32,
     "ord": "REEEPA",
     "art": "Art. 1; Art. 2; Art. 5",
-    "tipo": "Desactualización / Conflicto",
+    "tipo": "Conflicto potencial",
     "prioridad": "Alta",
     "texto": "Ausencia de cláusula de deferencia expresa al marco federal energético vigente post 18-03-2025 (LSH Art. 127; LSE Art. 7; LBio Art. 5 Fracc. IX)",
     "reformas": [
@@ -421,7 +421,7 @@
     "n": 33,
     "ord": "REEEPA",
     "art": "Art. 5",
-    "tipo": "Vacío / Omisión",
+    "tipo": "Vacío / Omisión combinado",
     "prioridad": "Alta",
     "texto": "Lista del Art. 5 no distingue proyectos energéticos federales ni crea modalidad expedita para generación distribuida, biogás, WTE, cogeneración y recarga de EV",
     "reformas": [
@@ -473,7 +473,7 @@
     "n": 37,
     "ord": "LJAEJ",
     "art": "Art. 29, Fraccs. II y VIII",
-    "tipo": "Vacío / Omisión",
+    "tipo": "Vacío / Omisión combinado",
     "prioridad": "Alta",
     "texto": "Ausencia de carve-out expreso por competencia federal exclusiva energética en causales de improcedencia",
     "reformas": [
@@ -512,7 +512,7 @@
     "n": 40,
     "ord": "LMR-Jal",
     "art": "Art. 59, párr. 1",
-    "tipo": "Desactualización / Vacío",
+    "tipo": "Desactualización",
     "prioridad": "Alta",
     "texto": "Propósitos del AIR omiten Justicia Energética, precaución ambiental, pro persona, perspectiva intergeneracional y de género",
     "reformas": [
@@ -538,7 +538,7 @@
     "n": 42,
     "ord": "LMR-Jal",
     "art": "Art. 14, párr. 1 y párr. 6",
-    "tipo": "Omisión estructural",
+    "tipo": "Vacío estructural",
     "prioridad": "Alta",
     "texto": "Agencia de Energía del Estado de Jalisco no integra el Consejo Estatal de Mejora Regulatoria con voz y voto permanentes",
     "reformas": [
@@ -678,7 +678,7 @@
     "n": 53,
     "ord": "LAEJ",
     "art": "Art. 19",
-    "tipo": "Omisión / Desactualización",
+    "tipo": "Omisión",
     "prioridad": "Media",
     "texto": "Proyectos de infraestructura agroalimentaria sin incorporación de criterios energéticos (eficiencia, autoabastecimiento, biogás) ni articulación con autoridades energéticas federales",
     "reformas": [
@@ -767,7 +767,7 @@
     "n": 60,
     "ord": "LPAEJ",
     "art": "Arts. 154–158 derogados",
-    "tipo": "Vacío estructural (fragmentación)",
+    "tipo": "Vacío estructural",
     "prioridad": "Media",
     "texto": "Título Sexto (Mejora Regulatoria) derogado: Arts. 154–158 sin contenido en esta ley",
     "reformas": [],
@@ -989,7 +989,7 @@
     "n": 78,
     "ord": "REEEPA",
     "art": "Art. 3 Fracc. XVII (segunda ocurrencia)",
-    "tipo": "Omisión / saneamiento",
+    "tipo": "Omisión",
     "prioridad": "Baja",
     "texto": "Vicio técnico de numeración del Art. 3 (Zona Crítica como \"XVII\" duplicada, debería ser XXII conforme Acuerdo DIGELAG/ACU-26/2007)",
     "reformas": [

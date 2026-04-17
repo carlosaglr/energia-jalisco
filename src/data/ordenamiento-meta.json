@@ -8,6 +8,11 @@
       "prefix_italic": "",
       "core_bold_italic": "Constitución",
       "suffix_italic_small": " Política de los Estados Unidos Mexicanos"
+    },
+    "nombre": {
+      "prefix": "",
+      "core": "Constitución",
+      "suffix": " Política de los Estados Unidos Mexicanos"
     }
   },
   "LBio": {
@@ -19,6 +24,11 @@
       "prefix_italic": "Ley de ",
       "core_bold_italic": "Biocombustibles",
       "suffix_italic_small": ""
+    },
+    "nombre": {
+      "prefix": "Ley de ",
+      "core": "Biocombustibles",
+      "suffix": ""
     }
   },
   "LCNE": {
@@ -30,6 +40,11 @@
       "prefix_italic": "Ley de la ",
       "core_bold_italic": "Comisión Nacional de Energía",
       "suffix_italic_small": ""
+    },
+    "nombre": {
+      "prefix": "Ley de la ",
+      "core": "Comisión Nacional de Energía",
+      "suffix": ""
     }
   },
   "LEPECFE": {
@@ -41,6 +56,11 @@
       "prefix_italic": "Ley de la Empresa Pública del Estado, ",
       "core_bold_italic": "Comisión Federal de Electricidad",
       "suffix_italic_small": ""
+    },
+    "nombre": {
+      "prefix": "Ley de la Empresa Pública del Estado, ",
+      "core": "Comisión Federal de Electricidad",
+      "suffix": ""
     }
   },
   "LGCC": {
@@ -52,6 +72,11 @@
       "prefix_italic": "Ley General de ",
       "core_bold_italic": "Cambio Climático",
       "suffix_italic_small": ""
+    },
+    "nombre": {
+      "prefix": "Ley General de ",
+      "core": "Cambio Climático",
+      "suffix": ""
     }
   },
   "LGeo": {
@@ -63,6 +88,11 @@
       "prefix_italic": "Ley de ",
       "core_bold_italic": "Geotermia",
       "suffix_italic_small": ""
+    },
+    "nombre": {
+      "prefix": "Ley de ",
+      "core": "Geotermia",
+      "suffix": ""
     }
   },
   "LPTE": {
@@ -74,6 +104,11 @@
       "prefix_italic": "Ley de ",
       "core_bold_italic": "Planeación y Transición Energética",
       "suffix_italic_small": ""
+    },
+    "nombre": {
+      "prefix": "Ley de ",
+      "core": "Planeación y Transición Energética",
+      "suffix": ""
     }
   },
   "LSE": {
@@ -85,6 +120,11 @@
       "prefix_italic": "Ley del ",
       "core_bold_italic": "Sector Eléctrico",
       "suffix_italic_small": ""
+    },
+    "nombre": {
+      "prefix": "Ley del ",
+      "core": "Sector Eléctrico",
+      "suffix": ""
     }
   },
   "LSH": {
@@ -96,6 +136,11 @@
       "prefix_italic": "Ley del ",
       "core_bold_italic": "Sector Hidrocarburos",
       "suffix_italic_small": ""
+    },
+    "nombre": {
+      "prefix": "Ley del ",
+      "core": "Sector Hidrocarburos",
+      "suffix": ""
     }
   },
   "CPEJ": {
@@ -107,6 +152,11 @@
       "prefix_italic": "",
       "core_bold_italic": "Constitución",
       "suffix_italic_small": " Política del Estado de Jalisco"
+    },
+    "nombre": {
+      "prefix": "",
+      "core": "Constitución",
+      "suffix": " Política del Estado de Jalisco"
     }
   },
   "LACCEJ": {
@@ -118,6 +168,11 @@
       "prefix_italic": "Ley para la Acción ante el ",
       "core_bold_italic": "Cambio Climático",
       "suffix_italic_small": " del Estado de Jalisco"
+    },
+    "nombre": {
+      "prefix": "Ley para la Acción ante el ",
+      "core": "Cambio Climático",
+      "suffix": " del Estado de Jalisco"
     }
   },
   "LOAEEJ": {
@@ -129,6 +184,11 @@
       "prefix_italic": "Ley Orgánica de la ",
       "core_bold_italic": "Agencia de Energía",
       "suffix_italic_small": " del Estado de Jalisco"
+    },
+    "nombre": {
+      "prefix": "Ley Orgánica de la ",
+      "core": "Agencia de Energía",
+      "suffix": " del Estado de Jalisco"
     }
   },
   "LAEJ": {
@@ -140,6 +200,11 @@
       "prefix_italic": "Ley ",
       "core_bold_italic": "Agroalimentaria",
       "suffix_italic_small": " del Estado de Jalisco"
+    },
+    "nombre": {
+      "prefix": "Ley ",
+      "core": "Agroalimentaria",
+      "suffix": " del Estado de Jalisco"
     }
   },
   "LPIPSEJM": {
@@ -151,6 +216,11 @@
       "prefix_italic": "Ley de ",
       "core_bold_italic": "Proyectos de Inversión y de Prestación de Servicios",
       "suffix_italic_small": " del Estado de Jalisco y sus Municipios"
+    },
+    "nombre": {
+      "prefix": "Ley de ",
+      "core": "Proyectos de Inversión y de Prestación de Servicios",
+      "suffix": " del Estado de Jalisco y sus Municipios"
     }
   },
   "LGAPM": {
@@ -162,6 +232,11 @@
       "prefix_italic": "Ley del ",
       "core_bold_italic": "Gobierno y la Administración Pública Municipal",
       "suffix_italic_small": " del Estado de Jalisco"
+    },
+    "nombre": {
+      "prefix": "Ley del ",
+      "core": "Gobierno y la Administración Pública Municipal",
+      "suffix": " del Estado de Jalisco"
     }
   },
   "LPAEJ": {
@@ -173,6 +248,11 @@
       "prefix_italic": "Ley del ",
       "core_bold_italic": "Procedimiento Administrativo",
       "suffix_italic_small": " del Estado de Jalisco"
+    },
+    "nombre": {
+      "prefix": "Ley del ",
+      "core": "Procedimiento Administrativo",
+      "suffix": " del Estado de Jalisco"
     }
   },
   "LEEEPA-Jal": {
@@ -184,6 +264,11 @@
       "prefix_italic": "Ley Estatal del ",
       "core_bold_italic": "Equilibrio Ecológico y la Protección al Ambiente",
       "suffix_italic_small": ""
+    },
+    "nombre": {
+      "prefix": "Ley Estatal del ",
+      "core": "Equilibrio Ecológico y la Protección al Ambiente",
+      "suffix": ""
     }
   },
   "REEEPA": {
@@ -195,6 +280,11 @@
       "prefix_italic": "Reglamento de la ",
       "core_bold_italic": "LEEEPA",
       "suffix_italic_small": " en Materia de Impacto Ambiental, Bancos de Material, Yacimientos Pétreos y Fuentes Fijas"
+    },
+    "nombre": {
+      "prefix": "Reglamento de la ",
+      "core": "LEEEPA",
+      "suffix": " en Materia de Impacto Ambiental, Bancos de Material, Yacimientos Pétreos y Fuentes Fijas"
     }
   },
   "LJAEJ": {
@@ -206,6 +296,11 @@
       "prefix_italic": "Ley de ",
       "core_bold_italic": "Justicia Administrativa",
       "suffix_italic_small": " del Estado de Jalisco"
+    },
+    "nombre": {
+      "prefix": "Ley de ",
+      "core": "Justicia Administrativa",
+      "suffix": " del Estado de Jalisco"
     }
   },
   "LMR-Jal": {
@@ -217,6 +312,11 @@
       "prefix_italic": "Ley de ",
       "core_bold_italic": "Mejora Regulatoria",
       "suffix_italic_small": " para el Estado de Jalisco y sus Municipios"
+    },
+    "nombre": {
+      "prefix": "Ley de ",
+      "core": "Mejora Regulatoria",
+      "suffix": " para el Estado de Jalisco y sus Municipios"
     }
   }
 }
