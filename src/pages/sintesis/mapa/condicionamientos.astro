@@ -1,0 +1,143 @@
+---
+// src/pages/sintesis/mapa/condicionamientos.astro
+import Editorial from '../../../layouts/Editorial.astro';
+import Eyebrow from '../../../components/Eyebrow.astro';
+import DisplayHeadline from '../../../components/DisplayHeadline.astro';
+import Subtitle from '../../../components/Subtitle.astro';
+import HairlineDivider from '../../../components/HairlineDivider.astro';
+import Explorer from '../../../components/Explorer.tsx';
+
+import condicionamientosJson from '../../../data/condicionamientos.json';
+import ordenamientoMetaJson from '../../../data/ordenamiento-meta.json';
+import crossRefsJson from '../../../data/cross-references.json';
+
+interface Condicionamiento {
+  id: string;
+  n: number;
+  ord_federal: string;
+  art: string;
+  tipo: string;
+  urgencia: 'Alta' | 'Media' | 'Baja';
+  texto: string;
+}
+
+const condicionamientos = condicionamientosJson as Condicionamiento[];
+const ordenamientoMeta = ordenamientoMetaJson as Record<
+  string,
+  {
+    tag: string;
+    slug: string;
+    ambito: 'federal' | 'estatal';
+    nombre: { prefix: string; core: string; suffix: string };
+    nombre_display: {
+      prefix_italic: string;
+      core_bold_italic: string;
+      suffix_italic_small: string;
+    };
+  }
+>;
+const crossRefs = crossRefsJson as Record<string, any>;
+
+// --- Metricas (computadas en build) ---
+const total = condicionamientos.length;
+const alta = condicionamientos.filter((c) => c.urgencia === 'Alta').length;
+
+const ordsFederales = new Set(
+  condicionamientos
+    .filter((c) => ordenamientoMeta[c.ord_federal]?.ambito === 'federal')
+    .map((c) => c.ord_federal)
+).size;
+
+const tipos = new Set(condicionamientos.map((c) => c.tipo)).size;
+
+const metrics = [
+  { number: total, label: 'Total condicionamientos documentados' },
+  { number: alta, label: 'Urgencia alta' },
+  { number: ordsFederales, label: 'Ordenamientos federales analizados' },
+  { number: tipos, label: 'Categorías de condicionamiento' },
+];
+
+// --- Configuracion del Explorer ---
+const config = {
+  sectionCode: '1B',
+  metrics,
+  distribution: {
+    groupBy: 'ord_federal',
+    stackBy: 'urgencia',
+    stackOrder: ['Alta', 'Media', 'Baja'],
+    colorMap: {
+      Alta: 'var(--bar-alta)',
+      Media: 'var(--bar-media)',
+      Baja: 'var(--bar-baja)',
+    },
+    sortBy: 'count' as const,
+    heading: 'Distribución por ordenamiento federal',
+  },
+  tabFilter: {
+    field: 'urgencia',
+    allLabel: 'Todas',
+    options: ['Alta', 'Media', 'Baja'],
+  },
+  selectFilters: [
+    { field: 'ord_federal', label: 'Ordenamiento' },
+    { field: 'tipo', label: 'Tipo' },
+  ],
+  itemFields: {
+    numero: 'n',
+    ordTag: 'ord_federal',
+    tipo: 'tipo',
+    texto: 'texto',
+    articulo: 'art',
+    prioridad: 'urgencia',
+  },
+};
+
+const pageTitle = 'Condicionamientos del marco federal — Sección 1B';
+const pageDescription =
+  'Treinta y cuatro condicionamientos documentados a lo largo de nueve ordenamientos federales, vigentes desde la reforma energética de marzo de 2025.';
+---
+
+<Editorial title={pageTitle} description={pageDescription}>
+  <article class="condicionamientos-page">
+    <header class="condicionamientos-header">
+      <Eyebrow>SÍNTESIS · SECCIÓN 1B</Eyebrow>
+      <DisplayHeadline>
+        Condicionamientos del marco federal
+      </DisplayHeadline>
+      <Subtitle>
+        Treinta y cuatro condicionamientos documentados a lo largo de nueve
+        ordenamientos federales, vigentes desde la reforma energética de marzo
+        de 2025.
+      </Subtitle>
+    </header>
+
+    <HairlineDivider />
+
+    <Explorer
+      client:load
+      data={condicionamientos}
+      config={config}
+      ordenamientoMeta={ordenamientoMeta}
+      crossRefs={crossRefs}
+    />
+  </article>
+</Editorial>
+
+<style>
+  .condicionamientos-page {
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 3rem 1.5rem 4rem;
+  }
+  .condicionamientos-header {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    margin-bottom: 2rem;
+  }
+  @media (max-width: 720px) {
+    .condicionamientos-page {
+      padding: 2rem 1rem 3rem;
+    }
+  }
+</style>
