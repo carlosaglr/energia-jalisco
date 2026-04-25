@@ -51,6 +51,8 @@ export interface ItemFields {
   texto: string;
   articulo: string;
   prioridad: string;
+  titulo?: string;
+  badge?: string;
 }
 
 export interface ExplorerConfig {
@@ -86,7 +88,6 @@ function OrdName({ meta }: { meta: OrdenamientoMetaEntry }) {
       ? '/marco/' + meta.ambito + '/' + meta.slug
       : '#';
 
-  // Build fullName with fallbacks
   let fullName: string;
   if (nb) {
     fullName = (nb.prefix || '') + (nb.core || '') + (nb.suffix || '');
@@ -99,7 +100,6 @@ function OrdName({ meta }: { meta: OrdenamientoMetaEntry }) {
     fullName = meta.tag || '';
   }
 
-  // Render display with fallbacks
   let display: JSX.Element;
   if (nd && nd.core_bold_italic) {
     display = (
@@ -367,6 +367,12 @@ export default function Explorer({
           const texto = String(item[config.itemFields.texto] ?? '');
           const articulo = String(item[config.itemFields.articulo] ?? '');
           const prioridad = String(item[config.itemFields.prioridad] ?? '');
+          const titulo = config.itemFields.titulo
+            ? String(item[config.itemFields.titulo] ?? '')
+            : '';
+          const badge = config.itemFields.badge
+            ? String(item[config.itemFields.badge] ?? '')
+            : '';
 
           return (
             <li key={item.id} className="explorer-item">
@@ -384,7 +390,14 @@ export default function Explorer({
                   <span className="explorer-tipo">{tipo}</span>
                   <span className="explorer-sep" aria-hidden="true" />
                   <span className="explorer-articulo">{articulo}</span>
+                  {badge && (
+                    <>
+                      <span className="explorer-sep" aria-hidden="true" />
+                      <span className="explorer-badge">{badge}</span>
+                    </>
+                  )}
                 </div>
+                {titulo && <h3 className="explorer-titulo">{titulo}</h3>}
                 <p className="explorer-text">
                   <RichText text={texto} crossRefs={crossRefs} />
                 </p>

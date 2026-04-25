@@ -1,0 +1,155 @@
+---
+// src/pages/sintesis/reformas/index.astro
+import Editorial from '../../../layouts/Editorial.astro';
+import Eyebrow from '../../../components/Eyebrow.astro';
+import DisplayHeadline from '../../../components/DisplayHeadline.astro';
+import Subtitle from '../../../components/Subtitle.astro';
+import HairlineDivider from '../../../components/HairlineDivider.astro';
+import Explorer from '../../../components/Explorer.tsx';
+
+import reformasJson from '../../../data/reformas.json';
+import ordenamientoMetaJson from '../../../data/ordenamiento-meta.json';
+import crossRefsJson from '../../../data/cross-references.json';
+
+interface Reforma {
+  id: string;
+  titulo: string;
+  ordenamiento: string;
+  articulo_modificar: string;
+  fundamento_federal: string;
+  nivel: string;
+  prioridad: 'Alta' | 'Media' | 'Baja';
+  tramo_ruta_critica: number | null;
+  dependencias: string[];
+  debilidades_origen: string[];
+  proyectos_habilitados: string[];
+  texto_completo: string;
+}
+
+const reformasBase = reformasJson as Reforma[];
+
+// Campo derivado tramo_label para filter y badge
+const reformas = reformasBase.map((r) => ({
+  ...r,
+  tramo_label:
+    r.tramo_ruta_critica != null
+      ? 'Tramo ' + r.tramo_ruta_critica
+      : 'Sin tramo',
+}));
+
+const ordenamientoMeta = ordenamientoMetaJson as Record<
+  string,
+  {
+    tag: string;
+    slug: string;
+    ambito: 'federal' | 'estatal';
+    nombre: { prefix: string; core: string; suffix: string };
+    nombre_display: {
+      prefix_italic: string;
+      core_bold_italic: string;
+      suffix_italic_small: string;
+    };
+  }
+>;
+const crossRefs = crossRefsJson as Record<string, any>;
+
+// --- Metricas ---
+const total = reformas.length;
+const alta = reformas.filter((r) => r.prioridad === 'Alta').length;
+const conTramo = reformas.filter((r) => r.tramo_ruta_critica != null).length;
+const ordsTocados = new Set(reformas.map((r) => r.ordenamiento)).size;
+
+const metrics = [
+  { number: total, label: 'Total reformas propuestas' },
+  { number: alta, label: 'Prioridad alta' },
+  { number: conTramo, label: 'Con tramo de ruta crítica' },
+  { number: ordsTocados, label: 'Ordenamientos a reformar' },
+];
+
+// --- Config del Explorer ---
+const config = {
+  sectionCode: '2',
+  metrics,
+  distribution: {
+    groupBy: 'ordenamiento',
+    stackBy: 'prioridad',
+    stackOrder: ['Alta', 'Media', 'Baja'],
+    colorMap: {
+      Alta: 'var(--bar-alta)',
+      Media: 'var(--bar-media)',
+      Baja: 'var(--bar-baja)',
+    },
+    sortBy: 'count' as const,
+    heading: 'Distribución por ordenamiento',
+  },
+  tabFilter: {
+    field: 'prioridad',
+    allLabel: 'Todas',
+    options: ['Alta', 'Media', 'Baja'],
+  },
+  selectFilters: [
+    { field: 'ordenamiento', label: 'Ordenamiento' },
+    { field: 'nivel', label: 'Nivel' },
+    { field: 'tramo_label', label: 'Tramo' },
+  ],
+  itemFields: {
+    numero: 'id',
+    ordTag: 'ordenamiento',
+    tipo: 'nivel',
+    texto: 'texto_completo',
+    articulo: 'articulo_modificar',
+    prioridad: 'prioridad',
+    titulo: 'titulo',
+    badge: 'tramo_label',
+  },
+};
+
+const pageTitle = 'Reformas estructurales — Sección 2';
+const pageDescription =
+  'Ciento una reformas legislativas y normativas identificadas a partir del análisis, organizadas por ordenamiento, nivel de viabilidad y tramo de ruta crítica.';
+---
+
+<Editorial title={pageTitle} description={pageDescription}>
+  <article class="reformas-page">
+    <header class="reformas-header">
+      <Eyebrow>SÍNTESIS · SECCIÓN 2</Eyebrow>
+      <DisplayHeadline>
+        Reformas estructurales
+      </DisplayHeadline>
+      <Subtitle>
+        Ciento una reformas legislativas y normativas identificadas a partir del
+        análisis, organizadas por ordenamiento, nivel de viabilidad y tramo de
+        ruta crítica.
+      </Subtitle>
+    </header>
+
+    <HairlineDivider />
+
+    <Explorer
+      client:load
+      data={reformas}
+      config={config}
+      ordenamientoMeta={ordenamientoMeta}
+      crossRefs={crossRefs}
+    />
+  </article>
+</Editorial>
+
+<style>
+  .reformas-page {
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 3rem 1.5rem 4rem;
+  }
+  .reformas-header {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    margin-bottom: 2rem;
+  }
+  @media (max-width: 720px) {
+    .reformas-page {
+      padding: 2rem 1rem 3rem;
+    }
+  }
+</style>
