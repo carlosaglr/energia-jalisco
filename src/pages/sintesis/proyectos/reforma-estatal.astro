@@ -1,0 +1,145 @@
+---
+// src/pages/sintesis/proyectos/reforma-estatal.astro
+import Editorial from '../../../layouts/Editorial.astro';
+import Eyebrow from '../../../components/Eyebrow.astro';
+import DisplayHeadline from '../../../components/DisplayHeadline.astro';
+import Subtitle from '../../../components/Subtitle.astro';
+import HairlineDivider from '../../../components/HairlineDivider.astro';
+import Explorer from '../../../components/Explorer.tsx';
+
+import proyectosJson from '../../../data/proyectos-3b.json';
+import ordenamientoMetaJson from '../../../data/ordenamiento-meta.json';
+import crossRefsJson from '../../../data/cross-references.json';
+
+interface Proyecto3B {
+  id: string;
+  seccion: string;
+  n: number;
+  titulo: string;
+  ord_estatal: string;
+  art_estatal: string;
+  habilitacion_federal: string;
+  condicion: string;
+  prioridad: 'Alta' | 'Media' | 'Baja';
+  reformas_requeridas: string[];
+  reformas_dependencias: string[];
+  raw_reforma_text: string;
+}
+
+const proyectos = proyectosJson as Proyecto3B[];
+
+const ordenamientoMeta = ordenamientoMetaJson as Record<
+  string,
+  {
+    tag: string;
+    slug: string;
+    ambito: 'federal' | 'estatal';
+    nombre: { prefix: string; core: string; suffix: string };
+    nombre_display: {
+      prefix_italic: string;
+      core_bold_italic: string;
+      suffix_italic_small: string;
+    };
+  }
+>;
+const crossRefs = crossRefsJson as Record<string, any>;
+
+// --- Metricas ---
+const total = proyectos.length;
+const alta = proyectos.filter((p) => p.prioridad === 'Alta').length;
+const ordsTocados = new Set(proyectos.map((p) => p.ord_estatal)).size;
+const reformasReferidas = new Set(
+  proyectos.flatMap((p) => p.reformas_requeridas)
+).size;
+
+const metrics = [
+  { number: total, label: 'Proyectos con reforma estatal' },
+  { number: alta, label: 'Prioridad alta' },
+  { number: ordsTocados, label: 'Ordenamientos estatales involucrados' },
+  { number: reformasReferidas, label: 'Reformas estatales requeridas' },
+];
+
+// --- Config del Explorer ---
+const config = {
+  sectionCode: '3B',
+  metrics,
+  distribution: {
+    groupBy: 'ord_estatal',
+    stackBy: 'prioridad',
+    stackOrder: ['Alta', 'Media', 'Baja'],
+    colorMap: {
+      Alta: 'var(--bar-alta)',
+      Media: 'var(--bar-media)',
+      Baja: 'var(--bar-baja)',
+    },
+    sortBy: 'count' as const,
+    heading: 'Distribución por ordenamiento estatal',
+  },
+  tabFilter: {
+    field: 'prioridad',
+    allLabel: 'Todas',
+    options: ['Alta', 'Media', 'Baja'],
+  },
+  selectFilters: [
+    { field: 'ord_estatal', label: 'Ordenamiento' },
+    { field: 'condicion', label: 'Condición' },
+  ],
+  itemFields: {
+    numero: 'n',
+    ordTag: 'ord_estatal',
+    tipo: 'condicion',
+    texto: 'habilitacion_federal',
+    articulo: 'art_estatal',
+    prioridad: 'prioridad',
+    titulo: 'titulo',
+  },
+};
+
+const pageTitle = 'Proyectos viables con reforma estatal — Sección 3B';
+const pageDescription =
+  'Cincuenta proyectos ejecutivos cuya viabilidad depende de reformas al marco estatal de Jalisco, sin requerir cambios al marco federal.';
+---
+
+<Editorial title={pageTitle} description={pageDescription}>
+  <article class="proyectos-page">
+    <header class="proyectos-header">
+      <Eyebrow>SÍNTESIS · SECCIÓN 3B</Eyebrow>
+      <DisplayHeadline>
+        Proyectos viables con reforma estatal
+      </DisplayHeadline>
+      <Subtitle>
+        Cincuenta proyectos ejecutivos cuya viabilidad depende de reformas al
+        marco estatal de Jalisco, sin requerir cambios al marco federal.
+      </Subtitle>
+    </header>
+
+    <HairlineDivider />
+
+    <Explorer
+      client:load
+      data={proyectos}
+      config={config}
+      ordenamientoMeta={ordenamientoMeta}
+      crossRefs={crossRefs}
+    />
+  </article>
+</Editorial>
+
+<style>
+  .proyectos-page {
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 3rem 1.5rem 4rem;
+  }
+  .proyectos-header {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    margin-bottom: 2rem;
+  }
+  @media (max-width: 720px) {
+    .proyectos-page {
+      padding: 2rem 1rem 3rem;
+    }
+  }
+</style>
