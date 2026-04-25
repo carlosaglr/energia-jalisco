@@ -1,10 +1,5 @@
 /* src/components/Explorer.css
-   Estilos especificos del Explorer y CrossRef.
-   Depende de tokens definidos en src/styles/tokens.css
-   y de clases base en src/styles/components.css
-   (.tab, .tag, .tag-alta/media/baja, .ord-name, .bar-row, .bar-track,
-    .metrics-row, .metric, .metric-number, .metric-label, .hairline,
-    .xref, .tooltip, .tooltip.visible, .eyebrow). */
+   Estilos especificos del Explorer y CrossRef. */
 
 .explorer {
   width: 100%;
@@ -91,7 +86,7 @@
   opacity: 0.85;
 }
 
-/* ---------- Ord name link (no subrayado) ---------- */
+/* ---------- Ord name link ---------- */
 
 .ord-name-link {
   text-decoration: none;
@@ -196,9 +191,11 @@
   margin: 0;
 }
 
+/* Tercera columna: 170px para acomodar tags multipalabra de 3D
+   sin romper palabras individuales. */
 .explorer-item {
   display: grid;
-  grid-template-columns: 72px 1fr 110px;
+  grid-template-columns: 72px 1fr 170px;
   gap: 32px;
   padding: 28px 0;
   border-bottom: 1px solid var(--hair);
@@ -298,6 +295,78 @@
   text-align: center;
 }
 
+/* ---------- Soporte titulo y badge (Fase 4) ---------- */
+
+.explorer-titulo {
+  font-family: var(--font-serif);
+  font-size: 1.0625rem;
+  font-weight: 400;
+  line-height: 1.35;
+  letter-spacing: -0.003em;
+  color: var(--navy);
+  margin: 0.5rem 0 0.375rem;
+}
+
+.explorer-badge {
+  font-family: var(--font-sans);
+  font-size: 0.625rem;
+  font-weight: 400;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--navy);
+  padding: 0.1875rem 0.5rem;
+  border: 1px solid var(--hair);
+  border-radius: 2px;
+}
+
+/* ---------- Tags de estado para habilitaciones (3D) ---------- */
+/* Gradiente navy: oscuro = mas uso, claro = menos uso.
+   word-break: keep-all + overflow-wrap: normal evita que se rompan
+   palabras a la mitad. Ancho suficiente para "PARCIALMENTE EXPLOTADA"
+   en 2 lineas con palabras enteras. */
+
+.tag-explotada,
+.tag-parcialmente-explotada,
+.tag-ociosa,
+.tag-ociosa-diferida {
+  display: inline-block;
+  width: 160px;
+  padding: 0.4rem 0.5rem;
+  font-size: 0.6875rem;
+  letter-spacing: 0.08em;
+  line-height: 1.4;
+  text-align: center;
+  white-space: normal;
+  word-break: keep-all;
+  overflow-wrap: normal;
+  hyphens: none;
+  box-sizing: border-box;
+}
+
+.tag-explotada {
+  background: #1B2C5E;
+  color: #FFFFFF;
+  border-color: #1B2C5E;
+}
+
+.tag-parcialmente-explotada {
+  background: #6A7FAE;
+  color: #FFFFFF;
+  border-color: #6A7FAE;
+}
+
+.tag-ociosa {
+  background: #BFC9DE;
+  color: #1B2C5E;
+  border-color: #BFC9DE;
+}
+
+.tag-ociosa-diferida {
+  background: #E8ECF3;
+  color: #1B2C5E;
+  border-color: #D5DCE8;
+}
+
 /* ---------- CrossRef tooltip ---------- */
 
 .xref-wrap {
@@ -386,26 +455,32 @@
     gap: 0.5rem;
   }
 }
-/* ===== Agregado Fase 4 — soporte para titulo y badge en items ===== */
+/* ===== Fase 4 — tags de ambito normativo para vacios (4B) ===== */
 
-.explorer-titulo {
-  font-family: var(--font-serif);
-  font-size: 1.0625rem;
-  font-weight: 400;
-  line-height: 1.35;
-  letter-spacing: -0.003em;
-  color: var(--color-navy);
-  margin: 0.5rem 0 0.375rem;
+.tag-constitucional,
+.tag-legal {
+  display: inline-block;
+  width: 160px;
+  padding: 0.4rem 0.5rem;
+  font-size: 0.6875rem;
+  letter-spacing: 0.08em;
+  line-height: 1.4;
+  text-align: center;
+  white-space: normal;
+  word-break: keep-all;
+  overflow-wrap: normal;
+  hyphens: none;
+  box-sizing: border-box;
 }
 
-.explorer-badge {
-  font-family: var(--font-sans);
-  font-size: 0.625rem;
-  font-weight: 400;
-  letter-spacing: 0.18em;
-  text-transform: uppercase;
-  color: var(--color-navy);
-  padding: 0.1875rem 0.5rem;
-  border: 1px solid var(--color-hairline);
-  border-radius: 2px;
+.tag-constitucional {
+  background: #1B2C5E;
+  color: #FFFFFF;
+  border-color: #1B2C5E;
+}
+
+.tag-legal {
+  background: #6A7FAE;
+  color: #FFFFFF;
+  border-color: #6A7FAE;
 }

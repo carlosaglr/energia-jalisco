@@ -1,0 +1,143 @@
+---
+// src/pages/sintesis/vacios.astro
+import Editorial from '../../layouts/Editorial.astro';
+import Eyebrow from '../../components/Eyebrow.astro';
+import DisplayHeadline from '../../components/DisplayHeadline.astro';
+import Subtitle from '../../components/Subtitle.astro';
+import HairlineDivider from '../../components/HairlineDivider.astro';
+import Explorer from '../../components/Explorer.tsx';
+
+import vaciosJson from '../../data/vacios.json';
+import ordenamientoMetaJson from '../../data/ordenamiento-meta.json';
+import crossRefsJson from '../../data/cross-references.json';
+
+interface VacioRaw {
+  id: string;
+  n: number;
+  titulo: string;
+  polo_federal: string;
+  art: string;
+  riesgo: string;
+}
+
+const vaciosBase = vaciosJson as VacioRaw[];
+
+// Ambito derivado del polo federal: Constitucional (CPEUM) vs Legal (resto)
+function ambitoNormativo(polo: string): string {
+  return polo === 'CPEUM' ? 'Constitucional' : 'Legal';
+}
+
+const vacios = vaciosBase.map((v) => ({
+  ...v,
+  ambito: ambitoNormativo(v.polo_federal),
+}));
+
+const ordenamientoMeta = ordenamientoMetaJson as Record<
+  string,
+  {
+    tag: string;
+    slug: string;
+    ambito: 'federal' | 'estatal';
+    nombre: { prefix: string; core: string; suffix: string };
+    nombre_display: {
+      prefix_italic: string;
+      core_bold_italic: string;
+      suffix_italic_small: string;
+    };
+  }
+>;
+const crossRefs = crossRefsJson as Record<string, any>;
+
+const total = vacios.length;
+const constitucionales = vacios.filter((v) => v.ambito === 'Constitucional').length;
+const legales = total - constitucionales;
+const ordsTocados = new Set(vacios.map((v) => v.polo_federal)).size;
+
+const metrics = [
+  { number: total, label: 'Total vacíos federal-estatal' },
+  { number: constitucionales, label: 'De rango constitucional' },
+  { number: legales, label: 'De rango legal' },
+  { number: ordsTocados, label: 'Ordenamientos federales' },
+];
+
+const config = {
+  sectionCode: '4B',
+  metrics,
+  distribution: {
+    groupBy: 'polo_federal',
+    stackBy: 'ambito',
+    stackOrder: ['Constitucional', 'Legal'],
+    colorMap: {
+      'Constitucional': '#1B2C5E',
+      'Legal': '#6A7FAE',
+    },
+    sortBy: 'count' as const,
+    heading: 'Distribución por ordenamiento federal',
+  },
+  tabFilter: {
+    field: 'ambito',
+    allLabel: 'Todos',
+    options: ['Constitucional', 'Legal'],
+  },
+  selectFilters: [
+    { field: 'polo_federal', label: 'Ordenamiento federal' },
+  ],
+  itemFields: {
+    numero: 'n',
+    ordTag: 'polo_federal',
+    tipo: 'ambito',
+    texto: 'riesgo',
+    articulo: 'art',
+    prioridad: 'ambito',
+    titulo: 'titulo',
+  },
+};
+
+const pageTitle = 'Vacíos federal-estatal — Sección 4B';
+const pageDescription =
+  'Sesenta y dos vacíos normativos identificados en la intersección entre el marco federal energético y las facultades del estado de Jalisco.';
+---
+
+<Editorial title={pageTitle} description={pageDescription}>
+  <article class="vacios-page">
+    <header class="vacios-header">
+      <Eyebrow>SÍNTESIS · SECCIÓN 4B</Eyebrow>
+      <DisplayHeadline>
+        Vacíos federal-estatal
+      </DisplayHeadline>
+      <Subtitle>
+        Sesenta y dos vacíos normativos identificados en la intersección entre
+        el marco federal energético y las facultades del estado de Jalisco.
+      </Subtitle>
+    </header>
+
+    <HairlineDivider />
+
+    <Explorer
+      client:load
+      data={vacios}
+      config={config}
+      ordenamientoMeta={ordenamientoMeta}
+      crossRefs={crossRefs}
+    />
+  </article>
+</Editorial>
+
+<style>
+  .vacios-page {
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 3rem 1.5rem 4rem;
+  }
+  .vacios-header {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    margin-bottom: 2rem;
+  }
+  @media (max-width: 720px) {
+    .vacios-page {
+      padding: 2rem 1rem 3rem;
+    }
+  }
+</style>
