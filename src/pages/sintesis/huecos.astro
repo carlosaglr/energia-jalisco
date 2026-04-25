@@ -1,0 +1,185 @@
+---
+// src/pages/sintesis/huecos.astro
+import Editorial from '../../layouts/Editorial.astro';
+import Eyebrow from '../../components/Eyebrow.astro';
+import DisplayHeadline from '../../components/DisplayHeadline.astro';
+import Subtitle from '../../components/Subtitle.astro';
+import HairlineDivider from '../../components/HairlineDivider.astro';
+import CrossRefText from '../../components/CrossRefText.tsx';
+
+import huecosJson from '../../data/huecos.json';
+import crossRefsJson from '../../data/cross-references.json';
+
+interface Grupo {
+  codigo: string;
+  titulo: string;
+  items: string[];
+}
+
+interface Huecos {
+  grupos: Grupo[];
+}
+
+const huecos = huecosJson as Huecos;
+const crossRefs = crossRefsJson as Record<string, any>;
+
+// Convierte el markdown bold (**texto**) al inicio del item en <strong>
+function splitBoldPrefix(item: string): { bold: string; rest: string } {
+  const m = item.match(/^\*\*([^*]+)\*\*\s*(.*)$/s);
+  if (m) return { bold: m[1], rest: m[2] };
+  return { bold: '', rest: item };
+}
+
+const totalItems = huecos.grupos.reduce((sum, g) => sum + g.items.length, 0);
+
+const pageTitle = 'Huecos documentales — Sección 5';
+const pageDescription =
+  'Marcos normativos pendientes, fuentes no cargadas y áreas del análisis que requieren documentación adicional para cerrar el ciclo del Observatorio.';
+---
+
+<Editorial title={pageTitle} description={pageDescription}>
+  <article class="huecos-page">
+    <header class="huecos-header">
+      <Eyebrow>SÍNTESIS · SECCIÓN 5</Eyebrow>
+      <DisplayHeadline>
+        Huecos documentales
+      </DisplayHeadline>
+      <Subtitle>
+        {huecos.grupos.length} grupos con {totalItems} pendientes documentales
+        que requieren cargar fuentes adicionales o cerrar el ciclo del análisis
+        antes de pasar a implementación.
+      </Subtitle>
+    </header>
+
+    <HairlineDivider />
+
+    {huecos.grupos.map((g) => (
+      <section class="hueco-grupo">
+        <header class="grupo-header">
+          <span class="grupo-codigo">{g.codigo}</span>
+          <h2 class="grupo-titulo">{g.titulo}</h2>
+        </header>
+
+        <ol class="grupo-items">
+          {g.items.map((item) => {
+            const { bold, rest } = splitBoldPrefix(item);
+            return (
+              <li class="grupo-item">
+                {bold && <strong class="item-bold">{bold}</strong>}
+                {bold && rest && ' '}
+                {rest && (
+                  <CrossRefText client:load text={rest} crossRefs={crossRefs} />
+                )}
+              </li>
+            );
+          })}
+        </ol>
+      </section>
+    ))}
+
+    <div class="huecos-watermark">
+      Observatorio del Sistema de Energía de Jalisco · CC BY-NC-SA 4.0
+    </div>
+  </article>
+</Editorial>
+
+<style>
+  .huecos-page {
+    max-width: 880px;
+    margin: 0 auto;
+    padding: 3rem 1.5rem 4rem;
+  }
+  .huecos-header {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    align-items: center;
+  }
+  .hueco-grupo {
+    margin: 3.5rem 0;
+    padding-top: 2rem;
+    border-top: 1px solid var(--hair);
+  }
+  .hueco-grupo:first-of-type {
+    border-top: none;
+  }
+  .grupo-header {
+    margin-bottom: 1.75rem;
+  }
+  .grupo-codigo {
+    display: block;
+    font-family: var(--font-sans);
+    font-size: 10px;
+    font-weight: 400;
+    letter-spacing: 0.28em;
+    text-transform: uppercase;
+    color: var(--navy-soft);
+    margin-bottom: 0.75rem;
+  }
+  .grupo-titulo {
+    font-family: var(--font-serif);
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 1.35;
+    letter-spacing: -0.005em;
+    color: var(--text-primary);
+    margin: 0;
+  }
+  .grupo-items {
+    list-style: none;
+    counter-reset: hueco;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  .grupo-item {
+    counter-increment: hueco;
+    font-family: var(--font-serif);
+    font-size: 16px;
+    line-height: 1.65;
+    color: var(--text-primary);
+    padding-left: 2.5rem;
+    position: relative;
+  }
+  .grupo-item::before {
+    content: counter(hueco, decimal-leading-zero);
+    position: absolute;
+    left: 0;
+    top: 0.05em;
+    font-family: var(--font-mono);
+    font-size: 11px;
+    letter-spacing: 0.04em;
+    color: var(--text-muted);
+  }
+  .item-bold {
+    font-weight: 500;
+    color: var(--navy);
+  }
+  .huecos-watermark {
+    margin-top: 4rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--hair);
+    font-family: var(--font-sans);
+    font-size: 10px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    text-align: center;
+  }
+  @media (max-width: 720px) {
+    .huecos-page {
+      padding: 2rem 1rem 3rem;
+    }
+    .grupo-titulo {
+      font-size: 19px;
+    }
+    .grupo-item {
+      font-size: 15px;
+      padding-left: 2rem;
+    }
+  }
+</style>
