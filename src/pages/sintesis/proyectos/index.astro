@@ -1,0 +1,103 @@
+---
+// src/pages/sintesis/proyectos/index.astro
+import Editorial from '../../../layouts/Editorial.astro';
+import Eyebrow from '../../../components/Eyebrow.astro';
+import DisplayHeadline from '../../../components/DisplayHeadline.astro';
+import Subtitle from '../../../components/Subtitle.astro';
+import HairlineDivider from '../../../components/HairlineDivider.astro';
+import NavCard from '../../../components/NavCard.astro';
+
+const pageTitle = 'Proyectos ejecutivos — Observatorio del Sistema de Energía de Jalisco';
+const pageDescription =
+  'Doscientos siete proyectos ejecutivos clasificados por viabilidad jurídica frente al marco federal energético vigente desde marzo de 2025.';
+
+const cards = [
+  {
+    href: '/sintesis/proyectos/viables-hoy',
+    eyebrow: 'SECCIÓN 3A',
+    title: 'Viables hoy',
+    description:
+      'Ochenta y cuatro proyectos ejecutivos viables sin reformas, habilitados directamente por el marco estatal vigente y compatibles con el marco federal post-marzo 2025.',
+  },
+  {
+    href: '/sintesis/proyectos/reforma-estatal',
+    eyebrow: 'SECCIÓN 3B',
+    title: 'Con reforma estatal',
+    description:
+      'Cincuenta proyectos cuya viabilidad depende de reformas al marco estatal de Jalisco, sin requerir cambios al marco federal.',
+  },
+  {
+    href: '/sintesis/proyectos/reforma-federal',
+    eyebrow: 'SECCIÓN 3C',
+    title: 'Con reforma federal',
+    description:
+      'Quince proyectos cuya viabilidad depende de reformas al marco federal energético, fuera del control directo del estado de Jalisco.',
+  },
+  {
+    href: '/sintesis/proyectos/habilitaciones',
+    eyebrow: 'SECCIÓN 3D',
+    title: 'Habilitaciones federales',
+    description:
+      'Cincuenta y ocho habilitaciones del marco federal energético, clasificadas por su nivel de aprovechamiento por parte del estado de Jalisco.',
+  },
+];
+---
+
+<Editorial title={pageTitle} description={pageDescription}>
+  <article class="proyectos-overview">
+    <header class="proyectos-overview-header">
+      <Eyebrow>SÍNTESIS · SECCIÓN 3</Eyebrow>
+      <DisplayHeadline>
+        Proyectos ejecutivos
+      </DisplayHeadline>
+      <Subtitle>
+        Doscientos siete proyectos ejecutivos clasificados por viabilidad
+        jurídica frente al marco federal energético vigente desde marzo de
+        2025.
+      </Subtitle>
+    </header>
+
+    <HairlineDivider />
+
+    <div class="proyectos-overview-grid">
+      {cards.map((c) => (
+        <NavCard
+          href={c.href}
+          eyebrow={c.eyebrow}
+          title={c.title}
+          description={c.description}
+        />
+      ))}
+    </div>
+  </article>
+</Editorial>
+
+<style>
+  .proyectos-overview {
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 3rem 1.5rem 4rem;
+  }
+  .proyectos-overview-header {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    align-items: center;
+  }
+  .proyectos-overview-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0;
+    margin-top: 3rem;
+  }
+  @media (max-width: 720px) {
+    .proyectos-overview {
+      padding: 2rem 1rem 3rem;
+    }
+    .proyectos-overview-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>
