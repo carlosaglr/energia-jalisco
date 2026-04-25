@@ -1,0 +1,144 @@
+---
+// src/pages/sintesis/index.astro
+import Editorial from '../../layouts/Editorial.astro';
+import Eyebrow from '../../components/Eyebrow.astro';
+import DisplayHeadline from '../../components/DisplayHeadline.astro';
+import Subtitle from '../../components/Subtitle.astro';
+import HairlineDivider from '../../components/HairlineDivider.astro';
+import NavCard from '../../components/NavCard.astro';
+
+const pageTitle = 'Síntesis ejecutiva — Observatorio del Sistema de Energía de Jalisco';
+const pageDescription =
+  'Análisis jurídico-regulatorio del sistema energético del estado de Jalisco frente al marco federal energético vigente desde marzo de 2025.';
+
+const cards = [
+  {
+    href: '/sintesis/mapa/debilidades',
+    eyebrow: 'SECCIÓN 1A',
+    title: 'Debilidades del marco estatal',
+    description:
+      'Ochenta hallazgos documentados a lo largo de once ordenamientos estatales en la intersección con el marco federal energético.',
+  },
+  {
+    href: '/sintesis/mapa/condicionamientos',
+    eyebrow: 'SECCIÓN 1B',
+    title: 'Condicionamientos federales',
+    description:
+      'Treinta y cuatro restricciones, habilitaciones condicionadas y ventanas cerradas que impone el marco federal al sistema estatal.',
+  },
+  {
+    href: '/sintesis/reformas',
+    eyebrow: 'SECCIÓN 2',
+    title: 'Reformas estructurales',
+    description:
+      'Ciento una reformas legislativas y normativas organizadas por ordenamiento, nivel de viabilidad y tramo de ruta crítica.',
+  },
+  {
+    href: '/sintesis/proyectos/viables-hoy',
+    eyebrow: 'SECCIÓN 3A',
+    title: 'Proyectos viables hoy',
+    description:
+      'Ochenta y cuatro proyectos ejecutivos viables sin reformas, habilitados directamente por el marco estatal vigente.',
+  },
+  {
+    href: '/sintesis/proyectos/reforma-estatal',
+    eyebrow: 'SECCIÓN 3B',
+    title: 'Proyectos con reforma estatal',
+    description:
+      'Cincuenta proyectos cuya viabilidad depende de reformas al marco estatal de Jalisco, sin requerir cambios federales.',
+  },
+  {
+    href: '/sintesis/proyectos/reforma-federal',
+    eyebrow: 'SECCIÓN 3C',
+    title: 'Proyectos con reforma federal',
+    description:
+      'Quince proyectos cuya viabilidad depende de reformas al marco federal, fuera del control directo del estado.',
+  },
+  {
+    href: '/sintesis/proyectos/habilitaciones',
+    eyebrow: 'SECCIÓN 3D',
+    title: 'Habilitaciones federales',
+    description:
+      'Cincuenta y ocho habilitaciones del marco federal clasificadas por su nivel de aprovechamiento por parte del estado.',
+  },
+  {
+    href: '/sintesis/conflictos',
+    eyebrow: 'SECCIÓN 4A',
+    title: 'Conflictos de competencia',
+    description:
+      'Cuarenta conflictos de competencia entre el marco estatal y el marco federal, con identificación de riesgos y reformas vinculadas.',
+  },
+  {
+    href: '/sintesis/vacios',
+    eyebrow: 'SECCIÓN 4B',
+    title: 'Vacíos federal-estatal',
+    description:
+      'Sesenta y dos vacíos normativos identificados en la intersección entre el marco federal energético y las facultades del estado.',
+  },
+  {
+    href: '/sintesis/siguiente',
+    eyebrow: 'SECCIÓN 6',
+    title: 'Próximos pasos',
+    description:
+      'Treinta acciones operativas priorizadas para arrancar la implementación, organizadas por responsable, plazo y dependencia de reformas.',
+  },
+];
+---
+
+<Editorial title={pageTitle} description={pageDescription}>
+  <article class="sintesis-overview">
+    <header class="sintesis-overview-header">
+      <Eyebrow>OBSERVATORIO</Eyebrow>
+      <DisplayHeadline>
+        Síntesis ejecutiva
+      </DisplayHeadline>
+      <Subtitle>
+        Análisis jurídico-regulatorio del sistema energético del estado de
+        Jalisco frente al marco federal energético vigente desde marzo de 2025.
+      </Subtitle>
+    </header>
+
+    <HairlineDivider />
+
+    <div class="sintesis-overview-grid">
+      {cards.map((c) => (
+        <NavCard
+          href={c.href}
+          eyebrow={c.eyebrow}
+          title={c.title}
+          description={c.description}
+        />
+      ))}
+    </div>
+  </article>
+</Editorial>
+
+<style>
+  .sintesis-overview {
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 3rem 1.5rem 4rem;
+  }
+  .sintesis-overview-header {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    align-items: center;
+  }
+  .sintesis-overview-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0;
+    margin-top: 3rem;
+  }
+  @media (max-width: 720px) {
+    .sintesis-overview {
+      padding: 2rem 1rem 3rem;
+    }
+    .sintesis-overview-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>
