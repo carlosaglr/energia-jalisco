@@ -73,7 +73,6 @@
 
 /* ----------------------------------------------------------------------------
    Metrics row — fila de métricas con hairlines verticales
-   Columnas se definen por modificador .metrics-row--N (4, 6) o inline style.
    ---------------------------------------------------------------------------- */
 
 .metrics-row {
@@ -122,14 +121,12 @@
   margin-top: 0.75rem;
 }
 
-/* Responsive: a 2x3 en pantallas angostas */
 @media (max-width: 720px) {
   .metrics-row--6 { grid-template-columns: repeat(3, 1fr); }
   .metrics-row--4 { grid-template-columns: repeat(2, 1fr); }
   .metrics-row--5 { grid-template-columns: repeat(2, 1fr); }
   .metric-number { font-size: 40px; }
   .metric { padding: 0.75rem 0.5rem; }
-  /* Oculta las hairlines verticales en móvil para evitar artefactos en wrap */
   .metric::after { display: none; }
 }
 
@@ -171,11 +168,7 @@
 }
 
 /* ----------------------------------------------------------------------------
-   Ordenamiento name — patrón prefix / core / suffix
-   Uso:
-   <span class="ord-name">
-     <i>Ley para la Acción ante el </i><b>Cambio Climático</b><small> del Estado de Jalisco</small>
-   </span>
+   Ordenamiento name
    ---------------------------------------------------------------------------- */
 
 .ord-name {
@@ -239,7 +232,7 @@
 }
 
 /* ----------------------------------------------------------------------------
-   Select — estilizado al mismo lenguaje
+   Select
    ---------------------------------------------------------------------------- */
 
 .select {
@@ -266,7 +259,6 @@
 
 /* ----------------------------------------------------------------------------
    Distribution bar row
-   Fila con un label a la izquierda, un número a la derecha, y una barra debajo.
    ---------------------------------------------------------------------------- */
 
 .bar-row {
@@ -318,6 +310,8 @@
 
 /* ----------------------------------------------------------------------------
    Cross-reference link + tooltip
+   El componente CrossRef.tsx usa la clase `.xref-wrap` (sin "-per").
+   Mantenemos `.xref-wrapper` por compatibilidad con codigo antiguo.
    ---------------------------------------------------------------------------- */
 
 .xref {
@@ -337,13 +331,13 @@
   background: var(--link-hover-bg);
 }
 
-/* Variante mono para referencias a artículos de ley */
 .xref-mono {
   font-family: var(--font-mono);
   font-size: 11px;
   letter-spacing: 0.02em;
 }
 
+.xref-wrap,
 .xref-wrapper {
   position: relative;
   display: inline-block;
@@ -366,6 +360,7 @@
 }
 
 .tooltip.visible,
+.xref-wrap:hover .tooltip,
 .xref-wrapper:hover .tooltip {
   opacity: 1;
   pointer-events: auto;
@@ -397,7 +392,7 @@
 }
 
 /* ----------------------------------------------------------------------------
-   Nav card — "Our Solutions" Julius Bär
+   Nav card
    ---------------------------------------------------------------------------- */
 
 .nav-card {
@@ -450,7 +445,7 @@
 }
 
 /* ----------------------------------------------------------------------------
-   Drawer — navegación lateral hamburguesa
+   Drawer
    ---------------------------------------------------------------------------- */
 
 .drawer {
@@ -601,7 +596,7 @@
 }
 
 /* ----------------------------------------------------------------------------
-   Watermark — pie de visualizaciones
+   Watermark
    ---------------------------------------------------------------------------- */
 
 .watermark {
@@ -618,7 +613,7 @@
 }
 
 /* ----------------------------------------------------------------------------
-   Button primary / secondary (rara vez; sitio es editorial, no transaccional)
+   Button
    ---------------------------------------------------------------------------- */
 
 .btn {

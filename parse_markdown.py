@@ -48,10 +48,11 @@ from pathlib import Path
 # Paths
 # -----------------------------------------------------------------------------
 
-BASE = Path(__file__).resolve().parent.parent
-MARCO = BASE / "marco_federal_energetico.md"
-SINTESIS = BASE / "sintesis_ejecutiva_jalisco.md"
-DATA = BASE / "src" / "data"
+SOURCE_ROOT = Path(__file__).resolve().parent.parent  # z_SEDES/ (donde viven los .md)
+REPO_ROOT = Path(__file__).resolve().parent             # energia-jalisco/ (donde van los JSON)
+MARCO = SOURCE_ROOT / "marco_federal_energetico.md"
+SINTESIS = SOURCE_ROOT / "sintesis_ejecutiva_jalisco.md"
+DATA = REPO_ROOT / "src" / "data"
 BLOQUES = DATA / "bloques"
 DATA.mkdir(parents=True, exist_ok=True)
 BLOQUES.mkdir(parents=True, exist_ok=True)
@@ -403,11 +404,41 @@ def parse_sintesis(text: str) -> dict:
     result["reformas"] = reformas
 
     # -- 3A -----------------------------------------------------------------
+    # [INFERENCIA SISTEMATICA — documentada en NOTES.md]
+    # 3A no trae columna de prioridad en la fuente. Se infiere a partir de
+    # "Condicion operativa" segun tres criterios derivados de la estructura
+    # competencial federal-estatal:
+    #   Baja:  voluntad federal discrecional, contrato con CFE, invitacion
+    #          discrecional, voluntad potestativa.
+    #   Media: requiere convenio o coordinacion con autoridad federal
+    #          cooperativa (SENER, CONUEE, SEMARNAT, INECC).
+    #   Alta:  ejecutable por acto unilateral del Estado; restricciones de
+    #          limite (no invadir, congruencia) sin dependencia activa.
+    # Default si no matchea: Media.
+    def infer_prioridad_3a(condicion: str) -> str:
+        c = (condicion or "").lower()
+        baja_kw = [
+            "voluntad federal", "discrecional", "potestativa",
+            "voluntad contractual", "invitacion discrecional",
+            "invitación discrecional", "sin voto",
+        ]
+        if any(kw in c for kw in baja_kw):
+            return "Baja"
+        media_kw = [
+            "convenio", "coordinación", "coordinacion",
+            "solicitud", "concertación", "concertacion",
+            "reglas de operación", "reglas de operacion",
+        ]
+        if any(kw in c for kw in media_kw):
+            return "Media"
+        return "Alta"
+
     table = extract_table_after(text, r"^### 3A\.")
     rows = parse_md_table(table)
     proyectos_3a = []
     for r in rows:
         n = int(r["#"])
+        condicion = r["Condición operativa"]
         proyectos_3a.append({
             "id": f"3A.{n}",
             "seccion": "3A",
@@ -416,9 +447,10 @@ def parse_sintesis(text: str) -> dict:
             "ord_estatal": normalize_tag(r["Ordenamiento estatal"]),
             "art_estatal": r["Artículo"],
             "habilitacion_federal": r["Habilitación federal"],
-            "condicion": r["Condición operativa"],
-            "prioridad": None,          # 3A no tiene columna de prioridad en la fuente.
-            "reformas_requeridas": [],  # 3A es "viables hoy sin reforma" por definición.
+            "condicion": condicion,
+            "prioridad": infer_prioridad_3a(condicion),
+            "prioridad_inferida": True,  # marca explicita: no proviene de la fuente
+            "reformas_requeridas": [],
         })
     result["proyectos_3a"] = proyectos_3a
 
@@ -1019,7 +1051,7 @@ def main() -> None:
     print(f"Archivos escritos en {DATA}")
     archivos = sorted(list(DATA.glob("*.json")) + list(BLOQUES.glob("*.json")))
     for f in archivos:
-        print(f"  {f.relative_to(BASE)}  ({f.stat().st_size:,} bytes)")
+        print(f"  {f.relative_to(REPO_ROOT)}  ({f.stat().st_size:,} bytes)")
 
 
 if __name__ == "__main__":

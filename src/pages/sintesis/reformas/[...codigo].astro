@@ -1,0 +1,359 @@
+---
+// src/pages/sintesis/reformas/[...codigo].astro
+import Editorial from '../../../layouts/Editorial.astro';
+import Eyebrow from '../../../components/Eyebrow.astro';
+import DisplayHeadline from '../../../components/DisplayHeadline.astro';
+import Subtitle from '../../../components/Subtitle.astro';
+import HairlineDivider from '../../../components/HairlineDivider.astro';
+import CrossRefText from '../../../components/CrossRefText.tsx';
+import CrossRef from '../../../components/CrossRef.tsx';
+
+import reformasJson from '../../../data/reformas.json';
+import ordenamientoMetaJson from '../../../data/ordenamiento-meta.json';
+import crossRefsJson from '../../../data/cross-references.json';
+
+interface Reforma {
+  id: string;
+  n: number;
+  titulo: string;
+  reforma: string;
+  ordenamiento: string;
+  ordenamiento_raw: string;
+  articulo_modificar: string;
+  fundamento: string;
+  fundamento_federal: string;
+  habilitacion_federal: string;
+  nivel: string;
+  prioridad: 'Alta' | 'Media' | 'Baja';
+  dependencias: string[];
+  tramo_ruta_critica: number | null;
+  es_independiente: boolean;
+  debilidades_origen: string[];
+  conflictos_origen: string[];
+  proyectos_habilitados: string[];
+  texto_completo: string;
+}
+
+interface OrdMeta {
+  tag: string;
+  slug: string;
+  ambito: 'federal' | 'estatal';
+  nombre: { prefix: string; core: string; suffix: string };
+  nombre_display: {
+    prefix_italic: string;
+    core_bold_italic: string;
+    suffix_italic_small: string;
+  };
+}
+
+const reformas = reformasJson as Reforma[];
+const ordenamientoMeta = ordenamientoMetaJson as Record<string, OrdMeta>;
+const crossRefs = crossRefsJson as Record<string, any>;
+
+export function getStaticPaths() {
+  const data = reformasJson as Reforma[];
+  return data.map((r) => ({
+    params: { codigo: r.id },
+    props: { reforma: r },
+  }));
+}
+
+const { reforma } = Astro.props as { reforma: Reforma };
+const ordMeta = ordenamientoMeta[reforma.ordenamiento];
+
+const tramoLabel =
+  reforma.tramo_ruta_critica != null
+    ? 'Tramo ' + reforma.tramo_ruta_critica
+    : 'Reforma independiente';
+
+const tieneVinculos =
+  reforma.debilidades_origen.length > 0 ||
+  reforma.conflictos_origen.length > 0 ||
+  reforma.proyectos_habilitados.length > 0 ||
+  reforma.dependencias.length > 0;
+
+const pageTitle = reforma.id + ' — ' + reforma.titulo;
+const pageDescription = reforma.reforma;
+---
+
+<Editorial title={pageTitle} description={pageDescription}>
+  <article class="reforma-ficha">
+    <header class="reforma-header">
+      <Eyebrow>{'REFORMA · ' + reforma.id}</Eyebrow>
+      <DisplayHeadline>
+        {reforma.titulo}
+      </DisplayHeadline>
+      <Subtitle>
+        {reforma.reforma}
+      </Subtitle>
+    </header>
+
+    <HairlineDivider />
+
+    <section class="reforma-metadata">
+      <div class="meta-row">
+        <span class="meta-label">Ordenamiento</span>
+        <span class="meta-value">
+          {ordMeta ? (
+            <a
+              href={'/marco/' + ordMeta.ambito + '/' + ordMeta.slug}
+              class="ord-name-link"
+            >
+              <span class="ord-name">
+                {ordMeta.nombre_display.prefix_italic && (
+                  <i>{ordMeta.nombre_display.prefix_italic}</i>
+                )}
+                <b>{ordMeta.nombre_display.core_bold_italic}</b>
+                {ordMeta.nombre_display.suffix_italic_small && (
+                  <small>{ordMeta.nombre_display.suffix_italic_small}</small>
+                )}
+              </span>
+            </a>
+          ) : (
+            <span>{reforma.ordenamiento}</span>
+          )}
+        </span>
+      </div>
+
+      <div class="meta-row">
+        <span class="meta-label">Artículo a modificar</span>
+        <span class="meta-value mono">{reforma.articulo_modificar}</span>
+      </div>
+
+      <div class="meta-row">
+        <span class="meta-label">Nivel</span>
+        <span class="meta-value">{reforma.nivel}</span>
+      </div>
+
+      <div class="meta-row">
+        <span class="meta-label">Prioridad</span>
+        <span class="meta-value">
+          <span class={'tag tag-' + reforma.prioridad.toLowerCase()}>
+            {reforma.prioridad}
+          </span>
+        </span>
+      </div>
+
+      <div class="meta-row">
+        <span class="meta-label">Ruta crítica</span>
+        <span class="meta-value">{tramoLabel}</span>
+      </div>
+    </section>
+
+    <HairlineDivider />
+
+    <section class="reforma-bloque">
+      <h2 class="bloque-eyebrow">FUNDAMENTO</h2>
+      <p class="bloque-text">
+        <CrossRefText client:load text={reforma.fundamento} crossRefs={crossRefs} />
+      </p>
+    </section>
+
+    <section class="reforma-bloque">
+      <h2 class="bloque-eyebrow">HABILITACIÓN FEDERAL</h2>
+      <p class="bloque-text mono">
+        <CrossRefText client:load text={reforma.habilitacion_federal} crossRefs={crossRefs} />
+      </p>
+    </section>
+
+    {tieneVinculos && (
+      <>
+        <HairlineDivider />
+        <section class="reforma-bloque">
+          <h2 class="bloque-eyebrow">VÍNCULOS</h2>
+
+          {reforma.debilidades_origen.length > 0 && (
+            <div class="vinculo-grupo">
+              <span class="vinculo-label">Debilidades de origen</span>
+              <span class="vinculo-codigos">
+                {reforma.debilidades_origen.map((c) => (
+                  <CrossRef client:load code={c} crossRefs={crossRefs} />
+                ))}
+              </span>
+            </div>
+          )}
+
+          {reforma.conflictos_origen.length > 0 && (
+            <div class="vinculo-grupo">
+              <span class="vinculo-label">Conflictos de origen</span>
+              <span class="vinculo-codigos">
+                {reforma.conflictos_origen.map((c) => (
+                  <CrossRef client:load code={c} crossRefs={crossRefs} />
+                ))}
+              </span>
+            </div>
+          )}
+
+          {reforma.proyectos_habilitados.length > 0 && (
+            <div class="vinculo-grupo">
+              <span class="vinculo-label">Proyectos habilitados</span>
+              <span class="vinculo-codigos">
+                {reforma.proyectos_habilitados.map((c) => (
+                  <CrossRef client:load code={c} crossRefs={crossRefs} />
+                ))}
+              </span>
+            </div>
+          )}
+
+          {reforma.dependencias.length > 0 && (
+            <div class="vinculo-grupo">
+              <span class="vinculo-label">Depende de</span>
+              <span class="vinculo-codigos">
+                {reforma.dependencias.map((c) => (
+                  <CrossRef client:load code={c} crossRefs={crossRefs} />
+                ))}
+              </span>
+            </div>
+          )}
+        </section>
+      </>
+    )}
+
+    <HairlineDivider />
+
+    <nav class="reforma-nav">
+      <a href="/sintesis/reformas" class="nav-back">← Todas las reformas</a>
+    </nav>
+
+    <div class="reforma-watermark">
+      Observatorio del Sistema de Energía de Jalisco · CC BY-NC-SA 4.0
+    </div>
+  </article>
+</Editorial>
+
+<style>
+  .reforma-ficha {
+    max-width: 880px;
+    margin: 0 auto;
+    padding: 3rem 1.5rem 4rem;
+  }
+  .reforma-header {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    align-items: center;
+  }
+  .reforma-metadata {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin: 2.5rem 0;
+  }
+  .meta-row {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    gap: 1.5rem;
+    align-items: baseline;
+  }
+  .meta-label {
+    font-family: var(--font-sans);
+    font-size: 10px;
+    font-weight: 400;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--navy-soft);
+  }
+  .meta-value {
+    font-family: var(--font-serif);
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--text-primary);
+  }
+  .meta-value.mono {
+    font-family: var(--font-mono);
+    font-size: 13px;
+    letter-spacing: 0.02em;
+    color: var(--text-secondary);
+  }
+  .ord-name-link {
+    text-decoration: none;
+    color: inherit;
+  }
+  .ord-name-link:hover {
+    opacity: 0.75;
+  }
+  .reforma-bloque {
+    margin: 2.5rem 0;
+  }
+  .bloque-eyebrow {
+    font-family: var(--font-sans);
+    font-size: 10px;
+    font-weight: 400;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--navy-soft);
+    margin: 0 0 0.75rem;
+  }
+  .bloque-text {
+    font-family: var(--font-serif);
+    font-size: 16px;
+    line-height: 1.65;
+    color: var(--text-primary);
+    margin: 0;
+  }
+  .bloque-text.mono {
+    font-family: var(--font-mono);
+    font-size: 13px;
+    letter-spacing: 0.02em;
+    color: var(--text-secondary);
+    line-height: 1.5;
+  }
+  .vinculo-grupo {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    gap: 1.5rem;
+    align-items: baseline;
+    margin-bottom: 1rem;
+  }
+  .vinculo-label {
+    font-family: var(--font-sans);
+    font-size: 10px;
+    font-weight: 400;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--navy-soft);
+  }
+  .vinculo-codigos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+  .reforma-nav {
+    margin-top: 3rem;
+    padding-top: 1.5rem;
+  }
+  .nav-back {
+    font-family: var(--font-sans);
+    font-size: 11px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--navy);
+    text-decoration: none;
+  }
+  .nav-back:hover {
+    opacity: 0.75;
+  }
+  .reforma-watermark {
+    margin-top: 4rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--hair);
+    font-family: var(--font-sans);
+    font-size: 10px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    text-align: center;
+  }
+  @media (max-width: 720px) {
+    .reforma-ficha {
+      padding: 2rem 1rem 3rem;
+    }
+    .meta-row,
+    .vinculo-grupo {
+      grid-template-columns: 1fr;
+      gap: 0.4rem;
+    }
+  }
+</style>

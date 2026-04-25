@@ -535,3 +535,27 @@
   color: #1B2C5E;
   border-color: #D5DCE8;
 }
+/* ===== Fase 4 — fix tooltip CrossRef ===== */
+/* El tooltip se anclaba mal cuando el wrapper estaba dentro de un <p>
+   con texto largo. Forzamos display: inline-block para crear contexto
+   de posicionamiento estable. */
+
+.xref-wrap {
+  position: relative;
+  display: inline-block;
+}
+
+/* Asegurar que el tooltip use el .xref-wrap como ancla */
+.xref-wrap > .tooltip {
+  position: absolute;
+}
+/* ===== Fase 4 — fix tooltip CrossRef anclaje ===== */
+/* xref-wrap necesita inline-block para crear contexto de
+   posicionamiento estable para el tooltip absoluto. La regla en
+   components.css lo deja como inline, lo cual rompe el anclaje
+   cuando esta dentro de un <p> con texto largo. */
+
+.xref-wrap {
+  position: relative !important;
+  display: inline-block !important;
+}

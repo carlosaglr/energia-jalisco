@@ -53,6 +53,11 @@ export interface ItemFields {
   prioridad: string;
   titulo?: string;
   badge?: string;
+  // tagXref: campo cuyo VALOR es un array de codigos (o un solo codigo
+  // string) que el tag debe linkear via CrossRef tooltip. Cuando esta
+  // presente y el item tiene al menos un codigo, el tag se envuelve con
+  // CrossRef para mostrar tooltip rico al hover.
+  tagXref?: string;
 }
 
 export interface ExplorerConfig {
@@ -129,7 +134,7 @@ function OrdName({ meta }: { meta: OrdenamientoMetaEntry }) {
 }
 
 function PriorityTag({ value }: { value: string }) {
-  const cls = (value || '').toLowerCase();
+  const cls = (value || '').toLowerCase().replace(/\s+/g, '-');
   return <span className={'tag tag-' + cls}>{value}</span>;
 }
 
@@ -374,6 +379,18 @@ export default function Explorer({
             ? String(item[config.itemFields.badge] ?? '')
             : '';
 
+          // tagXref: array de codigos o un string, para envolver el tag
+          // con tooltip rico de CrossRef.
+          let tagCodes: string[] = [];
+          if (config.itemFields.tagXref) {
+            const raw = item[config.itemFields.tagXref];
+            if (Array.isArray(raw)) {
+              tagCodes = raw.map(String).filter(Boolean);
+            } else if (typeof raw === 'string' && raw) {
+              tagCodes = [raw];
+            }
+          }
+
           return (
             <li key={item.id} className="explorer-item">
               <div className="explorer-number">
@@ -408,7 +425,13 @@ export default function Explorer({
                 </div>
               </div>
               <div className="explorer-tag-col">
-                <PriorityTag value={prioridad} />
+                {tagCodes.length > 0 ? (
+                  <CrossRef code={tagCodes[0]} crossRefs={crossRefs}>
+                    <PriorityTag value={prioridad} />
+                  </CrossRef>
+                ) : (
+                  <PriorityTag value={prioridad} />
+                )}
               </div>
             </li>
           );

@@ -8,7 +8,8 @@
     "art_estatal": "CPEJ Art. 50 Fraccs. VIII, X, XXI; Art. 15 Fraccs. VI, VII, X",
     "habilitacion_federal": "LGCC Art. 33 Fracc. IV; LPTE Art. 8 Fraccs. VI y VII",
     "condicion": "Sin invadir regulación técnica del SEN; congruencia con LSE y LPTE 2025",
-    "prioridad": null,
+    "prioridad": "Alta",
+    "prioridad_inferida": true,
     "reformas_requeridas": []
   },
   {
@@ -20,7 +21,8 @@
     "art_estatal": "Art. 50 Fraccs. VIII, X, XX; Art. 15 Fracc. VII",
     "habilitacion_federal": "CPEUM Art. 27 párr. 6 in fine; LSE 2025 e interconexión",
     "condicion": "Sujeción a permisos federales LSE; sin prevalencia sobre la empresa pública del Estado",
-    "prioridad": null,
+    "prioridad": "Alta",
+    "prioridad_inferida": true,
     "reformas_requeridas": []
   },
   {
@@ -32,7 +34,8 @@
     "art_estatal": "Art. 50 Fracc. XVIII",
     "habilitacion_federal": "CPEUM Art. 116 Fracc. VII; LSE, LSH, LPTE",
     "condicion": "Convenio expreso",
-    "prioridad": null,
+    "prioridad": "Media",
+    "prioridad_inferida": true,
     "reformas_requeridas": []
   },
   {
@@ -44,7 +47,8 @@
     "art_estatal": "Art. 50 Fracc. X; Art. 15 Fracc. VI",
     "habilitacion_federal": "CPEUM Art. 25 párr. 2",
     "condicion": "Observar estabilidad financiera; congruencia con PND",
-    "prioridad": null,
+    "prioridad": "Alta",
+    "prioridad_inferida": true,
     "reformas_requeridas": []
   },
   {
@@ -56,7 +60,8 @@
     "art_estatal": "Art. 35 Fracc. I; Art. 50 Fracc. XXI; Art. 15 Fracc. VII",
     "habilitacion_federal": "CPEUM Art. 4° párr. 5; Art. 73 Fracc. XXIX-G; LGCC",
     "condicion": "No regular industria eléctrica/hidrocarburos; actuar sobre emisiones y eficiencia",
-    "prioridad": null,
+    "prioridad": "Alta",
+    "prioridad_inferida": true,
     "reformas_requeridas": []
   },
   {
@@ -68,7 +73,8 @@
     "art_estatal": "Art. 50 Fraccs. VIII y X",
     "habilitacion_federal": "CPEUM Art. 116 Fracc. VII",
     "condicion": "No ejercer regulación técnica reservada al Ejecutivo Federal",
-    "prioridad": null,
+    "prioridad": "Alta",
+    "prioridad_inferida": true,
     "reformas_requeridas": []
   },
   {
@@ -80,7 +86,8 @@
     "art_estatal": "Art. 12 Fracc. II; Arts. 55–66",
     "habilitacion_federal": "LGCC Art. 8 Fracc. IV; Art. 71; Art. 72",
     "condicion": "Procedimiento de consulta pública (Art. 61)",
-    "prioridad": null,
+    "prioridad": "Alta",
+    "prioridad_inferida": true,
     "reformas_requeridas": []
   },
   {
@@ -92,7 +99,8 @@
     "art_estatal": "Art. 13 Fracc. XIV; Arts. 97–100",
     "habilitacion_federal": "LGCC Art. 7 Fracc. XIV inciso a); Art. 8 Fracc. XII; Art. 75",
     "condicion": "Metodologías federales; coordinación con INECC",
-    "prioridad": null,
+    "prioridad": "Media",
+    "prioridad_inferida": true,
     "reformas_requeridas": []
   },
   {
@@ -104,7 +112,8 @@
     "art_estatal": "Arts. 88–96",
     "habilitacion_federal": "LGCC Art. 7 Fracc. XV (referencia metodológica)",
     "condicion": "Reglamento operativo pendiente desde Transitorio Tercero",
-    "prioridad": null,
+    "prioridad": "Alta",
+    "prioridad_inferida": true,
     "reformas_requeridas": []
   },
   {
@@ -116,7 +125,8 @@
     "art_estatal": "Art. 31 Fracc. V; Art. 33 Fracc. I inciso i)",
     "habilitacion_federal": "LGCC Art. 33 Fracc. IV; LPTE Art. 8 Fracc. VII; Art. 11 Fracc. X",
     "condicion": "Recomendable convenio con CONUEE; no requerido",
-    "prioridad": null,
+    "prioridad": "Media",
+    "prioridad_inferida": true,
     "reformas_requeridas": []
   },
   {
@@ -128,7 +138,8 @@
     "art_estatal": "Art. 33 Fracc. II (incisos a–m)",
     "habilitacion_federal": "LGCC Art. 8 Fracc. II inciso e); Fracc. IX; Art. 34 Fracc. II",
     "condicion": "Coordinación con Secretaría del Transporte y municipios",
-    "prioridad": null,
+    "prioridad": "Media",
+    "prioridad_inferida": true,
     "reformas_requeridas": []
   },
   {
@@ -140,7 +151,8 @@
     "art_estatal": "Art. 13 Fracc. XI; Art. 25 Fracc. XIII",
     "habilitacion_federal": "LGCC Art. 8 Fracc. XIII; Art. 30 Fracc. II",
     "condicion": "Aplicar criterios federales y datos del Atlas Nacional de Vulnerabilidad",
-    "prioridad": null,
+    "prioridad": "Alta",
+    "prioridad_inferida": true,
     "reformas_requeridas": []
   },
   {
@@ -152,7 +164,8 @@
     "art_estatal": "Art. 12 Fracc. V (facultad genérica)",
     "habilitacion_federal": "LPTE Art. 8 Fraccs. VI y VII; Art. 11 Fracc. X",
     "condicion": "Solicitud formal y suscripción de convenio",
-    "prioridad": null,
+    "prioridad": "Media",
+    "prioridad_inferida": true,
     "reformas_requeridas": []
   },
   {
@@ -164,7 +177,8 @@
     "art_estatal": "Art. 12 Fracc. XIV; Art. 13 Fracc. XXVIII",
     "habilitacion_federal": "LPTE Art. 47 Fracc. II; Art. 48 párr. 2 (preferencia entidades públicas)",
     "condicion": "Cumplimiento de reglas de operación y procesos competitivos",
-    "prioridad": null,
+    "prioridad": "Media",
+    "prioridad_inferida": true,
     "reformas_requeridas": []
   },
   {
@@ -176,7 +190,8 @@
     "art_estatal": "Art. 13 Fracc. XXVII; Art. 33 Fracc. I inciso i)",
     "habilitacion_federal": "LGCC Art. 34 Fracc. I inciso i); LPTE Art. 8 Fracc. VII",
     "condicion": "Limitado a obra pública y vivienda con recursos públicos",
-    "prioridad": null,
+    "prioridad": "Alta",
+    "prioridad_inferida": true,
     "reformas_requeridas": []
   },
   {
@@ -188,7 +203,8 @@
     "art_estatal": "Arts. 79–82",
     "habilitacion_federal": "LGCC Art. 91; Art. 8 Fracc. XV",
     "condicion": "No configurar mecanismos con estructura de mercado de carbono nacional",
-    "prioridad": null,
+    "prioridad": "Alta",
+    "prioridad_inferida": true,
     "reformas_requeridas": []
   },
   {
@@ -200,7 +216,8 @@
     "art_estatal": "Art. 3 Fraccs. I, VIII, XIX, XX, XXX, XXXI",
     "habilitacion_federal": "LGCC Art. 33 Fracc. IV; Art. 8 Fracc. II inciso e); CPEUM Art. 115 Fracc. III inciso b)",
     "condicion": "Coordinación con municipios",
-    "prioridad": null,
+    "prioridad": "Media",
+    "prioridad_inferida": true,
     "reformas_requeridas": []
   },
   {
@@ -212,7 +229,8 @@
     "art_estatal": "Art. 3 Fracc. XXVII; Fracc. XV",
     "habilitacion_federal": "LPTE Art. 11 Fracc. X",
     "condicion": "Solicitud formal a CONUEE",
-    "prioridad": null,
+    "prioridad": "Media",
+    "prioridad_inferida": true,
     "reformas_requeridas": []
   },
   {
@@ -224,7 +242,8 @@
     "art_estatal": "Art. 3 Fraccs. VIII, XVI, XVII, XXVII",
     "habilitacion_federal": "LPTE Art. 8 Fraccs. VI y VII",
     "condicion": "Voluntad federal",
-    "prioridad": null,
+    "prioridad": "Baja",
+    "prioridad_inferida": true,
     "reformas_requeridas": []
   },
   {
@@ -236,7 +255,8 @@
     "art_estatal": "Art. 3 Fraccs. XXIII, XXVI, XXVII",
     "habilitacion_federal": "LPTE Art. 47 Fracc. II; Art. 48 párr. 2",
     "condicion": "Cumplimiento de reglas; sujeción al Art. 88 LPTE sobre transparencia",
-    "prioridad": null,
+    "prioridad": "Alta",
+    "prioridad_inferida": true,
     "reformas_requeridas": []
   },
   {
@@ -248,7 +268,8 @@
     "art_estatal": "Art. 3 Fraccs. XXII, XXIV, XXVII",
     "habilitacion_federal": "LSE Art. 88 párr. 3; LSH Art. 128 párr. 3",
     "condicion": "Decreto del Ejecutivo o acuerdo interinstitucional; convenio con municipios",
-    "prioridad": null,
+    "prioridad": "Media",
+    "prioridad_inferida": true,
     "reformas_requeridas": []
   },
   {
@@ -260,7 +281,8 @@
     "art_estatal": "Art. 3 Fraccs. XXII, XXVII, XXXI",
     "habilitacion_federal": "LEPECFE Arts. 10 párr. 1; 115",
     "condicion": "Voluntad contractual de CFE",
-    "prioridad": null,
+    "prioridad": "Baja",
+    "prioridad_inferida": true,
     "reformas_requeridas": []
   },
   {
@@ -272,7 +294,8 @@
     "art_estatal": "Art. 3 Fracc. IV; Art. 22 Fracc. II",
     "habilitacion_federal": "LEPECFE Art. 83 Fracc. XXIII",
     "condicion": "Capacidad jurídica/operativa; decisión de CFE",
-    "prioridad": null,
+    "prioridad": "Alta",
+    "prioridad_inferida": true,
     "reformas_requeridas": []
   },
   {
@@ -284,7 +307,8 @@
     "art_estatal": "Art. 3 Fraccs. II, VI, XXVIII",
     "habilitacion_federal": "LGCC Art. 8 Fracc. XII; Art. 7 Fracc. XIV inciso a)",
     "condicion": "Sujeción a metodologías federales",
-    "prioridad": null,
+    "prioridad": "Alta",
+    "prioridad_inferida": true,
     "reformas_requeridas": []
   },
   {
@@ -296,7 +320,8 @@
     "art_estatal": "Art. 3 Fraccs. VIII, XXVII",
     "habilitacion_federal": "LGeo Art. 7 Fracc. XX",
     "condicion": "Convenio con SENER; identificación viable sin Reglamento",
-    "prioridad": null,
+    "prioridad": "Media",
+    "prioridad_inferida": true,
     "reformas_requeridas": []
   },
   {
@@ -308,7 +333,8 @@
     "art_estatal": "Art. 3 Fraccs. XXI, XXII, XXIV",
     "habilitacion_federal": "LSH Art. 152; LSE Arts. 133–135",
     "condicion": "Coordinación con SENER; respeto a titularidad federal",
-    "prioridad": null,
+    "prioridad": "Media",
+    "prioridad_inferida": true,
     "reformas_requeridas": []
   },
   {
@@ -320,7 +346,8 @@
     "art_estatal": "Art. 3 Fraccs. II, XIX, XXIV, XXV",
     "habilitacion_federal": "LSE Art. 11 Fracc. XLVI",
     "condicion": "No sustitución de CNE ni PROFECO",
-    "prioridad": null,
+    "prioridad": "Alta",
+    "prioridad_inferida": true,
     "reformas_requeridas": []
   },
   {
@@ -332,7 +359,8 @@
     "art_estatal": "Art. 3 Fraccs. XXII, XXXVIII",
     "habilitacion_federal": "LPTE Art. 19; LCNE Art. 18 párr. 8",
     "condicion": "Invitación discrecional federal; sin voto",
-    "prioridad": null,
+    "prioridad": "Baja",
+    "prioridad_inferida": true,
     "reformas_requeridas": []
   },
   {
@@ -344,7 +372,8 @@
     "art_estatal": "Art. 6 Fracc. VII; Art. 7",
     "habilitacion_federal": "LBio Art. 8 párr. 2; Art. 10 Fracc. I",
     "condicion": "Acreditar capacidades; voluntad federal potestativa",
-    "prioridad": null,
+    "prioridad": "Baja",
+    "prioridad_inferida": true,
     "reformas_requeridas": []
   },
   {
@@ -356,7 +385,8 @@
     "art_estatal": "Art. 6 Fraccs. XV, XIX, XXXIX; Art. 23",
     "habilitacion_federal": "LBio Art. 7 Fracc. V; Art. 9 Fracc. V",
     "condicion": "No requiere convenio para asesoría",
-    "prioridad": null,
+    "prioridad": "Media",
+    "prioridad_inferida": true,
     "reformas_requeridas": []
   },
   {
@@ -368,7 +398,8 @@
     "art_estatal": "Art. 21; Art. 6 Fracc. VII",
     "habilitacion_federal": "LBio Art. 6 Fracc. XII",
     "condicion": "Convenio interinstitucional estatal",
-    "prioridad": null,
+    "prioridad": "Media",
+    "prioridad_inferida": true,
     "reformas_requeridas": []
   },
   {
@@ -380,7 +411,8 @@
     "art_estatal": "Art. 1; Art. 2 Fracc. I; Art. 4 Fraccs. I, V, VI; Art. 55",
     "habilitacion_federal": "LSE Arts. 25, 28; LGCC Art. 33 Fracc. IV; LPTE Art. 8 Fracc. VII",
     "condicion": "Reglas técnicas CENACE; permisos CRE/CNE; Congreso Estatal si supera umbrales",
-    "prioridad": null,
+    "prioridad": "Alta",
+    "prioridad_inferida": true,
     "reformas_requeridas": []
   },
   {
@@ -392,7 +424,8 @@
     "art_estatal": "Art. 1; Art. 2 Fracc. I; Art. 4; Art. 12 párr. 3",
     "habilitacion_federal": "LPTE Art. 8 Fracc. VII; LGCC Art. 33 Fracc. IV",
     "condicion": "Convenio con CONUEE opcional; Congreso Estatal si supera umbral",
-    "prioridad": null,
+    "prioridad": "Media",
+    "prioridad_inferida": true,
     "reformas_requeridas": []
   },
   {
@@ -404,7 +437,8 @@
     "art_estatal": "Art. 1; Art. 2 Fraccs. I y II",
     "habilitacion_federal": "LSE Art. 86",
     "condicion": "Coordinación con CNE en interconexión; sin invadir tarifa",
-    "prioridad": null,
+    "prioridad": "Media",
+    "prioridad_inferida": true,
     "reformas_requeridas": []
   },
   {
@@ -416,7 +450,8 @@
     "art_estatal": "Art. 1 Bis",
     "habilitacion_federal": "LPTE Art. 8 Fracc. VII; LGCC Art. 33 Fracc. IV",
     "condicion": "Autorización del Consejo Directivo del COECYTJAL",
-    "prioridad": null,
+    "prioridad": "Alta",
+    "prioridad_inferida": true,
     "reformas_requeridas": []
   },
   {
@@ -428,7 +463,8 @@
     "art_estatal": "Art. 2 Fracc. XIV; Art. 1 párr. 4",
     "habilitacion_federal": "LEPECFE Art. 10 párr. 1; LSE Art. 129",
     "condicion": "Voluntad contractual de CFE; convenio con SENER",
-    "prioridad": null,
+    "prioridad": "Baja",
+    "prioridad_inferida": true,
     "reformas_requeridas": []
   },
   {
@@ -440,7 +476,8 @@
     "art_estatal": "Arts. 1, 4, 55",
     "habilitacion_federal": "LSE Arts. 79, 80; CENACE Art. 81",
     "condicion": "Autorización federal caso por caso para conexión al SEN",
-    "prioridad": null,
+    "prioridad": "Alta",
+    "prioridad_inferida": true,
     "reformas_requeridas": []
   },
   {
@@ -452,7 +489,8 @@
     "art_estatal": "Art. 1; Art. 2 Fracc. I; Art. 4",
     "habilitacion_federal": "LGeo (usos no eléctricos)",
     "condicion": "Verificación regulatoria federal",
-    "prioridad": null,
+    "prioridad": "Alta",
+    "prioridad_inferida": true,
     "reformas_requeridas": []
   },
   {
@@ -464,7 +502,8 @@
     "art_estatal": "Arts. 1, 4, 8",
     "habilitacion_federal": "LSE (régimen complementario a GD)",
     "condicion": "Coordinación técnica con CFE/CENACE si hay interconexión",
-    "prioridad": null,
+    "prioridad": "Media",
+    "prioridad_inferida": true,
     "reformas_requeridas": []
   },
   {
@@ -476,7 +515,8 @@
     "art_estatal": "Art. 12 párr. 4",
     "habilitacion_federal": "LSE Art. 11 Fracc. XVI",
     "condicion": "Cláusula contractual de titularidad de atributos; registro de fideicomiso (Art. 54)",
-    "prioridad": null,
+    "prioridad": "Alta",
+    "prioridad_inferida": true,
     "reformas_requeridas": []
   },
   {
@@ -488,7 +528,8 @@
     "art_estatal": "Art. 94 Fracc. II; Art. 94-Bis Fracc. IV; Art. 95",
     "habilitacion_federal": "CPEUM Art. 115 Fracc. III inciso b); LEPECFE Art. 10 párr. 1",
     "condicion": "Convenio Ejecutivo–ayuntamientos; convenio con CFE para tarifa DAP",
-    "prioridad": null,
+    "prioridad": "Media",
+    "prioridad_inferida": true,
     "reformas_requeridas": []
   },
   {
@@ -500,7 +541,8 @@
     "art_estatal": "Art. 38 Fracc. II; Art. 103",
     "habilitacion_federal": "CPEUM Art. 27 párr. 6 (generación no es servicio público reservado)",
     "condicion": "Estructuración del contrato APP; objeto generación, no distribución",
-    "prioridad": null,
+    "prioridad": "Alta",
+    "prioridad_inferida": true,
     "reformas_requeridas": []
   },
   {
@@ -512,7 +554,8 @@
     "art_estatal": "Art. 37 Fraccs. XIV, XXIII",
     "habilitacion_federal": "CPEUM Art. 115 Fracc. V",
     "condicion": "Decisión municipal; alineación con Código Urbano del Estado",
-    "prioridad": null,
+    "prioridad": "Alta",
+    "prioridad_inferida": true,
     "reformas_requeridas": []
   },
   {
@@ -524,7 +567,8 @@
     "art_estatal": "Art. 38 Fracc. II; Art. 94-Bis Fracc. IV",
     "habilitacion_federal": "CPEUM Art. 116 Fracc. VII",
     "condicion": "Convenio bilateral; sin autorización del Congreso estatal",
-    "prioridad": null,
+    "prioridad": "Media",
+    "prioridad_inferida": true,
     "reformas_requeridas": []
   },
   {
@@ -536,7 +580,8 @@
     "art_estatal": "Art. 94-Bis Fracc. VII; Art. 97",
     "habilitacion_federal": "CPEUM Art. 27 párr. 6 (comercialización fuera del servicio público)",
     "condicion": "Verificar umbral de demanda consolidada bajo reglas LSE 2025",
-    "prioridad": null,
+    "prioridad": "Alta",
+    "prioridad_inferida": true,
     "reformas_requeridas": []
   },
   {
@@ -548,7 +593,8 @@
     "art_estatal": "Art. 94 Fracc. II y párr. último; Art. 37 Fracc. II",
     "habilitacion_federal": "CPEUM Art. 115 Fracc. IV",
     "condicion": "Cobro vía CFE como facturador requiere convenio LEPECFE Art. 10",
-    "prioridad": null,
+    "prioridad": "Media",
+    "prioridad_inferida": true,
     "reformas_requeridas": []
   },
   {
@@ -560,7 +606,8 @@
     "art_estatal": "Art. 94 Fraccs. VI, VIII; Art. 38 Fracc. II",
     "habilitacion_federal": "LSE 2025 (electromovilidad)",
     "condicion": "Convenio CFE-Distribución para interconexión; APP/concesión sobre espacio público",
-    "prioridad": null,
+    "prioridad": "Media",
+    "prioridad_inferida": true,
     "reformas_requeridas": []
   },
   {
@@ -572,7 +619,8 @@
     "art_estatal": "Art. 4 inciso m); Art. 1",
     "habilitacion_federal": "CPEUM Art. 1 y Art. 2 Apartado B Fracc. IX",
     "condicion": "Acto administrativo general del Ejecutivo",
-    "prioridad": null,
+    "prioridad": "Alta",
+    "prioridad_inferida": true,
     "reformas_requeridas": []
   },
   {
@@ -584,7 +632,8 @@
     "art_estatal": "Art. 4 incisos j, k, n, p; Art. 51",
     "habilitacion_federal": "CPEUM Art. 116 Fracc. VII (parte coordinada)",
     "condicion": "Decreto/acuerdo del Ejecutivo",
-    "prioridad": null,
+    "prioridad": "Alta",
+    "prioridad_inferida": true,
     "reformas_requeridas": []
   },
   {
@@ -596,7 +645,8 @@
     "art_estatal": "Arts. 13 Fracc. I; 35 párr. 1; 36 Fracc. III; 39",
     "habilitacion_federal": "Coincidencia operativa con plataformas CNE/CENACE",
     "condicion": "Acuerdo del Ejecutivo con estándares técnicos",
-    "prioridad": null,
+    "prioridad": "Alta",
+    "prioridad_inferida": true,
     "reformas_requeridas": []
   },
   {
@@ -608,7 +658,8 @@
     "art_estatal": "Arts. 25, 31, 37-Bis; Art. 4 inciso j)",
     "habilitacion_federal": "No aplicable",
     "condicion": "Decisión administrativa interna; instructivos operativos",
-    "prioridad": null,
+    "prioridad": "Alta",
+    "prioridad_inferida": true,
     "reformas_requeridas": []
   },
   {
@@ -620,7 +671,8 @@
     "art_estatal": "Art. 9 Fracc. I inciso a); Art. 101",
     "habilitacion_federal": "LPTE (eficiencia energética concurrente)",
     "condicion": "Base sustantiva en otra norma estatal (LOAEEJ o reglamento)",
-    "prioridad": null,
+    "prioridad": "Alta",
+    "prioridad_inferida": true,
     "reformas_requeridas": []
   },
   {
@@ -632,7 +684,8 @@
     "art_estatal": "Arts. 121, 122",
     "habilitacion_federal": "CPEUM Art. 124 (facultad residual)",
     "condicion": "Vinculación con planes de protección civil y continuidad de operaciones",
-    "prioridad": null,
+    "prioridad": "Alta",
+    "prioridad_inferida": true,
     "reformas_requeridas": []
   },
   {
@@ -644,7 +697,8 @@
     "art_estatal": "Art. 6 Fraccs. I, XXVI; Art. 11; Art. 14 Fraccs. I y II",
     "habilitacion_federal": "LGCC Art. 33 Fracc. IV; LPTE Art. 8 Fraccs. VI y VII",
     "condicion": "No requiere convenio federal; recomendable convenio con CONUEE",
-    "prioridad": null,
+    "prioridad": "Media",
+    "prioridad_inferida": true,
     "reformas_requeridas": []
   },
   {
@@ -656,7 +710,8 @@
     "art_estatal": "Art. 6 Fraccs. XXXI, XXXII, XXXIII",
     "habilitacion_federal": "LGCC Art. 8 Fracc. IV; Art. 71; Art. 72 Fraccs. I–V",
     "condicion": "Coordinar con LACCEJ para evitar duplicidad",
-    "prioridad": null,
+    "prioridad": "Alta",
+    "prioridad_inferida": true,
     "reformas_requeridas": []
   },
   {
@@ -668,7 +723,8 @@
     "art_estatal": "Art. 72 Fraccs. VII y X",
     "habilitacion_federal": "LGCC Art. 8 Fraccs. II inciso e), IX",
     "condicion": "Operativo",
-    "prioridad": null,
+    "prioridad": "Alta",
+    "prioridad_inferida": true,
     "reformas_requeridas": []
   },
   {
@@ -680,7 +736,8 @@
     "art_estatal": "Art. 7",
     "habilitacion_federal": "LPTE Art. 8 Fracc. VI; Art. 11 Fracc. X; Art. 48 párr. 2",
     "condicion": "Iniciativa discrecional federal",
-    "prioridad": null,
+    "prioridad": "Baja",
+    "prioridad_inferida": true,
     "reformas_requeridas": []
   },
   {
@@ -692,7 +749,8 @@
     "art_estatal": "Art. 72 Fracc. IV; Art. 6 Fracc. XXXI",
     "habilitacion_federal": "LGCC Art. 8 Fracc. XII; Art. 7 Fracc. XIV inciso a)",
     "condicion": "Sujeto a metodologías federales (LGCC Art. 75)",
-    "prioridad": null,
+    "prioridad": "Alta",
+    "prioridad_inferida": true,
     "reformas_requeridas": []
   },
   {
@@ -704,7 +762,8 @@
     "art_estatal": "Arts. 16, 17; Art. 8 Fracc. II",
     "habilitacion_federal": "LGCC Art. 30 Fracc. II; LPTE Art. 32 párr. 3",
     "condicion": "Compatibilizar con PLADESE federal",
-    "prioridad": null,
+    "prioridad": "Alta",
+    "prioridad_inferida": true,
     "reformas_requeridas": []
   },
   {
@@ -716,7 +775,8 @@
     "art_estatal": "Art. 3 Fracc. V; Art. 14 Fracc. IX",
     "habilitacion_federal": "LGCC Art. 33 Fracc. IV; LPTE Art. 11 Fracc. X",
     "condicion": "Carácter voluntario",
-    "prioridad": null,
+    "prioridad": "Alta",
+    "prioridad_inferida": true,
     "reformas_requeridas": []
   },
   {
@@ -728,7 +788,8 @@
     "art_estatal": "Arts. 44, 45, 46, 47",
     "habilitacion_federal": "CPEUM Art. 73 Fracc. XXIX-G; LGCC Art. 7 Fracc. XV (RENE)",
     "condicion": "Verificar que la actividad no corresponda a cadena federal",
-    "prioridad": null,
+    "prioridad": "Alta",
+    "prioridad_inferida": true,
     "reformas_requeridas": []
   },
   {
@@ -740,7 +801,8 @@
     "art_estatal": "Art. 4 Fracc. IV; Arts. 54, 55, 56",
     "habilitacion_federal": "CPEUM Art. 73 Fracc. XXIX-G; LGCC Art. 8 Fracc. XII",
     "condicion": "Dictamen técnico federal previo (Art. 4 Fracc. IV)",
-    "prioridad": null,
+    "prioridad": "Alta",
+    "prioridad_inferida": true,
     "reformas_requeridas": []
   },
   {
@@ -752,7 +814,8 @@
     "art_estatal": "Art. 5 Fracc. II; Art. 10; Art. 16",
     "habilitacion_federal": "LGCC Art. 34 Fracc. I inciso i); LPTE Art. 8 Fracc. VII",
     "condicion": "Criterios dependen de reglamentación técnica local adicional",
-    "prioridad": null,
+    "prioridad": "Alta",
+    "prioridad_inferida": true,
     "reformas_requeridas": []
   },
   {
@@ -764,7 +827,8 @@
     "art_estatal": "Art. 2 párr. 2; Art. 65; Art. 55 párr. 2",
     "habilitacion_federal": "CPEUM Art. 115 Fracc. II",
     "condicion": "Convenio con municipios",
-    "prioridad": null,
+    "prioridad": "Media",
+    "prioridad_inferida": true,
     "reformas_requeridas": []
   },
   {
@@ -776,7 +840,8 @@
     "art_estatal": "Art. 2 párr. 2; Art. 4 Fracc. IV; Arts. 57, 58",
     "habilitacion_federal": "LGCC Art. 7 Fracc. XV; Art. 8 Fracc. XII",
     "condicion": "Convenio federal (discrecional)",
-    "prioridad": null,
+    "prioridad": "Baja",
+    "prioridad_inferida": true,
     "reformas_requeridas": []
   },
   {
@@ -788,7 +853,8 @@
     "art_estatal": "Art. 48 Fracc. I; Art. 46",
     "habilitacion_federal": "LGCC Art. 34 Fracc. II; LPTE Art. 8 Fracc. VII",
     "condicion": "Declaración previa de Zona Crítica",
-    "prioridad": null,
+    "prioridad": "Alta",
+    "prioridad_inferida": true,
     "reformas_requeridas": []
   },
   {
@@ -800,7 +866,8 @@
     "art_estatal": "Art. 29 Fraccs. II y VIII; Art. 70 Nonies Fracc. b)",
     "habilitacion_federal": "CPEUM Art. 27 párrs. 6 y 7; Art. 73 Fracc. X",
     "condicion": "Acuerdo general interpretativo de la Sala Superior",
-    "prioridad": null,
+    "prioridad": "Alta",
+    "prioridad_inferida": true,
     "reformas_requeridas": []
   },
   {
@@ -812,7 +879,8 @@
     "art_estatal": "Art. 85 párr. final",
     "habilitacion_federal": "No aplica",
     "condicion": "Convenio interinstitucional entre tribunales",
-    "prioridad": null,
+    "prioridad": "Media",
+    "prioridad_inferida": true,
     "reformas_requeridas": []
   },
   {
@@ -824,7 +892,8 @@
     "art_estatal": "Art. 42 párr. final",
     "habilitacion_federal": "LCNE; LSE",
     "condicion": "Facultad operativa del TJA",
-    "prioridad": null,
+    "prioridad": "Alta",
+    "prioridad_inferida": true,
     "reformas_requeridas": []
   },
   {
@@ -836,7 +905,8 @@
     "art_estatal": "Arts. 115-131; Art. 118",
     "habilitacion_federal": "No aplica",
     "condicion": "Acuerdo de la Sala Superior",
-    "prioridad": null,
+    "prioridad": "Alta",
+    "prioridad_inferida": true,
     "reformas_requeridas": []
   },
   {
@@ -848,7 +918,8 @@
     "art_estatal": "Art. 70 Nonies Fracc. b)",
     "habilitacion_federal": "CPEUM Art. 27 párrs. 6 y 7; LSE; LSH; LCNE",
     "condicion": "Facultad de la Sala Superior de oficio",
-    "prioridad": null,
+    "prioridad": "Alta",
+    "prioridad_inferida": true,
     "reformas_requeridas": []
   },
   {
@@ -860,7 +931,8 @@
     "art_estatal": "Arts. 49 párr. 2; 118 párr. final",
     "habilitacion_federal": "LCNE Art. 2; normatividad técnica federal",
     "condicion": "Acuerdo general interno",
-    "prioridad": null,
+    "prioridad": "Alta",
+    "prioridad_inferida": true,
     "reformas_requeridas": []
   },
   {
@@ -872,7 +944,8 @@
     "art_estatal": "Art. 70 Nonies Fracc. a)",
     "habilitacion_federal": "CPEUM Art. 73 Fracc. XXIX-5",
     "condicion": "Activación caso por caso",
-    "prioridad": null,
+    "prioridad": "Alta",
+    "prioridad_inferida": true,
     "reformas_requeridas": []
   },
   {
@@ -884,7 +957,8 @@
     "art_estatal": "Art. 58 párr. 3; Art. 15 Fracc. IV; Art. 73 párr. 2",
     "habilitacion_federal": "LPTE Art. 2; LGCC Art. 26; LGMR federal",
     "condicion": "Acuerdo del Consejo Estatal; convocatoria a AEEJ y SEMADET como invitadas",
-    "prioridad": null,
+    "prioridad": "Alta",
+    "prioridad_inferida": true,
     "reformas_requeridas": []
   },
   {
@@ -896,7 +970,8 @@
     "art_estatal": "Art. 41; Art. 43 párr. 2; Art. 49",
     "habilitacion_federal": "CPEUM Art. 115 Fraccs. III y V; LGMR federal",
     "condicion": "Instrucción del Consejo Estatal",
-    "prioridad": null,
+    "prioridad": "Alta",
+    "prioridad_inferida": true,
     "reformas_requeridas": []
   },
   {
@@ -908,7 +983,8 @@
     "art_estatal": "Art. 50; Art. 78; Arts. 90-92; Art. 4 Fracc. XIV",
     "habilitacion_federal": "CPEUM Art. 115 Fracc. V inciso a)",
     "condicion": "Convenios estado-municipios; base sustantiva municipal",
-    "prioridad": null,
+    "prioridad": "Media",
+    "prioridad_inferida": true,
     "reformas_requeridas": []
   },
   {
@@ -920,7 +996,8 @@
     "art_estatal": "Art. 72 párr. 1; Art. 73 párrs. 1 y 2",
     "habilitacion_federal": "LPTE Art. 2; LGCC Art. 26",
     "condicion": "Lineamientos del Consejo Estatal (potestativo hoy)",
-    "prioridad": null,
+    "prioridad": "Alta",
+    "prioridad_inferida": true,
     "reformas_requeridas": []
   },
   {
@@ -932,7 +1009,8 @@
     "art_estatal": "Art. 14 Fraccs. V y XVIII",
     "habilitacion_federal": "No aplica",
     "condicion": "Decisión del Presidente del Consejo (Gobernador). Voto permanente requiere ver R-94",
-    "prioridad": null,
+    "prioridad": "Alta",
+    "prioridad_inferida": true,
     "reformas_requeridas": []
   },
   {
@@ -944,7 +1022,8 @@
     "art_estatal": "Art. 56 párr. 1; Art. 57",
     "habilitacion_federal": "LPTE Art. 2",
     "condicion": "Coordinación AEEJ con dependencias emisoras",
-    "prioridad": null,
+    "prioridad": "Media",
+    "prioridad_inferida": true,
     "reformas_requeridas": []
   },
   {
@@ -956,7 +1035,8 @@
     "art_estatal": "Art. 78 párr. 1",
     "habilitacion_federal": "CPEUM Art. 115 Fraccs. III inciso b) y V",
     "condicion": "Convenio específico municipio-Secretaría",
-    "prioridad": null,
+    "prioridad": "Media",
+    "prioridad_inferida": true,
     "reformas_requeridas": []
   },
   {
@@ -968,7 +1048,8 @@
     "art_estatal": "Art. 68 párrs. 1-4",
     "habilitacion_federal": "Mecanismo puramente estatal",
     "condicion": "Acreditación de daño inminente; vigencia máxima 6 meses renovable una vez",
-    "prioridad": null,
+    "prioridad": "Alta",
+    "prioridad_inferida": true,
     "reformas_requeridas": []
   },
   {
@@ -980,7 +1061,8 @@
     "art_estatal": "Art. 4 Fracc. XIII; Art. 15 Fraccs. XVI y XVII; Art. 50 párr. 1 in fine",
     "habilitacion_federal": "LCNE Art. 1 (interoperabilidad potencial)",
     "condicion": "Definición de trámites prioritarios por AEEJ y SEMADET",
-    "prioridad": null,
+    "prioridad": "Alta",
+    "prioridad_inferida": true,
     "reformas_requeridas": []
   },
   {
@@ -992,7 +1074,8 @@
     "art_estatal": "Art. 115 Fraccs. I-XII; Art. 116",
     "habilitacion_federal": "CPEUM Art. 17",
     "condicion": "Difusión y canales electrónicos de recepción",
-    "prioridad": null,
+    "prioridad": "Alta",
+    "prioridad_inferida": true,
     "reformas_requeridas": []
   },
   {
@@ -1004,7 +1087,8 @@
     "art_estatal": "Art. 35 Fraccs. I y IV",
     "habilitacion_federal": "CPEUM Art. 73 Fracc. XXIX último párr.",
     "condicion": "Apego a la proporción federal de la ley secundaria. [INFERENCIA: probablemente ya ejecutado en ley fiscal vigente; el vacío residual es de rango constitucional]",
-    "prioridad": null,
+    "prioridad": "Alta",
+    "prioridad_inferida": true,
     "reformas_requeridas": []
   }
 ]

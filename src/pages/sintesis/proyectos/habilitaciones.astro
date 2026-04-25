@@ -1,0 +1,145 @@
+---
+// src/pages/sintesis/proyectos/habilitaciones.astro
+import Editorial from '../../../layouts/Editorial.astro';
+import Eyebrow from '../../../components/Eyebrow.astro';
+import DisplayHeadline from '../../../components/DisplayHeadline.astro';
+import Subtitle from '../../../components/Subtitle.astro';
+import HairlineDivider from '../../../components/HairlineDivider.astro';
+import Explorer from '../../../components/Explorer.tsx';
+
+import habilitacionesJson from '../../../data/habilitaciones.json';
+import ordenamientoMetaJson from '../../../data/ordenamiento-meta.json';
+import crossRefsJson from '../../../data/cross-references.json';
+
+interface Habilitacion {
+  id: string;
+  n: number;
+  titulo: string;
+  ord_federal: string;
+  art: string;
+  condicion: string;
+  estado: 'Explotada' | 'Parcialmente explotada' | 'Ociosa' | 'Ociosa diferida';
+  estado_glosa: string;
+  proyectos_vinculados: string[];
+}
+
+const habilitaciones = habilitacionesJson as Habilitacion[];
+
+const ordenamientoMeta = ordenamientoMetaJson as Record<
+  string,
+  {
+    tag: string;
+    slug: string;
+    ambito: 'federal' | 'estatal';
+    nombre: { prefix: string; core: string; suffix: string };
+    nombre_display: {
+      prefix_italic: string;
+      core_bold_italic: string;
+      suffix_italic_small: string;
+    };
+  }
+>;
+const crossRefs = crossRefsJson as Record<string, any>;
+
+// --- Metricas ---
+const total = habilitaciones.length;
+const ociosas = habilitaciones.filter(
+  (h) => h.estado === 'Ociosa' || h.estado === 'Ociosa diferida'
+).length;
+const explotadas = habilitaciones.filter((h) => h.estado === 'Explotada').length;
+const ordsTocados = new Set(habilitaciones.map((h) => h.ord_federal)).size;
+
+const metrics = [
+  { number: total, label: 'Total habilitaciones federales' },
+  { number: ociosas, label: 'Ociosas o diferidas' },
+  { number: explotadas, label: 'Explotadas' },
+  { number: ordsTocados, label: 'Ordenamientos federales' },
+];
+
+// --- Config del Explorer ---
+// Gradiente navy: oscuro = mas uso, claro = menos uso
+const config = {
+  sectionCode: '3D',
+  metrics,
+  distribution: {
+    groupBy: 'ord_federal',
+    stackBy: 'estado',
+    stackOrder: ['Explotada', 'Parcialmente explotada', 'Ociosa', 'Ociosa diferida'],
+    colorMap: {
+      'Explotada': '#1B2C5E',
+      'Parcialmente explotada': '#6A7FAE',
+      'Ociosa': '#BFC9DE',
+      'Ociosa diferida': '#E8ECF3',
+    },
+    sortBy: 'count' as const,
+    heading: 'Distribución por ordenamiento federal',
+  },
+  tabFilter: {
+    field: 'estado',
+    allLabel: 'Todas',
+    options: ['Explotada', 'Parcialmente explotada', 'Ociosa', 'Ociosa diferida'],
+  },
+  selectFilters: [
+    { field: 'ord_federal', label: 'Ordenamiento' },
+    { field: 'condicion', label: 'Condición' },
+  ],
+  itemFields: {
+    numero: 'n',
+    ordTag: 'ord_federal',
+    tipo: 'condicion',
+    texto: 'estado_glosa',
+    articulo: 'art',
+    prioridad: 'estado',
+    titulo: 'titulo',
+  },
+};
+
+const pageTitle = 'Habilitaciones federales — Sección 3D';
+const pageDescription =
+  'Cincuenta y ocho habilitaciones del marco federal energético, clasificadas por su nivel de aprovechamiento por parte del estado de Jalisco.';
+---
+
+<Editorial title={pageTitle} description={pageDescription}>
+  <article class="proyectos-page">
+    <header class="proyectos-header">
+      <Eyebrow>SÍNTESIS · SECCIÓN 3D</Eyebrow>
+      <DisplayHeadline>
+        Habilitaciones federales
+      </DisplayHeadline>
+      <Subtitle>
+        Cincuenta y ocho habilitaciones del marco federal energético,
+        clasificadas por su nivel de aprovechamiento por parte del estado de
+        Jalisco.
+      </Subtitle>
+    </header>
+
+    <HairlineDivider />
+
+    <Explorer
+      client:load
+      data={habilitaciones}
+      config={config}
+      ordenamientoMeta={ordenamientoMeta}
+      crossRefs={crossRefs}
+    />
+  </article>
+</Editorial>
+
+<style>
+  .proyectos-page {
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 3rem 1.5rem 4rem;
+  }
+  .proyectos-header {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    margin-bottom: 2rem;
+  }
+  @media (max-width: 720px) {
+    .proyectos-page {
+      padding: 2rem 1rem 3rem;
+    }
+  }
+</style>

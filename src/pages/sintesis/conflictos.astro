@@ -1,0 +1,168 @@
+---
+// src/pages/sintesis/conflictos.astro
+import Editorial from '../../layouts/Editorial.astro';
+import Eyebrow from '../../components/Eyebrow.astro';
+import DisplayHeadline from '../../components/DisplayHeadline.astro';
+import Subtitle from '../../components/Subtitle.astro';
+import HairlineDivider from '../../components/HairlineDivider.astro';
+import Explorer from '../../components/Explorer.tsx';
+
+import conflictosJson from '../../data/conflictos.json';
+import ordenamientoMetaJson from '../../data/ordenamiento-meta.json';
+import crossRefsJson from '../../data/cross-references.json';
+
+interface ConflictoRaw {
+  id: string;
+  n: number;
+  titulo: string;
+  polo_estatal: string;
+  polo_federal: string;
+  riesgo: string;
+  reformas_vinculadas: string[];
+}
+
+const conflictosBase = conflictosJson as ConflictoRaw[];
+
+function extractTag(polo: string): string {
+  const tags = ['CPEUM', 'CPEJ', 'LACCEJ', 'LOAEEJ', 'LAEJ', 'LPIPSEJM',
+                'LGAPM', 'LPAEJ', 'LEEEPA-Jal', 'REEEPA', 'LJAEJ', 'LMR-Jal',
+                'LBio', 'LCNE', 'LEPECFE', 'LGCC', 'LGeo', 'LPTE', 'LSE', 'LSH'];
+  for (const tag of tags) {
+    if (polo.startsWith(tag)) return tag;
+  }
+  return polo.split(' ')[0];
+}
+
+// Solo los 2 valores reales en el JSON. tagXref siempre tomara el primer
+// codigo de reformas_vinculadas para el tooltip.
+function nivelReformas(n: number): string {
+  return n === 0 ? 'Sin reforma' : 'Con reforma';
+}
+
+const conflictos = conflictosBase.map((c) => ({
+  ...c,
+  polo_estatal_tag: extractTag(c.polo_estatal),
+  polo_federal_tag: extractTag(c.polo_federal),
+  num_reformas: c.reformas_vinculadas.length,
+  nivel_reformas: nivelReformas(c.reformas_vinculadas.length),
+  reformas_label:
+    c.reformas_vinculadas.length === 0
+      ? 'Sin reforma'
+      : c.reformas_vinculadas.length === 1
+      ? '1 reforma'
+      : c.reformas_vinculadas.length + ' reformas',
+}));
+
+const ordenamientoMeta = ordenamientoMetaJson as Record<
+  string,
+  {
+    tag: string;
+    slug: string;
+    ambito: 'federal' | 'estatal';
+    nombre: { prefix: string; core: string; suffix: string };
+    nombre_display: {
+      prefix_italic: string;
+      core_bold_italic: string;
+      suffix_italic_small: string;
+    };
+  }
+>;
+const crossRefs = crossRefsJson as Record<string, any>;
+
+// --- Metricas ---
+const total = conflictos.length;
+const conReforma = conflictos.filter((c) => c.num_reformas > 0).length;
+const sinReforma = total - conReforma;
+const polosEstatales = new Set(conflictos.map((c) => c.polo_estatal_tag)).size;
+
+const metrics = [
+  { number: total, label: 'Total conflictos de competencia' },
+  { number: conReforma, label: 'Con reforma vinculada' },
+  { number: sinReforma, label: 'Sin reforma vinculada' },
+  { number: polosEstatales, label: 'Ordenamientos estatales en conflicto' },
+];
+
+const config = {
+  sectionCode: '4A',
+  metrics,
+  distribution: {
+    groupBy: 'polo_estatal_tag',
+    stackBy: 'nivel_reformas',
+    stackOrder: ['Sin reforma', 'Con reforma'],
+    colorMap: {
+      'Sin reforma': '#BFC9DE',
+      'Con reforma': '#1B2C5E',
+    },
+    sortBy: 'count' as const,
+    heading: 'Distribución por ordenamiento estatal en conflicto',
+  },
+  tabFilter: {
+    field: 'nivel_reformas',
+    allLabel: 'Todos',
+    options: ['Sin reforma', 'Con reforma'],
+  },
+  selectFilters: [
+    { field: 'polo_estatal_tag', label: 'Polo estatal' },
+    { field: 'polo_federal_tag', label: 'Polo federal' },
+  ],
+  itemFields: {
+    numero: 'n',
+    ordTag: 'polo_estatal_tag',
+    tipo: 'polo_federal_tag',
+    texto: 'riesgo',
+    articulo: 'polo_estatal',
+    prioridad: 'reformas_label',
+    titulo: 'titulo',
+    tagXref: 'reformas_vinculadas',
+  },
+};
+
+const pageTitle = 'Conflictos de competencia — Sección 4A';
+const pageDescription =
+  'Cuarenta conflictos de competencia entre el marco estatal de Jalisco y el marco federal energético, con identificación del riesgo y las reformas vinculadas.';
+---
+
+<Editorial title={pageTitle} description={pageDescription}>
+  <article class="conflictos-page">
+    <header class="conflictos-header">
+      <Eyebrow>SÍNTESIS · SECCIÓN 4A</Eyebrow>
+      <DisplayHeadline>
+        Conflictos de competencia
+      </DisplayHeadline>
+      <Subtitle>
+        Cuarenta conflictos de competencia entre el marco estatal de Jalisco y
+        el marco federal energético, con identificación del riesgo y las
+        reformas vinculadas.
+      </Subtitle>
+    </header>
+
+    <HairlineDivider />
+
+    <Explorer
+      client:load
+      data={conflictos}
+      config={config}
+      ordenamientoMeta={ordenamientoMeta}
+      crossRefs={crossRefs}
+    />
+  </article>
+</Editorial>
+
+<style>
+  .conflictos-page {
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 3rem 1.5rem 4rem;
+  }
+  .conflictos-header {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    margin-bottom: 2rem;
+  }
+  @media (max-width: 720px) {
+    .conflictos-page {
+      padding: 2rem 1rem 3rem;
+    }
+  }
+</style>
