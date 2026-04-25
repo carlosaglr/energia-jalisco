@@ -1,0 +1,175 @@
+---
+// src/pages/sintesis/siguiente.astro
+import Editorial from '../../layouts/Editorial.astro';
+import Eyebrow from '../../components/Eyebrow.astro';
+import DisplayHeadline from '../../components/DisplayHeadline.astro';
+import Subtitle from '../../components/Subtitle.astro';
+import HairlineDivider from '../../components/HairlineDivider.astro';
+import Explorer from '../../components/Explorer.tsx';
+
+import pasosJson from '../../data/proximos-pasos.json';
+import ordenamientoMetaJson from '../../data/ordenamiento-meta.json';
+import crossRefsJson from '../../data/cross-references.json';
+
+interface PasoRaw {
+  id: string;
+  n: number;
+  accion: string;
+  responsable: string;
+  requiere_reforma_raw: string;
+  requiere_reforma_bool: boolean;
+  reformas_referenciadas: string[];
+  plazo: string;
+}
+
+const pasosBase = pasosJson as PasoRaw[];
+
+// Normaliza el plazo a 5 buckets ordenados
+function plazoBucket(plazo: string): string {
+  const p = (plazo || '').toLowerCase();
+  if (p.includes('continuo')) return 'Continuo';
+  if (p.startsWith('30')) return '30 días';
+  if (p.startsWith('60') || p.startsWith('90')) return '60–90 días';
+  if (p.startsWith('120') || p.startsWith('180')) return '120–180 días';
+  if (p.startsWith('240')) return '240+ días';
+  return 'Otros';
+}
+
+// Normaliza el responsable a entidad principal
+function responsableBucket(responsable: string): string {
+  const r = responsable || '';
+  if (r.startsWith('AEEJ') || r.includes('+ AEEJ')) return 'AEEJ';
+  if (r.startsWith('Consejería Jurídica')) return 'Consejería Jurídica';
+  if (r.includes('TJA')) return 'TJA';
+  if (r.startsWith('Gobernador')) return 'Gobernador';
+  if (r.startsWith('SEMADET')) return 'SEMADET';
+  if (r.startsWith('Secretaría')) return 'Secretarías';
+  return 'Otros';
+}
+
+// Etiqueta del estado de reforma
+function reformaLabel(bool: boolean): string {
+  return bool ? 'Con reforma' : 'Sin reforma';
+}
+
+const pasos = pasosBase.map((p) => ({
+  ...p,
+  plazo_bucket: plazoBucket(p.plazo),
+  responsable_bucket: responsableBucket(p.responsable),
+  reforma_label: reformaLabel(p.requiere_reforma_bool),
+  // Tag a la derecha = plazo bucket
+  plazo_tag: plazoBucket(p.plazo),
+}));
+
+const ordenamientoMeta = ordenamientoMetaJson as Record<
+  string,
+  {
+    tag: string;
+    slug: string;
+    ambito: 'federal' | 'estatal';
+    nombre: { prefix: string; core: string; suffix: string };
+    nombre_display: {
+      prefix_italic: string;
+      core_bold_italic: string;
+      suffix_italic_small: string;
+    };
+  }
+>;
+const crossRefs = crossRefsJson as Record<string, any>;
+
+const total = pasos.length;
+const sinReforma = pasos.filter((p) => !p.requiere_reforma_bool).length;
+const conReforma = total - sinReforma;
+const responsables = new Set(pasos.map((p) => p.responsable_bucket)).size;
+
+const metrics = [
+  { number: total, label: 'Total próximos pasos' },
+  { number: sinReforma, label: 'Ejecutables sin reforma' },
+  { number: conReforma, label: 'Requieren reforma' },
+  { number: responsables, label: 'Tipos de responsable' },
+];
+
+const config = {
+  sectionCode: '6',
+  metrics,
+  distribution: {
+    groupBy: 'responsable_bucket',
+    stackBy: 'reforma_label',
+    stackOrder: ['Sin reforma', 'Con reforma'],
+    colorMap: {
+      'Sin reforma': '#1B2C5E',
+      'Con reforma': '#BFC9DE',
+    },
+    sortBy: 'count' as const,
+    heading: 'Distribución por responsable',
+  },
+  tabFilter: {
+    field: 'plazo_bucket',
+    allLabel: 'Todos',
+    options: ['30 días', '60–90 días', '120–180 días', '240+ días', 'Continuo'],
+  },
+  selectFilters: [
+    { field: 'responsable_bucket', label: 'Responsable' },
+    { field: 'plazo_bucket', label: 'Plazo' },
+  ],
+  itemFields: {
+    numero: 'n',
+    ordTag: 'responsable_bucket',
+    tipo: 'reforma_label',
+    texto: 'accion',
+    articulo: 'plazo',
+    prioridad: 'plazo_tag',
+    titulo: 'responsable',
+    tagXref: 'reformas_referenciadas',
+  },
+};
+
+const pageTitle = 'Próximos pasos — Sección 6';
+const pageDescription =
+  'Treinta acciones operativas priorizadas para arrancar la implementación del Observatorio del Sistema de Energía de Jalisco, organizadas por responsable, plazo y dependencia de reformas.';
+---
+
+<Editorial title={pageTitle} description={pageDescription}>
+  <article class="siguiente-page">
+    <header class="siguiente-header">
+      <Eyebrow>SÍNTESIS · SECCIÓN 6</Eyebrow>
+      <DisplayHeadline>
+        Próximos pasos
+      </DisplayHeadline>
+      <Subtitle>
+        Treinta acciones operativas priorizadas para arrancar la implementación
+        del Observatorio del Sistema de Energía de Jalisco, organizadas por
+        responsable, plazo y dependencia de reformas.
+      </Subtitle>
+    </header>
+
+    <HairlineDivider />
+
+    <Explorer
+      client:load
+      data={pasos}
+      config={config}
+      ordenamientoMeta={ordenamientoMeta}
+      crossRefs={crossRefs}
+    />
+  </article>
+</Editorial>
+
+<style>
+  .siguiente-page {
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 3rem 1.5rem 4rem;
+  }
+  .siguiente-header {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    margin-bottom: 2rem;
+  }
+  @media (max-width: 720px) {
+    .siguiente-page {
+      padding: 2rem 1rem 3rem;
+    }
+  }
+</style>

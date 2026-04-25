@@ -484,3 +484,54 @@
   color: #FFFFFF;
   border-color: #6A7FAE;
 }
+/* ===== Fase 4 — tags de plazo para proximos pasos (6) ===== */
+/* Gradiente: corto = oscuro, largo = claro */
+
+.tag-30-días,
+.tag-60-90-días,
+.tag-120-180-días,
+.tag-240-días,
+.tag-continuo {
+  display: inline-block;
+  width: 160px;
+  padding: 0.4rem 0.5rem;
+  font-size: 0.6875rem;
+  letter-spacing: 0.08em;
+  line-height: 1.4;
+  text-align: center;
+  white-space: normal;
+  word-break: keep-all;
+  overflow-wrap: normal;
+  hyphens: none;
+  box-sizing: border-box;
+}
+
+.tag-30-días {
+  background: #1B2C5E;
+  color: #FFFFFF;
+  border-color: #1B2C5E;
+}
+
+.tag-60-90-días {
+  background: #3F558A;
+  color: #FFFFFF;
+  border-color: #3F558A;
+}
+
+.tag-120-180-días {
+  background: #6A7FAE;
+  color: #FFFFFF;
+  border-color: #6A7FAE;
+}
+
+.tag-240-días {
+  background: #BFC9DE;
+  color: #1B2C5E;
+  border-color: #BFC9DE;
+}
+
+.tag-continuo {
+  background: #E8ECF3;
+  color: #1B2C5E;
+  border-color: #D5DCE8;
+}
