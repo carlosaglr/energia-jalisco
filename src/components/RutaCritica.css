@@ -1,0 +1,338 @@
+/* ============================================================================
+   RutaCritica.css — Estilos del waterfall por tramos
+   Observatorio del Sistema de Energía de Jalisco — Fase 6
+
+   Layout:
+     - 7 bandas verticales (.ruta-banda), una por tramo.
+     - Cada banda: header (eyebrow + título + frase) + cards-row.
+     - Cards en grid horizontal con gap consistente.
+     - SVG layer absoluto encima para aristas intra-tramo.
+
+   Inversas + inter-tramo: NO se renderizan como aristas (regla v1.6).
+   ============================================================================ */
+
+:root {
+  --ruta-card-width: 220px;
+  --ruta-card-gap: 32px;
+  --ruta-banda-padding-y: 48px;
+  --ruta-arrow-color: var(--navy);
+  --ruta-arrow-width: 2px;
+  --ruta-fade-opacity: 0.3;
+  --ruta-fade-arrow-opacity: 0.18;
+  --ruta-transition: opacity 200ms ease;
+}
+
+/* ----------------------------------------------------------------------------
+   Wrapper general
+   ---------------------------------------------------------------------------- */
+
+.ruta-root {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.ruta-error {
+  border: 1px solid #B00020;
+  background: rgba(176, 0, 32, 0.04);
+  padding: 1.5rem;
+  font-family: var(--font-mono);
+  color: #B00020;
+  white-space: pre-wrap;
+}
+
+/* ----------------------------------------------------------------------------
+   Banda (un tramo)
+   ---------------------------------------------------------------------------- */
+
+.ruta-banda {
+  position: relative;
+  padding: var(--ruta-banda-padding-y) 0;
+}
+
+.ruta-banda-header {
+  text-align: center;
+  margin-bottom: 2.25rem;
+  max-width: 720px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 1rem;
+}
+
+.ruta-banda-eyebrow {
+  font-family: var(--font-sans);
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.28em;
+  text-transform: uppercase;
+  color: var(--navy);
+  margin-bottom: 0.85rem;
+  display: block;
+}
+
+.ruta-banda-title {
+  font-family: var(--font-serif);
+  font-size: 26px;
+  font-weight: 300;
+  line-height: 1.25;
+  letter-spacing: -0.005em;
+  color: var(--text-primary);
+  margin: 0 0 0.85rem 0;
+}
+
+.ruta-banda-phrase {
+  font-family: var(--font-serif);
+  font-size: 15.5px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 1.55;
+  color: var(--navy-soft);
+  margin: 0;
+  max-width: 640px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* ----------------------------------------------------------------------------
+   Sub-banda (T6, una por ordenamiento)
+   ---------------------------------------------------------------------------- */
+
+.ruta-t6-subbanda {
+  position: relative;
+  padding: 1.75rem 0;
+}
+
+.ruta-t6-subheader {
+  text-align: center;
+  margin-bottom: 1.25rem;
+  font-family: var(--font-serif);
+  font-size: 14.5px;
+  line-height: 1.4;
+}
+
+.ruta-t6-subheader .ord-name {
+  font-size: 14.5px;
+}
+
+.ruta-t6-divider {
+  height: 1px;
+  background: var(--hair-light);
+  border: none;
+  margin: 0 auto;
+  width: 60%;
+}
+
+/* ----------------------------------------------------------------------------
+   Fila de cards
+   ---------------------------------------------------------------------------- */
+
+.ruta-cards-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--ruta-card-gap);
+  justify-content: center;
+  align-items: stretch;
+  position: relative;
+  z-index: 1;
+}
+
+/* ----------------------------------------------------------------------------
+   Card de reforma
+   ---------------------------------------------------------------------------- */
+
+.ruta-card {
+  position: relative;
+  width: var(--ruta-card-width);
+  background: var(--bg-page);
+  border: 1px solid var(--hair);
+  padding: 1rem 1rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: inherit;
+  transition: var(--ruta-transition), border-color 0.2s ease, background 0.2s ease;
+  z-index: 1;
+}
+
+.ruta-card:hover {
+  border-color: var(--navy);
+  background: var(--bg-hover);
+}
+
+.ruta-card.faded {
+  opacity: var(--ruta-fade-opacity);
+}
+
+.ruta-card.highlighted {
+  opacity: 1;
+}
+
+.ruta-card-title {
+  font-family: var(--font-serif);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.35;
+  color: var(--text-primary);
+  margin: 0 0 0.6rem 0;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.ruta-card-meta {
+  font-family: var(--font-sans);
+  font-size: 10.5px;
+  font-weight: 400;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--navy-soft);
+  line-height: 1.4;
+  margin: 0;
+  flex: 1 1 auto;
+}
+
+.ruta-card-meta .ord-tag {
+  color: var(--navy);
+  font-weight: 500;
+}
+
+.ruta-card-meta .art {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  letter-spacing: 0.04em;
+  text-transform: none;
+  color: var(--navy-soft);
+  display: block;
+  margin-top: 0.25rem;
+}
+
+.ruta-card-meta .prio {
+  display: block;
+  margin-top: 0.4rem;
+  font-size: 9.5px;
+  letter-spacing: 0.2em;
+  color: var(--text-muted);
+}
+
+.ruta-card-id {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  letter-spacing: 0.05em;
+  color: var(--navy);
+  position: absolute;
+  bottom: 0.5rem;
+  right: 0.6rem;
+}
+
+/* ----------------------------------------------------------------------------
+   SVG layer + aristas
+   ---------------------------------------------------------------------------- */
+
+.ruta-svg-layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 0;
+  overflow: visible;
+}
+
+.ruta-arrow {
+  stroke: var(--ruta-arrow-color);
+  stroke-width: var(--ruta-arrow-width);
+  fill: none;
+  transition: var(--ruta-transition);
+}
+
+.ruta-arrow.faded {
+  opacity: var(--ruta-fade-arrow-opacity);
+}
+
+.ruta-arrow.highlighted {
+  opacity: 1;
+}
+
+/* ----------------------------------------------------------------------------
+   Divider entre tramos
+   ---------------------------------------------------------------------------- */
+
+.ruta-tramo-divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.25rem;
+  margin: 0;
+  padding: 0;
+}
+
+.ruta-tramo-divider::before,
+.ruta-tramo-divider::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: var(--hair);
+}
+
+.ruta-tramo-divider-label {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0.24em;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+/* ----------------------------------------------------------------------------
+   Mobile: lista vertical degradada
+   ---------------------------------------------------------------------------- */
+
+@media (max-width: 768px) {
+  :root {
+    --ruta-card-width: 100%;
+    --ruta-card-gap: 12px;
+  }
+
+  .ruta-svg-layer {
+    display: none;
+  }
+
+  .ruta-banda {
+    padding: 2.25rem 0;
+  }
+
+  .ruta-banda-header {
+    text-align: left;
+    padding: 0;
+  }
+
+  .ruta-banda-title {
+    font-size: 22px;
+  }
+
+  .ruta-cards-row {
+    flex-direction: column;
+    gap: var(--ruta-card-gap);
+    align-items: stretch;
+  }
+
+  .ruta-card {
+    width: 100%;
+    padding: 0.85rem 0.95rem 1.4rem;
+  }
+
+  .ruta-card-title {
+    font-size: 15.5px;
+    -webkit-line-clamp: unset;
+    overflow: visible;
+  }
+
+  .ruta-t6-subheader {
+    text-align: left;
+  }
+
+  .ruta-t6-divider {
+    width: 100%;
+  }
+}

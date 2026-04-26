@@ -1,0 +1,108 @@
+---
+// TocSidebar — TOC sticky para páginas largas con prosa.
+// Componente Astro estático: sin React. El scroll suave se hace por CSS
+// (scroll-behavior: smooth en html, ya está en tokens.css).
+//
+// Uso:
+//   <TocSidebar items={[
+//     { id: 'fuentes', label: 'Fuentes analizadas' },
+//     { id: 'reglas',  label: 'Reglas operacionales' },
+//   ]} />
+
+interface TocItem {
+  id: string;      // anchor id sin "#"
+  label: string;   // texto a mostrar
+}
+
+interface Props {
+  items: TocItem[];
+  title?: string;
+  class?: string;
+}
+
+const { items, title = 'En esta página', class: className = '' } = Astro.props;
+---
+<aside class={'toc-sidebar ' + className} aria-label="Tabla de contenidos">
+  <p class="toc-title">{title}</p>
+  <ol class="toc-list">
+    {items.map((item, i) => (
+      <li class="toc-item">
+        <a class="toc-link" href={'#' + item.id}>
+          <span class="toc-number">{String(i + 1).padStart(2, '0')}</span>
+          <span class="toc-label">{item.label}</span>
+        </a>
+      </li>
+    ))}
+  </ol>
+</aside>
+
+<style>
+  .toc-sidebar {
+    position: sticky;
+    top: 88px;
+    align-self: start;
+    padding-left: 1.5rem;
+    border-left: 1px solid var(--hair);
+    max-width: 240px;
+  }
+
+  .toc-title {
+    font-family: var(--font-sans);
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--navy-soft);
+    margin: 0 0 1.25rem 0;
+  }
+
+  .toc-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.85rem;
+  }
+
+  .toc-item {
+    margin: 0;
+  }
+
+  .toc-link {
+    display: flex;
+    align-items: baseline;
+    gap: 0.75rem;
+    text-decoration: none;
+    color: var(--text-primary);
+    transition: color var(--transition-fast);
+    line-height: 1.35;
+  }
+
+  .toc-link:hover {
+    color: var(--navy);
+  }
+
+  .toc-number {
+    font-family: var(--font-sans);
+    font-size: 10px;
+    font-weight: 400;
+    letter-spacing: 0.22em;
+    color: var(--navy);
+    flex-shrink: 0;
+  }
+
+  .toc-label {
+    font-family: var(--font-serif);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.4;
+    color: inherit;
+  }
+
+  @media (max-width: 1024px) {
+    .toc-sidebar {
+      display: none;
+    }
+  }
+</style>

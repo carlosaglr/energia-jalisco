@@ -1,0 +1,462 @@
+---
+import Editorial from '../../layouts/Editorial.astro';
+import Eyebrow from '../../components/Eyebrow.astro';
+import DisplayHeadline from '../../components/DisplayHeadline.astro';
+import Subtitle from '../../components/Subtitle.astro';
+import HairlineDivider from '../../components/HairlineDivider.astro';
+import MetricsRow from '../../components/MetricsRow.astro';
+import OrdenamientoName from '../../components/OrdenamientoName.astro';
+import RutaCritica from '../../components/RutaCritica.tsx';
+
+import reformasData from '../../data/reformas.json';
+
+// ---- Pre-procesamiento build-time ----
+
+interface ReformaSrc {
+  id: string;
+  titulo: string;
+  ordenamiento: string;
+  articulo_modificar: string;
+  prioridad: string;
+  tramo_ruta_critica: number | null;
+  dependencias?: string[];
+}
+
+const reformas = reformasData as unknown as ReformaSrc[];
+
+// 1. Particionar
+const enRuta = reformas.filter((r) => r.tramo_ruta_critica !== null);
+const independientes = reformas.filter(
+  (r) => r.tramo_ruta_critica === null && r.id !== 'R-101'
+);
+const r101 = reformas.find((r) => r.id === 'R-101');
+
+if (enRuta.length !== 65) {
+  throw new Error('Esperaba 65 reformas en ruta, vi ' + enRuta.length);
+}
+if (!r101) {
+  throw new Error('No se encontró R-101 en reformas.json');
+}
+
+// Helper: extraer número de id "R-NN" para ordenar
+function rNum(id: string) {
+  const parts = id.split('-');
+  return parseInt(parts[1], 10);
+}
+
+function sortByRId(arr: ReformaSrc[]) {
+  return [...arr].sort((a, b) => rNum(a.id) - rNum(b.id));
+}
+
+// 2. Copy de los 7 grupos
+const tramoCopy: Record<number, { titulo: string; frase: string }> = {
+  1: {
+    titulo: 'Reconocer el derecho a la energía en la Constitución de Jalisco',
+    frase:
+      'Es el cimiento. Cualquier ley posterior puede ser tumbada con otra ley si no tiene piso constitucional. Por eso este grupo va primero.',
+  },
+  2: {
+    titulo: 'Actualizar las leyes de Jalisco que citan leyes federales que ya no existen',
+    frase:
+      'En marzo de 2025 el Congreso federal abrogó dos leyes clave del sector energético. Las leyes de Jalisco siguen citándolas. Hasta que se corrija, hay artículos estatales que apuntan a vacío.',
+  },
+  3: {
+    titulo: 'Construir la coordinación entre Jalisco, la Federación y los municipios',
+    frase:
+      'Las reformas siguientes necesitan instituciones claras que las apliquen. Primero se firman convenios con la Federación, después se monta una ventanilla única, después se coordina con los municipios.',
+  },
+  4: {
+    titulo: 'Asegurar el dinero para que las reformas se puedan ejecutar',
+    frase:
+      'Una reforma sin presupuesto queda en papel. Primero se crea un fondo autónomo, después el instrumento fiscal que lo nutre, después los incentivos que paga, y al final el procedimiento para acceder a recursos federales.',
+  },
+  5: {
+    titulo: 'Proteger las decisiones de Jalisco para que no se caigan en tribunales',
+    frase:
+      'Hoy hay dos motivos por los que el Estado puede perder un juicio en materia energética: invadir competencias federales o no consultar a comunidades indígenas. Estas reformas atienden los dos.',
+  },
+  6: {
+    titulo: 'Modernizar las reglas sector por sector',
+    frase:
+      'Las reformas dentro de este grupo no se necesitan unas a otras. Cada cadena temática puede avanzar a su propio ritmo, sin esperar a las demás. Por eso este es el bloque más extenso.',
+  },
+  7: {
+    titulo: 'Pendientes que dependen del Congreso de la Unión',
+    frase:
+      'Jalisco no puede aprobar estas. Quedan registradas como agenda política frente a la Federación. El Ejecutivo estatal puede impulsarlas, pero no decidirlas.',
+  },
+};
+
+// 3. Construir tramos 1..7
+function pickFields(r: ReformaSrc) {
+  return {
+    id: r.id,
+    titulo: r.titulo,
+    ordenamiento: r.ordenamiento,
+    articulo_modificar: r.articulo_modificar,
+    prioridad: r.prioridad,
+  };
+}
+
+const tramos = [1, 2, 3, 4, 5, 6, 7].map((numero) => {
+  const inTramo = sortByRId(enRuta.filter((r) => r.tramo_ruta_critica === numero));
+  const tramoObj: any = {
+    numero,
+    titulo: tramoCopy[numero].titulo,
+    frase: tramoCopy[numero].frase,
+    reformas: inTramo.map(pickFields),
+  };
+
+  if (numero === 6) {
+    // Sub-agrupar por ordenamiento (campo de los datos, no hardcodeado).
+    const subRaw: Record<string, ReformaSrc[]> = {};
+    for (const r of inTramo) {
+      if (!subRaw[r.ordenamiento]) subRaw[r.ordenamiento] = [];
+      subRaw[r.ordenamiento].push(r);
+    }
+    // Orden de las sub-bandas: por R-NN mínimo dentro de cada ordenamiento.
+    const tags = Object.keys(subRaw);
+    tags.sort((a, b) => {
+      const minA = Math.min(...subRaw[a].map((r) => rNum(r.id)));
+      const minB = Math.min(...subRaw[b].map((r) => rNum(r.id)));
+      return minA - minB;
+    });
+    const subgrupos: Record<string, any[]> = {};
+    for (const t of tags) {
+      subgrupos[t] = sortByRId(subRaw[t]).map(pickFields);
+    }
+    tramoObj.subgrupos = subgrupos;
+    tramoObj.subOrden = tags;
+
+    // Validación adicional: T6 debe quedar entre 8 y 12 sub-bandas.
+    if (tags.length < 8 || tags.length > 12) {
+      throw new Error(
+        'T6 sub-agrupado dio ' + tags.length + ' sub-bandas; rango aceptable 8-12.'
+      );
+    }
+  }
+
+  return tramoObj;
+});
+
+// 4. Índices de dependencias
+//    forward: id -> [predecesoras directas] (campo dependencias[] tal cual)
+//    backward: id -> [sucesoras directas] (computado)
+const allIds = new Set(reformas.map((r) => r.id));
+const forward: Record<string, string[]> = {};
+const backward: Record<string, string[]> = {};
+for (const r of reformas) {
+  forward[r.id] = (r.dependencias || []).filter((d) => allIds.has(d));
+  backward[r.id] = [];
+}
+for (const r of reformas) {
+  for (const dep of forward[r.id]) {
+    backward[dep].push(r.id);
+  }
+}
+
+// 5. Validación: dependencias hacia ids inexistentes (regla v1.6).
+const broken: string[] = [];
+for (const r of reformas) {
+  for (const dep of (r.dependencias || [])) {
+    if (!allIds.has(dep)) broken.push(r.id + ' -> ' + dep);
+  }
+}
+if (broken.length > 0) {
+  throw new Error('Dependencias hacia ids inexistentes: ' + broken.join(', '));
+}
+
+// 6. Métricas de la página
+const totalEnRuta = enRuta.length;            // 65
+const totalIndependientes = independientes.length; // 36
+const totalT7 = enRuta.filter((r) => r.tramo_ruta_critica === 7).length;
+
+const metrics = [
+  { number: 7,                        label: 'Grupos de reformas' },
+  { number: totalEnRuta,              label: 'Reformas con orden definido' },
+  { number: totalIndependientes,      label: 'Reformas que pueden empezar en cualquier momento' },
+  { number: totalT7,                  label: 'Reformas que dependen del Congreso de la Unión' },
+];
+
+// 7. Independientes agrupadas por ordenamiento, ordenadas por R-NN min.
+const indPorOrdRaw: Record<string, ReformaSrc[]> = {};
+for (const r of independientes) {
+  if (!indPorOrdRaw[r.ordenamiento]) indPorOrdRaw[r.ordenamiento] = [];
+  indPorOrdRaw[r.ordenamiento].push(r);
+}
+const indOrden = Object.keys(indPorOrdRaw).sort((a, b) => {
+  const minA = Math.min(...indPorOrdRaw[a].map((r) => rNum(r.id)));
+  const minB = Math.min(...indPorOrdRaw[b].map((r) => rNum(r.id)));
+  return minA - minB;
+});
+const indPorOrd = indOrden.map((tag) => ({
+  tag,
+  reformas: sortByRId(indPorOrdRaw[tag]),
+}));
+---
+<Editorial
+  title="Ruta crítica"
+  description="Ruta crítica de las 101 reformas estructurales del sistema energético de Jalisco: orden de ejecución por grupos, dependencias y reformas independientes."
+>
+  <div class="container ruta-page">
+    <section class="hero">
+      <Eyebrow>SÍNTESIS · RUTA CRÍTICA</Eyebrow>
+      <DisplayHeadline>Ruta crítica de las reformas</DisplayHeadline>
+      <Subtitle>
+        Ciento una reformas para corregir el sistema energético de Jalisco. Algunas se pueden empezar de inmediato. Otras tienen que esperar a que se apruebe una reforma previa. Esta página muestra ese orden.
+      </Subtitle>
+    </section>
+
+    <MetricsRow metrics={metrics} />
+
+    <HairlineDivider />
+
+    <p class="ruta-nota">
+      Las flechas indican orden obligatorio. Una reforma con flecha entrante no puede empezar hasta que la anterior esté aprobada.
+    </p>
+
+    <HairlineDivider light />
+
+    <RutaCritica tramos={tramos} forward={forward} backward={backward} client:load />
+
+    <HairlineDivider />
+
+    <section class="ruta-bloque">
+      <h2 class="ruta-h2">Reformas que se pueden empezar en cualquier momento</h2>
+      <p class="ruta-h2-sub">
+        No dependen de ninguna otra. El orden lo decide la prioridad política del Ejecutivo y del Congreso del Estado.
+      </p>
+
+      <div class="ruta-ind-grid">
+        {indPorOrd.map((g) => (
+          <div class="ruta-ind-block">
+            <h3 class="ruta-ind-heading"><OrdenamientoName tag={g.tag} /></h3>
+            <ul class="ruta-ind-list">
+              {g.reformas.map((r) => (
+                <li>
+                  <a class="ruta-ind-card" href={'/sintesis/reformas/' + r.id}>
+                    <span class="ruta-ind-id">{r.id}</span>
+                    <span class="ruta-ind-titulo">{r.titulo}</span>
+                    <span class="ruta-ind-meta">
+                      <span class="art">{r.articulo_modificar}</span>
+                      <span class="prio">Prioridad {r.prioridad}</span>
+                    </span>
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </div>
+        ))}
+      </div>
+    </section>
+
+    <HairlineDivider />
+
+    <section class="ruta-bloque">
+      <h2 class="ruta-h2">Una reforma que depende del Congreso de la Unión</h2>
+      <a class="ruta-r101-card" href={'/sintesis/reformas/' + r101.id}>
+        <span class="ruta-r101-eyebrow">REFORMA FEDERAL · NO CONTROLABLE DESDE JALISCO</span>
+        <h3 class="ruta-r101-title">{r101.titulo}</h3>
+        <p class="ruta-r101-text">
+          La reforma {r101.id} requiere un cambio en la Constitución federal o en una ley federal. Jalisco no la puede aprobar por sí solo. Queda registrada para que el Ejecutivo estatal la pueda impulsar como agenda política.
+        </p>
+        <span class="ruta-r101-link">Ver ficha de {r101.id} →</span>
+      </a>
+    </section>
+  </div>
+</Editorial>
+
+<style>
+  .ruta-page {
+    padding-bottom: 6rem;
+  }
+
+  .ruta-nota {
+    font-family: var(--font-serif);
+    font-size: 14px;
+    font-style: italic;
+    color: var(--navy-soft);
+    text-align: center;
+    margin: 1.5rem auto;
+    max-width: 640px;
+    line-height: 1.5;
+  }
+
+  .ruta-bloque {
+    margin: 3rem 0;
+  }
+
+  .ruta-h2 {
+    font-family: var(--font-serif);
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 1.2;
+    letter-spacing: -0.005em;
+    color: var(--text-primary);
+    text-align: center;
+    margin: 0 0 0.75rem 0;
+  }
+
+  .ruta-h2-sub {
+    font-family: var(--font-serif);
+    font-size: 16px;
+    font-style: italic;
+    color: var(--navy-soft);
+    text-align: center;
+    margin: 0 auto 2.5rem auto;
+    max-width: 640px;
+    line-height: 1.5;
+  }
+
+  .ruta-ind-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2.5rem 2rem;
+    margin-top: 2rem;
+  }
+
+  .ruta-ind-block {
+    display: flex;
+    flex-direction: column;
+    gap: 0.85rem;
+  }
+
+  .ruta-ind-heading {
+    font-family: var(--font-serif);
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0 0 0.5rem 0;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid var(--hair);
+    line-height: 1.4;
+  }
+
+  .ruta-ind-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+  }
+
+  .ruta-ind-card {
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+    padding: 0.75rem 0.85rem;
+    border: 1px solid var(--hair);
+    background: var(--bg-page);
+    text-decoration: none;
+    color: inherit;
+    transition: border-color 0.2s ease, background 0.2s ease;
+  }
+
+  .ruta-ind-card:hover {
+    border-color: var(--navy);
+    background: var(--bg-hover);
+  }
+
+  .ruta-ind-id {
+    font-family: var(--font-mono);
+    font-size: 10.5px;
+    color: var(--navy);
+    letter-spacing: 0.04em;
+  }
+
+  .ruta-ind-titulo {
+    font-family: var(--font-serif);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.4;
+    color: var(--text-primary);
+  }
+
+  .ruta-ind-meta {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+    margin-top: 0.25rem;
+  }
+
+  .ruta-ind-meta .art {
+    font-family: var(--font-mono);
+    font-size: 10px;
+    color: var(--navy-soft);
+    letter-spacing: 0.04em;
+  }
+
+  .ruta-ind-meta .prio {
+    font-family: var(--font-sans);
+    font-size: 9.5px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+  }
+
+  /* R-101 card */
+  .ruta-r101-card {
+    display: flex;
+    flex-direction: column;
+    gap: 0.85rem;
+    border: 2px solid var(--navy);
+    background: var(--bg-page);
+    padding: 2rem 2rem 1.75rem;
+    text-decoration: none;
+    color: inherit;
+    max-width: 720px;
+    margin: 0 auto;
+    transition: background 0.2s ease;
+  }
+
+  .ruta-r101-card:hover {
+    background: var(--bg-hover);
+  }
+
+  .ruta-r101-eyebrow {
+    font-family: var(--font-sans);
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 0.28em;
+    text-transform: uppercase;
+    color: var(--navy);
+  }
+
+  .ruta-r101-title {
+    font-family: var(--font-serif);
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 1.25;
+    margin: 0;
+    color: var(--text-primary);
+  }
+
+  .ruta-r101-text {
+    font-family: var(--font-serif);
+    font-size: 16px;
+    line-height: 1.6;
+    color: var(--text-primary);
+    margin: 0;
+  }
+
+  .ruta-r101-link {
+    font-family: var(--font-sans);
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    color: var(--navy);
+    margin-top: 0.5rem;
+  }
+
+  @media (max-width: 768px) {
+    .ruta-h2 {
+      font-size: 24px;
+    }
+    .ruta-r101-card {
+      padding: 1.5rem 1.25rem;
+    }
+    .ruta-r101-title {
+      font-size: 20px;
+    }
+  }
+</style>

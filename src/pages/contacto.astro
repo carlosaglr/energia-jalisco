@@ -1,0 +1,206 @@
+---
+import Editorial from '../layouts/Editorial.astro';
+import Eyebrow from '../components/Eyebrow.astro';
+import DisplayHeadline from '../components/DisplayHeadline.astro';
+import Subtitle from '../components/Subtitle.astro';
+import HairlineDivider from '../components/HairlineDivider.astro';
+---
+<Editorial
+  title="Contacto"
+  description="Canales de contacto del Observatorio del Sistema de Energía de Jalisco: consultas, reportes técnicos y nota de autoría."
+>
+  <div class="container-narrow contacto-page">
+    <section class="hero">
+      <Eyebrow>CONTACTO</Eyebrow>
+      <DisplayHeadline>Contacto</DisplayHeadline>
+      <Subtitle>
+        Para preguntas sobre el contenido, errores en el análisis o reportes técnicos del sitio.
+      </Subtitle>
+    </section>
+
+    <HairlineDivider />
+
+    <section class="contacto-bloque">
+      <h2 class="contacto-h2">Consultas y comentarios</h2>
+      <p class="body-editorial">
+        Para preguntas sobre el análisis, observaciones de fondo o solicitudes de aclaración. Las respuestas no son inmediatas.
+      </p>
+
+      <form
+        class="contacto-form"
+        action="https://formspree.io/f/xqewjdjp"
+        method="POST"
+      >
+        <div class="form-field">
+          <label class="form-label" for="nombre">Nombre</label>
+          <input
+            class="form-input"
+            type="text"
+            id="nombre"
+            name="nombre"
+            required
+            autocomplete="name"
+          />
+        </div>
+
+        <div class="form-field">
+          <label class="form-label" for="organizacion">Organización <span class="form-optional">(opcional)</span></label>
+          <input
+            class="form-input"
+            type="text"
+            id="organizacion"
+            name="organizacion"
+            autocomplete="organization"
+          />
+        </div>
+
+        <div class="form-field">
+          <label class="form-label" for="email">Email</label>
+          <input
+            class="form-input"
+            type="email"
+            id="email"
+            name="email"
+            required
+            autocomplete="email"
+          />
+        </div>
+
+        <div class="form-field">
+          <label class="form-label" for="mensaje">Mensaje</label>
+          <textarea
+            class="form-input form-textarea"
+            id="mensaje"
+            name="mensaje"
+            rows="6"
+            required
+          ></textarea>
+        </div>
+
+        <button class="btn btn-primary form-submit" type="submit">
+          Enviar
+        </button>
+      </form>
+    </section>
+
+    <HairlineDivider />
+
+    <section class="contacto-bloque">
+      <h2 class="contacto-h2">Sobre el autor</h2>
+      <p class="body-editorial">
+        Carlos Aguilar. MIA, Columbia University.
+      </p>
+    </section>
+  </div>
+</Editorial>
+
+<style>
+  .contacto-page {
+    padding-bottom: 4rem;
+  }
+
+  .contacto-h2 {
+    font-family: var(--font-serif);
+    font-size: 28px;
+    font-weight: 300;
+    line-height: 1.2;
+    letter-spacing: -0.005em;
+    color: var(--text-primary);
+    margin: 0 0 1rem 0;
+  }
+
+  .contacto-bloque {
+    margin: 3rem 0;
+  }
+
+  .contacto-bloque .body-editorial {
+    margin-bottom: 1.5rem;
+    max-width: 60ch;
+  }
+
+  .contacto-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    max-width: 520px;
+    margin-top: 2rem;
+  }
+
+  .form-field {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .form-label {
+    font-family: var(--font-sans);
+    font-size: 11px;
+    font-weight: 400;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--navy);
+  }
+
+  .form-optional {
+    font-family: var(--font-sans);
+    font-size: 10px;
+    letter-spacing: 0.12em;
+    text-transform: none;
+    color: var(--text-muted);
+    margin-left: 0.4em;
+  }
+
+  .form-input {
+    font-family: var(--font-serif);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: var(--text-primary);
+    background: var(--bg-page);
+    border: none;
+    border-bottom: 1px solid var(--line);
+    padding: 0.5rem 0;
+    border-radius: 0;
+    transition: border-color var(--transition-fast);
+  }
+
+  .form-input:focus {
+    outline: none;
+    border-bottom-color: var(--navy);
+  }
+
+  .form-textarea {
+    border: 1px solid var(--line);
+    padding: 0.75rem 1rem;
+    resize: vertical;
+    min-height: 140px;
+  }
+
+  .form-textarea:focus {
+    border-color: var(--navy);
+  }
+
+  .form-submit {
+    align-self: flex-start;
+    margin-top: 0.5rem;
+  }
+
+  .contacto-inline-link {
+    color: var(--navy);
+    border-bottom: 1px solid var(--navy);
+    padding: 0 1px;
+  }
+
+  .contacto-inline-link:hover {
+    background: var(--link-hover-bg);
+  }
+
+  @media (max-width: 720px) {
+    .contacto-h2 {
+      font-size: 24px;
+    }
+    .contacto-form {
+      max-width: 100%;
+    }
+  }
+</style>

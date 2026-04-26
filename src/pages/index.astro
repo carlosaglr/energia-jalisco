@@ -7,20 +7,63 @@ import HairlineDivider from '../components/HairlineDivider.astro';
 import MetricsRow from '../components/MetricsRow.astro';
 import NavCard from '../components/NavCard.astro';
 
-// Home mínima funcional. La versión completa se elabora en Fase 6.
+import debilidades from '../data/debilidades.json';
+import reformas from '../data/reformas.json';
+import proyectos3a from '../data/proyectos-3a.json';
+import proyectos3b from '../data/proyectos-3b.json';
+import proyectos3c from '../data/proyectos-3c.json';
+import habilitaciones from '../data/habilitaciones.json';
+import conflictos from '../data/conflictos.json';
+import vacios from '../data/vacios.json';
+import ordenamientos from '../data/ordenamientos.json';
+
+const total_debilidades = debilidades.length;
+const total_reformas = reformas.length;
+const total_proyectos =
+  proyectos3a.length + proyectos3b.length + proyectos3c.length + habilitaciones.length;
+const total_conflictos = conflictos.length;
+const total_vacios = vacios.length;
+const total_ordenamientos = ordenamientos.length;
+
+const expected = {
+  debilidades: 80,
+  reformas: 101,
+  proyectos: 207,
+  conflictos: 40,
+  vacios: 62,
+  ordenamientos: 20,
+};
+
+const actual = {
+  debilidades: total_debilidades,
+  reformas: total_reformas,
+  proyectos: total_proyectos,
+  conflictos: total_conflictos,
+  vacios: total_vacios,
+  ordenamientos: total_ordenamientos,
+};
+
+for (const k of Object.keys(expected)) {
+  if (actual[k] !== expected[k]) {
+    throw new Error(
+      'Conteo inesperado en home: ' + k + ' — esperaba ' + expected[k] + ', vi ' + actual[k]
+    );
+  }
+}
+
 const metrics = [
-  { number: 80, label: 'Debilidades' },
-  { number: 101, label: 'Reformas' },
-  { number: 207, label: 'Proyectos' },
-  { number: 40, label: 'Conflictos' },
-  { number: 62, label: 'Vacíos' },
-  { number: 20, label: 'Ordenamientos' },
+  { number: total_debilidades,    label: 'Debilidades identificadas' },
+  { number: total_reformas,       label: 'Reformas estructurales' },
+  { number: total_proyectos,      label: 'Proyectos ejecutivos' },
+  { number: total_conflictos,     label: 'Conflictos de competencia' },
+  { number: total_vacios,         label: 'Vacíos federal-estatal' },
+  { number: total_ordenamientos,  label: 'Ordenamientos analizados' },
 ];
 ---
 <Editorial title="Inicio">
-  <div class="container">
+  <div class="container home-page">
     <section class="hero">
-      <Eyebrow>Análisis jurídico-regulatorio · Abril 2026</Eyebrow>
+      <Eyebrow>ANÁLISIS JURÍDICO-REGULATORIO · ABRIL 2026</Eyebrow>
       <DisplayHeadline>Sistema estatal de energía de Jalisco</DisplayHeadline>
       <Subtitle>
         Ochenta hallazgos, ciento una reformas y doscientos siete proyectos ejecutivos mapeados en la intersección del marco federal vigente desde marzo de 2025.
@@ -34,30 +77,55 @@ const metrics = [
     <section class="grid grid-2">
       <NavCard
         href="/sintesis"
-        eyebrow="Navegación · 01"
-        title="Síntesis ejecutiva"
-        description="Debilidades, reformas estructurales, proyectos ejecutivos y conflictos de competencia organizados para lectura institucional."
+        eyebrow="SÍNTESIS EJECUTIVA"
+        title="Hallazgos, reformas y proyectos"
+        description="Las debilidades del marco estatal, las reformas que las corrigen y los proyectos que se pueden ejecutar a partir de ellas."
       />
       <NavCard
         href="/marco"
-        eyebrow="Navegación · 02"
-        title="Marco normativo"
-        description="Los veinte ordenamientos analizados: nueve federales y once estatales, cada uno con sus seis secciones estandarizadas."
+        eyebrow="MARCO NORMATIVO"
+        title="Los veinte ordenamientos"
+        description="Cada ley federal y estatal del sistema energético, con sus competencias, vacíos y conflictos identificados."
       />
     </section>
 
     <HairlineDivider />
 
-    <section class="container-narrow">
+    <section class="home-context container-narrow">
       <p class="body-editorial">
-        El Observatorio publica el análisis jurídico-regulatorio del sistema energético de Jalisco frente al marco federal mexicano vigente, incluida la reforma constitucional DOF 20-12-2024 y el paquete federal DOF 18-03-2025. Todo hallazgo está anclado a un artículo, fracción o texto específico.
+        El Observatorio del Sistema de Energía de Jalisco publica un análisis jurídico-regulatorio del marco energético del Estado de Jalisco, contrastado con el marco federal mexicano vigente desde marzo de 2025. El objetivo es identificar dos cosas: las reformas legislativas que requiere el sistema estatal para cumplir su mandato, y los proyectos que el Ejecutivo estatal puede ejecutar hoy sin esperar reforma alguna.
       </p>
       <p class="body-editorial">
-        Cada reforma lleva un código estable (<code>R-NN</code>), un ordenamiento modificable, un fundamento derivado del análisis, una habilitación federal verificada, un nivel, una prioridad y una posición en la ruta crítica de siete tramos.
+        El análisis se dirige a lectores institucionales —el Ejecutivo del Estado de Jalisco, el Congreso del Estado, el Tribunal de Justicia Administrativa, dependencias sectoriales, despachos especializados y organismos de cooperación—. La interfaz permite también el acceso de público no especializado, con explicaciones en lenguaje accesible donde el contenido lo permite.
       </p>
       <p class="body-editorial">
-        La audiencia primaria son el Ejecutivo estatal, el Congreso del Estado, el Tribunal de Justicia Administrativa, la Agencia de Energía y SEMADET. La audiencia secundaria incluye despachos, desarrolladores de proyectos energéticos, organismos internacionales y academia.
+        Cada hallazgo está anclado a un artículo y fracción específicos del ordenamiento correspondiente. Las inferencias del autor están explícitamente marcadas. Las metodologías de clasificación están documentadas en <a class="home-inline-link" href="/metodologia">metodologia</a>. El código fuente y los datos están abiertos en GitHub bajo licencia Creative Commons BY-NC-SA 4.0.
       </p>
     </section>
   </div>
 </Editorial>
+
+<style>
+  .home-page {
+    padding-bottom: 5rem;
+  }
+
+  .home-context {
+    margin: 0 auto;
+    text-align: left;
+  }
+
+  .home-context p {
+    margin-bottom: 1.5em;
+  }
+
+  .home-inline-link {
+    color: var(--navy);
+    border-bottom: 1px solid var(--navy);
+    padding: 0 1px;
+  }
+
+  .home-inline-link:hover {
+    background: var(--link-hover-bg);
+  }
+</style>

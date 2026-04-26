@@ -1,0 +1,266 @@
+---
+import Editorial from '../layouts/Editorial.astro';
+import Eyebrow from '../components/Eyebrow.astro';
+import DisplayHeadline from '../components/DisplayHeadline.astro';
+import Subtitle from '../components/Subtitle.astro';
+import HairlineDivider from '../components/HairlineDivider.astro';
+import OrdenamientoName from '../components/OrdenamientoName.astro';
+import TocSidebar from '../components/TocSidebar.astro';
+
+import ordenamientos from '../data/ordenamientos.json';
+
+const federales = ordenamientos.filter((o) => o.ambito === 'federal');
+const estatales = ordenamientos.filter((o) => o.ambito === 'estatal');
+
+if (federales.length !== 9) {
+  throw new Error('Esperaba 9 ordenamientos federales, vi ' + federales.length);
+}
+if (estatales.length !== 11) {
+  throw new Error('Esperaba 11 ordenamientos estatales, vi ' + estatales.length);
+}
+
+const tocItems = [
+  { id: 'fuentes',      label: 'Fuentes analizadas' },
+  { id: 'reglas',       label: 'Reglas operacionales' },
+  { id: 'inferencias',  label: 'Inferencias documentadas' },
+  { id: 'fuera',        label: 'Qué no contiene el estudio' },
+  { id: 'corte',        label: 'Fecha de corte y plan de actualización' },
+  { id: 'autoria',      label: 'Autoría' },
+];
+---
+<Editorial
+  title="Metodología"
+  description="Cómo se construyó el análisis: fuentes, reglas operacionales, inferencias documentadas, alcance y fecha de corte."
+>
+  <div class="container metodologia-page">
+    <section class="hero">
+      <Eyebrow>METODOLOGÍA</Eyebrow>
+      <DisplayHeadline>Metodología</DisplayHeadline>
+      <Subtitle>
+        Cómo se construyó este análisis, qué reglas se aplicaron y qué decisiones se documentaron como inferencias.
+      </Subtitle>
+    </section>
+
+    <HairlineDivider />
+
+    <div class="metodologia-grid">
+      <article class="metodologia-prose">
+
+        <section class="met-section">
+          <h2 id="fuentes">Fuentes analizadas</h2>
+          <p>
+            El análisis se construyó sobre veinte ordenamientos: nueve federales y once estatales. Los federales fijan el techo competencial vigente desde marzo de 2025 (paquete del Diario Oficial del 18 de marzo de 2025 más la reforma constitucional del 20 de diciembre de 2024). Los estatales son las leyes de Jalisco que regulan o tocan el sistema energético del Estado.
+          </p>
+
+          <h3 class="met-h3">Federales</h3>
+          <ul class="met-ord-list">
+            {federales.map((o) => (
+              <li><OrdenamientoName tag={o.tag} /></li>
+            ))}
+          </ul>
+
+          <h3 class="met-h3">Estatales</h3>
+          <ul class="met-ord-list">
+            {estatales.map((o) => (
+              <li><OrdenamientoName tag={o.tag} /></li>
+            ))}
+          </ul>
+        </section>
+
+        <HairlineDivider light />
+
+        <section class="met-section">
+          <h2 id="reglas">Reglas operacionales</h2>
+          <p>Cada hallazgo del análisis cumple cuatro reglas.</p>
+
+          <h3 class="met-h3">Análisis atómico</h3>
+          <p>
+            Cada ordenamiento estatal se analiza solo contra el marco federal, sin inferir su contenido a partir de otros ordenamientos estatales.
+          </p>
+
+          <h3 class="met-h3">Domicilio único</h3>
+          <p>
+            Cada hallazgo —debilidad, reforma, proyecto, conflicto, vacío— tiene una sola ubicación en el sitio. No se duplica entre secciones. Los cross-references conectan ubicaciones en lugar de copiar contenido.
+          </p>
+
+          <h3 class="met-h3">Anclaje a artículo</h3>
+          <p>
+            Toda afirmación cita el artículo, fracción y párrafo específico que la sustenta. Las transcripciones literales van entre comillas e itálicas. Lo que es interpretación se marca con <code>[INFERENCIA:]</code>. Las ausencias de regulación se marcan con <code>[AUSENCIA:]</code>.
+          </p>
+
+          <h3 class="met-h3">Sin relleno</h3>
+          <p>
+            El texto del análisis está dirigido a lectores institucionales y público interesado. Cada oración aporta un dato o una conclusión. No hay narrativa ornamental.
+          </p>
+        </section>
+
+        <HairlineDivider light />
+
+        <section class="met-section">
+          <h2 id="inferencias">Inferencias documentadas</h2>
+          <p>
+            Dos campos del análisis son resultado de inferencia sistemática del autor, no datos extraídos directamente de la fuente. Se documentan aquí para auditoría.
+          </p>
+
+          <h3 class="met-h3">Prioridad de los proyectos viables hoy (Sección 3A)</h3>
+          <p>
+            La fuente lista 84 proyectos ejecutables sin reforma, pero no asigna prioridad. La prioridad se infirió a partir del campo <code>condicion</code> de cada proyecto, aplicando estas reglas:
+          </p>
+          <p class="met-prose-list">
+            — Prioridad alta si el proyecto se ejecuta por acto unilateral del Estado, sin necesidad de coordinación federal.<br />
+            — Prioridad media si requiere convenio o coordinación con una autoridad federal cooperativa.<br />
+            — Prioridad baja si depende de voluntad federal discrecional.
+          </p>
+          <p>
+            La distribución resultante es 51 alta, 26 media, 7 baja. Cada proyecto inferido lleva la marca <code>prioridad_inferida: true</code> en los datos, identificable también desde la interfaz de cada proyecto.
+          </p>
+
+          <h3 class="met-h3">Tipos canónicos de debilidades (Sección 1A)</h3>
+          <p>
+            La fuente original utilizaba 16 etiquetas distintas para clasificar las 80 debilidades del marco estatal. Estas etiquetas se normalizaron a nueve categorías canónicas para permitir filtrado y agregación: vacío normativo, ambigüedad, conflicto de competencia, omisión de implementación, restricción estructural, redundancia, desactualización, inconsistencia interna, incompletitud. La normalización está implementada en <code>normalize_data.py</code> y se aplica después de cada ejecución del parser.
+          </p>
+        </section>
+
+        <HairlineDivider light />
+
+        <section class="met-section">
+          <h2 id="fuera">Qué no contiene el estudio</h2>
+          <p>
+            El análisis cubre el marco normativo vigente al 1 de abril de 2026. Algunos materiales relevantes no se incluyeron por estar pendientes, no haberse publicado, o quedar fuera del alcance editorial:
+          </p>
+          <p class="met-prose-list">
+            — Reglamentos pendientes de las leyes federales reformadas en marzo de 2025.<br />
+            — Normas estatales todavía no expedidas y mencionadas como obligación pendiente en las leyes vigentes.<br />
+            — Disposiciones administrativas sectoriales —acuerdos, lineamientos, manuales— que no constituyen fuente jurídica primaria.<br />
+            — Tratados internacionales y compromisos climáticos no incorporados al derecho interno.
+          </p>
+          <p>
+            El detalle completo está en <a class="met-link" href="/sintesis/huecos">/sintesis/huecos</a>.
+          </p>
+        </section>
+
+        <HairlineDivider light />
+
+        <section class="met-section">
+          <h2 id="corte">Fecha de corte y plan de actualización</h2>
+          <p>
+            El análisis tiene fecha de corte editorial al 1 de abril de 2026. Cualquier reforma, decreto o resolución posterior a esa fecha no está reflejado en estas páginas.
+          </p>
+          <p>
+            El plan de actualización está por definir. Las próximas revisiones se anunciarán en este sitio.
+          </p>
+        </section>
+
+        <HairlineDivider light />
+
+        <section class="met-section">
+          <h2 id="autoria">Autoría</h2>
+          <p>
+            El análisis es obra de Carlos Aguilar, MIA Columbia University. La autoría es individual. El sitio no cuenta con respaldo institucional, financiero ni operativo de ninguna entidad pública o privada. El código y el contenido están publicados bajo licencia Creative Commons BY-NC-SA 4.0.
+          </p>
+          <p>
+            Para consultas sobre el contenido, ver <a class="met-link" href="/contacto">/contacto</a>.
+          </p>
+        </section>
+
+      </article>
+
+      <TocSidebar items={tocItems} />
+    </div>
+  </div>
+</Editorial>
+
+<style>
+  .metodologia-page {
+    padding-bottom: 6rem;
+  }
+
+  .metodologia-grid {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 240px;
+    gap: 4rem;
+    align-items: start;
+    margin-top: 2rem;
+  }
+
+  .metodologia-prose {
+    max-width: 65ch;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .metodologia-prose h2 {
+    font-family: var(--font-serif);
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 1.2;
+    letter-spacing: -0.005em;
+    color: var(--text-primary);
+    margin: 0 0 1.25rem 0;
+    scroll-margin-top: 96px;
+  }
+
+  .met-section {
+    padding: 2rem 0 1rem;
+  }
+
+  .met-section:first-child {
+    padding-top: 0;
+  }
+
+  .met-h3 {
+    font-family: var(--font-sans);
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--navy);
+    margin: 2rem 0 0.75rem 0;
+    line-height: 1.3;
+  }
+
+  .met-prose-list {
+    margin: 0 0 1.25em 0;
+    padding-left: 0;
+    color: var(--text-primary);
+  }
+
+  .met-ord-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 1.5rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .met-ord-list li {
+    font-family: var(--font-serif);
+    font-size: 16px;
+    line-height: 1.45;
+    color: var(--text-primary);
+    padding: 0.4rem 0;
+    border-bottom: 1px solid var(--hair-light);
+  }
+
+  .met-ord-list li:last-child {
+    border-bottom: none;
+  }
+
+  .met-link {
+    color: var(--navy);
+    border-bottom: 1px solid var(--navy);
+    padding: 0 1px;
+  }
+
+  .met-link:hover {
+    background: var(--link-hover-bg);
+  }
+
+  @media (max-width: 1024px) {
+    .metodologia-grid {
+      grid-template-columns: minmax(0, 1fr);
+      gap: 2rem;
+    }
+  }
+</style>

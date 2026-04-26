@@ -1,7 +1,37 @@
 # ARCHITECTURE.md — Observatorio del Sistema de Energía de Jalisco
 
-**Documento de traspaso · Versión 1.3 · Abril 2026**
-**Estado: Fases 1, 2, 3 y 4 completadas. Fase 5 por iniciar.**
+**Documento de traspaso · Versión 1.6 · Abril 2026**
+**Estado: Fases 1, 2, 3, 4, 5 y 6 completadas. Fase 7 por iniciar.**
+
+### Changelog v1.6
+- **Fase 6 completada**: 4 páginas singulares implementadas (`/`, `/metodologia`, `/contacto`, `/sintesis/ruta-critica`) y 3 componentes nuevos (`RutaCritica.tsx`, `RutaCritica.css`, `TocSidebar.astro`).
+- **Visualización de la ruta crítica**: vertical waterfall por grupos con aristas SVG bezier intra-grupo según campo `dependencias[]`. T6 sub-agrupada por `ordenamiento` derivado de datos (no hardcodeado): 9 sub-bandas en el estado actual de `reformas.json` (LACCEJ, LOAEEJ, LAEJ, LPIPSEJM, LGAPM, LEEEPA-Jal, REEEPA, LJAEJ, LMR-Jal), ordenadas por R-NN mínimo. Hover transitivo (predecesoras y sucesoras recursivas). Mobile: lista degradada sin SVG vía CSS.
+- **Dependencias inversas e inter-tramo**: la regla v1.5 ("abortar si predecesor en tramo posterior al sucesor") se reemplaza por: **las dependencias inter-tramo, incluidas las inversas, no se renderizan como aristas** pero **sí participan en el cálculo del conjunto transitivo en hover**. Razón: el orden de ejecución legislativa (T1 primero por jerarquía constitucional) no coincide siempre con el orden de derivación conceptual; el waterfall visualiza orden legislativo. La validación dura del frontmatter solo aborta si una dependencia apunta a un id que no existe en `reformas.json`.
+- **R-101 y T7**: T7 contiene 3 reformas (R-72, R-80, R-101) que dependen del Congreso de la Unión y se renderizan como banda en la viz. Adicionalmente, R-101 se destaca en un bloque editorial inferior con eyebrow "REFORMA FEDERAL · NO CONTROLABLE DESDE JALISCO".
+- **Drawer actualizado** para incluir `/sintesis/ruta-critica` dentro del bloque "Síntesis ejecutiva", entre "Reformas estructurales" y "Proyectos ejecutivos".
+- **Endpoint Formspree registrado**: `https://formspree.io/f/xqewjdjp`. Página `/contacto` queda con dos bloques (Formulario + Sobre el autor); el bloque "Reportes técnicos" del brief original se eliminó por decisión editorial. "Sobre el autor" final: "Carlos Aguilar. MIA, Columbia University." (sin link a GitHub, sin descriptor profesional largo).
+- **Página `/metodologia`** con 6 secciones + TocSidebar sticky en desktop. Implementa lo declarado en v1.5 sobre inferencias documentadas.
+- **Home final** consume las 6 métricas reales desde los JSON con validación dura en frontmatter (aborta si los conteos no son 80/101/207/40/62/20).
+
+### Changelog v1.5
+- **Reubicación de la ruta crítica**: deja de ser sección inferior de `/sintesis/reformas` y pasa a página dedicada `/sintesis/ruta-critica`. Justificación: el explorer de reformas ya carga 101 items con filtros y distribuciones; agregar la viz de tramos en la misma página la satura. La página dedicada es deeplinkeable (uso institucional) y SEO-able. La página `/sintesis/reformas` mantiene solo el explorer.
+- **Visualización de la ruta crítica congelada como vertical waterfall por tramos**: cada tramo es una banda horizontal a ancho completo, con su altura natural según número de reformas. T6 (35 reformas, descrito en fuente como "múltiples cadenas independientes") sub-agrupa internamente por `ordenamiento`. Las dependencias del campo `dependencias[]` se renderizan como aristas SVG intra-tramo conectando cards. Inter-tramo se indica con hairline horizontal etiquetada (`T1 ⊢ T2`). Se descartaron horizontal-7-columnas (T6 quiebra la grilla, ratio 12:1 contra T3), Sankey (mal fit conceptual: el campo es un DAG discreto, no flujos cuantitativos) y lista plana (pierde el valor del campo `dependencias`).
+- **Comportamiento de hover en la ruta crítica**: hover sobre una card R-NN resalta el conjunto **transitivo** de predecesoras y sucesoras (resolución recursiva del grafo de dependencias), atenuando el resto a opacity 0.3. Click en card navega a `/sintesis/reformas/R-NN` (ficha existente de Fase 4); no se abre modal.
+- **Nuevo componente `RutaCritica.tsx` + `RutaCritica.css`**: React island. Recibe `tramos: Tramo[]` ya pre-procesados en frontmatter `.astro` (build-time). Aplica regla v1.2 de concatenación con `+` (no template literals).
+- **Bloque "Reformas independientes"** debajo de la viz: las 36 reformas con `tramo_ruta_critica: null` en grilla simple sin aristas, agrupadas por `ordenamiento`. Bloque adicional para R-101 con banner "Reforma federal · No controlable desde Jalisco".
+- **Mobile (ruta crítica)**: vista degradada — lista por tramo sin aristas SVG. Las cards se mantienen clicables.
+- **Adición a `/metodologia` — bloque "Inferencias documentadas"**: nueva sección entre "Reglas operacionales" y "Qué no contiene el estudio". Declara públicamente las dos inferencias sistemáticas del pipeline: (1) prioridad de los 84 proyectos 3A inferida por `infer_prioridad_3a` desde el campo `condicion` (distribución 51 Alta / 26 Media / 7 Baja, marcada con `prioridad_inferida: true`); (2) normalización de 16 valores de `tipo` en debilidades a 9 categorías canónicas vía `normalize_data.py`. Justificación: el sitio se dirige a TJA y Congreso; cualquier dato derivado debe ser auditable y declarado en metodología, no enterrado en NOTES.md del repo.
+- **Fecha de corte editorial fijada en 1 de abril de 2026**. Plan de actualización: por definir (no se compromete cadencia).
+- **Sin LinkedIn ni afiliaciones institucionales** en `/contacto`. Tres bloques: Formspree, GitHub Issues, Sobre el autor (nombre, descriptor, GitHub).
+
+### Changelog v1.4
+- **Fase 5 completada**: 20 fichas de ordenamiento + overview `/marco` + 20 vistas transversales `/ordenamiento/[tag]`. Build de 158 páginas estáticas.
+- **Restauración de los 11 bloques faltantes en `marco_federal_energetico.md`**: el archivo fuente había perdido 11 de los 20 bloques H2 originales (8 federales + 3 estatales: CPEJ, LACCEJ, LPIPSEJM). Reconstruidos desde los JSON de `fase1/src/data/bloques/` (snapshot del parser v1) y reinsertados en el `.md` en orden canónico. Después de regenerar con el parser, `src/data/bloques/` contiene los 20 archivos.
+- **Componente `BloqueContent.tsx`**: parser de markdown ligero con soporte para listas, tablas, marcas `[INFERENCIA:]` y `[AUSENCIA:]`, y cross-references con tooltip rico. Usado en las 20 fichas de ordenamiento para renderizar las 6 secciones del JSON de cada bloque.
+- **Ruta dinámica unificada para fichas**: en lugar de dos rutas separadas (`/marco/federal/[slug]` y `/marco/estatal/[slug]`) se usó una sola con catch-all (`/marco/[...slug].astro`) que internamente discrimina por `ambito` desde `ordenamiento-meta.json`. Genera las 20 URLs en build time vía `getStaticPaths`.
+- **Vistas transversales `/ordenamiento/[tag]`**: agregan dinámicamente todas las debilidades, reformas, proyectos, conflictos y vacíos vinculados al ordenamiento. Generadas en build time. URLs case-sensitive con el tag canónico (ej. `/ordenamiento/CPEJ`, no `/ordenamiento/cpej`).
+- **Higiene del repo**: borradas carpetas y archivos huérfanos (`z_SEDES/src/`, `energia-jalisco/fase1/`, `energia-jalisco/fase2/`, `energia-jalisco/fase2.tar.gz`, `energia-jalisco/diag_tipos.cjs`, backups `.bak*` del parser y del .md). Repo queda con solo lo necesario.
+- **Path layout del parser corregido en v1.3** ahora documentado: `SOURCE_ROOT = parent.parent` (apunta a `z_SEDES/`, donde están los `.md`) y `REPO_ROOT = parent` (apunta a `energia-jalisco/`, donde se escriben los JSON). No fusionar.
 
 ### Changelog v1.3
 - **Fase 4 completada en su totalidad**: las 10 páginas Explorer (1A, 1B, 2, 3A, 3B, 3C, 3D, 4A, 4B, 6) más 4 páginas no-Explorer (overview `/sintesis`, overview `/sintesis/proyectos`, ruta dinámica `/sintesis/reformas/[codigo]` con 101 fichas, narrativas 4C `/sintesis/riesgos`, huecos 5 `/sintesis/huecos`). En esta versión, las Secciones 4C y 5 se entregan como parte de Fase 4 (originalmente estaban en Fase 6).
@@ -283,7 +313,11 @@ energia-jalisco/
 │   │   ├── Explorer.css         ✅ Fase 3
 │   │   ├── CrossRef.tsx         ✅ Fase 3
 │   │   ├── CrossRefText.tsx     ✅ Fase 4 (renderiza string detectando códigos R-NN y NA.NN, envolviendo cada match con CrossRef)
+│   │   ├── BloqueContent.tsx    ✅ Fase 5 (parser markdown ligero para fichas de ordenamiento, soporta tablas, listas, [INFERENCIA:] / [AUSENCIA:] y cross-refs)
+│   │   ├── BloqueContent.css    ✅ Fase 5
 │   │   ├── RutaCritica.tsx      (visualización de los 7 tramos — Fase 6)
+│   │   ├── RutaCritica.css      (estilos del waterfall + cards + aristas SVG — Fase 6)
+│   │   ├── TocSidebar.astro     (TOC sticky para /metodologia — Fase 6)
 │   │   └── SearchWidget.tsx     (wrapper de Pagefind — Fase 7)
 │   ├── layouts/
 │   │   └── Editorial.astro      (layout base: header + footer + drawer + slot)
@@ -569,16 +603,22 @@ Si `parse_markdown.py` se re-corre, ejecutar después `python3 normalize_data.py
 
 ### Metodología (`/metodologia`)
 
-Página editorial pura en prosa. Secciones:
-- Fuentes analizadas (lista de los 20 ordenamientos con formato italic/bold/small).
-- Reglas operacionales (regla de ruteo único, marcadores `[INFERENCIA]` y `[AUSENCIA]`, ancla a artículo/fracción).
-- Qué no contiene el estudio (resumen de Sección 5 para audiencia general).
-- Fecha de corte y plan de actualización.
-- Autoría.
+Página editorial pura en prosa. Layout: prosa serif 17px max-width 65ch al centro, TOC sticky a la derecha en desktop (componente `TocSidebar.astro`), TOC oculto en mobile. Seis secciones:
+- **Fuentes analizadas**: lista de los 20 ordenamientos con formato italic/bold/small (vía `OrdenamientoName.astro`), leídos de `ordenamientos.json`.
+- **Reglas operacionales**: atomic analysis, single-domicile routing, citation-anchored, marcadores `[INFERENCIA:]` y `[AUSENCIA:]`, ancla a artículo/fracción/párrafo.
+- **Inferencias documentadas** (nueva en v1.5): declaración de las dos inferencias sistemáticas del pipeline, accesibles para auditoría de TJA/Congreso.
+  1. Prioridad de los 84 proyectos viables hoy (Sección 3A) inferida desde el campo `condicion` mediante `infer_prioridad_3a`. Reglas: Baja si depende de voluntad federal discrecional; Media si requiere convenio o coordinación con autoridad federal cooperativa; Alta si es ejecutable por acto unilateral del Estado. Distribución resultante: 51 Alta / 26 Media / 7 Baja. Cada item lleva `prioridad_inferida: true` en el JSON.
+  2. Normalización de 16 valores no canónicos del campo `tipo` en debilidades (Sección 1A) a 9 categorías canónicas vía `normalize_data.py`. Las 9 categorías: vacío normativo, ambigüedad, conflicto de competencia, omisión de implementación, restricción estructural, redundancia, desactualización, inconsistencia interna, incompletitud.
+- **Qué no contiene el estudio**: resumen de Sección 5 (huecos documentales) en lenguaje accesible para audiencia general; link a `/sintesis/huecos`.
+- **Fecha de corte y plan de actualización**: fecha de corte editorial 1 de abril de 2026. Plan de actualización por definir.
+- **Autoría**: Carlos Aguilar, analista en derecho energético, política pública y administración estatal.
 
 ### Contacto (`/contacto`)
 
-Formulario Formspree (nombre, email, mensaje, botón enviar) + enlace a GitHub Issues para reportes técnicos.
+Tres bloques separados por hairlines. Sin logos institucionales, sin afiliaciones (autoría individual; logos serían misleading frente a TJA/Congreso al sugerir respaldo institucional inexistente).
+- **Formulario Formspree**: campos nombre, organización (opcional), email, mensaje. Endpoint pendiente; se queda placeholder hasta registro en formspree.io.
+- **GitHub Issues**: link directo a `github.com/carlosaglr/energia-jalisco/issues` para reportes técnicos y errores tipográficos.
+- **Sobre el autor**: nombre, descriptor profesional, link a GitHub. Sin LinkedIn.
 
 ### Explorer pages (todas ✅ — Fase 4)
 
@@ -638,21 +678,46 @@ Para un tag dado (ej. LACCEJ), muestra en una sola página:
 - Conflictos 4A donde aparece como polo estatal.
 - Link a la ficha completa del bloque en `/marco/`.
 
-### Ruta crítica (`/sintesis/reformas` — sección inferior)
+### Ruta crítica (`/sintesis/ruta-critica`)
 
-Visualización de los 7 tramos:
-- Tramo 1: Anclaje constitucional (R-01 → R-02 → R-03 → R-04).
-- Tramo 2: Actualización marco federal 2025 (R-06, R-43, R-65, R-73).
-- Tramo 3: Gobernanza institucional (R-21 → R-22 → R-49 → R-94).
-- Tramo 4: Financiamiento (R-12 → R-69 → R-29 → R-25).
-- Tramo 5: Adecuación procesal (R-54 → R-55 → R-56 → R-57 → R-83 → R-84 → R-86).
-- Tramo 6: Sectoriales (múltiples cadenas independientes).
-- Tramo 7: Reformas federales (no controlables).
+**Reubicada en v1.5**: antes era sección inferior de `/sintesis/reformas`. Ahora es página dedicada.
 
-Formato: horizontal timeline o vertical waterfall, con nodos clicables que abren la ficha de cada reforma.
+Estructura de la página:
+1. Eyebrow `SÍNTESIS · RUTA CRÍTICA` + display heading + subtitle italic.
+2. MetricsRow: 7 tramos · 65 reformas en ruta · 36 independientes · R-101 federal no controlable.
+3. Hairline.
+4. `<RutaCritica>` (React island) — visualización vertical waterfall.
+5. Hairline.
+6. Bloque "Reformas independientes" — las 36 con `tramo_ruta_critica: null` en grilla simple sin aristas, agrupadas por `ordenamiento`.
+7. Bloque "R-101 — reforma federal no controlable" con banner.
 
-Distribución por tramo: T1=7, T2=4, T3=3, T4=6, T5=7, T6=35, T7=3 (total asignadas=65).
-Las 36 reformas sin tramo asignado se muestran debajo de la visualización como "Reformas independientes" — son reformas que pueden avanzar en paralelo sin precondición ni secuencia.
+**Visualización (`RutaCritica.tsx`)** — vertical waterfall:
+- 7 bandas horizontales a ancho completo, una por tramo. Cada banda tiene su altura natural según número de reformas (T6 sustancialmente más alta que T2 o T3, lo cual es informativo).
+- Cabecera de banda: eyebrow del tramo (`TRAMO 1 · ANCLAJE CONSTITUCIONAL`) + descripción de 1 línea.
+- Cards de reforma dentro de cada banda. Card minimal: código R-NN, título corto, badge de prioridad.
+- **Aristas SVG intra-tramo** conectan cards según el campo `dependencias[]`. Ejemplos: T1: R-01 → R-02 → R-03 → R-04; T3: R-21 → R-22 → R-49 → R-94; T4: R-12 → R-69 → R-29 → R-25; T5: R-54 → R-55 → R-56 → R-57 → R-83 → R-84 → R-86. T2 (R-06, R-43, R-65, R-73) son paralelas sin aristas.
+- **T6 sub-agrupada**: las 35 reformas se sub-agrupan internamente por `ordenamiento` (sub-cadenas sectoriales: solar, biocombustibles, geotermia, etc.). Cada sub-cadena dentro de T6 con su propio cluster de cards y aristas.
+- Inter-tramo: hairline horizontal con label `T1 ⊢ T2` indicando precondición.
+
+**Pre-procesamiento en frontmatter `.astro`** (build-time):
+1. Particionar `reformas.json`: `tramo != null` → 65 dentro de viz; `tramo == null` → 36 al bloque inferior.
+2. Agrupar las 65 por `tramo_ruta_critica` (1..7).
+3. Para T6: sub-agrupar por `ordenamiento`.
+4. Construir índice de dependencias inversas (sucesoras) además del directo (predecesoras) para resolución transitiva eficiente en hover.
+
+**Interactividad**:
+- **Hover** sobre card R-NN: resalta el conjunto **transitivo** de predecesoras y sucesoras (resolución recursiva). Resto de cards atenúa a opacity 0.3. Aristas no involucradas también se atenúan.
+- **Click** en card: navegación full-page a `/sintesis/reformas/R-NN`. No modal.
+
+**Mobile**: vista degradada — lista por tramo sin aristas SVG. Cards mantienen click. Eyebrow + descripción de tramo se mantienen.
+
+**Distribución por tramo** (referencia): T1=7, T2=4, T3=3, T4=6, T5=7, T6=35, T7=3 (total asignadas=65). 36 independientes + 101 totales.
+
+**R-101**: card con borde y eyebrow distintivo en bloque inferior, banner explicando que la reforma requiere acción del Congreso de la Unión y no es controlable desde Jalisco.
+
+### Página de reformas (`/sintesis/reformas`)
+
+Solo el explorer de reformas (no contiene la viz de ruta crítica desde v1.5). Mantiene link prominente a `/sintesis/ruta-critica` arriba del explorer.
 
 ### Sección 4C — Casos de máximo riesgo
 
@@ -795,13 +860,13 @@ Entregable: `/sintesis/mapa/debilidades` funcional con datos reales + infraestru
 Configurar Explorer para 1B, 2, 3A, 3B, 3C, 3D, 4A, 4B, 6. Crear overview pages (síntesis, proyectos). Crear fichas individuales de reformas. Crear narrativas 4C y huecos 5.
 Entregable: todas las páginas de síntesis funcionales. **Cumplido**: 15 páginas en total (10 Explorer + 2 overviews + 1 ruta dinámica con 101 instancias + 4C narrativas + 5 huecos).
 
-### Fase 5 — Páginas de ordenamientos
+### Fase 5 — Páginas de ordenamientos ✅ COMPLETADA
 Plantilla de bloque + 20 fichas + vistas transversales.
-Entregable: `/marco/` y `/ordenamiento/` completos.
+Entregable: `/marco/` y `/ordenamiento/` completos. **Cumplido**: overview `/marco` con 20 NavCards + 20 fichas individuales (`/marco/federal/<slug>` y `/marco/estatal/<slug>` vía ruta catch-all `/marco/[...slug].astro`) + 20 vistas transversales (`/ordenamiento/[tag]`). Componente `BloqueContent.tsx` para renderizar el markdown de cada bloque con cross-references.
 
 ### Fase 6 — Páginas singulares
-Home final, metodología, contacto, ruta crítica visualizada.
-Entregable: sitio completo. (4C y 5 ya entregados en Fase 4.)
+Home final (`/`), metodología (`/metodologia`), contacto (`/contacto`), ruta crítica (`/sintesis/ruta-critica` — página dedicada en v1.5, ya no sección inferior de `/sintesis/reformas`). Componentes nuevos: `RutaCritica.tsx`, `RutaCritica.css`, `TocSidebar.astro`. Las narrativas 4C y huecos 5 ya se entregaron en Fase 4.
+Entregable: 4 páginas + 3 componentes nuevos. Sitio editorialmente completo.
 
 ### Fase 7 — Navegación, búsqueda, cross-references
 Drawer con navegación jerárquica completa. Pagefind integrado. Cross-references resueltos en todas las tablas y listas con tooltips.
@@ -856,4 +921,4 @@ Entregable: sitio publicado y protegido.
 
 ---
 
-**Fin de ARCHITECTURE.md v1.2**
+**Fin de ARCHITECTURE.md v1.6**
