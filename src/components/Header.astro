@@ -1,23 +1,51 @@
 ---
-// Header — sticky, logo izquierda, hamburguesa derecha que dispara el Drawer
-// El botón hamburguesa tiene id="drawer-trigger"; el Drawer escucha ese id.
+// Header — sticky, logo izquierda, lupa + hamburguesa a la derecha.
+// El botón hamburguesa (id="drawer-trigger") lo escucha el Drawer.
+// El botón lupa (.header-search-trigger) dispara el evento custom 'open-search'
+// que SearchWidget escucha en Editorial.astro.
 ---
 <header class="site-header">
   <div class="site-header-inner">
     <a href="/" class="site-logo" aria-label="Inicio — Observatorio del Sistema de Energía de Jalisco">
       Observatorio del Sistema de Energía de Jalisco
     </a>
-    <button
-      id="drawer-trigger"
-      class="hamburger"
-      type="button"
-      aria-label="Abrir navegación"
-      aria-expanded="false"
-      aria-controls="site-drawer"
-    >
-      <span class="hamburger-line"></span>
-      <span class="hamburger-line"></span>
-      <span class="hamburger-line"></span>
-    </button>
+
+    <div class="site-header-actions">
+      <button
+        class="header-search-trigger"
+        type="button"
+        aria-label="Buscar en el sitio"
+      >
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+             stroke="currentColor" stroke-width="1.5"
+             stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <circle cx="11" cy="11" r="7"></circle>
+          <line x1="16.5" y1="16.5" x2="21" y2="21"></line>
+        </svg>
+      </button>
+
+      <button
+        id="drawer-trigger"
+        class="hamburger"
+        type="button"
+        aria-label="Abrir navegación"
+        aria-expanded="false"
+        aria-controls="site-drawer"
+      >
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+      </button>
+    </div>
   </div>
 </header>
+
+<script is:inline>
+(function () {
+  var btn = document.querySelector('.header-search-trigger');
+  if (!btn) return;
+  btn.addEventListener('click', function () {
+    window.dispatchEvent(new CustomEvent('open-search'));
+  });
+})();
+</script>

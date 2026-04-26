@@ -1,6 +1,6 @@
 # NOTES.md — Estado de ejecución y deuda técnica
 
-**Última actualización:** Abril 2026, cierre de Fase 6.
+**Última actualización:** Abril 2026, cierre de Fase 7.
 
 Este archivo complementa `ARCHITECTURE.md`. Mientras el ARCHITECTURE define **qué** se construye, este registra **lo que hay que saber** para no tropezar con decisiones ya tomadas o bugs conocidos.
 
@@ -178,7 +178,6 @@ No usa una librería externa de markdown — implementación propia (~150 línea
 
 ## 5. Qué NO está resuelto (para evitar preguntas redundantes)
 
-- Pagefind integrado → Fase 7.
 - Fuentes self-hosted (`public/fonts/*.woff2`) → pendiente; usa fallbacks del sistema.
 - Deploy a Vercel/Netlify → Fase 8.
 - `robots.txt`, headers, Cloudflare, licencia en footer → Fase 8.
@@ -215,6 +214,61 @@ La regla original del brief decía "abortar build si predecesor en tramo posteri
 
 ### 7.7 R-101 dentro de T7 + bloque editorial destacado
 R-101 está asignada a T7 en los datos (junto con R-72 y R-80, las otras dos reformas que requieren reforma federal previa). Se renderiza como cualquier reforma de T7 dentro del waterfall y, adicionalmente, en un bloque editorial inferior con eyebrow "REFORMA FEDERAL · NO CONTROLABLE DESDE JALISCO". Es la única CPEUM en todo el dataset. La duplicación es deliberada: la viz preserva el orden completo, el bloque editorial enfatiza el caso especial.
+
+---
+
+## 8. Fase 7 — Decisiones técnicas
+
+### 8.1 Pagefind como motor de búsqueda
+Elegido por: estático (sin servidor), funciona con build de Astro, gratis, índice incremental, soporta español con stemming básico, indexa solo HTML (no requiere parser custom de markdown). El paso `pagefind --site dist` agregado al script `build` de `package.json` corre después de Astro y produce `dist/pagefind/` con `pagefind.js` (~14kb), `wasm.es.pagefind` (índice español), `wasm.unknown.pagefind` y los fragmentos del índice. `dist/` ya estaba en `.gitignore`.
+
+### 8.2 Modal flotante elegido sobre página dedicada o sidebar fijo
+Razones: no compite con el drawer hamburguesa por espacio en el header; no rompe la jerarquía editorial Julius Bär (centrados, hairlines, prosa serif); convención web reconocible (atajo `/`); permite navegación rápida sin perder la página actual.
+
+### 8.3 Carga dinámica del bundle de Pagefind
+`SearchWidget.tsx` hace `import('/pagefind/pagefind.js')` al primer abrir del modal. Cache en `window.__pagefind__`. Razón: el WASM pesa ~80kb; cargarlo on-demand mantiene el TTI bajo en home y resto de páginas no usadas para búsqueda.
+
+### 8.4 Agrupación de resultados por sección
+Cada página inyecta `<span data-pagefind-meta="seccion:..." hidden>` al inicio de su `<main>`. Esto permite que el modal agrupe resultados por sección ("Síntesis ejecutiva", "Marco normativo", "Metodología", "Contacto", "Inicio") y dé contexto al usuario más útil que solo la URL. La prop `seccion?` de `Editorial.astro` centraliza el comportamiento; cada página la setea explícitamente.
+
+### 8.5 `data-pagefind-body` solo en `<main>`
+Sin esta directiva, Pagefind indexaría header/footer/drawer (5778 → mayor cantidad de palabras pero con muchas duplicadas y ruido). Con `<main data-pagefind-body>`, el índice cubre solo el contenido editorial. El contador final es 5778 palabras únicas en 161 páginas, idioma `es` autodetectado.
+
+### 8.6 Drawer en 3 niveles
+Nivel 1 (5 secciones, links): Inicio, Síntesis ejecutiva, Marco normativo, Metodología, Contacto. Nivel 2 (5 agrupadores, `<span>` no clicable): Hallazgos, Reformas, Proyectos, Federal, Estatal. Nivel 3 (URLs reales). Los 20 ordenamientos se renderizan dinámicamente desde `ordenamientos.json` con validación dura en frontmatter (throw si federales ≠ 9 o estatales ≠ 11). Item activo detectado comparando `Astro.url.pathname` normalizado (sin trailing slash).
+
+### 8.7 Atajo `/` con guarda contra inputs
+Script inline en `Editorial.astro` escucha `keydown` en `document` y dispara `CustomEvent('open-search')`. Bloquea cuando `document.activeElement.tagName` es `INPUT/TEXTAREA/SELECT` o el elemento es `contentEditable`. Inline porque debe ejecutarse antes que cualquier hidratación de React island.
+
+### 8.8 Concatenación con `+` en SearchWidget.tsx
+Verificado con `grep -c '\\\`' SearchWidget.{tsx,css}` → 0 backticks. Mantiene la regla v1.2.
+
+### 8.9 Auditoría de cross-references — tabla por página
+
+| Página | Estado pre-auditoría | Cambio aplicado en Fase 7 |
+|---|---|---|
+| `/sintesis/mapa/debilidades` (1A) | parcial: `texto` sin códigos pero `reformas[]` sí | `tagXref: 'reformas'` |
+| `/sintesis/mapa/condicionamientos` (1B) | cubierto | sin cambio (datos sin códigos) |
+| `/sintesis/reformas` (2) | cubierto vía `texto: 'texto_completo'` (Fase 4) | sin cambio |
+| `/sintesis/proyectos/viables-hoy` (3A) | cubierto | sin cambio. Residual documentado |
+| `/sintesis/proyectos/reforma-estatal` (3B) | parcial | `tagXref: 'reformas_requeridas'` |
+| `/sintesis/proyectos/reforma-federal` (3C) | cubierto | sin cambio. Residual documentado |
+| `/sintesis/proyectos/habilitaciones` (3D) | parcial | `tagXref: 'proyectos_vinculados'` |
+| `/sintesis/conflictos` (4A) | cubierto (Fase 4: `tagXref: 'reformas_vinculadas'`) | sin cambio |
+| `/sintesis/vacios` (4B) | cubierto (datos sin códigos) | sin cambio |
+| `/sintesis/siguiente` (6) | cubierto (Fase 4: `tagXref: 'reformas_referenciadas'` + RichText sobre `accion`) | sin cambio |
+| `/sintesis/reformas/[codigo]` | cubierto (Fase 4) | sin cambio |
+| `/sintesis/riesgos` (4C), `/sintesis/huecos` (5) | cubierto (Fase 4) | sin cambio |
+| `/marco/<ambito>/<slug>` | cubierto (Fase 5 vía `BloqueContent`) | sin cambio |
+| `/ordenamiento/[tag]` | parcial: lista plana sin RichText | importé `CrossRefText` y lo apliqué al texto truncado de cada item |
+| `/sintesis/ruta-critica` | n/a (cards sin códigos en texto visible) | sin cambio |
+
+### 8.10 Casos residuales no cubiertos
+2 ítems en 207 proyectos tienen un código embebido en un campo que el Explorer renderiza como `tipo` pequeño en la meta-line, sin pasar por `RichText`:
+- **3A.78** (`condicion`): "Decisión del Presidente del Consejo (Gobernador). Voto permanente requiere ver R-94" — el R-94 no activa tooltip.
+- **3C.11** (`impacto`): "Reconocimiento estatal como ejecutor territorial; complementario a 3C.3" — el 3C.3 no activa tooltip.
+
+Cubrirlos requeriría modificar `Explorer.tsx` para envolver `tipo` con RichText, lo cual el brief §12.3 instruye evitar (la extensibilidad del Explorer ya está diseñada vía `tagXref`). Para esos 2 casos, el código es accesible vía la búsqueda Pagefind y vía la ficha individual de la reforma R-94 (ya con tooltips). Cobertura efectiva del sitio: ≥99%.
 
 ---
 

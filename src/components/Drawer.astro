@@ -1,53 +1,72 @@
 ---
-// Drawer — panel lateral con navegación jerárquica completa.
-// Estructura derivada de ARCHITECTURE.md Sección 3 (Mapa de URLs).
-// Disparado por #drawer-trigger del Header. JS inline al final.
+// Drawer — navegación lateral jerárquica completa.
+// Observatorio del Sistema de Energía de Jalisco — Fase 7.
+//
+// Tres niveles:
+//   1. Secciones principales (Inicio, Síntesis ejecutiva, Marco normativo,
+//      Metodología, Contacto). Sans 14px weight 500, navy, uppercase.
+//   2. Agrupadores (Hallazgos, Reformas, Proyectos, Federal, Estatal).
+//      Sans 13px weight 400, navy con opacity. NO son links.
+//   3. Hojas (URLs reales). Sans 13px weight 400, navy. Hover con underline.
+//
+// Item activo detectado por Astro.url.pathname y marcado con clase
+// .drawer-item-active (hairline vertical navy a la izquierda).
+//
+// Los 20 ordenamientos se renderizan dinámicamente desde ordenamientos.json
+// (validación dura: 9 federales + 11 estatales).
+import OrdenamientoName from './OrdenamientoName.astro';
 
-// Conteos por sección (alineados con ARCHITECTURE.md §0 y datos reales de Fase 1).
-const sintesisLinks = [
-  { href: '/sintesis/mapa/debilidades', label: 'Debilidades', count: 80 },
-  { href: '/sintesis/mapa/condicionamientos', label: 'Condicionamientos', count: 34 },
-  { href: '/sintesis/reformas', label: 'Reformas estructurales', count: 101 },
-  { href: '/sintesis/ruta-critica', label: 'Ruta crítica', count: null },
-  { href: '/sintesis/proyectos', label: 'Proyectos ejecutivos', count: 207 },
-  { href: '/sintesis/conflictos', label: 'Conflictos de competencia', count: 40 },
-  { href: '/sintesis/vacios', label: 'Vacíos federal-estatal', count: 62 },
-  { href: '/sintesis/riesgos', label: 'Casos de máximo riesgo', count: 2 },
-  { href: '/sintesis/huecos', label: 'Huecos documentales', count: null },
-  { href: '/sintesis/siguiente', label: 'Próximos pasos', count: 30 },
+const ordenamientos = (await import('../data/ordenamientos.json')).default;
+const ordsFederales = ordenamientos.filter((o) => o.ambito === 'federal');
+const ordsEstatales = ordenamientos.filter((o) => o.ambito === 'estatal');
+
+if (ordsFederales.length !== 9) {
+  throw new Error('Esperaba 9 federales, vi ' + ordsFederales.length);
+}
+if (ordsEstatales.length !== 11) {
+  throw new Error('Esperaba 11 estatales, vi ' + ordsEstatales.length);
+}
+
+const path = Astro.url.pathname.replace(/\/$/, '') || '/';
+
+function isActive(href) {
+  const ref = href.replace(/\/$/, '') || '/';
+  return ref === path;
+}
+
+function isUnder(prefix) {
+  // Devuelve true si la URL actual cuelga del prefijo (incluye exact match).
+  if (prefix === '/') return path === '/';
+  return path === prefix || path.indexOf(prefix + '/') === 0;
+}
+
+const sintesisOpen = isUnder('/sintesis');
+const marcoOpen = isUnder('/marco') || isUnder('/ordenamiento');
+
+const sintesisHallazgos = [
+  { href: '/sintesis/mapa/debilidades',     label: 'Debilidades del marco estatal' },
+  { href: '/sintesis/mapa/condicionamientos', label: 'Condicionamientos del marco federal' },
 ];
 
-const proyectosLinks = [
-  { href: '/sintesis/proyectos/viables-hoy', label: 'Viables hoy', count: 84 },
-  { href: '/sintesis/proyectos/reforma-estatal', label: 'Con reforma estatal', count: 50 },
-  { href: '/sintesis/proyectos/reforma-federal', label: 'Con reforma federal', count: 15 },
-  { href: '/sintesis/proyectos/habilitaciones', label: 'Habilitaciones federales', count: 58 },
+const sintesisReformas = [
+  { href: '/sintesis/reformas',     label: 'Las 101 reformas' },
+  { href: '/sintesis/ruta-critica', label: 'Ruta crítica' },
 ];
 
-const marcoFederal = [
-  { slug: 'cpeum', tag: 'CPEUM', label: 'Constitución federal' },
-  { slug: 'lbio', tag: 'LBio', label: 'Biocombustibles' },
-  { slug: 'lcne', tag: 'LCNE', label: 'Comisión Nacional de Energía' },
-  { slug: 'lepecfe', tag: 'LEPECFE', label: 'Empresa Pública CFE' },
-  { slug: 'lgcc', tag: 'LGCC', label: 'Cambio climático' },
-  { slug: 'lgeo', tag: 'LGeo', label: 'Geotermia' },
-  { slug: 'lpte', tag: 'LPTE', label: 'Planeación y transición' },
-  { slug: 'lse', tag: 'LSE', label: 'Sector eléctrico' },
-  { slug: 'lsh', tag: 'LSH', label: 'Sector hidrocarburos' },
+const sintesisProyectos = [
+  { href: '/sintesis/proyectos',                      label: 'Vista general' },
+  { href: '/sintesis/proyectos/viables-hoy',          label: 'Viables hoy' },
+  { href: '/sintesis/proyectos/reforma-estatal',      label: 'Con reforma estatal' },
+  { href: '/sintesis/proyectos/reforma-federal',      label: 'Con reforma federal' },
+  { href: '/sintesis/proyectos/habilitaciones',       label: 'Habilitaciones federales' },
 ];
 
-const marcoEstatal = [
-  { slug: 'cpej', tag: 'CPEJ', label: 'Constitución de Jalisco' },
-  { slug: 'laccej', tag: 'LACCEJ', label: 'Cambio climático Jalisco' },
-  { slug: 'loaeej', tag: 'LOAEEJ', label: 'Agencia de Energía' },
-  { slug: 'laej', tag: 'LAEJ', label: 'Agroalimentaria' },
-  { slug: 'lpipsejm', tag: 'LPIPSEJM', label: 'APPs' },
-  { slug: 'lgapm', tag: 'LGAPM', label: 'Gobierno municipal' },
-  { slug: 'lpaej', tag: 'LPAEJ', label: 'Procedimiento administrativo' },
-  { slug: 'leeepa-jal', tag: 'LEEEPA-Jal', label: 'Equilibrio ecológico' },
-  { slug: 'reeepa', tag: 'REEEPA', label: 'Reglamento ambiental' },
-  { slug: 'ljaej', tag: 'LJAEJ', label: 'Justicia administrativa' },
-  { slug: 'lmr-jal', tag: 'LMR-Jal', label: 'Mejora regulatoria' },
+const sintesisHojasFinales = [
+  { href: '/sintesis/conflictos', label: 'Conflictos de competencia' },
+  { href: '/sintesis/vacios',     label: 'Vacíos federal-estatal' },
+  { href: '/sintesis/riesgos',    label: 'Casos de máximo riesgo' },
+  { href: '/sintesis/huecos',     label: 'Huecos documentales' },
+  { href: '/sintesis/siguiente',  label: 'Próximos pasos' },
 ];
 ---
 <div id="drawer-overlay" class="drawer-overlay" aria-hidden="true"></div>
@@ -69,71 +88,212 @@ const marcoEstatal = [
     <div id="drawer-title" class="drawer-title">Sistema de Energía de Jalisco</div>
   </div>
 
-  <nav aria-label="Navegación principal">
+  <nav class="drawer-nav-tree" aria-label="Navegación principal">
 
-    <div class="drawer-section">
-      <div class="drawer-section-title">General</div>
-      <ul class="drawer-nav">
-        <li><a href="/" class="drawer-link">Inicio</a></li>
-        <li><a href="/metodologia" class="drawer-link">Metodología</a></li>
-        <li><a href="/contacto" class="drawer-link">Contacto</a></li>
-      </ul>
-    </div>
+    <a
+      href="/"
+      class={'drawer-l1' + (isActive('/') ? ' drawer-item-active' : '')}
+    >
+      Inicio
+    </a>
 
-    <div class="drawer-section">
-      <div class="drawer-section-title">Síntesis ejecutiva</div>
-      <ul class="drawer-nav">
-        <li><a href="/sintesis" class="drawer-link"><span>Índice</span></a></li>
-        {sintesisLinks.map((l) => (
-          <li>
-            <a href={l.href} class="drawer-link">
-              <span>{l.label}</span>
-              {l.count !== null && <span class="drawer-link-count">{l.count}</span>}
-            </a>
-          </li>
+    <div class={'drawer-block' + (sintesisOpen ? ' is-open' : '')}>
+      <a
+        href="/sintesis"
+        class={'drawer-l1' + (isActive('/sintesis') ? ' drawer-item-active' : '')}
+      >
+        Síntesis ejecutiva
+      </a>
+
+      <div class="drawer-l2-group">
+        <span class="drawer-l2">Hallazgos</span>
+        {sintesisHallazgos.map((l) => (
+          <a
+            href={l.href}
+            class={'drawer-l3' + (isActive(l.href) ? ' drawer-item-active' : '')}
+          >{l.label}</a>
         ))}
-      </ul>
+      </div>
 
-      <div class="drawer-section-title" style="margin-top:1rem">Proyectos — por vía</div>
-      {proyectosLinks.map((l) => (
-        <a href={l.href} class="drawer-sublink">
-          {l.label} <span class="drawer-link-count" style="margin-left:0.5em">{l.count}</span>
-        </a>
-      ))}
+      <div class="drawer-l2-group">
+        <span class="drawer-l2">Reformas</span>
+        {sintesisReformas.map((l) => (
+          <a
+            href={l.href}
+            class={'drawer-l3' + (isActive(l.href) ? ' drawer-item-active' : '')}
+          >{l.label}</a>
+        ))}
+      </div>
+
+      <div class="drawer-l2-group">
+        <span class="drawer-l2">Proyectos</span>
+        {sintesisProyectos.map((l) => (
+          <a
+            href={l.href}
+            class={'drawer-l3' + (isActive(l.href) ? ' drawer-item-active' : '')}
+          >{l.label}</a>
+        ))}
+      </div>
+
+      <div class="drawer-l2-group drawer-l2-group--flat">
+        {sintesisHojasFinales.map((l) => (
+          <a
+            href={l.href}
+            class={'drawer-l3' + (isActive(l.href) ? ' drawer-item-active' : '')}
+          >{l.label}</a>
+        ))}
+      </div>
     </div>
 
-    <div class="drawer-section">
-      <div class="drawer-section-title">Marco federal (9)</div>
-      <ul class="drawer-nav">
-        <li><a href="/marco" class="drawer-link"><span>Índice de los 20 ordenamientos</span></a></li>
-      </ul>
-      {marcoFederal.map((o) => (
-        <a href={`/marco/federal/${o.slug}`} class="drawer-sublink">
-          <b style="font-style:italic;color:var(--navy);font-weight:500">{o.tag}</b>
-          <span style="color:var(--text-muted);margin-left:0.5em">{o.label}</span>
-        </a>
-      ))}
+    <div class={'drawer-block' + (marcoOpen ? ' is-open' : '')}>
+      <a
+        href="/marco"
+        class={'drawer-l1' + (isActive('/marco') ? ' drawer-item-active' : '')}
+      >
+        Marco normativo
+      </a>
+
+      <div class="drawer-l2-group">
+        <span class="drawer-l2">Federal</span>
+        {ordsFederales.map((o) => {
+          const href = '/marco/federal/' + o.slug;
+          return (
+            <a
+              href={href}
+              class={'drawer-l3 drawer-l3--ord' + (isActive(href) ? ' drawer-item-active' : '')}
+            >
+              <OrdenamientoName tag={o.tag} short={true} />
+            </a>
+          );
+        })}
+      </div>
+
+      <div class="drawer-l2-group">
+        <span class="drawer-l2">Estatal</span>
+        {ordsEstatales.map((o) => {
+          const href = '/marco/estatal/' + o.slug;
+          return (
+            <a
+              href={href}
+              class={'drawer-l3 drawer-l3--ord' + (isActive(href) ? ' drawer-item-active' : '')}
+            >
+              <OrdenamientoName tag={o.tag} short={true} />
+            </a>
+          );
+        })}
+      </div>
     </div>
 
-    <div class="drawer-section">
-      <div class="drawer-section-title">Marco estatal Jalisco (11)</div>
-      {marcoEstatal.map((o) => (
-        <a href={`/marco/estatal/${o.slug}`} class="drawer-sublink">
-          <b style="font-style:italic;color:var(--navy);font-weight:500">{o.tag}</b>
-          <span style="color:var(--text-muted);margin-left:0.5em">{o.label}</span>
-        </a>
-      ))}
-    </div>
+    <a
+      href="/metodologia"
+      class={'drawer-l1' + (isActive('/metodologia') ? ' drawer-item-active' : '')}
+    >
+      Metodología
+    </a>
 
-    <div class="drawer-section">
-      <div class="drawer-section-title">Design system</div>
-      <ul class="drawer-nav">
-        <li><a href="/demo" class="drawer-link">Página demo</a></li>
-      </ul>
-    </div>
+    <a
+      href="/contacto"
+      class={'drawer-l1' + (isActive('/contacto') ? ' drawer-item-active' : '')}
+    >
+      Contacto
+    </a>
 
   </nav>
 </aside>
+
+<style>
+  .drawer-nav-tree {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+
+  .drawer-l1 {
+    display: block;
+    padding: 0.6rem 0 0.6rem 0.6rem;
+    border-left: 2px solid transparent;
+    font-family: var(--font-sans);
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    color: var(--navy);
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: color var(--transition-fast), border-color var(--transition-fast), background var(--transition-fast);
+  }
+
+  .drawer-l1:hover {
+    color: var(--navy);
+    background: var(--bg-hover);
+  }
+
+  .drawer-block {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .drawer-l2-group {
+    display: flex;
+    flex-direction: column;
+    margin: 0.25rem 0 0.5rem 0.85rem;
+    padding-left: 0.6rem;
+    border-left: 1px solid var(--hair-light);
+  }
+
+  .drawer-l2-group--flat {
+    margin-top: 0.25rem;
+  }
+
+  .drawer-l2 {
+    font-family: var(--font-sans);
+    font-size: 11px;
+    font-weight: 400;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: rgba(27, 44, 94, 0.55);
+    padding: 0.4rem 0 0.25rem 0;
+    user-select: none;
+  }
+
+  .drawer-l2-group--flat .drawer-l2 {
+    display: none;
+  }
+
+  .drawer-l3 {
+    display: block;
+    padding: 0.35rem 0.5rem 0.35rem 0.5rem;
+    border-left: 2px solid transparent;
+    margin-left: -0.6rem;
+    padding-left: 1rem;
+    font-family: var(--font-sans);
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 0.03em;
+    color: var(--navy);
+    text-decoration: none;
+    line-height: 1.45;
+    transition: color var(--transition-fast), border-color var(--transition-fast), background var(--transition-fast);
+  }
+
+  .drawer-l3:hover {
+    color: var(--navy);
+    background: var(--bg-hover);
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 3px;
+  }
+
+  .drawer-l3--ord {
+    font-size: 12.5px;
+  }
+
+  .drawer-item-active {
+    border-left-color: var(--navy);
+    background: var(--bg-hover);
+    color: var(--navy);
+    font-weight: 500;
+  }
+</style>
 
 <script is:inline>
 (function () {

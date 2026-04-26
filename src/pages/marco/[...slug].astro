@@ -60,7 +60,7 @@ const secciones = Object.keys(bloque.secciones)
   .map(k => ({ num: k, ...bloque.secciones[k] }));
 ---
 
-<Editorial title={pageTitle} description={bloque.nombre_completo}>
+<Editorial title={pageTitle} description={bloque.nombre_completo} seccion="Marco normativo">
   <article class="ord-ficha">
     <header class="ord-header">
       <Eyebrow>{ambitoLabel + ' · ' + bloque.tag}</Eyebrow>

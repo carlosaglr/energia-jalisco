@@ -5,8 +5,10 @@ import Eyebrow from '../../components/Eyebrow.astro';
 import DisplayHeadline from '../../components/DisplayHeadline.astro';
 import Subtitle from '../../components/Subtitle.astro';
 import HairlineDivider from '../../components/HairlineDivider.astro';
+import CrossRefText from '../../components/CrossRefText.tsx';
 
 import ordenamientoMetaJson from '../../data/ordenamiento-meta.json';
+import crossRefsJson from '../../data/cross-references.json';
 import debilidadesJson from '../../data/debilidades.json';
 import condicionamientosJson from '../../data/condicionamientos.json';
 import reformasJson from '../../data/reformas.json';
@@ -29,6 +31,7 @@ interface OrdMeta {
 }
 
 const meta = ordenamientoMetaJson as Record<string, OrdMeta>;
+const crossRefs = crossRefsJson as Record<string, any>;
 
 export function getStaticPaths() {
   const entries = Object.values(ordenamientoMetaJson as Record<string, OrdMeta>);
@@ -87,7 +90,7 @@ const ambitoLabel = ordMeta.ambito === 'federal' ? 'federal' : 'estatal';
 const pageTitle = tag + ' — Vista transversal';
 ---
 
-<Editorial title={pageTitle} description={'Todos los hallazgos vinculados a ' + ordMeta.nombre_completo}>
+<Editorial title={pageTitle} description={'Todos los hallazgos vinculados a ' + ordMeta.nombre_completo} seccion="Marco normativo">
   <article class="transversal">
     <header class="transversal-header">
       <Eyebrow>{'ORDENAMIENTO · ' + tag}</Eyebrow>
@@ -117,12 +120,13 @@ const pageTitle = tag + ' — Vista transversal';
         </h2>
         <ul class="transversal-list">
           {sec.items.map((item: any) => {
-            const txt = (item[sec.textField] || '') as string;
+            const rawTxt = (item[sec.textField] || '') as string;
+            const trimmed = rawTxt.length > 150 ? rawTxt.slice(0, 150) + '…' : rawTxt;
             return (
               <li>
                 <span class="item-id">{item[sec.idField]}</span>
                 <span class="item-text">
-                  {txt.length > 150 ? txt.slice(0, 150) + '...' : txt}
+                  <CrossRefText text={trimmed} crossRefs={crossRefs} client:visible />
                 </span>
               </li>
             );

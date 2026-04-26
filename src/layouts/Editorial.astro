@@ -1,17 +1,26 @@
 ---
 // Editorial.astro — Layout base para todas las páginas del Observatorio.
-// Estructura: Header (sticky) + Drawer (oculto) + <main><slot /></main> + Footer.
+// Estructura: Header (sticky) + Drawer (oculto) + <main><slot /></main> + Footer
+//             + SearchWidget (modal flotante).
 // Importa global.css (que a su vez importa los 4 archivos CSS).
 import '../styles/global.css';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import Drawer from '../components/Drawer.astro';
+import SearchWidget from '../components/SearchWidget.tsx';
 
 interface Props {
   title: string;
   description?: string;
   canonical?: string;
   ogImage?: string;
+  /**
+   * Etiqueta de sección que Pagefind expone como meta en cada página.
+   * Se usa para agrupar resultados en el modal de búsqueda.
+   * Valores: 'Inicio', 'Síntesis ejecutiva', 'Marco normativo',
+   *          'Metodología', 'Contacto'. Default: 'Otros'.
+   */
+  seccion?: string;
 }
 
 const {
@@ -19,6 +28,7 @@ const {
   description = 'Análisis jurídico-regulatorio del sistema energético de Jalisco frente al marco federal mexicano.',
   canonical,
   ogImage,
+  seccion = 'Otros',
 } = Astro.props;
 
 const siteUrl = Astro.site?.toString() ?? 'https://energia-jalisco.vercel.app';
@@ -67,9 +77,29 @@ const fullTitle = title.includes('Observatorio')
 <body>
   <Header />
   <Drawer />
-  <main>
+  <main data-pagefind-body>
+    <span data-pagefind-meta={'seccion:' + seccion} hidden></span>
     <slot />
   </main>
   <Footer />
+  <SearchWidget client:load />
+  <script is:inline>
+    (function () {
+      document.addEventListener('keydown', function (e) {
+        if (e.key !== '/') return;
+        var active = document.activeElement;
+        if (active && (
+          active.tagName === 'INPUT' ||
+          active.tagName === 'TEXTAREA' ||
+          active.tagName === 'SELECT' ||
+          (active.isContentEditable === true)
+        )) {
+          return;
+        }
+        e.preventDefault();
+        window.dispatchEvent(new CustomEvent('open-search'));
+      });
+    })();
+  </script>
 </body>
 </html>

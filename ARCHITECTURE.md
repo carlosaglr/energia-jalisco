@@ -1,7 +1,16 @@
 # ARCHITECTURE.md — Observatorio del Sistema de Energía de Jalisco
 
-**Documento de traspaso · Versión 1.6 · Abril 2026**
-**Estado: Fases 1, 2, 3, 4, 5 y 6 completadas. Fase 7 por iniciar.**
+**Documento de traspaso · Versión 1.7 · Abril 2026**
+**Estado: Fases 1, 2, 3, 4, 5, 6 y 7 completadas. Fase 8 por iniciar.**
+
+### Changelog v1.7
+- **Fase 7 completada**: navegación jerárquica completa en `Drawer.astro`, búsqueda full-text estática con Pagefind, modal flotante `SearchWidget.tsx` con atajo `/` y trigger desde lupa en header, auditoría de cross-references en todas las páginas con códigos visibles.
+- **Pagefind integrado al build pipeline**: `npm run build` ejecuta `astro build && pagefind --site dist`. El índice se genera en `dist/pagefind/` (incluye `pagefind.js`, `wasm.es.pagefind`, fragmentos de índice) y se sirve estáticamente. Detecta automáticamente el idioma `es`. Indexa solo el contenido bajo `<main data-pagefind-body>` — no header, footer ni drawer.
+- **Componente `SearchWidget.tsx` + `SearchWidget.css`**: React island montado una sola vez en `Editorial.astro` con `client:load`. Carga dinámica del bundle de Pagefind en el primer abrir del modal (cache en `window.__pagefind__`). Debounce 200ms, top 20 resultados agrupados por sección via `meta.seccion`, navegación por teclado (↓/↑/↵/Esc), tab trap, restauración de foco al trigger. `role="dialog"` + `aria-modal`. Mobile: full-screen.
+- **Header con ícono lupa** que dispara `CustomEvent('open-search')`. Atajo `/` global registrado en `Editorial.astro` con guarda contra inputs/textareas/selects/contentEditable.
+- **`Editorial.astro` con prop `seccion?: string`**: cada página declara su sección ("Inicio", "Síntesis ejecutiva", "Marco normativo", "Metodología", "Contacto") para que Pagefind agrupe los resultados. Default: "Otros".
+- **Drawer expandido**: nivel 1 (5 secciones, links navegables, sans 14px weight 500 uppercase navy), nivel 2 (5 agrupadores no clicables: Hallazgos, Reformas, Proyectos, Federal, Estatal — con borde izquierdo `--hair-light`), nivel 3 (hojas, sans 13px navy, hover con underline). Los 20 ordenamientos se renderizan dinámicamente desde `ordenamientos.json` con validación dura (9 federales + 11 estatales). Item activo detectado por `Astro.url.pathname`.
+- **Auditoría de cross-references**: 4 cambios mínimos a configs de Explorer (`tagXref` agregado a 1A debilidades, 3B reforma-estatal, 3D habilitaciones; `CrossRefText` agregado al render de `/ordenamiento/[tag]`). Ningún cambio a `Explorer.tsx`. Cobertura final: ≥99% de los códigos visibles en el sitio activan tooltip al hover. Casos residuales documentados (2 items con código en campo `tipo`/`impacto` no cubiertos).
 
 ### Changelog v1.6
 - **Fase 6 completada**: 4 páginas singulares implementadas (`/`, `/metodologia`, `/contacto`, `/sintesis/ruta-critica`) y 3 componentes nuevos (`RutaCritica.tsx`, `RutaCritica.css`, `TocSidebar.astro`).
@@ -921,4 +930,4 @@ Entregable: sitio publicado y protegido.
 
 ---
 
-**Fin de ARCHITECTURE.md v1.6**
+**Fin de ARCHITECTURE.md v1.7**
