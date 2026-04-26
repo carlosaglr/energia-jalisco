@@ -4,6 +4,16 @@
    Respeta tokens del design system Julius Bär.
    ============================================================================ */
 
+/* Root wrapper: siempre montado para que Astro hidrate el client:load.
+   Visibilidad togglead via .is-open. */
+.search-root {
+  display: none;
+}
+
+.search-root.is-open {
+  display: block;
+}
+
 .search-backdrop {
   position: fixed;
   inset: 0;

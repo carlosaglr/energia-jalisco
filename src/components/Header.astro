@@ -40,12 +40,6 @@
   </div>
 </header>
 
-<script is:inline>
-(function () {
-  var btn = document.querySelector('.header-search-trigger');
-  if (!btn) return;
-  btn.addEventListener('click', function () {
-    window.dispatchEvent(new CustomEvent('open-search'));
-  });
-})();
-</script>
+<!-- El click del botón .header-search-trigger se maneja por event delegation
+     desde Editorial.astro, junto al atajo '/'. -->
+

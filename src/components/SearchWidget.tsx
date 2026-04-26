@@ -127,8 +127,20 @@ export default function SearchWidget() {
   }, []);
 
   useEffect(() => {
-    const onOpen = () => open();
+    console.log('[search] SearchWidget mounted, listener registered');
+    const onOpen = () => {
+      console.log('[search] open-search event received');
+      open();
+    };
     window.addEventListener('open-search', onOpen as EventListener);
+    // Sync con el DOM: si el script inline ya marcó .is-open antes de que
+    // React hidrate, levantar el state para que el modal quede consistente.
+    const root = typeof document !== 'undefined'
+      ? document.querySelector('.search-root')
+      : null;
+    if (root && root.classList.contains('is-open')) {
+      open();
+    }
     return () => {
       window.removeEventListener('open-search', onOpen as EventListener);
     };
@@ -145,7 +157,16 @@ export default function SearchWidget() {
         .then(() => setPagefindReady(true))
         .catch((e) => {
           setPagefindReady(false);
-          setErrorMsg('No se pudo cargar el motor de búsqueda. ' + (e?.message || ''));
+          // Pagefind sólo existe tras `npm run build` (en dist/pagefind/).
+          // En `npm run dev` no hay índice y el fetch del bundle devuelve 404.
+          if (import.meta.env.DEV) {
+            setErrorMsg(
+              'La búsqueda sólo funciona en el sitio compilado. ' +
+              'Ejecutá `npm run preview` para probarla.'
+            );
+          } else {
+            setErrorMsg('No se pudo cargar el motor de búsqueda. ' + (e?.message || ''));
+          }
         });
     }
     return () => window.clearTimeout(t);
@@ -253,7 +274,14 @@ export default function SearchWidget() {
         setOrderedSections(order);
         setActiveIndex(datas.length > 0 ? 0 : -1);
       } catch (err: any) {
-        setErrorMsg('Error al buscar: ' + (err?.message || 'desconocido'));
+        if (import.meta.env.DEV) {
+          setErrorMsg(
+            'La búsqueda sólo funciona en el sitio compilado. ' +
+            'Ejecutá `npm run preview` para probarla.'
+          );
+        } else {
+          setErrorMsg('Error al buscar: ' + (err?.message || 'desconocido'));
+        }
       } finally {
         if (myReq === requestIdRef.current) setLoading(false);
       }
@@ -275,10 +303,6 @@ export default function SearchWidget() {
     setErrorMsg(null);
   }, [isOpen]);
 
-  if (!isOpen) {
-    return null;
-  }
-
   const onBackdropClick = (e: React.MouseEvent<HTMLDivElement>) => {
     if (e.target === e.currentTarget) {
       close();
@@ -286,8 +310,10 @@ export default function SearchWidget() {
   };
 
   let runningIndex = -1;
+  const rootClass = 'search-root' + (isOpen ? ' is-open' : '');
 
   return (
+    <div className={rootClass} aria-hidden={isOpen ? 'false' : 'true'}>
     <div
       className="search-backdrop"
       onMouseDown={onBackdropClick}
@@ -386,6 +412,7 @@ export default function SearchWidget() {
           </span>
         </div>
       </div>
+    </div>
     </div>
   );
 }

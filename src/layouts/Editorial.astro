@@ -85,6 +85,41 @@ const fullTitle = title.includes('Observatorio')
   <SearchWidget client:load />
   <script is:inline>
     (function () {
+      console.log('[search] inline script registered');
+
+      function fireOpenSearch() {
+        console.log('[search] dispatching open-search event');
+        window.dispatchEvent(new CustomEvent('open-search'));
+        // Fallback DOM-only: si React aún no hidrató y nadie escucha el evento,
+        // togglear la clase .is-open directamente. React, cuando hidrate, leerá
+        // este DOM como punto de partida.
+        var root = document.querySelector('.search-root');
+        if (root) {
+          root.classList.add('is-open');
+          root.setAttribute('aria-hidden', 'false');
+          var input = root.querySelector('.search-input');
+          if (input) {
+            try { input.focus(); } catch (e) { /* noop */ }
+          }
+        } else {
+          console.warn('[search] .search-root no encontrado en el DOM');
+        }
+      }
+
+      // Click en la lupa del Header (event delegation desde document para
+      // evitar dependencias con el orden de hidratación o re-renders).
+      document.addEventListener('click', function (e) {
+        var t = e.target;
+        if (!t) return;
+        var btn = (t.closest && t.closest('.header-search-trigger')) || null;
+        if (btn) {
+          console.log('[search] click on .header-search-trigger detected');
+          e.preventDefault();
+          fireOpenSearch();
+        }
+      });
+
+      // Atajo '/' global con guarda contra inputs/textareas/selects/contentEditable.
       document.addEventListener('keydown', function (e) {
         if (e.key !== '/') return;
         var active = document.activeElement;
@@ -97,7 +132,7 @@ const fullTitle = title.includes('Observatorio')
           return;
         }
         e.preventDefault();
-        window.dispatchEvent(new CustomEvent('open-search'));
+        fireOpenSearch();
       });
     })();
   </script>

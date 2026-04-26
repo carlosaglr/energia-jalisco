@@ -243,7 +243,10 @@ Script inline en `Editorial.astro` escucha `keydown` en `document` y dispara `Cu
 ### 8.8 Concatenación con `+` en SearchWidget.tsx
 Verificado con `grep -c '\\\`' SearchWidget.{tsx,css}` → 0 backticks. Mantiene la regla v1.2.
 
-### 8.9 Auditoría de cross-references — tabla por página
+### 8.9 Pagefind y `npm run dev`
+El bundle de Pagefind (`pagefind.js`, `wasm.es.pagefind`, fragments del índice) sólo existe en `dist/pagefind/` tras `npm run build`. En modo `npm run dev` el modal abre, pero `import('/pagefind/pagefind.js')` devuelve 404 y el catch dispara un mensaje informativo: "La búsqueda sólo funciona en el sitio compilado. Ejecutá `npm run preview` para probarla." El gate se hace con `import.meta.env.DEV` en `SearchWidget.tsx`. Para probar la búsqueda end-to-end usar `npm run build && npm run preview`.
+
+### 8.10 Auditoría de cross-references — tabla por página
 
 | Página | Estado pre-auditoría | Cambio aplicado en Fase 7 |
 |---|---|---|
@@ -263,7 +266,7 @@ Verificado con `grep -c '\\\`' SearchWidget.{tsx,css}` → 0 backticks. Mantiene
 | `/ordenamiento/[tag]` | parcial: lista plana sin RichText | importé `CrossRefText` y lo apliqué al texto truncado de cada item |
 | `/sintesis/ruta-critica` | n/a (cards sin códigos en texto visible) | sin cambio |
 
-### 8.10 Casos residuales no cubiertos
+### 8.11 Casos residuales no cubiertos
 2 ítems en 207 proyectos tienen un código embebido en un campo que el Explorer renderiza como `tipo` pequeño en la meta-line, sin pasar por `RichText`:
 - **3A.78** (`condicion`): "Decisión del Presidente del Consejo (Gobernador). Voto permanente requiere ver R-94" — el R-94 no activa tooltip.
 - **3C.11** (`impacto`): "Reconocimiento estatal como ejecutor territorial; complementario a 3C.3" — el 3C.3 no activa tooltip.
