@@ -1,7 +1,21 @@
 # ARCHITECTURE.md — Observatorio del Sistema de Energía de Jalisco
 
-**Documento de traspaso · Versión 1.7 · Abril 2026**
-**Estado: Fases 1, 2, 3, 4, 5, 6 y 7 completadas. Fase 8 por iniciar.**
+**Documento de traspaso · Versión 1.8 · Abril 2026**
+**Estado: Las 8 fases completadas. Sitio publicado.**
+
+### Changelog v1.8
+- **Fase 8 completada**: sitio publicado en Vercel (`https://energia-jalisco.vercel.app/`, subdominio gratis), paquete defensivo aplicado, licencia CC BY-NC-SA 4.0 visible.
+- **`public/robots.txt`** con 16 bots de IA bloqueados (GPTBot, ChatGPT-User, OAI-SearchBot, ClaudeBot, Claude-Web, anthropic-ai, Google-Extended, CCBot, PerplexityBot, Perplexity-User, cohere-ai, Meta-ExternalAgent, FacebookBot, Bytespider, Amazonbot, Applebot-Extended). `User-agent: *` permitido. Sitemap apuntando a `https://energia-jalisco.vercel.app/sitemap-index.xml`.
+- **Meta tags `noai, noimageai`** consolidados en `Editorial.astro`: `<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1, noai, noimageai" />` y `<meta name="googlebot" content="noai, noimageai" />`. `<meta name="ai-content-declaration" content="not-for-training" />` preservado.
+- **Headers HTTP defensivos** vía `vercel.json`: `X-Robots-Tag: noai, noimageai`, `Strict-Transport-Security` con preload (max-age 2 años), `X-Content-Type-Options: nosniff`, `X-Frame-Options: DENY`, `Referrer-Policy: strict-origin-when-cross-origin`, `Permissions-Policy` cerrando cámara/micrófono/geolocalización/pago.
+- **Licencia CC BY-NC-SA 4.0** publicada como `LICENSE` en raíz (texto íntegro de `legalcode.txt`, 438 líneas) + línea visible en footer (`<p class="footer-license">` + `<p class="footer-license-link">` con link a `/deed.es`) + sección de licencia y atribución en `README.md`.
+- **Watermark** tenue al final de `/sintesis/ruta-critica` (small caps tracked-out 11px, navy con opacity 0.4, margin 48px) — única página con watermark explícito por ser la única visualización signature del sitio.
+- **`@astrojs/sitemap` integrado**: genera `sitemap-index.xml` + `sitemap-0.xml` con 161 URLs en cada build. Enlazado desde `robots.txt`.
+- **Cloudflare diferido**: requiere apex domain propio. Documentado como pendiente.
+- **CSP diferida**: documentada como pendiente (sin urgencia, riesgo de romper Pagefind / inline scripts si se mal-configura).
+
+### Estado del proyecto
+Las 8 fases del plan original están completas. El sitio está en línea, indexable por motores tradicionales, defendido contra crawlers de IA conocidos al cierre de Fase 8, licenciado, búsqueda funcional, navegación completa.
 
 ### Changelog v1.7
 - **Fase 7 completada**: navegación jerárquica completa en `Drawer.astro`, búsqueda full-text estática con Pagefind, modal flotante `SearchWidget.tsx` con atajo `/` y trigger desde lupa en header, auditoría de cross-references en todas las páginas con códigos visibles.
@@ -930,4 +944,4 @@ Entregable: sitio publicado y protegido.
 
 ---
 
-**Fin de ARCHITECTURE.md v1.7**
+**Fin de ARCHITECTURE.md v1.8**

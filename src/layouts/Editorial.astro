@@ -47,7 +47,8 @@ const fullTitle = title.includes('Observatorio')
   <link rel="canonical" href={canonicalUrl} />
 
   {/* Anti-scraping / no-AI training */}
-  <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1, noai, noimageai" />
+  <meta name="googlebot" content="noai, noimageai" />
   <meta name="ai-content-declaration" content="not-for-training" />
 
   {/* Open Graph */}

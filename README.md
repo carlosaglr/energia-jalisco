@@ -4,25 +4,24 @@ Sitio web editorial que publica el análisis jurídico-regulatorio del sistema e
 
 ## Stack
 
-- Astro 4.16 (renderizado estático)
-- React 18 (solo islands interactivos)
-- CSS vanilla con custom properties (no frameworks)
+- Astro 5 (renderizado estático)
+- React 19 (solo islands interactivos)
+- Pagefind (búsqueda full-text estática)
+- CSS vanilla con custom properties (sin frameworks)
 - TypeScript strict
 
 ## Estructura
 
 ```
-observatorio/
+energia-jalisco/
 ├── public/
 │   └── robots.txt
 ├── src/
-│   ├── components/      # Componentes Astro (.astro)
-│   ├── data/            # JSON de Fase 1 (35 archivos)
+│   ├── components/      # Componentes Astro (.astro) y React (.tsx)
+│   ├── data/            # JSON canónicos generados desde el .md fuente
 │   ├── layouts/
 │   │   └── Editorial.astro
-│   ├── pages/
-│   │   ├── index.astro  # Home mínima (Fase 6 completa)
-│   │   └── demo.astro   # Spec visual viva del design system
+│   ├── pages/           # 161 páginas estáticas
 │   └── styles/
 │       ├── tokens.css
 │       ├── typography.css
@@ -30,6 +29,8 @@ observatorio/
 │       ├── layout.css
 │       └── global.css   # Importa los cuatro anteriores
 ├── astro.config.mjs
+├── vercel.json
+├── LICENSE
 ├── package.json
 └── tsconfig.json
 ```
@@ -38,34 +39,22 @@ observatorio/
 
 ```bash
 npm install
-npm run dev      # http://localhost:4321
-npm run build    # Genera dist/
-npm run preview  # Sirve dist/ localmente
+npm run dev      # http://localhost:4321 (búsqueda no funciona en dev)
+npm run build    # Genera dist/ + dist/pagefind/
+npm run preview  # Sirve dist/ localmente — búsqueda funcional
 ```
-
-## Rutas disponibles
-
-| Ruta | Descripción |
-|---|---|
-| `/` | Home mínima (se completa en Fase 6) |
-| `/demo` | Spec visual del design system — todos los componentes base |
-
-## Design system
-
-Ver `src/styles/` y la página `/demo` que renderiza:
-
-1. Escala tipográfica (display, section, card, body editorial, body compact, eyebrow, mono, label)
-2. MetricsRow (4 y 6 columnas)
-3. PriorityTag (Alta, Media, Baja)
-4. OrdenamientoName (los 11 ordenamientos estatales)
-5. Tabs (activo/inactivo) y Select estilizado
-6. Distribution bars
-7. Cross-references con tooltips
-8. NavCards
-9. Buttons
 
 ## Licencia
 
-Contenido bajo licencia [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Código del sitio sin licencia específica aún (pendiente de decidir).
+El contenido editorial (análisis, textos, datos) está publicado bajo
+licencia [Creative Commons BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es).
+
+El código fuente está disponible para fines de auditoría y reproducción
+del análisis. Cualquier uso comercial requiere autorización del autor.
 
 Este contenido **no está autorizado** para entrenamiento de modelos de IA.
+
+## Atribución
+
+Este trabajo cita como fuente: *Aguilar, C. (2026). Observatorio del
+Sistema de Energía de Jalisco. Disponible en https://energia-jalisco.vercel.app.*

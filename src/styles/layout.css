@@ -250,14 +250,36 @@ main {
   gap: 1rem;
 }
 
-.footer-license {
+.footer-license-block {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  max-width: 720px;
+}
+
+.footer-license,
+.footer-license-link {
   font-family: var(--font-sans);
   font-size: 11px;
   font-weight: 400;
-  letter-spacing: 0.04em;
-  color: var(--text-muted);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--navy);
+  opacity: 0.7;
   line-height: 1.5;
-  max-width: 720px;
+  margin: 0;
+}
+
+.footer-license-link a {
+  color: inherit;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  text-transform: none;
+  letter-spacing: 0.04em;
+}
+
+.footer-license-link a:hover {
+  opacity: 0.85;
 }
 
 .footer-watermark {

@@ -264,6 +264,10 @@ const indPorOrd = indOrden.map((tag) => ({
         <span class="ruta-r101-link">Ver ficha de {r101.id} →</span>
       </a>
     </section>
+
+    <p class="ruta-watermark">
+      Observatorio del Sistema de Energía de Jalisco · CC BY-NC-SA 4.0 · Abril 2026
+    </p>
   </div>
 </Editorial>
 
@@ -447,6 +451,18 @@ const indPorOrd = indOrden.map((tag) => ({
     letter-spacing: 0.04em;
     color: var(--navy);
     margin-top: 0.5rem;
+  }
+
+  .ruta-watermark {
+    text-align: center;
+    font-family: var(--font-sans);
+    font-size: 11px;
+    font-weight: 400;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--navy);
+    opacity: 0.4;
+    margin: 48px 0;
   }
 
   @media (max-width: 768px) {

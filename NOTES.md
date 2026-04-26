@@ -275,6 +275,40 @@ Cubrirlos requeriría modificar `Explorer.tsx` para envolver `tipo` con RichText
 
 ---
 
+## 9. Fase 8 — Decisiones técnicas
+
+### 9.1 Vercel sobre Netlify
+Vercel detecta Astro automáticamente, sin configuración manual; integración con GitHub más limpia. Subdominio gratuito asignado: `https://energia-jalisco.vercel.app/`.
+
+### 9.2 Subdominio `.vercel.app` como destino final de Fase 8
+Migración a dominio propio queda como pendiente. Sin apex domain controlado por Carlos, Cloudflare gratis no puede proxiar `*.vercel.app` (Cloudflare gratis requiere ZONA en su DNS, no funciona con subdominios de proveedores externos).
+
+### 9.3 Cloudflare diferido
+Razón: requiere apex domain propio. Cuando se migre a dominio propio, agregar Cloudflare proxy + DNS apuntando a Vercel.
+
+### 9.4 CSP no implementada en esta fase
+Riesgo conocido y aceptado: una CSP mal configurada rompe Pagefind (carga dinámica de WASM + fetch de fragments) o el `<script is:inline>` que dispara `open-search` desde Editorial.astro. Reactivar si surge incidente concreto de inyección o scraping específico que la justifique.
+
+### 9.5 HSTS con preload (max-age 2 años)
+Asume que el sitio se queda en HTTPS de forma permanente. Si por alguna razón hay que volver a HTTP (improbable), navegadores van a recordar el HSTS por 2 años; no es trivial revertir. Si se migra a dominio propio, el header HSTS de `*.vercel.app` no se hereda — el preload en navegadores de los usuarios sigue activo, pero Vercel re-aplica HSTS al nuevo dominio.
+
+### 9.6 robots.txt con 16 bots de IA
+Cobertura de los crawlers de IA conocidos al momento del deploy (Abril 2026). La lista se va a quedar atrás conforme aparezcan nuevos. Revisar periódicamente y actualizar tanto `robots.txt` como (si es necesario) los meta tags `noai/noimageai`.
+
+### 9.7 Watermark sólo en `/sintesis/ruta-critica`
+Razón: es la única visualización signature del sitio (waterfall de tramos con aristas SVG). Si en una iteración futura se agrega otra viz distintiva (ej. distribuciones del Explorer en formato no-tabular), replicar el patrón.
+
+### 9.8 Sitemap vía `@astrojs/sitemap`
+Genera `sitemap-index.xml` + `sitemap-0.xml` con las 161 URLs en cada build. Enlazado desde `robots.txt`. Astro lo incluye automáticamente cuando la integración está en `astro.config.mjs`; no requiere config adicional.
+
+### 9.9 `vercel.json` con framework=astro + buildCommand explícitos
+Aunque Vercel detecta Astro automáticamente, declarar `framework`, `buildCommand` y `outputDirectory` evita drift si Vercel cambia su autodetección. Los `headers` necesitan estar acá porque Vercel no permite headers custom desde código Astro estático.
+
+### 9.10 Doble defensa noai (meta + header HTTP)
+`<meta name="robots" content="..., noai, noimageai">` cubre crawlers que parsean HTML; `X-Robots-Tag: noai, noimageai` cubre crawlers que respetan headers HTTP y extiende la directiva a recursos no-HTML (PDFs, imágenes). Combinado con `robots.txt` (que cubre crawlers que respetan ese mecanismo) da tres capas de defensa contra IA training crawlers conocidos.
+
+---
+
 ## 6. Workflow estándar
 
 ```bash

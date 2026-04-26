@@ -28,7 +28,6 @@ const year = new Date().getFullYear();
       <div>
         <div class="footer-col-title">Recursos</div>
         <ul class="footer-links">
-          <li><a href="https://github.com/" class="footer-link" rel="noopener" target="_blank">Repositorio GitHub</a></li>
           <li><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" class="footer-link" rel="license noopener" target="_blank">Licencia CC BY-NC-SA 4.0</a></li>
           <li><a href="/sintesis/huecos" class="footer-link">Huecos documentales</a></li>
         </ul>
@@ -36,9 +35,21 @@ const year = new Date().getFullYear();
     </div>
 
     <div class="footer-bottom">
-      <p class="footer-license">
-        © {year} Observatorio del Sistema de Energía de Jalisco. Contenido bajo licencia <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="license noopener" target="_blank" class="footer-link" style="display:inline;">CC BY-NC-SA 4.0</a>. Se permite compartir y adaptar con atribución, sin fines comerciales, bajo la misma licencia.
-      </p>
+      <div class="footer-license-block">
+        <p class="footer-license">
+          © {year} Carlos Aguilar · Observatorio del Sistema de Energía de Jalisco
+        </p>
+        <p class="footer-license-link">
+          Contenido publicado bajo licencia
+          <a
+            href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es"
+            target="_blank"
+            rel="license noopener"
+          >
+            Creative Commons BY-NC-SA 4.0
+          </a>
+        </p>
+      </div>
       <div class="footer-watermark">
         Observatorio · Abril 2026
       </div>
