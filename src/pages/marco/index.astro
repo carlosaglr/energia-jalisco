@@ -1,0 +1,118 @@
+---
+// src/pages/marco/index.astro
+import Editorial from '../../layouts/Editorial.astro';
+import Eyebrow from '../../components/Eyebrow.astro';
+import DisplayHeadline from '../../components/DisplayHeadline.astro';
+import Subtitle from '../../components/Subtitle.astro';
+import HairlineDivider from '../../components/HairlineDivider.astro';
+import NavCard from '../../components/NavCard.astro';
+
+import ordenamientoMetaJson from '../../data/ordenamiento-meta.json';
+
+interface OrdMeta {
+  tag: string;
+  slug: string;
+  ambito: 'federal' | 'estatal';
+  nombre_completo: string;
+  nombre_display: {
+    prefix_italic: string;
+    core_bold_italic: string;
+    suffix_italic_small: string;
+  };
+}
+
+const meta = ordenamientoMetaJson as Record<string, OrdMeta>;
+const entries = Object.values(meta);
+const federales = entries.filter(e => e.ambito === 'federal');
+const estatales = entries.filter(e => e.ambito === 'estatal');
+
+const pageTitle = 'Marco normativo — Observatorio del Sistema de Energía de Jalisco';
+const pageDescription =
+  'Veinte ordenamientos analizados — nueve federales y once estatales — frente al sistema energético de Jalisco.';
+---
+
+<Editorial title={pageTitle} description={pageDescription}>
+  <article class="marco-overview">
+    <header class="marco-overview-header">
+      <Eyebrow>OBSERVATORIO</Eyebrow>
+      <DisplayHeadline>Marco normativo</DisplayHeadline>
+      <Subtitle>
+        Veinte ordenamientos analizados — nueve federales y once estatales —
+        frente al sistema energético de Jalisco.
+      </Subtitle>
+    </header>
+
+    <HairlineDivider />
+
+    <section class="marco-grupo">
+      <h2 class="grupo-eyebrow">MARCO FEDERAL · 9 ORDENAMIENTOS</h2>
+      <div class="marco-grid">
+        {federales.map(o => (
+          <NavCard
+            href={'/marco/federal/' + o.slug}
+            eyebrow={o.tag}
+            title={o.nombre_display.core_bold_italic}
+            description={o.nombre_completo}
+          />
+        ))}
+      </div>
+    </section>
+
+    <HairlineDivider />
+
+    <section class="marco-grupo">
+      <h2 class="grupo-eyebrow">MARCO ESTATAL · 11 ORDENAMIENTOS</h2>
+      <div class="marco-grid">
+        {estatales.map(o => (
+          <NavCard
+            href={'/marco/estatal/' + o.slug}
+            eyebrow={o.tag}
+            title={o.nombre_display.core_bold_italic}
+            description={o.nombre_completo}
+          />
+        ))}
+      </div>
+    </section>
+  </article>
+</Editorial>
+
+<style>
+  .marco-overview {
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 3rem 1.5rem 4rem;
+  }
+  .marco-overview-header {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    align-items: center;
+  }
+  .marco-grupo {
+    margin: 2.5rem 0;
+  }
+  .grupo-eyebrow {
+    font-family: var(--font-sans);
+    font-size: 10px;
+    font-weight: 400;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--navy-soft);
+    margin: 0 0 2rem;
+  }
+  .marco-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0;
+  }
+  @media (max-width: 720px) {
+    .marco-overview {
+      padding: 2rem 1rem 3rem;
+    }
+    .marco-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

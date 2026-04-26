@@ -1,0 +1,54 @@
+/* src/components/BloqueContent.css */
+.bloque-content {
+  font-family: var(--font-serif);
+  font-size: 15.5px;
+  line-height: 1.65;
+  color: var(--text-primary);
+}
+.bloque-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.bloque-list li {
+  padding: 0.75rem 0;
+  border-bottom: 1px solid var(--hair-light);
+}
+.bloque-list li:last-child {
+  border-bottom: none;
+}
+.bloque-table-wrap {
+  overflow-x: auto;
+  margin: 1rem 0;
+}
+.bloque-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+  line-height: 1.5;
+}
+.bloque-table th {
+  font-family: var(--font-sans);
+  font-size: 10px;
+  font-weight: 400;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--navy-soft);
+  text-align: left;
+  padding: 0.75rem;
+  border-bottom: 1px solid var(--line);
+  white-space: nowrap;
+}
+.bloque-table td {
+  font-family: var(--font-serif);
+  padding: 0.75rem;
+  border-bottom: 1px solid var(--hair-light);
+  vertical-align: top;
+}
+.bloque-table tr:last-child td {
+  border-bottom: none;
+}
+.bloque-absence {
+  color: var(--text-muted);
+  font-style: italic;
+}

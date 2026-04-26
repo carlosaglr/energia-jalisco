@@ -1,0 +1,258 @@
+---
+// src/pages/ordenamiento/[...tag].astro
+import Editorial from '../../layouts/Editorial.astro';
+import Eyebrow from '../../components/Eyebrow.astro';
+import DisplayHeadline from '../../components/DisplayHeadline.astro';
+import Subtitle from '../../components/Subtitle.astro';
+import HairlineDivider from '../../components/HairlineDivider.astro';
+
+import ordenamientoMetaJson from '../../data/ordenamiento-meta.json';
+import debilidadesJson from '../../data/debilidades.json';
+import condicionamientosJson from '../../data/condicionamientos.json';
+import reformasJson from '../../data/reformas.json';
+import proyectos3aJson from '../../data/proyectos-3a.json';
+import proyectos3bJson from '../../data/proyectos-3b.json';
+import habilitacionesJson from '../../data/habilitaciones.json';
+import conflictosJson from '../../data/conflictos.json';
+import vaciosJson from '../../data/vacios.json';
+
+interface OrdMeta {
+  tag: string;
+  slug: string;
+  ambito: 'federal' | 'estatal';
+  nombre_completo: string;
+  nombre_display: {
+    prefix_italic: string;
+    core_bold_italic: string;
+    suffix_italic_small: string;
+  };
+}
+
+const meta = ordenamientoMetaJson as Record<string, OrdMeta>;
+
+export function getStaticPaths() {
+  const entries = Object.values(ordenamientoMetaJson as Record<string, OrdMeta>);
+  return entries.map(e => ({
+    params: { tag: e.tag },
+    props: { ordMeta: e },
+  }));
+}
+
+const { ordMeta } = Astro.props as { ordMeta: OrdMeta };
+const tag = ordMeta.tag;
+
+function ordMatch(field: string | null | undefined, t: string): boolean {
+  if (!field) return false;
+  return field.split(/\s*\+\s*/).some(s => s.trim() === t);
+}
+
+function textContains(field: string | null | undefined, t: string): boolean {
+  if (!field) return false;
+  var re = new RegExp('\\b' + t.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + '\\b');
+  return re.test(field);
+}
+
+const debilidades = (debilidadesJson as any[]).filter(d => d.ord === tag);
+const condicionamientos = (condicionamientosJson as any[]).filter(c => c.ord_federal === tag);
+const reformas = (reformasJson as any[]).filter(r => r.ordenamiento === tag);
+const proyectos3a = (proyectos3aJson as any[]).filter(p => ordMatch(p.ord_estatal, tag));
+const proyectos3b = (proyectos3bJson as any[]).filter(p => ordMatch(p.ord_estatal, tag));
+const habilitaciones = (habilitacionesJson as any[]).filter(h => h.ord_federal === tag);
+const conflictos = (conflictosJson as any[]).filter(c =>
+  textContains(c.polo_estatal, tag) || textContains(c.polo_federal, tag)
+);
+const vacios = (vaciosJson as any[]).filter(v => v.polo_federal === tag);
+
+interface SecDef {
+  label: string;
+  items: any[];
+  idField: string;
+  textField: string;
+  href: string;
+}
+
+const sections: SecDef[] = [
+  { label: 'DEBILIDADES · 1A', items: debilidades, idField: 'id', textField: 'texto', href: '/sintesis/mapa/debilidades' },
+  { label: 'CONDICIONAMIENTOS · 1B', items: condicionamientos, idField: 'id', textField: 'texto', href: '/sintesis/mapa/condicionamientos' },
+  { label: 'REFORMAS · SECCIÓN 2', items: reformas, idField: 'id', textField: 'titulo', href: '/sintesis/reformas' },
+  { label: 'PROYECTOS VIABLES · 3A', items: proyectos3a, idField: 'id', textField: 'titulo', href: '/sintesis/proyectos/viables-hoy' },
+  { label: 'PROYECTOS CON REFORMA ESTATAL · 3B', items: proyectos3b, idField: 'id', textField: 'titulo', href: '/sintesis/proyectos/reforma-estatal' },
+  { label: 'HABILITACIONES · 3D', items: habilitaciones, idField: 'id', textField: 'titulo', href: '/sintesis/proyectos/habilitaciones' },
+  { label: 'CONFLICTOS · 4A', items: conflictos, idField: 'id', textField: 'titulo', href: '/sintesis/conflictos' },
+  { label: 'VACÍOS · 4B', items: vacios, idField: 'id', textField: 'titulo', href: '/sintesis/vacios' },
+].filter(s => s.items.length > 0);
+
+const totalItems = sections.reduce((sum, s) => sum + s.items.length, 0);
+const ambitoLabel = ordMeta.ambito === 'federal' ? 'federal' : 'estatal';
+const pageTitle = tag + ' — Vista transversal';
+---
+
+<Editorial title={pageTitle} description={'Todos los hallazgos vinculados a ' + ordMeta.nombre_completo}>
+  <article class="transversal">
+    <header class="transversal-header">
+      <Eyebrow>{'ORDENAMIENTO · ' + tag}</Eyebrow>
+      <DisplayHeadline>{ordMeta.nombre_completo}</DisplayHeadline>
+      <Subtitle>
+        {totalItems + ' hallazgos vinculados a este ordenamiento ' + ambitoLabel + '.'}
+      </Subtitle>
+    </header>
+
+    <HairlineDivider />
+
+    <div class="transversal-meta">
+      <a
+        href={'/marco/' + ordMeta.ambito + '/' + ordMeta.slug}
+        class="meta-link"
+      >
+        {'Ver ficha completa del ' + tag + ' →'}
+      </a>
+    </div>
+
+    <HairlineDivider />
+
+    {sections.map(sec => (
+      <section class="transversal-seccion">
+        <h2 class="seccion-eyebrow">
+          {sec.label + ' — ' + sec.items.length}
+        </h2>
+        <ul class="transversal-list">
+          {sec.items.map((item: any) => {
+            const txt = (item[sec.textField] || '') as string;
+            return (
+              <li>
+                <span class="item-id">{item[sec.idField]}</span>
+                <span class="item-text">
+                  {txt.length > 150 ? txt.slice(0, 150) + '...' : txt}
+                </span>
+              </li>
+            );
+          })}
+        </ul>
+        <a href={sec.href} class="seccion-link">Ver todos en explorer →</a>
+        <HairlineDivider />
+      </section>
+    ))}
+
+    <nav class="transversal-nav">
+      <a href="/marco" class="nav-back">← Marco normativo</a>
+    </nav>
+
+    <div class="transversal-watermark">
+      Observatorio del Sistema de Energía de Jalisco · CC BY-NC-SA 4.0
+    </div>
+  </article>
+</Editorial>
+
+<style>
+  .transversal {
+    max-width: 880px;
+    margin: 0 auto;
+    padding: 3rem 1.5rem 4rem;
+  }
+  .transversal-header {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    align-items: center;
+  }
+  .transversal-meta {
+    text-align: center;
+    margin: 2rem 0;
+  }
+  .meta-link {
+    font-family: var(--font-sans);
+    font-size: 11px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--navy);
+    text-decoration: none;
+  }
+  .meta-link:hover {
+    opacity: 0.75;
+  }
+  .transversal-seccion {
+    margin: 2rem 0;
+  }
+  .seccion-eyebrow {
+    font-family: var(--font-sans);
+    font-size: 10px;
+    font-weight: 400;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--navy-soft);
+    margin: 0 0 1rem;
+  }
+  .transversal-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 1rem;
+  }
+  .transversal-list li {
+    display: grid;
+    grid-template-columns: 60px 1fr;
+    gap: 1rem;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid var(--hair-light);
+    align-items: baseline;
+  }
+  .item-id {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    letter-spacing: 0.02em;
+    color: var(--navy);
+  }
+  .item-text {
+    font-family: var(--font-serif);
+    font-size: 14px;
+    line-height: 1.5;
+    color: var(--text-primary);
+  }
+  .seccion-link {
+    font-family: var(--font-sans);
+    font-size: 11px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--navy);
+    text-decoration: none;
+  }
+  .seccion-link:hover {
+    opacity: 0.75;
+  }
+  .transversal-nav {
+    margin-top: 3rem;
+    padding-top: 1.5rem;
+  }
+  .nav-back {
+    font-family: var(--font-sans);
+    font-size: 11px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--navy);
+    text-decoration: none;
+  }
+  .nav-back:hover {
+    opacity: 0.75;
+  }
+  .transversal-watermark {
+    margin-top: 4rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--hair);
+    font-family: var(--font-sans);
+    font-size: 10px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    text-align: center;
+  }
+  @media (max-width: 720px) {
+    .transversal {
+      padding: 2rem 1rem 3rem;
+    }
+    .transversal-list li {
+      grid-template-columns: 50px 1fr;
+      gap: 0.5rem;
+    }
+  }
+</style>

@@ -1,0 +1,217 @@
+---
+// src/pages/marco/[...slug].astro
+import Editorial from '../../layouts/Editorial.astro';
+import Eyebrow from '../../components/Eyebrow.astro';
+import DisplayHeadline from '../../components/DisplayHeadline.astro';
+import Subtitle from '../../components/Subtitle.astro';
+import HairlineDivider from '../../components/HairlineDivider.astro';
+import BloqueContent from '../../components/BloqueContent.tsx';
+
+import ordenamientoMetaJson from '../../data/ordenamiento-meta.json';
+import crossRefsJson from '../../data/cross-references.json';
+
+interface Seccion {
+  titulo: string;
+  contenido: string;
+}
+
+interface Bloque {
+  tag: string;
+  slug: string;
+  ambito: 'federal' | 'estatal';
+  nombre_completo: string;
+  header_raw: string;
+  vigencia_raw: string;
+  secciones: Record<string, Seccion>;
+}
+
+interface OrdMeta {
+  tag: string;
+  slug: string;
+  ambito: 'federal' | 'estatal';
+  nombre_completo: string;
+  nombre_display: {
+    prefix_italic: string;
+    core_bold_italic: string;
+    suffix_italic_small: string;
+  };
+}
+
+const meta = ordenamientoMetaJson as Record<string, OrdMeta>;
+const crossRefs = crossRefsJson as Record<string, any>;
+
+export function getStaticPaths() {
+  const modules = import.meta.glob('../../data/bloques/*.json', { eager: true });
+  const bloques: Bloque[] = Object.values(modules).map((m: any) => m.default);
+
+  return bloques.map(b => ({
+    params: { slug: b.ambito + '/' + b.slug },
+    props: { bloque: b },
+  }));
+}
+
+const { bloque } = Astro.props as { bloque: Bloque };
+const ordMeta = meta[bloque.tag];
+const ambitoLabel = bloque.ambito === 'federal' ? 'MARCO FEDERAL' : 'MARCO ESTATAL';
+const pageTitle = bloque.tag + ' — ' + bloque.nombre_completo;
+
+const secciones = Object.keys(bloque.secciones)
+  .sort((a, b) => Number(a) - Number(b))
+  .map(k => ({ num: k, ...bloque.secciones[k] }));
+---
+
+<Editorial title={pageTitle} description={bloque.nombre_completo}>
+  <article class="ord-ficha">
+    <header class="ord-header">
+      <Eyebrow>{ambitoLabel + ' · ' + bloque.tag}</Eyebrow>
+      <DisplayHeadline>
+        {bloque.nombre_completo}
+      </DisplayHeadline>
+      <Subtitle>{bloque.vigencia_raw}</Subtitle>
+    </header>
+
+    <HairlineDivider />
+
+    <section class="ord-metadata">
+      <div class="meta-row">
+        <span class="meta-label">Ámbito</span>
+        <span class="meta-value">
+          {bloque.ambito === 'federal' ? 'Federal' : 'Estatal'}
+        </span>
+      </div>
+      <div class="meta-row">
+        <span class="meta-label">Tag</span>
+        <span class="meta-value mono">{bloque.tag}</span>
+      </div>
+    </section>
+
+    <HairlineDivider />
+
+    {secciones.map(sec => (
+      <section class="ord-seccion">
+        <h2 class="seccion-eyebrow">
+          {'SECCIÓN ' + sec.num + ' · ' + sec.titulo.toUpperCase()}
+        </h2>
+        <BloqueContent
+          client:load
+          markdown={sec.contenido}
+          crossRefs={crossRefs}
+        />
+        <HairlineDivider />
+      </section>
+    ))}
+
+    <nav class="ord-nav">
+      <a href="/marco" class="nav-link">← Marco normativo</a>
+      <a href={'/ordenamiento/' + bloque.tag} class="nav-link">
+        {'Vista transversal de ' + bloque.tag + ' →'}
+      </a>
+    </nav>
+
+    <div class="ord-watermark">
+      Observatorio del Sistema de Energía de Jalisco · CC BY-NC-SA 4.0
+    </div>
+  </article>
+</Editorial>
+
+<style>
+  .ord-ficha {
+    max-width: 880px;
+    margin: 0 auto;
+    padding: 3rem 1.5rem 4rem;
+  }
+  .ord-header {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    align-items: center;
+  }
+  .ord-metadata {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin: 2.5rem 0;
+  }
+  .meta-row {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    gap: 1.5rem;
+    align-items: baseline;
+  }
+  .meta-label {
+    font-family: var(--font-sans);
+    font-size: 10px;
+    font-weight: 400;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--navy-soft);
+  }
+  .meta-value {
+    font-family: var(--font-serif);
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--text-primary);
+  }
+  .meta-value.mono {
+    font-family: var(--font-mono);
+    font-size: 13px;
+    letter-spacing: 0.02em;
+    color: var(--text-secondary);
+  }
+  .ord-seccion {
+    margin: 2.5rem 0;
+  }
+  .seccion-eyebrow {
+    font-family: var(--font-sans);
+    font-size: 10px;
+    font-weight: 400;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--navy-soft);
+    margin: 0 0 1.5rem;
+  }
+  .ord-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-top: 3rem;
+    padding-top: 1.5rem;
+  }
+  .nav-link {
+    font-family: var(--font-sans);
+    font-size: 11px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--navy);
+    text-decoration: none;
+  }
+  .nav-link:hover {
+    opacity: 0.75;
+  }
+  .ord-watermark {
+    margin-top: 4rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--hair);
+    font-family: var(--font-sans);
+    font-size: 10px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    text-align: center;
+  }
+  @media (max-width: 720px) {
+    .ord-ficha {
+      padding: 2rem 1rem 3rem;
+    }
+    .meta-row {
+      grid-template-columns: 1fr;
+      gap: 0.4rem;
+    }
+    .ord-nav {
+      flex-direction: column;
+      gap: 1rem;
+    }
+  }
+</style>
