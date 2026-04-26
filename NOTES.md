@@ -1,6 +1,6 @@
 # NOTES.md — Estado de ejecución y deuda técnica
 
-**Última actualización:** Abril 2026, cierre de Fase 3.
+**Última actualización:** Abril 2026, cierre de Fase 4.
 
 Este archivo complementa `ARCHITECTURE.md`. Mientras el ARCHITECTURE define **qué** se construye, este registra **lo que hay que saber** para no tropezar con decisiones ya tomadas o bugs conocidos.
 
@@ -42,25 +42,7 @@ Esto **funciona** para el uso actual (tooltip del `<a>` en `OrdName`), pero no s
 
 Si en Fase 5 o posteriores se necesita usar `nombre` para algo más que un tooltip (ej. ordenación alfabética por raíz, extracción para buscador), revisar si la partición derivada alcanza. Por ahora es aceptable.
 
-### 1.3 Subtitle de `/sintesis/mapa/debilidades` definido ad-hoc
-
-El subtitle actual fue aprobado por el autor durante Fase 3:
-
-> "Ochenta hallazgos documentados a lo largo de once ordenamientos estatales, en la intersección del marco federal energético vigente desde marzo de 2025."
-
-Sin canonicalización en ARCHITECTURE.md. Las otras 8 explorer pages de Fase 4 necesitarán subtitles equivalentes. Convención propuesta:
-
-> "N [ítems] [clasificación], [encuadre federal/estatal]."
-
-Ejemplos a confirmar con el autor al generar cada página:
-- 1B: "Treinta y cuatro condicionamientos del marco federal que restringen la capacidad regulatoria de Jalisco."
-- 2: "Ciento una reformas estructurales propuestas, organizadas en siete tramos de ruta crítica."
-- 3A: "Ochenta y cuatro proyectos ejecutables con el marco estatal vigente, sin requerir reformas."
-- 4A: "Cuarenta conflictos de competencia entre el marco federal y el estatal."
-
-No son finales. El autor aprueba uno por uno al generar cada página.
-
-### 1.4 `cross-references.json`: cobertura no verificada
+### 1.3 `cross-references.json`: cobertura no verificada
 
 El parser genera entradas para los IDs que detecta en el source, pero **no hay validación** de que todos los códigos `R-NN`, `1A.NN`, `3B.NN` etc. referenciados en prosa tengan su entrada correspondiente. El Explorer maneja gracefully códigos no registrados (los renderiza con `.xref-missing`, texto gris punteado, sin tooltip), pero eso oculta cobertura incompleta.
 
@@ -69,7 +51,36 @@ El parser genera entradas para los IDs que detecta en el source, pero **no hay v
 2. Compare con las keys de `cross-references.json`.
 3. Imprima los códigos referenciados pero no registrados.
 
-Hacer en Fase 4 cuando ya haya más páginas renderizando cross-refs, para tener cobertura de uso real.
+### 1.4 Path layout del parser (Fase 4)
+
+`parse_markdown.py` usa dos roots distintos:
+- `SOURCE_ROOT = parent.parent` → `z_SEDES/` (donde están los `.md` fuente)
+- `REPO_ROOT = parent` → `energia-jalisco/` (donde se escriben los JSON)
+
+Esto refleja la organización física actual (los `.md` fuente viven fuera del repo). Si en algún momento se mueven los `.md` adentro del repo, simplificar a un solo `BASE`.
+
+**Antes del fix de Fase 4** el parser tenía un solo `BASE = parent.parent` que se usaba para ambas cosas. Eso escribía los JSON a `z_SEDES/src/data/` (carpeta huérfana fuera del repo). La carpeta puede seguir existiendo en local con datos viejos:
+
+```bash
+ls /Users/carlosaguilar/Documents/z_SEDES/src/  # si existe, decidir si borrar
+```
+
+### 1.5 Inferencia de prioridad en proyectos 3A — auditabilidad
+
+La fuente (`sintesis_ejecutiva_jalisco.md`, sección 3A) no documenta prioridad para los 84 proyectos viables. El parser **infiere** prioridad mediante reglas explícitas en `infer_prioridad_3a(condicion)`:
+
+- **Baja**: voluntad federal discrecional, contrato con CFE, invitación discrecional, voluntad potestativa.
+- **Media**: convenio o coordinación con SENER, CONUEE, SEMARNAT, INECC.
+- **Alta**: acto unilateral del Estado, restricción de límite (no invadir, congruencia) sin dependencia activa.
+- **Default si no matchea**: Alta.
+
+Cada item lleva `prioridad_inferida: true` para distinguirlo de fuentes documentadas. Distribución actual: 51 Alta / 26 Media / 7 Baja.
+
+Si en algún punto se agrega prioridad explícita al markdown fuente, retirar la lógica de inferencia y dejar que el parser lea directamente del campo.
+
+### 1.6 Carpeta `src/data/bloques/` con 9 de 20 ordenamientos
+
+El parser produce 9 archivos de bloque (los federales analizados). Los 11 estatales no están como bloque individual — su contenido está disperso en debilidades, condicionamientos y reformas. Fase 5 deberá decidir si se generan los 11 bloques estatales faltantes o si se construyen las fichas estatales agregando dinámicamente desde otros JSON.
 
 ---
 
@@ -109,92 +120,130 @@ Todo el conocimiento "esto es para 1A / esto es para 1B" vive en el `.astro` de 
 
 ### 2.4 Métricas se computan en build time en el .astro, no en el .tsx
 
-Las 4 métricas de 1A (80/44/11/9) se derivan del JSON en el frontmatter del `.astro` con JavaScript puro, antes de pasarlas al Explorer. Ventajas:
+Las 4 métricas se derivan del JSON en el frontmatter del `.astro` con JavaScript puro, antes de pasarlas al Explorer. Ventajas:
 
 - El Explorer recibe números ya calculados (no necesita lógica de conteo).
 - El build es estático; las métricas no re-calculan en cliente.
 - Fácil de auditar: cualquier discrepancia se debugga en el `.astro`, no en el Explorer.
 
-**Regla para Fase 4:** cada página calcula sus propias métricas en el frontmatter y las pasa al Explorer como `Array<{number, label}>`. No agregar lógica de cálculo al Explorer.
+**Regla:** cada página calcula sus propias métricas en el frontmatter y las pasa al Explorer como `Array<{number, label}>`.
 
-### 2.5 Regex de cross-references vive en Explorer.tsx
+### 2.5 Regex de cross-references: ahora en `CrossRefText.tsx`
 
 El patrón `/\b(R-\d{1,3}|[1-6][A-D]\.\d{1,3})\b/g` detecta:
 - Reformas: `R-1`, `R-47`, `R-101`
 - Items de secciones: `1A.3`, `2.45`, `3B.12`, `4A.7`, `6.22`
 
-No detecta:
-- Codes sin prefijo de número (ej. si hubiera `5.3`; el `5` entra, pero la clase `[1-6][A-D]` requiere letra).
-- IDs de ordenamientos (`CPEJ`, `LACCEJ`) — esos van por `OrdName`, no por `CrossRef`.
+En Fase 4 se extrajo el patrón de dentro de `Explorer.tsx` a un componente nuevo `CrossRefText.tsx`. Permite renderizar cualquier string detectando códigos cross-reference y envolviéndolos con `CrossRef` para tooltip rico al hover. Usado en fichas de reforma, narrativas 4C y lista de huecos 5.
 
-Si Fase 5 introduce nuevos tipos de código (ej. tramos de ruta crítica `T1..T7`, o fichas de ordenamiento `ORD-XXX`), extender el regex en `Explorer.tsx` línea con `XREF_PATTERN`.
+`Explorer.tsx` mantiene su copia local del patrón (no se rompió la integración existente).
 
----
+### 2.6 Extensión de `Explorer.tsx` (Fase 4, sin breaking changes)
 
-## 3. Convenciones para Fase 4
+Tres campos opcionales nuevos en `ItemFields` del config:
+- `titulo` (string): renderiza un `<h3>` adicional con el título del item.
+- `badge` (string): badge tipográfico extra en la meta-line del item.
+- `tagXref` (string): nombre del campo (array de códigos) que envuelve el tag de la derecha con tooltip rico.
 
-### 3.1 Orden sugerido de las 8 páginas
+Si Fase 5 introduce nuevos tipos de código (ej. tramos `T1..T7`, fichas de ordenamiento `ORD-XXX`), extender `XREF_PATTERN` en `CrossRefText.tsx` y `Explorer.tsx`.
 
-Por complejidad creciente y riesgo técnico:
+### 2.7 Normalización de clases CSS de tags
 
-1. **1B condicionamientos** — schema casi igual a 1A, solo cambia `prioridad`→`urgencia` y `ord`→`ord_federal`. Prueba que el Explorer es realmente reutilizable.
-2. **4B vacíos** — schema simple, solo `polo_federal` + `riesgo`. Sin prioridad ni tipo.
-3. **3D habilitaciones** — schema con `estado` (Explotada / Parcialmente / Ociosa / Ociosa diferida) en lugar de prioridad. Tipo de filtro distinto.
-4. **3A proyectos viables hoy** — schema con `ord_estatal` compuesto (puede ser "CPEJ + LACCEJ"). Decisión: agrupar por primer ord, o contar por cada uno.
-5. **3B, 3C proyectos** — mismo schema que 3A.
-6. **4A conflictos** — 2 polos (`polo_estatal` + `polo_federal`). Requiere decidir por cuál agrupar la distribución.
-7. **6 próximos pasos** — puede requerir visualización tipo timeline en vez de lista.
-8. **2 reformas** — el más complejo. Schema muy distinto, tiene tramos de ruta crítica, dependencias, fichas individuales. Posible extensión mayor del Explorer o Explorer2 dedicado.
+`PriorityTag` ahora reemplaza espacios por guiones:
+```tsx
+const cls = (value || '').toLowerCase().replace(/\s+/g, '-');
+```
 
-### 3.2 Checklist por página
+Antes, valores como "Parcialmente explotada" generaban dos clases separadas en HTML (`.tag-parcialmente .explotada`), rompiendo el matching CSS. Ahora generan una clase válida (`.tag-parcialmente-explotada`).
 
-Cuando se cierre una nueva explorer page, confirmar:
-- Eyebrow correcto (ej. `SÍNTESIS · SECCIÓN 1B`).
-- Display headline editable.
-- Subtitle aprobado por autor.
-- Métricas con conteo correcto contra el JSON fuente.
-- Distribución por el campo correcto, stackeada por prioridad/urgencia/estado según aplique.
-- Tabs con los valores reales del campo (no hardcodear Alta/Media/Baja si es urgencia).
-- Selects de filtro poblados desde el JSON.
-- Cross-refs activos en el `texto` de los items.
-- Tag de la columna derecha usando la clase correcta (`.tag-alta` etc; si es urgencia con otros valores, extender `components.css` con nuevas clases).
-- Watermark al pie.
-- Commit en git con mensaje descriptivo.
+### 2.8 Tags CSS específicos por sección (Fase 4)
 
-### 3.3 Cuándo extender el Explorer vs cuándo duplicarlo
+Agregados a `Explorer.css`:
+- `.tag-explotada`, `.tag-parcialmente-explotada`, `.tag-ociosa`, `.tag-ociosa-diferida` (3D, gradiente navy).
+- `.tag-constitucional`, `.tag-legal` (4B).
+- `.tag-30-días`, `.tag-60-90-días`, `.tag-120-180-días`, `.tag-240-días`, `.tag-continuo` (sección 6).
 
-Extender (agregar props opcionales al Explorer actual) si:
-- El cambio es <20 líneas de código.
-- El cambio no complica la config de las páginas existentes.
-- Se puede expresar como "si prop X está presente, hacer Y".
+Tercera columna del grid de items ampliada de 110px a 170px globalmente para acomodar tags multipalabra. Tags con `width: 160px` y `word-break: keep-all` para no partir palabras.
 
-Duplicar (crear `Explorer2.tsx`, `ExplorerReformas.tsx`, etc) si:
-- El schema es fundamentalmente distinto (2 ords en vez de 1, timeline en vez de lista).
-- La lógica de filtrado es incompatible (ej. rangos numéricos en vez de categorías).
-- Mantener un Explorer único forzaría ramificaciones condicionales densas.
+### 2.9 Inconsistencia de clases en CrossRef wrapper (Fase 4)
 
-Regla general: una extensión de 50+ líneas con 3+ branches condicionales es señal de que convenía duplicar.
+`components.css` definía `.xref-wrapper` (con "per") pero el componente usa `.xref-wrap` (sin "per"). Eran selectores distintos. El componente nunca matcheaba la regla CSS y quedaba como `display: inline`, lo que rompía el anclaje del tooltip absoluto.
+
+**Fix:** en `components.css` se agregó:
+```css
+.xref-wrap, .xref-wrapper { position: relative; display: inline-block; }
+```
+
+y la regla `:hover` cubre ambas clases.
 
 ---
 
-## 4. Estado del repo al cierre de Fase 3
+## 3. Cuándo usar `<CrossRef>` vs link plano
 
-- **Commits:** 2 en branch `main`.
-  - `74023d6` — Fase 1 + 2 + 3: parser, design system, Explorer de debilidades (1A)
-  - `424a7c0` — Fase 3 — Fix parser: normalizar tipos a 9 canónicos + agregar campo nombre a ordenamiento-meta
-- **Remoto:** `github.com/carlosaglr/energia-jalisco`, sincronizado.
-- **Páginas funcionales:** `/` (demo de Fase 2), `/demo` (demo de componentes), `/sintesis/mapa/debilidades`.
-- **Working tree:** limpio.
+- **Texto narrativo (`<p>` con párrafos largos)** → usar `<CrossRefText>`. Detecta automáticamente todos los códigos R-NN y NA.NN del string.
+- **Lista de códigos sueltos (chips de Vínculos, etc.)** → mapear con `<CrossRef code={c} crossRefs={crossRefs} />`. Cada chip es un código aislado.
+- **Tag a la derecha de un item Explorer** → si el item tiene un campo `reformas_vinculadas` o similar, configurar `tagXref` en el config del Explorer para envolver el tag con tooltip rico.
+- **Link interno sin tooltip** → `<a>` plano. Útil en navegación entre páginas (ej. "← Todas las reformas").
+
+---
+
+## 4. Estado del repo al cierre de Fase 4
+
+- **Páginas funcionales:**
+  - `/` (demo Fase 2), `/demo` (demo componentes)
+  - `/sintesis` (overview)
+  - `/sintesis/mapa/debilidades` (1A, 80 items)
+  - `/sintesis/mapa/condicionamientos` (1B, 34 items)
+  - `/sintesis/reformas` (Sec 2, 101 items)
+  - `/sintesis/reformas/[codigo]` (101 fichas R-01..R-101)
+  - `/sintesis/proyectos` (overview)
+  - `/sintesis/proyectos/viables-hoy` (3A, 84 items)
+  - `/sintesis/proyectos/reforma-estatal` (3B, 50 items)
+  - `/sintesis/proyectos/reforma-federal` (3C, 15 items)
+  - `/sintesis/proyectos/habilitaciones` (3D, 58 items)
+  - `/sintesis/conflictos` (4A, 40 items)
+  - `/sintesis/vacios` (4B, 62 items)
+  - `/sintesis/riesgos` (4C, 2 narrativas)
+  - `/sintesis/huecos` (Sec 5)
+  - `/sintesis/siguiente` (Sec 6, 30 items)
+
+- **Componentes nuevos en Fase 4:** `CrossRefText.tsx`.
+- **Componentes extendidos:** `Explorer.tsx` (campos `titulo`, `badge`, `tagXref` opcionales).
 - **Stack instalado:** Astro 5.18.1, React 19.2.5, `@astrojs/react` 5.0.3.
+- **Remoto:** `github.com/carlosaglr/energia-jalisco`, sincronizado.
 
 ---
 
 ## 5. Qué NO está resuelto (para evitar preguntas redundantes)
 
 - Home final con hero + métricas globales + navigation cards → Fase 6.
+- Páginas `/marco/federal/[slug]` y `/marco/estatal/[slug]` (20 fichas de ordenamiento) → Fase 5.
+- Vista transversal `/ordenamiento/[tag]` → Fase 5.
+- `RutaCritica.tsx` (visualización 7 tramos) → Fase 6.
 - Drawer de navegación con items reales → Fase 7.
 - Pagefind integrado → Fase 7.
 - Fuentes self-hosted (`public/fonts/*.woff2`) → pendiente; por ahora el proyecto usa fallbacks del sistema hasta que se descarguen los .woff2.
 - Deploy a Vercel/Netlify → Fase 8.
 - `robots.txt`, headers, Cloudflare, licencia en footer → Fase 8.
 - Métricas globales del home (80/101/207/40/62/20) verificar que sumen correctamente contra los JSON actualizados → al comenzar Fase 6.
+
+---
+
+## 6. Workflow estándar
+
+```bash
+# Re-procesar datos desde fuente
+python3 parse_markdown.py
+python3 normalize_data.py
+
+# Dev server
+npm run dev
+
+# Build
+npm run build
+
+# Limpiar cache si CSS no refleja cambios
+rm -rf node_modules/.vite .astro
+npm run dev
+# y Cmd+Shift+R en navegador
+```
